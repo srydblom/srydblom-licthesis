@@ -1,0 +1,27 @@
+% !TeX root = ../main.tex
+\cleardoublepage
+\pagestyle{plain}
+\refstepcounter{dummy}
+\label{pap:paper1}
+{\tikzexternaldisable 
+    \begin{tikzpicture}[overlay,remember picture]
+    \node[fill=black, rectangle, text width=4cm,
+    text height=1.5em,anchor=north east, inner sep=12pt] 
+    at ($ (current page.north east) + (-0cm,-3cm) $) 
+    {\textcolor{white}{\HUGE Paper I}};
+\end{tikzpicture}}
+\vfill
+\noindent
+\LARGE \paperone
+\vspace{0.5cm}
+
+\normalsize\noindent
+
+
+D.Krapohl, H.-E. Nilsson, S.~Petersson, S.~Pospisil, T-~Slavicek and G.~Thungström
+% or authors command
+\vspace{2cm}
+
+\cleardoublepage % the shim needs to appear on a righthandside page and the lefthandside page immediately following needs to be blank
+
+%\includepdf[pages=2-,width=1.0\textwidth,pagecommand=\makeoddfoot{miunlic}{}{}{\small page | \thepage}, templatesize={169mm}{239mm}, frame=false, scale=1, trim=29mm 5mm 29mm 10mm, offset=-5 0]{papers/paperfile} %note: I don't know why \makeoddfoot creates page numbers for both even and odd pages, but it seems to work

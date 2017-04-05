@@ -1,0 +1,33 @@
+
+\begin{tikzpicture}[transform shape]
+ \begin{axis}[
+	y post scale=0.5,
+	smooth,
+	no markers,
+	axis lines=none,
+	domain=-100:100]
+		\addplot+[name path=highlin, black, thick] {0.7};
+		\addplot+[name path=high, black] {0.4-(1/(1+exp((x)/15)))*0.25};
+        \addplot+[gray!50] fill between[of=highlin and high];
+		\addplot+[name path=lowlin, black, thick] {-0.6};
+		\addplot+[name path=low, black] {(-1/(1+exp((x)/15))*0.25};
+		\addplot+[gray!50] fill between[of=lowlin and low];	
+		\addplot+[name path=fermi, black, dashed] {0.1};
+
+\end{axis}
+\node[left] (c) at (6.2,2.2) {\tiny \textsf{conduction band}};
+\node[right] (v) at (0.6,0.75) {\tiny \textsf{valence band}};
+\node[left] (f) at (6.2,1.65) {\tiny \textsf{Fermi level}};
+\begin{scope}[xshift=0.55cm, yshift=1cm]
+\electron{0.2,0.75}
+\electron{0.5,0.75}
+\electron{0.8,0.75}
+\electron{1.1,0.75}
+\end{scope}
+\begin{scope}[xshift=-0.5cm, yshift=-0.1cm]
+\hole{5.7,1.3}
+\hole{6,1.3}
+\hole{6.3,1.3}
+\hole{6.6,1.3}
+\end{scope}
+\end{tikzpicture}

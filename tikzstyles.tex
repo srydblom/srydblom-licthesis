@@ -1,0 +1,45 @@
+% !Tex root = ../main.tex
+
+\pgfplotsset{compat=1.10}
+\usepgfplotslibrary{fillbetween}
+
+\usetikzlibrary{arrows,positioning,snakes,shapes} 
+
+% some tikz libraries
+\usetikzlibrary{decorations.pathmorphing, decorations.pathreplacing, patterns}
+\usetikzlibrary{circuits.ee.IEC}
+\usetikzlibrary{calc}
+% externalize all tikz figures: faster compilations
+% pdf, log and md5sum is in tikz folder
+\usetikzlibrary{external}
+% externalize does not like includepdf
+\tikzexternalize[prefix=tikz/, shell escape=-enable-write18, optimize command away=\includepdf]
+
+\tikzset{
+    %Define standard arrow tip
+    >=stealth',
+%    %Define style for boxes
+%    point/.style={
+%           rectangle,
+%           rounded corners,
+%           draw=black, very thick,
+%           text width=6.5em,
+%           minimum height=2em,
+%           text centere},
+	font=\sffamily,
+    % Define arrow style
+    arrow/.style={
+           ->,
+           thick,
+           shorten <=2pt,
+           shorten >=2pt,}
+%    external/optimize=false
+}
+%some commands for figures that are reused
+\newcommand{\electron}[1]{%
+	\shade[ball color=darkgray] (#1) circle (.1);\draw (#1) node{};
+}
+
+\newcommand{\hole}[1]{%
+	\shade[ball color=white] (#1) circle (.1);
+}

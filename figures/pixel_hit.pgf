@@ -1,0 +1,76 @@
+\begin{tikzpicture}
+\begin{scope}
+\draw (0,0) rectangle (1,3);
+\draw (1,0) rectangle (2,3);
+\draw (2,0) rectangle (3,3);
+\draw[->,thick, style={decorate, decoration={snake, post length=0.1cm}}] (1.5,4) -- +(0,-3);
+\fill[
+  left color=gray!50!black,
+  right color=gray!50!black,
+  middle color=gray!50,
+  shading=axis,
+  opacity=0.25
+  ]  (1.1,0) -- (1.5,1) -- (1.9,0) -- cycle ;
+\end{scope}
+\begin{scope}[yshift=-2.5cm]
+	\draw[fill=lightgray] (1,0) rectangle (2,1.5);
+	\draw[very thick] (0,0) -- (3,0);
+	\draw[thin] (-0.1,0.5) -- +(3.2,0);
+	\node (a) at (1.5,-1) {$\mathsf{centered\, hit}$};
+\end{scope}
+%charge sharing from here
+\begin{scope}[xshift=4cm]
+\draw (0,0) rectangle (1,3);
+\draw (1,0) rectangle (2,3);
+\draw (2,0) rectangle (3,3);
+\draw[->,thick, style={decorate, decoration={snake, post length=0.1cm}}] (1.7,4) -- +(0,-1.5);
+\fill[
+  left color=gray!50!black,
+  right color=gray!50!black,
+  middle color=gray!50,
+  shading=axis,
+  opacity=0.25
+  ,xshift=0.2cm]  (0.6,0) -- (1.5,2.5) -- (2.4,0) -- cycle ;
+\end{scope}
+\begin{scope}[yshift=-2.5cm, xshift=4cm]
+\draw[fill=lightgray] (0,0) rectangle +(1,0.3);
+\draw[fill=lightgray] (1,0) rectangle +(1,1.2);
+\draw[fill=lightgray] (2,0) rectangle +(1,0.8);
+\draw[thin] (-0.1,0.5) -- +(3.2,0);
+\draw[very thick] (0,0) -- (3,0);
+\node (a) at (1.5,-1) {$\mathsf{charge\, sharing}$};
+\end{scope}
+
+%fluorescence
+\begin{scope}[xshift=8cm]
+\draw (0,0) rectangle (1,3);
+\draw (1,0) rectangle (2,3);
+\draw (2,0) rectangle (3,3);
+\draw[->,thick, style={decorate, decoration={snake, post length=0.1cm}}] (1.6,4) -- +(0,-2.5);
+\draw[->,thick, style={decorate, decoration={snake, post length=0.1cm}}] (1.6,1.5) -- +(-1,-0.5);
+\fill[
+  left color=gray!50!black,
+  right color=gray!50!black,
+  middle color=gray!50,
+  shading=axis,
+  opacity=0.25
+  ,xshift=0.1cm]  (0.1,0) -- (.5,1) -- (0.9,0) -- cycle ;
+\fill[
+  left color=gray!50!black,
+  right color=gray!50!black,
+  middle color=gray!50,
+  shading=axis,
+  opacity=0.25
+  ,xshift=0.1cm]  (0.9,0) -- (1.5,1.5) -- (2.1,0) -- cycle ;
+\node[rotate=90]  at (3.4,1.5) {$\mathsf{sensor}$};
+\end{scope}
+\begin{scope}[yshift=-2.5cm, xshift=8cm]
+\draw[fill=lightgray] (0,0) rectangle +(1,1);
+\draw[fill=lightgray] (1,0) rectangle +(1,1.5);
+\draw[fill=lightgray] (2,0) rectangle +(1,0.1);
+\draw[thin] (-0.1,0.5) -- +(3.2,0);
+\draw[very thick] (0,0) -- (3,0);
+\node[rotate=90]  at (3.4,1) {$\mathsf{chip}$};
+\node (a) at (1.5,-1) {$\mathsf{fluorescence}$};
+\end{scope}
+\end{tikzpicture}

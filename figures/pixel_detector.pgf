@@ -1,0 +1,44 @@
+
+\begin{tikzpicture}
+% chip
+\draw[fill=white, shading=axis] (-1,0,10) -- ++(4,4,0)-- ++(8,0,0) -- ++(-4,-4,0) --cycle;
+\draw[fill=white, shading=axis] (7,-1,10) -- ++(4,4,0) -- ++(0,1,0) -- ++(-4,-4,0) -- cycle;
+\draw[fill=lightgray!10] (-1,0,10) -- ++(8,0,0) --++(0,-1,0) -- ++(-8,0,0) -- ++(0,1,0);
+% metal pads
+\foreach \x in {0.,1.05,...,6}{%
+	\foreach \y in {0.,1.05,...,7}{%
+		\begin{scope}[shift={(\x,-2.15,\y)}]
+			\draw[ gray, fill=black!10] (0,2,.75) -- (0,2,0) -- (0.75,2,0) -- (0.75,2,0.75) -- (0,2,0.75);
+		\end{scope}
+}}
+% bump bonds
+\foreach \x in {0.450,1.5,...,6}{%
+	\foreach \y in {0.50,1.575,...,7}{%
+		\draw [ball color=white](\x,0,\y) circle(4pt) node {};
+}}
+
+\foreach \x in {0,1.05,2.1,...,6}{%
+\foreach \z in {-1.05,-2.1,...,-7}{%
+	\begin{scope}[shift={(\x,0,\z)}]
+		\draw[black, fill=black!10] (-2,0,3) -- ++(0,0,-1) -- ++(1,0,0) -- ++(0,0,1) -- cycle;
+	\end{scope}
+}}
+% connectors
+\foreach \x in {-2.8, -2.6,..., 3}{
+	\draw[ gray, fill=black!10] (\x,-3,0) -- ++(0.1,0,0) -- ++(-0.5,-0.5,0) -- ++(-0.1,0,0) -- cycle;
+}
+% sensor
+\begin{scope}[yshift=3cm]
+	\draw[dashed] (-1,-1,10) -- ++(4,4,0) -- ++(0,1,0);
+	\draw[dashed] (3,3,10) -- ++(8,0,0);
+	\draw[fill=white, shading=axis, opacity=0.5] (-1,0,10) -- ++(4,4,0)-- ++(8,0,0) -- ++(-4,-4,0) --cycle;
+	\draw[fill=white, shading=axis, opacity=0.5] (7,-1,10) -- ++(4,4,0) -- ++(0,1,0) -- ++(-4,-4,0) -- cycle;
+	\draw[fill=white, opacity=0.5] (-1,0,10) -- ++(8,0,0) --++(0,-1,0) -- ++(-8,0,0) -- ++(0,1,0);
+	\end{scope}
+	% description
+	\draw [<-, shorten <=3pt, ,black, thick] (4,-2,0) to [out=10,in=180] +(3.4,-0.2,2) node[anchor=west] {\textsf{\small metallization}};
+	\draw [<-, shorten <=1pt, ,black, thick] (3,-2.7,0) to [out=10,in=180] +(4.4,-0.4,2) node[anchor=west] {\textsf{\small bump bond}};
+	\draw [<-, shorten <=3pt, ,black, thick] (5.5,-2,0) to [out=10,in=180] +(1.9,0.6,2) node[anchor=west] {\textsf{\small chip}};
+	\draw [<-, shorten <=3pt, ,black, thick] (2.4,-3.4,0) to [out=10,in=180] +(5,-0.5,2) node[anchor=west] {\textsf{\small periphery}};
+	\draw [<-, shorten <=3pt, ,black, thick] (2.4,2,0) to [out=10,in=180] +(5,-0.5,2) node[anchor=west] {\textsf{\small sensor}};
+\end{tikzpicture}

@@ -1,0 +1,59 @@
+% !TeX root = main.tex
+% !TeX spellcheck = en_GB
+
+
+\hyphenation{Me-trop-olis}
+
+
+%\newcommand{\galpha}{\ibygr{a}}
+%\newcommand{\gbeta}{\ibygr{b}}
+%\newcommand{\ggamma}{\ibygr{g}}
+%\newcommand{\gdelta}{\ibygr{d}}
+%\newcommand{\gDelta}{\ibygr{D}}
+%\newcommand{\gepsilon}{\ibygr{e}}
+
+\newcommand{\galpha}{\textalpha}
+\newcommand{\gbeta}{\textbeta}
+\newcommand{\ggamma}{\textgamma}
+\newcommand{\gdelta}{\textdelta}
+\newcommand{\gDelta}{\textDelta}
+\newcommand{\gepsilon}{\textepsilon}
+
+\newcommand{\mff}{\SI{55}{\micro\meter}}
+\newcommand{\mht}{\SI{110}{\micro\meter}}
+\newcommand{\threeh}{\SI{300}{\micro\meter}}
+%\newcommand{\FIXME}{\noindent\hrulefill FIXME \hrulefill}
+\newcommand*\FIXMEl{\color{red}\par\noindent\raisebox{.8ex}{\makebox[\linewidth]{\hrulefill\hspace{1ex}\raisebox{-.8ex}{FIXME}\hspace{1ex}\hrulefill}}\color{black}}
+\newcommand{\FIXME}{\color{red}FIXME\ \color{black}}
+% faster medipix commands
+\newcommand{\mpx}[1][]{\textsc{Medipix#1}}
+\newcommand{\tpx}[1][]{\textsc{Timepix#1}}
+% neutron detector
+%\newcommand{\tib}{\ce{TiB2}}
+\newcommand{\tib}{\ce{TiB2}}
+% Define the command. Note that the input and output folders are static!
+%\newcommand{\includetikz}[1]{%
+%	\input{figures/#1.pgf}%
+%}
+
+% inputtikz command for figures
+\newcommand*{\inputtikz}[2]{%
+\resizebox*{#1\textwidth}{!}{%
+\input{figures/#2}}}
+
+% we need this for correct label references to papers
+\newcounter{dummy}
+
+% -- empty page commands --
+%\newcommand\emptypage{\newpage\null\thispagestyle{empty}\newpage}   % inserts empty page (empty)
+%\newcommand\emptypagenum{\newpage\null\thispagestyle{plain}\newpage}% inserts empty page (plain)
+
+% commands only for editing:
+% do not externalize the \todo command
+\makeatletter
+\renewcommand{\todo}[2][]{\tikzexternaldisable\@todo[#1]{#2}\tikzexternalenable}
+\makeatother
+
+
+
+\newcommand{\todocite}[1]{\todo[color=yellow, author=cite]{#1}}
