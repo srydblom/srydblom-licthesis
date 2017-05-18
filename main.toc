@@ -8,9 +8,9 @@
 \contentsline {chapter}{Sammanfattning}{vii}{chapter*.2}
 \select@language {english}
 \contentsline {chapter}{Contents}{viii}{section*.3}
-\contentsline {chapter}{List of Figures}{ix}{section*.4}
-\contentsline {chapter}{List of Tables}{x}{section*.5}
-\contentsline {chapter}{List of Papers}{xi}{dummy.1}
+\contentsline {chapter}{List of Figures}{x}{section*.4}
+\contentsline {chapter}{List of Tables}{xi}{section*.5}
+\contentsline {chapter}{List of Papers}{xiii}{dummy.1}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Atmospheric Water and Icing}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Related Work of Measurement}{2}{section.1.2}
@@ -19,7 +19,7 @@
 \contentsline {section}{\numberline {2.2}Liquid Water Content and Median Volume Diameter}{6}{section.2.2}
 \contentsline {section}{\numberline {2.3}Practical Problems with Measuring LWC, MVD and Ice}{7}{section.2.3}
 \contentsline {section}{\numberline {2.4}Light Spectrum}{8}{section.2.4}
-\contentsline {chapter}{\chapternumberline {3}Materials and Methods}{11}{chapter.3}
+\contentsline {chapter}{\chapternumberline {3}Materials, Methods and Unpublished Results}{11}{chapter.3}
 \contentsline {section}{\numberline {3.1}Image Segmentation}{11}{section.3.1}
 \contentsline {section}{\numberline {3.2}Starting Studies}{12}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Light Spectrum}{12}{subsection.3.2.1}

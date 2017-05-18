@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  9 MAY 2017 12:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  18 MAY 2017 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -665,103 +665,6 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(c:/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count137
-)
-(c:/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/04/23 3.9r The Babel package
-
-(c:/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2012/08/20 v3.3p English support from the babel system
-
-(c:/texlive/2016/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count138
-\U@D=\dimen147
-)
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-)
-(c:/texlive/2016/texmf-dist/tex/generic/babel-swedish/swedish.ldf
-Language: swedish 2005/03/31 v2.3d Swedish support from the babel system
-Package babel Info: Making " an active character on input line 90.
-))
-(c:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2016/07/14 v5.1h context-sensitive quotations (JAW)
-
-(c:/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks24
-)
-\csq@reset=\count139
-\csq@gtype=\count140
-\csq@glevel=\count141
-\csq@qlevel=\count142
-\csq@maxlvl=\count143
-\csq@tshold=\count144
-\csq@ltx@everypar=\toks25
-
-(c:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2016/07/14 v5.1h csquotes generic definitions (JAW)
-)
-Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
-Package csquotes Info: ... configuration file loaded successfully.
-
-(c:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.cfg
-File: csquotes.cfg 
-))
-(c:/texlive/2016/texmf-dist/tex/latex/units/nicefrac.sty
-Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip185
-\L@UnitsRaiseTextstyle=\skip186
-\L@UnitsRaiseScriptstyle=\skip187
-
-(c:/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-))
-(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks26
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(c:/texlive/2016/texmf-dist/tex/latex/newpx/newpxtext.sty
-Package: newpxtext 2016/08/12 v1.3
-
-`newpxtext' v1.3, 2016/08/12 Text macros taking advantage of TeXGyre Pagella an
-d its extensions (msharpe)
-(c:/texlive/2016/texmf-dist/tex/latex/fontaxes/fontaxes.sty
-Package: fontaxes 2014/03/23 v1.0d Font selection axes
-LaTeX Info: Redefining \upshape on input line 29.
-LaTeX Info: Redefining \itshape on input line 31.
-LaTeX Info: Redefining \slshape on input line 33.
-LaTeX Info: Redefining \scshape on input line 37.
-)
-(c:/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(c:/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(c:/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks27
-\XKV@tempa@toks=\toks28
-)
-\XKV@depth=\count145
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(c:/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
-
-(c:/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
 (c:/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2016/06/19 v1.99m Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
@@ -918,6 +821,103 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
+(c:/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count137
+)
+(c:/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
+
+(c:/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(c:/texlive/2016/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count138
+\U@D=\dimen147
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+(c:/texlive/2016/texmf-dist/tex/generic/babel-swedish/swedish.ldf
+Language: swedish 2005/03/31 v2.3d Swedish support from the babel system
+Package babel Info: Making " an active character on input line 90.
+))
+(c:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2016/07/14 v5.1h context-sensitive quotations (JAW)
+
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+\csq@reset=\count139
+\csq@gtype=\count140
+\csq@glevel=\count141
+\csq@qlevel=\count142
+\csq@maxlvl=\count143
+\csq@tshold=\count144
+\csq@ltx@everypar=\toks25
+
+(c:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2016/07/14 v5.1h csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(c:/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(c:/texlive/2016/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip185
+\L@UnitsRaiseTextstyle=\skip186
+\L@UnitsRaiseScriptstyle=\skip187
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+))
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2016/texmf-dist/tex/latex/newpx/newpxtext.sty
+Package: newpxtext 2016/08/12 v1.3
+
+`newpxtext' v1.3, 2016/08/12 Text macros taking advantage of TeXGyre Pagella an
+d its extensions (msharpe)
+(c:/texlive/2016/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2014/03/23 v1.0d Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \scshape on input line 37.
+)
+(c:/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(c:/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
+)
+\XKV@depth=\count145
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(c:/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
+
+(c:/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
 LaTeX Font Info:    Try loading font information for T1+zpltlf on input line 22
 1.
 
@@ -1582,11 +1582,19 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \WF@everypar=\toks35
 Package: wrapfig 2003/01/31  v 3.6
 )
+(c:/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count164
+\float@exts=\toks36
+\float@box=\box32
+\@float@everytoks=\toks37
+\@floatcapt=\box33
+)
 (c:/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/10/11 v2.1 Span multiple rows of a table
 \multirow@colwidth=\skip192
-\multirow@cnta=\count164
-\multirow@cntb=\count165
+\multirow@cnta=\count165
+\multirow@cntb=\count166
 \multirow@dima=\skip193
 \bigstrutjot=\dimen169
 )
@@ -1604,24 +1612,24 @@ L3 Module: l3tl 2016/08/19 v6692 L3 Token lists
 L3 Module: l3str 2016/08/19 v6692 L3 Strings
 L3 Module: l3seq 2016/08/19 v6685 L3 Sequences and stacks
 L3 Module: l3int 2016/09/07 v6700 L3 Integers
-\c_max_int=\count166
-\l_tmpa_int=\count167
-\l_tmpb_int=\count168
-\g_tmpa_int=\count169
-\g_tmpb_int=\count170
+\c_max_int=\count167
+\l_tmpa_int=\count168
+\l_tmpb_int=\count169
+\g_tmpa_int=\count170
+\g_tmpb_int=\count171
 L3 Module: l3quark 2016/08/19 v6685 L3 Quarks
 L3 Module: l3prg 2016/08/18 v6679 L3 Control structures
-\g__prg_map_int=\count171
+\g__prg_map_int=\count172
 L3 Module: l3clist 2016/08/19 v6685 L3 Comma separated lists
 L3 Module: l3token 2016/09/01 v6695 L3 Experimental token manipulation
 L3 Module: l3prop 2016/08/19 v6685 L3 Property lists
 L3 Module: l3msg 2016/08/19 v6691 L3 Messages
 L3 Module: l3file 2016/08/19 v6685 L3 File and I/O operations
-\l_iow_line_count_int=\count172
-\l__iow_target_count_int=\count173
-\l__iow_current_line_int=\count174
-\l__iow_current_word_int=\count175
-\l__iow_current_indentation_int=\count176
+\l_iow_line_count_int=\count173
+\l__iow_target_count_int=\count174
+\l__iow_current_line_int=\count175
+\l__iow_current_word_int=\count176
+\l__iow_current_indentation_int=\count177
 L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
 \c_zero_dim=\dimen170
 \c_max_dim=\dimen171
@@ -1642,25 +1650,25 @@ L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2016/09/21 v6711 L3 Key-value interfaces
-\l_keys_choice_int=\count177
+\l_keys_choice_int=\count178
 L3 Module: l3fp 2016/08/19 v6685 L3 Floating points
-\c__fp_leading_shift_int=\count178
-\c__fp_middle_shift_int=\count179
-\c__fp_trailing_shift_int=\count180
-\c__fp_big_leading_shift_int=\count181
-\c__fp_big_middle_shift_int=\count182
-\c__fp_big_trailing_shift_int=\count183
-\c__fp_Bigg_leading_shift_int=\count184
-\c__fp_Bigg_middle_shift_int=\count185
-\c__fp_Bigg_trailing_shift_int=\count186
+\c__fp_leading_shift_int=\count179
+\c__fp_middle_shift_int=\count180
+\c__fp_trailing_shift_int=\count181
+\c__fp_big_leading_shift_int=\count182
+\c__fp_big_middle_shift_int=\count183
+\c__fp_big_trailing_shift_int=\count184
+\c__fp_Bigg_leading_shift_int=\count185
+\c__fp_Bigg_middle_shift_int=\count186
+\c__fp_Bigg_trailing_shift_int=\count187
 L3 Module: l3box 2016/08/19 v6685 L3 Experimental boxes
-\c_empty_box=\box32
-\l_tmpa_box=\box33
-\l_tmpb_box=\box34
-\g_tmpa_box=\box35
-\g_tmpb_box=\box36
+\c_empty_box=\box34
+\l_tmpa_box=\box35
+\l_tmpb_box=\box36
+\g_tmpa_box=\box37
+\g_tmpb_box=\box38
 L3 Module: l3coffins 2016/08/19 v6685 L3 Coffin code layer
-\l__coffin_internal_box=\box37
+\l__coffin_internal_box=\box39
 \l__coffin_internal_dim=\dimen176
 \l__coffin_offset_x_dim=\dimen177
 \l__coffin_offset_y_dim=\dimen178
@@ -1668,14 +1676,14 @@ L3 Module: l3coffins 2016/08/19 v6685 L3 Coffin code layer
 \l__coffin_y_dim=\dimen180
 \l__coffin_x_prime_dim=\dimen181
 \l__coffin_y_prime_dim=\dimen182
-\c_empty_coffin=\box38
-\l__coffin_aligned_coffin=\box39
-\l__coffin_aligned_internal_coffin=\box40
-\l_tmpa_coffin=\box41
-\l_tmpb_coffin=\box42
-\l__coffin_display_coffin=\box43
-\l__coffin_display_coord_coffin=\box44
-\l__coffin_display_pole_coffin=\box45
+\c_empty_coffin=\box40
+\l__coffin_aligned_coffin=\box41
+\l__coffin_aligned_internal_coffin=\box42
+\l_tmpa_coffin=\box43
+\l_tmpb_coffin=\box44
+\l__coffin_display_coffin=\box45
+\l__coffin_display_coord_coffin=\box46
+\l__coffin_display_pole_coffin=\box47
 \l__coffin_display_offset_dim=\dimen183
 \l__coffin_display_x_dim=\dimen184
 \l__coffin_display_y_dim=\dimen185
@@ -1690,7 +1698,7 @@ L3 Module: l3candidates 2016/08/19 v6688 L3 Experimental additions to l3kernel
 \l__box_bottom_new_dim=\dimen191
 \l__box_left_new_dim=\dimen192
 \l__box_right_new_dim=\dimen193
-\l__box_internal_box=\box46
+\l__box_internal_box=\box48
 \l__coffin_bounding_shift_dim=\dimen194
 \l__coffin_left_corner_dim=\dimen256
 \l__coffin_right_corner_dim=\dimen257
@@ -1702,45 +1710,45 @@ L3 Module: l3luatex 2016/08/18 v6679 L3 Experimental LuaTeX-specific functions
 )
 (c:/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2016/08/18 v6679 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count187
-\l__driver_tmp_box=\box47
+\l__driver_color_stack_int=\count188
+\l__driver_tmp_box=\box49
 ))
 (c:/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2016/10/19 v6730 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count188
-\l__xparse_m_args_int=\count189
-\l__xparse_mandatory_args_int=\count190
-\l__xparse_processor_int=\count191
-\l__xparse_v_nesting_int=\count192
+\l__xparse_current_arg_int=\count189
+\l__xparse_m_args_int=\count190
+\l__xparse_mandatory_args_int=\count191
+\l__xparse_processor_int=\count192
+\l__xparse_v_nesting_int=\count193
 )
 Package: siunitx 2016/09/02 v2.6s A comprehensive (SI) units package
 
 (c:/texlive/2016/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2016/10/19 v6730 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box48
+\l__siunitx_tmp_box=\box50
 \l__siunitx_tmp_dim=\dimen262
-\l__siunitx_tmp_int=\count193
-\l__siunitx_number_mantissa_length_int=\count194
-\l__siunitx_number_uncert_length_int=\count266
-\l__siunitx_round_int=\count267
-\l__siunitx_process_decimal_int=\count268
-\l__siunitx_process_uncertainty_int=\count269
-\l__siunitx_process_fixed_int=\count270
-\l__siunitx_process_integer_min_int=\count271
-\l__siunitx_process_precision_int=\count272
-\l__siunitx_group_min_int=\count273
-\l__siunitx_angle_marker_box=\box49
-\l__siunitx_angle_unit_box=\box50
+\l__siunitx_tmp_int=\count194
+\l__siunitx_number_mantissa_length_int=\count266
+\l__siunitx_number_uncert_length_int=\count267
+\l__siunitx_round_int=\count268
+\l__siunitx_process_decimal_int=\count269
+\l__siunitx_process_uncertainty_int=\count270
+\l__siunitx_process_fixed_int=\count271
+\l__siunitx_process_integer_min_int=\count272
+\l__siunitx_process_precision_int=\count273
+\l__siunitx_group_min_int=\count274
+\l__siunitx_angle_marker_box=\box51
+\l__siunitx_angle_unit_box=\box52
 \l__siunitx_angle_marker_dim=\dimen263
 \l__siunitx_angle_unit_dim=\dimen264
-\l__siunitx_unit_int=\count274
-\l__siunitx_unit_denominator_int=\count275
-\l__siunitx_unit_numerator_int=\count276
-\l__siunitx_unit_prefix_int=\count277
-\l__siunitx_unit_prefix_base_int=\count278
-\l__siunitx_unit_prefix_gram_int=\count279
-\l__siunitx_number_product_int=\count280
+\l__siunitx_unit_int=\count275
+\l__siunitx_unit_denominator_int=\count276
+\l__siunitx_unit_numerator_int=\count277
+\l__siunitx_unit_prefix_int=\count278
+\l__siunitx_unit_prefix_base_int=\count279
+\l__siunitx_unit_prefix_gram_int=\count280
+\l__siunitx_number_product_int=\count281
 \c__siunitx_one_fill_skip=\skip261
 \l__siunitx_table_unit_align_skip=\skip262
 \l__siunitx_table_exponent_dim=\dimen265
@@ -1752,10 +1760,10 @@ Package: l3keys2e 2016/10/19 v6730 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_fill_pre_dim=\dimen271
 \l__siunitx_table_fill_post_dim=\dimen272
 \l__siunitx_table_fill_mid_dim=\dimen273
-\l__siunitx_table_pre_box=\box51
-\l__siunitx_table_post_box=\box52
-\l__siunitx_table_mantissa_box=\box53
-\l__siunitx_table_result_box=\box54
+\l__siunitx_table_pre_box=\box53
+\l__siunitx_table_post_box=\box54
+\l__siunitx_table_mantissa_box=\box55
+\l__siunitx_table_result_box=\box56
 \l__siunitx_table_number_align_skip=\skip263
 \l__siunitx_table_text_align_skip=\skip264
 .................................................
@@ -1889,15 +1897,15 @@ Package: l3regex 2016/10/19 v6730 L3 Experimental regular expressions
 
 (c:/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3tl-build.sty
 Package: l3tl-build 2016/10/19 v6730 L3 Experimental token list construction
-\l__tl_build_start_index_int=\count281
-\l__tl_build_index_int=\count282
+\l__tl_build_start_index_int=\count282
+\l__tl_build_index_int=\count283
 )
 (c:/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3tl-analysis.sty
 Package: l3tl-analysis 2016/06/13 v6589 L3 Experimental token lists analysis
-\l__tl_analysis_normal_int=\count283
-\l__tl_analysis_index_int=\count284
-\l__tl_analysis_nesting_int=\count285
-\l__tl_analysis_type_int=\count286
+\l__tl_analysis_normal_int=\count284
+\l__tl_analysis_index_int=\count285
+\l__tl_analysis_nesting_int=\count286
+\l__tl_analysis_type_int=\count287
 )
 (c:/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
 Package: l3flag 2016/10/19 v6730 L3 Experimental flags
@@ -1905,65 +1913,65 @@ Package: l3flag 2016/10/19 v6730 L3 Experimental flags
 (c:/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3str-convert.sty
 Package: l3str-convert 2016/09/07 v6699 L3 Experimental string encoding convers
 ions
-\l__str_internal_int=\count287
-\c__str_replacement_char_int=\count288
+\l__str_internal_int=\count288
+\c__str_replacement_char_int=\count289
 )
-\l__regex_internal_a_int=\count289
-\l__regex_internal_b_int=\count290
-\l__regex_internal_c_int=\count291
-\l__regex_balance_int=\count292
-\l__regex_group_level_int=\count293
-\l__regex_mode_int=\count294
-\l__regex_catcodes_int=\count295
-\l__regex_default_catcodes_int=\count296
-\c__regex_catcode_D_int=\count297
-\c__regex_catcode_S_int=\count298
-\c__regex_catcode_L_int=\count299
-\c__regex_catcode_O_int=\count300
-\c__regex_catcode_A_int=\count301
-\c__regex_all_catcodes_int=\count302
-\l__regex_show_lines_int=\count303
-\l__regex_min_state_int=\count304
-\l__regex_max_state_int=\count305
-\l__regex_left_state_int=\count306
-\l__regex_right_state_int=\count307
-\l__regex_capturing_group_int=\count308
-\l__regex_min_pos_int=\count309
-\l__regex_max_pos_int=\count310
-\l__regex_current_pos_int=\count311
-\l__regex_start_pos_int=\count312
-\l__regex_success_pos_int=\count313
-\l__regex_current_char_int=\count314
-\l__regex_current_catcode_int=\count315
-\l__regex_last_char_int=\count316
-\l__regex_case_changed_char_int=\count317
-\l__regex_current_state_int=\count318
-\l__regex_step_int=\count319
-\l__regex_min_active_int=\count320
-\l__regex_max_active_int=\count321
-\l__regex_replacement_csnames_int=\count322
-\l__regex_match_count_int=\count323
-\l__regex_submatch_int=\count324
-\l__regex_zeroth_submatch_int=\count325
+\l__regex_internal_a_int=\count290
+\l__regex_internal_b_int=\count291
+\l__regex_internal_c_int=\count292
+\l__regex_balance_int=\count293
+\l__regex_group_level_int=\count294
+\l__regex_mode_int=\count295
+\l__regex_catcodes_int=\count296
+\l__regex_default_catcodes_int=\count297
+\c__regex_catcode_D_int=\count298
+\c__regex_catcode_S_int=\count299
+\c__regex_catcode_L_int=\count300
+\c__regex_catcode_O_int=\count301
+\c__regex_catcode_A_int=\count302
+\c__regex_all_catcodes_int=\count303
+\l__regex_show_lines_int=\count304
+\l__regex_min_state_int=\count305
+\l__regex_max_state_int=\count306
+\l__regex_left_state_int=\count307
+\l__regex_right_state_int=\count308
+\l__regex_capturing_group_int=\count309
+\l__regex_min_pos_int=\count310
+\l__regex_max_pos_int=\count311
+\l__regex_current_pos_int=\count312
+\l__regex_start_pos_int=\count313
+\l__regex_success_pos_int=\count314
+\l__regex_current_char_int=\count315
+\l__regex_current_catcode_int=\count316
+\l__regex_last_char_int=\count317
+\l__regex_case_changed_char_int=\count318
+\l__regex_current_state_int=\count319
+\l__regex_step_int=\count320
+\l__regex_min_active_int=\count321
+\l__regex_max_active_int=\count322
+\l__regex_replacement_csnames_int=\count323
+\l__regex_match_count_int=\count324
+\l__regex_submatch_int=\count325
+\l__regex_zeroth_submatch_int=\count326
 )
 (c:/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count326
-\calc@Bcount=\count327
+\calc@Acount=\count327
+\calc@Bcount=\count328
 \calc@Adimen=\dimen274
 \calc@Bdimen=\dimen275
 \calc@Askip=\skip265
 \calc@Bskip=\skip266
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count328
+\calc@Ccount=\count329
 \calc@Cskip=\skip267
 )
 (c:/texlive/2016/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2016/02/10 v1.0e interfaceforuprightgreeklettersforuseinchem
 istry (CN)
-\l__chemgreek_tmpa_int=\count329
-\g__chemgreek_tmpa_int=\count330
+\l__chemgreek_tmpa_int=\count330
+\g__chemgreek_tmpa_int=\count331
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2015,7 +2023,7 @@ istry (CN)
 . Defining command \selectchemgreekmapping with sig. 'm' on line 491.
 .................................................
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count331
+\l__mhchem_ce_distanceFromLastComma_int=\count332
 \__mhchem_arrow_extPgfLength_skip=\skip268
 \mhchem@minispace@tmp=\skip269
 \mhchem@minibackspace@tmp=\skip270
@@ -2026,7 +2034,7 @@ istry (CN)
 \mhchem@smallbondwidth=\skip275
 \mhchem@bondtmp@minussidebearingleft=\skip276
 \mhchem@bondtmp@minussidebearingright=\skip277
-\l__mhchem_option_version_int=\count332
+\l__mhchem_option_version_int=\count333
 \mhchem@option@minusmathsidebearingleft=\dimen276
 \mhchem@option@minusmathsidebearingright=\dimen277
 \mhchem@option@minustextsidebearingleft=\dimen278
@@ -2034,15 +2042,15 @@ istry (CN)
 )
 (c:/texlive/2016/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count333
+\c@KVtest=\count334
 \sf@farskip=\skip278
 \sf@captopadj=\dimen280
 \sf@capskip=\skip279
 \sf@nearskip=\skip280
-\c@subfigure=\count334
-\c@subfigure@save=\count335
-\c@subtable=\count336
-\c@subtable@save=\count337
+\c@subfigure=\count335
+\c@subfigure@save=\count336
+\c@subtable=\count337
+\c@subtable@save=\count338
 \sf@top=\skip281
 \sf@bottom=\skip282
 )
@@ -2052,34 +2060,34 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip284
 \LTpre=\skip285
 \LTpost=\skip286
-\LTchunksize=\count338
+\LTchunksize=\count339
 \LTcapwidth=\dimen281
-\LT@head=\box55
-\LT@firsthead=\box56
-\LT@foot=\box57
-\LT@lastfoot=\box58
-\LT@cols=\count339
-\LT@rows=\count340
-\c@LT@tables=\count341
-\c@LT@chunks=\count342
-\LT@p@ftn=\toks36
+\LT@head=\box57
+\LT@firsthead=\box58
+\LT@foot=\box59
+\LT@lastfoot=\box60
+\LT@cols=\count340
+\LT@rows=\count341
+\c@LT@tables=\count342
+\c@LT@chunks=\count343
+\LT@p@ftn=\toks38
 )
 (c:/texlive/2016/texmf-dist/tex/latex/tabu/tabu.sty
 Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 
 (c:/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box59
-\sift@deathcycles=\count343
+\@vwid@box=\box61
+\sift@deathcycles=\count344
 \@vwid@loff=\dimen282
 \@vwid@roff=\dimen283
 )
-\c@taburow=\count344
-\tabu@nbcols=\count345
-\tabu@cnt=\count346
-\tabu@Xcol=\count347
-\tabu@alloc=\count348
-\tabu@nested=\count349
+\c@taburow=\count345
+\tabu@nbcols=\count346
+\tabu@cnt=\count347
+\tabu@Xcol=\count348
+\tabu@alloc=\count349
+\tabu@nested=\count350
 \tabu@target=\dimen284
 \tabu@spreadtarget=\dimen285
 \tabu@naturalX=\dimen286
@@ -2089,12 +2097,12 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \abovetabulinesep=\dimen290
 \belowtabulinesep=\dimen291
 \tabustrutrule=\dimen292
-\tabu@thebody=\toks37
-\tabu@footnotes=\toks38
-\tabu@box=\box60
-\tabu@arstrutbox=\box61
-\tabu@hleads=\box62
-\tabu@vleads=\box63
+\tabu@thebody=\toks39
+\tabu@footnotes=\toks40
+\tabu@box=\box62
+\tabu@arstrutbox=\box63
+\tabu@hleads=\box64
+\tabu@vleads=\box65
 \tabu@cellskip=\skip287
 )
 (c:/texlive/2016/texmf-dist/tex/latex/was/gensymb.sty
@@ -2104,9 +2112,9 @@ Package: gensymb 2003/07/02 v1.0 (WaS)
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip288
 \enit@outerparindent=\dimen293
-\enit@toks=\toks39
-\enit@inbox=\box64
-\enitdp@description=\count350
+\enit@toks=\toks41
+\enit@inbox=\box66
+\enitdp@description=\count351
 )
 (c:/texlive/2016/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
@@ -2123,23 +2131,23 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 (c:/texlive/2016/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box65
-\AM@global@opts=\toks40
-\AM@toc@title=\toks41
-\c@AM@survey=\count351
-\AM@templatesizebox=\box66
+\AM@pagebox=\box67
+\AM@global@opts=\toks42
+\AM@toc@title=\toks43
+\c@AM@survey=\count352
+\AM@templatesizebox=\box68
 )
 (c:/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (c:/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (c:/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks42
+\pgfutil@everybye=\toks44
 \pgfutil@tempdima=\dimen296
 \pgfutil@tempdimb=\dimen297
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
 ) (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box67
+\pgfutil@abb=\box69
 
 (c:/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
@@ -2155,11 +2163,11 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks43
-\pgfkeys@temptoks=\toks44
+\pgfkeys@pathtoks=\toks45
+\pgfkeys@temptoks=\toks46
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks45
+\pgfkeys@tmptoks=\toks47
 ))
 \pgf@x=\dimen298
 \pgf@y=\dimen299
@@ -2171,13 +2179,13 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 \pgf@yc=\dimen305
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count352
-\c@pgf@countb=\count353
-\c@pgf@countc=\count354
-\c@pgf@countd=\count355
-\t@pgf@toka=\toks46
-\t@pgf@tokb=\toks47
-\t@pgf@tokc=\toks48
+\c@pgf@counta=\count353
+\c@pgf@countb=\count354
+\c@pgf@countc=\count355
+\c@pgf@countd=\count356
+\t@pgf@toka=\toks48
+\t@pgf@tokb=\toks49
+\t@pgf@tokc=\toks50
  (c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -2191,8 +2199,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count356
-\pgfsyssoftpath@bigbuffer@items=\count357
+\pgfsyssoftpath@smallbuffer@items=\count357
+\pgfsyssoftpath@bigbuffer@items=\count358
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -2204,11 +2212,11 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen306
-\pgfmath@count=\count358
-\pgfmath@box=\box68
-\pgfmath@toks=\toks49
-\pgfmath@stack@operand=\toks50
-\pgfmath@stack@operation=\toks51
+\pgfmath@count=\count359
+\pgfmath@box=\box70
+\pgfmath@toks=\toks51
+\pgfmath@stack@operand=\toks52
+\pgfmath@stack@operation=\toks53
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
@@ -2228,7 +2236,7 @@ x)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
 etics.code.tex)))
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count359
+\c@pgfmathroundto@lastzeros=\count360
 ))
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
@@ -2261,10 +2269,10 @@ File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box69
-\pgf@hbox=\box70
-\pgf@layerbox@main=\box71
-\pgf@picture@serial@count=\count360
+\pgfpic=\box71
+\pgf@hbox=\box72
+\pgf@layerbox@main=\box73
+\pgf@picture@serial@count=\count361
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
@@ -2295,14 +2303,14 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen330
-\pgf@sys@shading@range@num=\count361
+\pgf@sys@shading@range@num=\count362
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box72
+\pgfexternal@startupbox=\box74
 ))
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
@@ -2316,7 +2324,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box73
+\pgfnodeparttextbox=\box75
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
@@ -2341,8 +2349,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen333
 \pgffor@skip=\dimen334
-\pgffor@stack=\toks52
-\pgffor@toks=\toks53
+\pgffor@stack=\toks54
+\pgffor@toks=\toks55
 ))
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -2350,7 +2358,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count362
+\pgf@plot@mark@count=\count363
 \pgfplotmarksize=\dimen335
 )
 \tikz@lastx=\dimen336
@@ -2359,22 +2367,22 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@lastysaved=\dimen339
 \tikzleveldistance=\dimen340
 \tikzsiblingdistance=\dimen341
-\tikz@figbox=\box74
-\tikz@figbox@bg=\box75
-\tikz@tempbox=\box76
-\tikz@tempbox@bg=\box77
-\tikztreelevel=\count363
-\tikznumberofchildren=\count364
-\tikznumberofcurrentchild=\count365
-\tikz@fig@count=\count366
+\tikz@figbox=\box76
+\tikz@figbox@bg=\box77
+\tikz@tempbox=\box78
+\tikz@tempbox@bg=\box79
+\tikztreelevel=\count364
+\tikznumberofchildren=\count365
+\tikznumberofcurrentchild=\count366
+\tikz@fig@count=\count367
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count367
-\pgfmatrixcurrentcolumn=\count368
-\pgf@matrix@numberofcolumns=\count369
+\pgfmatrixcurrentrow=\count368
+\pgfmatrixcurrentcolumn=\count369
+\pgf@matrix@numberofcolumns=\count370
 )
-\tikz@expandcount=\count370
+\tikz@expandcount=\count371
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
@@ -2386,12 +2394,12 @@ Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks54
-\t@pgfplots@tokb=\toks55
-\t@pgfplots@tokc=\toks56
+\t@pgfplots@toka=\toks56
+\t@pgfplots@tokb=\toks57
+\t@pgfplots@tokc=\toks58
 \pgfplots@tmpa=\dimen342
-\c@pgfplots@coordindex=\count371
-\c@pgfplots@scanlineindex=\count372
+\c@pgfplots@coordindex=\count372
+\c@pgfplots@scanlineindex=\count373
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.te
 x))
@@ -2406,7 +2414,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 upp_pgflibraryfpu.code.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
 upp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count373
+\c@pgfmathroundto@lastzeros=\count374
 ))
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
@@ -2415,14 +2423,14 @@ cture.code.tex)
 ctureext.code.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.co
 de.tex
-\c@pgfplotsarray@tmp=\count374
+\c@pgfplotsarray@tmp=\count375
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.c
 ode.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.c
 ode.tex
-\c@pgfplotstable@counta=\count375
-\t@pgfplotstable@a=\toks57
+\c@pgfplotstable@counta=\count376
+\t@pgfplotstable@a=\toks59
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.co
 de.tex)
@@ -2433,7 +2441,7 @@ tex))
 x)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfsh
 ading.code.tex
-\c@pgfplotslibrarysurf@no=\count376
+\c@pgfplotslibrarysurf@no=\count377
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
 ding.pgfsys-pdftex.def)))
@@ -2461,11 +2469,11 @@ ex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen345
 \pgfdecoratedinputsegmentremainingdistance=\dimen346
 \pgf@decorate@distancetomove=\dimen347
-\pgf@decorate@repeatstate=\count377
+\pgf@decorate@repeatstate=\count378
 \pgfdecorationsegmentamplitude=\dimen348
 \pgfdecorationsegmentlength=\dimen349
 )
-\tikz@lib@dec@box=\box78
+\tikz@lib@dec@box=\box80
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarydecorations.pathmorphing.code.tex
@@ -2475,7 +2483,7 @@ orations.pathmorphing.code.tex))
 brarydecorations.pathreplacing.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
 orations.pathreplacing.code.tex))
-\pgfplots@numplots=\count378
+\pgfplots@numplots=\count379
 \pgfplots@xmin@reg=\dimen350
 \pgfplots@xmax@reg=\dimen351
 \pgfplots@ymin@reg=\dimen352
@@ -2499,7 +2507,7 @@ een.code.tex
 braryintersections.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.c
 ode.tex
-\pgf@intersect@solutions=\count379
+\pgf@intersect@solutions=\count380
 ))
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorati
 ons.softclip.code.tex
@@ -2583,26 +2591,26 @@ File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
 ultipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 
-\pgfnodepartlowerbox=\box79
-\pgfnodeparttwobox=\box80
-\pgfnodepartthreebox=\box81
-\pgfnodepartfourbox=\box82
-\pgfnodeparttwentybox=\box83
-\pgfnodepartnineteenbox=\box84
-\pgfnodeparteighteenbox=\box85
-\pgfnodepartseventeenbox=\box86
-\pgfnodepartsixteenbox=\box87
-\pgfnodepartfifteenbox=\box88
-\pgfnodepartfourteenbox=\box89
-\pgfnodepartthirteenbox=\box90
-\pgfnodeparttwelvebox=\box91
-\pgfnodepartelevenbox=\box92
-\pgfnodeparttenbox=\box93
-\pgfnodepartninebox=\box94
-\pgfnodeparteightbox=\box95
-\pgfnodepartsevenbox=\box96
-\pgfnodepartsixbox=\box97
-\pgfnodepartfivebox=\box98
+\pgfnodepartlowerbox=\box81
+\pgfnodeparttwobox=\box82
+\pgfnodepartthreebox=\box83
+\pgfnodepartfourbox=\box84
+\pgfnodeparttwentybox=\box85
+\pgfnodepartnineteenbox=\box86
+\pgfnodeparteighteenbox=\box87
+\pgfnodepartseventeenbox=\box88
+\pgfnodepartsixteenbox=\box89
+\pgfnodepartfifteenbox=\box90
+\pgfnodepartfourteenbox=\box91
+\pgfnodepartthirteenbox=\box92
+\pgfnodeparttwelvebox=\box93
+\pgfnodepartelevenbox=\box94
+\pgfnodeparttenbox=\box95
+\pgfnodepartninebox=\box96
+\pgfnodeparteightbox=\box97
+\pgfnodepartsevenbox=\box98
+\pgfnodepartsixbox=\box99
+\pgfnodepartfivebox=\box100
 )))
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarypatterns.code.tex
@@ -2626,7 +2634,7 @@ orations.markings.code.tex))
 brarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
-\tikz@lib@circ@count=\count380
+\tikz@lib@circ@count=\count381
 \tikzcircuitssizeunit=\dimen357
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/pgflibrar
@@ -2694,15 +2702,15 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen358
-\Hy@linkcounter=\count381
-\Hy@pagecounter=\count382
+\Hy@linkcounter=\count382
+\Hy@pagecounter=\count383
 
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count383
+\Hy@SavedSpaceFactor=\count384
 
 (c:/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -2714,7 +2722,7 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count384
+\c@Hy@tempcnt=\count385
 
 (c:/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -2722,7 +2730,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5088.
 \XeTeXLinkMargin=\dimen359
-\Fld@menulength=\count385
+\Fld@menulength=\count386
 \Field@Width=\dimen360
 \Fld@charsize=\dimen361
 Package hyperref Info: Hyper figures OFF on input line 6342.
@@ -2734,23 +2742,23 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count386
-\c@Item=\count387
-\c@Hfootnote=\count388
+\Hy@abspage=\count387
+\c@Item=\count388
+\c@Hfootnote=\count389
 )
 (c:/texlive/2016/texmf-dist/tex/latex/memoir/memhfixc.sty
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
-\c@memhycontfloat=\count389
-\c@Hpagenote=\count390
+\c@memhycontfloat=\count390
+\c@Hpagenote=\count391
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\Fld@listcount=\count391
-\c@bookmark@seq@number=\count392
+\Fld@listcount=\count392
+\c@bookmark@seq@number=\count393
 
 (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -2776,8 +2784,8 @@ LaTeX Info: Redefining \labelcpageref on input line 2230.
 Package cleveref Info: `subfig' support loaded on input line 2983.
 Package cleveref Info: no abbreviation of names on input line 7493.
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 122.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 122.
+Package hyperref Info: Option `colorlinks' set `false' on input line 124.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 124.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -2785,7 +2793,7 @@ Package: biblatex 2016/09/17 v3.6 programmable bibliographies (PK/JW/AB)
 
 (c:/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count393
+\lrq@indent=\count394
 
 (c:/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -2793,49 +2801,49 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (c:/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
 (c:/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write5
-\integerpart=\count394
-\decimalpart=\count395
+\integerpart=\count395
+\decimalpart=\count396
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count396
-\c@listtotal=\count397
-\c@listcount=\count398
-\c@liststart=\count399
-\c@liststop=\count400
-\c@citecount=\count401
-\c@citetotal=\count402
-\c@multicitecount=\count403
-\c@multicitetotal=\count404
-\c@instcount=\count405
-\c@maxnames=\count406
-\c@minnames=\count407
-\c@maxitems=\count408
-\c@minitems=\count409
-\c@citecounter=\count410
-\c@savedcitecounter=\count411
-\c@uniquelist=\count412
-\c@uniquename=\count413
-\c@refsection=\count414
-\c@refsegment=\count415
-\c@maxextratitle=\count416
-\c@maxextratitleyear=\count417
-\c@maxextrayear=\count418
-\c@maxextraalpha=\count419
-\c@abbrvpenalty=\count420
-\c@highnamepenalty=\count421
-\c@lownamepenalty=\count422
-\c@maxparens=\count423
-\c@parenlevel=\count424
-\blx@tempcnta=\count425
-\blx@tempcntb=\count426
-\blx@tempcntc=\count427
-\blx@maxsection=\count428
-\blx@maxsegment@0=\count429
-\blx@notetype=\count430
-\blx@parenlevel@text=\count431
-\blx@parenlevel@foot=\count432
-\blx@sectionciteorder@0=\count433
+\c@tabx@nest=\count397
+\c@listtotal=\count398
+\c@listcount=\count399
+\c@liststart=\count400
+\c@liststop=\count401
+\c@citecount=\count402
+\c@citetotal=\count403
+\c@multicitecount=\count404
+\c@multicitetotal=\count405
+\c@instcount=\count406
+\c@maxnames=\count407
+\c@minnames=\count408
+\c@maxitems=\count409
+\c@minitems=\count410
+\c@citecounter=\count411
+\c@savedcitecounter=\count412
+\c@uniquelist=\count413
+\c@uniquename=\count414
+\c@refsection=\count415
+\c@refsegment=\count416
+\c@maxextratitle=\count417
+\c@maxextratitleyear=\count418
+\c@maxextrayear=\count419
+\c@maxextraalpha=\count420
+\c@abbrvpenalty=\count421
+\c@highnamepenalty=\count422
+\c@lownamepenalty=\count423
+\c@maxparens=\count424
+\c@parenlevel=\count425
+\blx@tempcnta=\count426
+\blx@tempcntb=\count427
+\blx@tempcntc=\count428
+\blx@maxsection=\count429
+\blx@maxsegment@0=\count430
+\blx@notetype=\count431
+\blx@parenlevel@text=\count432
+\blx@parenlevel@foot=\count433
+\blx@sectionciteorder@0=\count434
 \labelnumberwidth=\skip290
 \labelalphawidth=\skip291
 \biblabelsep=\skip292
@@ -2845,9 +2853,9 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip296
 \blx@bcfin=\read4
 \blx@bcfout=\write6
-\c@mincomprange=\count434
-\c@maxcomprange=\count435
-\c@mincompwidth=\count436
+\c@mincomprange=\count435
+\c@maxcomprange=\count436
+\c@mincompwidth=\count437
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -2856,72 +2864,72 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count437
-\c@savedafterword=\count438
-\c@annotator=\count439
-\c@savedannotator=\count440
-\c@author=\count441
-\c@savedauthor=\count442
-\c@bookauthor=\count443
-\c@savedbookauthor=\count444
-\c@commentator=\count445
-\c@savedcommentator=\count446
-\c@editor=\count447
-\c@savededitor=\count448
-\c@editora=\count449
-\c@savededitora=\count450
-\c@editorb=\count451
-\c@savededitorb=\count452
-\c@editorc=\count453
-\c@savededitorc=\count454
-\c@foreword=\count455
-\c@savedforeword=\count456
-\c@holder=\count457
-\c@savedholder=\count458
-\c@introduction=\count459
-\c@savedintroduction=\count460
-\c@namea=\count461
-\c@savednamea=\count462
-\c@nameb=\count463
-\c@savednameb=\count464
-\c@namec=\count465
-\c@savednamec=\count466
-\c@translator=\count467
-\c@savedtranslator=\count468
-\c@shortauthor=\count469
-\c@savedshortauthor=\count470
-\c@shorteditor=\count471
-\c@savedshorteditor=\count472
-\c@labelname=\count473
-\c@savedlabelname=\count474
-\c@institution=\count475
-\c@savedinstitution=\count476
-\c@lista=\count477
-\c@savedlista=\count478
-\c@listb=\count479
-\c@savedlistb=\count480
-\c@listc=\count481
-\c@savedlistc=\count482
-\c@listd=\count483
-\c@savedlistd=\count484
-\c@liste=\count485
-\c@savedliste=\count486
-\c@listf=\count487
-\c@savedlistf=\count488
-\c@location=\count489
-\c@savedlocation=\count490
-\c@organization=\count491
-\c@savedorganization=\count492
-\c@origlocation=\count493
-\c@savedoriglocation=\count494
-\c@origpublisher=\count495
-\c@savedorigpublisher=\count496
-\c@publisher=\count497
-\c@savedpublisher=\count498
-\c@language=\count499
-\c@savedlanguage=\count500
-\c@pageref=\count501
-\c@savedpageref=\count502
+\c@afterword=\count438
+\c@savedafterword=\count439
+\c@annotator=\count440
+\c@savedannotator=\count441
+\c@author=\count442
+\c@savedauthor=\count443
+\c@bookauthor=\count444
+\c@savedbookauthor=\count445
+\c@commentator=\count446
+\c@savedcommentator=\count447
+\c@editor=\count448
+\c@savededitor=\count449
+\c@editora=\count450
+\c@savededitora=\count451
+\c@editorb=\count452
+\c@savededitorb=\count453
+\c@editorc=\count454
+\c@savededitorc=\count455
+\c@foreword=\count456
+\c@savedforeword=\count457
+\c@holder=\count458
+\c@savedholder=\count459
+\c@introduction=\count460
+\c@savedintroduction=\count461
+\c@namea=\count462
+\c@savednamea=\count463
+\c@nameb=\count464
+\c@savednameb=\count465
+\c@namec=\count466
+\c@savednamec=\count467
+\c@translator=\count468
+\c@savedtranslator=\count469
+\c@shortauthor=\count470
+\c@savedshortauthor=\count471
+\c@shorteditor=\count472
+\c@savedshorteditor=\count473
+\c@labelname=\count474
+\c@savedlabelname=\count475
+\c@institution=\count476
+\c@savedinstitution=\count477
+\c@lista=\count478
+\c@savedlista=\count479
+\c@listb=\count480
+\c@savedlistb=\count481
+\c@listc=\count482
+\c@savedlistc=\count483
+\c@listd=\count484
+\c@savedlistd=\count485
+\c@liste=\count486
+\c@savedliste=\count487
+\c@listf=\count488
+\c@savedlistf=\count489
+\c@location=\count490
+\c@savedlocation=\count491
+\c@organization=\count492
+\c@savedorganization=\count493
+\c@origlocation=\count494
+\c@savedoriglocation=\count495
+\c@origpublisher=\count496
+\c@savedorigpublisher=\count497
+\c@publisher=\count498
+\c@savedpublisher=\count499
+\c@language=\count500
+\c@savedlanguage=\count501
+\c@pageref=\count502
+\c@savedpageref=\count503
 \shorthandwidth=\skip297
 \shortjournalwidth=\skip298
 \shortserieswidth=\skip299
@@ -2949,13 +2957,13 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2016/09/17 v3.6 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count503
-\c@textcitetotal=\count504
-\c@textcitemaxnames=\count505
-\c@biburlnumpenalty=\count506
-\c@biburlucpenalty=\count507
-\c@biburllcpenalty=\count508
-\c@smartand=\count509
+\c@textcitecount=\count504
+\c@textcitetotal=\count505
+\c@textcitemaxnames=\count506
+\c@biburlnumpenalty=\count507
+\c@biburlucpenalty=\count508
+\c@biburllcpenalty=\count509
+\c@smartand=\count510
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -2973,8 +2981,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/09/17 v3.6 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count510
-\c@bbx:relatedtotal=\count511
+\c@bbx:relatedcount=\count511
+\c@bbx:relatedtotal=\count512
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -3004,8 +3012,8 @@ Package: glossaries 2016/10/12 v4.26 (NLCT)
 
 (c:/texlive/2016/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2016/07/31 v2.04 (NLCT)
-\@glsmfirst=\toks58
-\@glsmrest=\toks59
+\@glsmfirst=\toks60
+\@glsmrest=\toks61
 )
 (c:/texlive/2016/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -3020,7 +3028,7 @@ Package: datatool-base 2016/07/28 v2.27 (NLCT)
 
 (c:/texlive/2016/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count512
+\c@su@anzahl=\count513
 )
 (c:/texlive/2016/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2016/07/28 v2.27 (NLCT)
@@ -3031,19 +3039,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (c:/texlive/2016/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count513
+\actioncount=\count514
 )
 (c:/texlive/2016/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count514
-\FP@xia=\count515
-\FP@xib=\count516
-\FP@xfa=\count517
-\FP@xfb=\count518
-\FP@rega=\count519
-\FP@regb=\count520
-\FP@regs=\count521
-\FP@times=\count522
+\FP@xs=\count515
+\FP@xia=\count516
+\FP@xib=\count517
+\FP@xfa=\count518
+\FP@xfb=\count519
+\FP@rega=\count520
+\FP@regb=\count521
+\FP@regs=\count522
+\FP@times=\count523
 )
 (c:/texlive/2016/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -3062,7 +3070,7 @@ Package: fp-pas 1994/08/29
 )
 (c:/texlive/2016/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count523
+\FPseed=\count524
 )
 (c:/texlive/2016/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -3073,15 +3081,15 @@ Package: fp-upn 1996/10/21
 (c:/texlive/2016/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks60
-\@dtl@tmpcount=\count524
+\@dtl@toks=\toks62
+\@dtl@tmpcount=\count525
 \dtl@tmplength=\skip303
-\dtl@sortresult=\count525
-\@dtl@numgrpsepcount=\count526
-\@dtl@datatype=\count527
-\dtl@codeA=\count528
-\dtl@codeB=\count529
-\@dtl@foreach@level=\count530
+\dtl@sortresult=\count526
+\@dtl@numgrpsepcount=\count527
+\@dtl@datatype=\count528
+\dtl@codeA=\count529
+\dtl@codeB=\count530
+\@dtl@foreach@level=\count531
 )
 (c:/texlive/2016/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307
 .sty
@@ -3100,8 +3108,8 @@ Package glossaries Warning: No language module detected for `swedish'.
 (c:/texlive/2016/texmf-dist/tex/latex/glossaries-english/glossaries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count531
-\@gls@tmpb=\toks61
+\gls@level=\count532
+\@gls@tmpb=\toks63
 \gls@tmplen=\skip304
 
 
@@ -3111,10 +3119,10 @@ Package glossaries Warning: Overriding \printglossary on input line 5486.
 Package glossaries Warning: Overriding `theglossary' environment on input line 
 6136.
 
-\glskeylisttok=\toks62
-\glslabeltok=\toks63
-\glsshorttok=\toks64
-\glslongtok=\toks65
+\glskeylisttok=\toks64
+\glslabeltok=\toks65
+\glsshorttok=\toks66
+\glslongtok=\toks67
 (c:/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2016/10/12 v4.26 (NLCT)
 )
@@ -3132,7 +3140,7 @@ Package: glossary-super 2016/10/12 v4.26 (NLCT)
 
 (c:/texlive/2016/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count532
+\c@tracingst=\count533
 \ST@wd=\dimen362
 \ST@rightskip=\skip308
 \ST@leftskip=\skip309
@@ -3147,7 +3155,7 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@prevht=\dimen370
 \ST@toadd=\dimen371
 \ST@dimen=\dimen372
-\ST@pbox=\box99
+\ST@pbox=\box101
 ))
 (c:/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2016/10/12 v4.26 (NLCT)
@@ -3157,12 +3165,12 @@ Package: glossary-tree 2016/10/12 v4.26 (NLCT)
 \glo@acronym@file=\write8
 \openout8 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 157.
+Package glossaries Info: Writing glossary file main.acn on input line 159.
 
 (c:/texlive/2016/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
-\c@@todonotes@numberoftodonotes=\count533
+\c@@todonotes@numberoftodonotes=\count534
 )
 (c:/texlive/2016/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
@@ -3170,24 +3178,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (c:/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count534
-\c@Blindtext=\count535
-\c@blind@countparstart=\count536
-\blind@countxx=\count537
-\blindtext@numBlindtext=\count538
-\blind@countyy=\count539
-\c@blindlist=\count540
-\c@blindlistlevel=\count541
-\c@blindlist@level=\count542
-\blind@listitem=\count543
-\c@blind@listcount=\count544
-\c@blind@levelcount=\count545
-\blind@mathformula=\count546
-\blind@Mathformula=\count547
-\c@blind@randomcount=\count548
-\c@blind@randommax=\count549
-\c@blind@pangramcount=\count550
-\c@blind@pangrammax=\count551
+\c@blindtext=\count535
+\c@Blindtext=\count536
+\c@blind@countparstart=\count537
+\blind@countxx=\count538
+\blindtext@numBlindtext=\count539
+\blind@countyy=\count540
+\c@blindlist=\count541
+\c@blindlistlevel=\count542
+\c@blindlist@level=\count543
+\blind@listitem=\count544
+\c@blind@listcount=\count545
+\c@blind@levelcount=\count546
+\blind@mathformula=\count547
+\blind@Mathformula=\count548
+\c@blind@randomcount=\count549
+\c@blind@randommax=\count550
+\c@blind@pangramcount=\count551
+\c@blind@pangrammax=\count552
 )
 
 ******************************************************
@@ -3210,7 +3218,7 @@ Sidefootvsep and sidefootheight: 13.6pt and 539.9202pt
 ******************************************************
 
 (./commands.tex
-\c@dummy=\count552
+\c@dummy=\count553
 ) (./title.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -3227,70 +3235,70 @@ Package biblatex Info: ... file 'english.lbx' found.
 
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 325.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 327.
 LaTeX Font Info:    Try loading font information for OML+npxmi on input line 32
-5.
+7.
+
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 325.
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 325.
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 325.
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 325.
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 325.
-LaTeX Font Info:    Try loading font information for U+npxexa on input line 325
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 327.
+LaTeX Font Info:    Try loading font information for U+npxexa on input line 327
 .
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 325.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 325.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 327.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 327.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 325.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 327.
 LaTeX Font Info:    Try loading font information for LMS+npxsy on input line 32
-5.
+7.
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/08/13 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 325.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 327.
 LaTeX Font Info:    Try loading font information for LMX+npxexx on input line 3
-25.
+27.
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/08/13 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 325.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 325.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 327.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 327.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2016/03/04 v1.1 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 325.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 325.
-LaTeX Font Info:    ... okay on input line 325.
-\c@mv@tabular=\count553
-\c@mv@boldtabular=\count554
-LaTeX Info: Redefining \microtypecontext on input line 325.
+LaTeX Font Info:    ... okay on input line 327.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 327.
+\c@mv@tabular=\count554
+\c@mv@boldtabular=\count555
+LaTeX Info: Redefining \microtypecontext on input line 327.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2),
 (microtype)             factor: 1100.
@@ -3311,17 +3319,17 @@ Package microtype Info: Loading generic settings for font family
 
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count555
+\scratchcounter=\count556
 \scratchdimen=\dimen373
-\scratchbox=\box100
-\nofMPsegments=\count556
-\nofMParguments=\count557
-\everyMPshowfont=\toks66
-\MPscratchCnt=\count558
+\scratchbox=\box102
+\nofMPsegments=\count557
+\nofMParguments=\count558
+\everyMPshowfont=\toks68
+\MPscratchCnt=\count559
 \MPscratchDim=\dimen374
-\MPnumerator=\count559
-\makeMPintoPDFobject=\count560
-\everyMPtoPDFconversion=\toks67
+\MPnumerator=\count560
+\makeMPintoPDFobject=\count561
+\everyMPtoPDFconversion=\toks69
 ) (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -3341,6 +3349,7 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -3361,21 +3370,21 @@ File: siunitx-abbreviations.cfg 2016/09/02 v2.6s siunitx: Abbreviated units
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `textgreek' on line 325.
+. Activating mapping `textgreek' on line 327.
 .................................................
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/zpltlf/m/n --> TS1/zpltlf/bx/n on input line 325.
-Package gensymb Info: Math companion symbols declared on input line 325.
-LaTeX Info: Redefining \degree on input line 325.
-LaTeX Info: Redefining \celsius on input line 325.
+(Font)                  TS1/zpltlf/m/n --> TS1/zpltlf/bx/n on input line 327.
+Package gensymb Info: Math companion symbols declared on input line 327.
+LaTeX Info: Redefining \degree on input line 327.
+LaTeX Info: Redefining \celsius on input line 327.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 325.
-LaTeX Info: Redefining \ohm on input line 325.
-Package gensymb Info: Using \textohm for \ohm on input line 325.
-LaTeX Info: Redefining \micro on input line 325.
-Package gensymb Info: Using \textmu for \micro on input line 325.
-\AtBeginShipoutBox=\box101
+erthousand on input line 327.
+LaTeX Info: Redefining \ohm on input line 327.
+Package gensymb Info: Using \textohm for \ohm on input line 327.
+LaTeX Info: Redefining \micro on input line 327.
+Package gensymb Info: Using \textmu for \micro on input line 327.
+\AtBeginShipoutBox=\box103
 
 (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -3389,21 +3398,22 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.14} (current compat level: 1.10).
 
-Package hyperref Info: Link coloring OFF on input line 325.
+Package hyperref Info: Link coloring OFF on input line 327.
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count561
+\c@section@level=\count562
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 325.
-LaTeX Info: Redefining \ref on input line 325.
-LaTeX Info: Redefining \pageref on input line 325.
-LaTeX Info: Redefining \nameref on input line 325.
+LaTeX Info: Redefining \nameref on input line 327.
+LaTeX Info: Redefining \ref on input line 327.
+LaTeX Info: Redefining \pageref on input line 327.
+LaTeX Info: Redefining \nameref on input line 327.
+(./main.out) (./main.out)
 \@outlinefile=\write9
 \openout9 = `main.out'.
 
@@ -3417,26 +3427,27 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
-(./main.bbl)
-Package biblatex Info: Reference section=0 on input line 325.
-Package biblatex Info: Reference segment=0 on input line 325.
-\c__siunitx_mathsf_int=\count562
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 327.
+Package biblatex Info: Reference segment=0 on input line 327.
+\c__siunitx_mathsf_int=\count563
 LaTeX Font Info:    Try loading font information for OT1+zpltlf on input line 3
-25.
- (c:/texlive/2016/texmf-dist/tex/latex/newpx/ot1zpltlf.fd
+27.
+
+(c:/texlive/2016/texmf-dist/tex/latex/newpx/ot1zpltlf.fd
 File: ot1zpltlf.fd 2015/01/17 v1.0 font definition file for OT1/zpl/tlf
 )
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 325.
+(Font)              scaled to size 10.95pt on input line 327.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `zpltlf' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 325.
+(Font)              scaled to size 8.0pt on input line 327.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 325.
-LaTeX Font Info:    Try loading font information for U+msa on input line 325.
+(Font)              scaled to size 6.1pt on input line 327.
+LaTeX Font Info:    Try loading font information for U+msa on input line 327.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -3444,7 +3455,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (c:/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 325.
+LaTeX Font Info:    Try loading font information for U+msb on input line 327.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -3452,91 +3463,91 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (c:/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+npxmia on input line 325
+LaTeX Font Info:    Try loading font information for U+npxmia on input line 327
 .
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
-LaTeX Font Info:    Try loading font information for U+npxsym on input line 325
+LaTeX Font Info:    Try loading font information for U+npxsym on input line 327
 .
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 )
-LaTeX Font Info:    Try loading font information for U+npxsyc on input line 325
+LaTeX Font Info:    Try loading font information for U+npxsyc on input line 327
 .
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
 LaTeX Font Info:    Try loading font information for TS1+zpltlf on input line 3
-25.
+27.
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
 File: ts1zpltlf.fd 2015/01/18 v1.0 fd file for TS1/zpltlf
 )
 LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 325.
+(Font)              scaled to size 10.95pt on input line 327.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `zpltlf' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 325.
+(Font)              scaled to size 8.0pt on input line 327.
 LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 325.
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 325.
+(Font)              scaled to size 6.1pt on input line 327.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 327.
 
 (c:/texlive/2016/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 10.29301pt on input line 325.
+(Font)              scaled to size 10.29301pt on input line 327.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `qhv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 325.
+(Font)              scaled to size 7.52002pt on input line 327.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 5.73401pt on input line 325.
-\c__siunitx_mathtt_int=\count563
-LaTeX Font Info:    Try loading font information for T1+npxtt on input line 325
+(Font)              scaled to size 5.73401pt on input line 327.
+\c__siunitx_mathtt_int=\count564
+LaTeX Font Info:    Try loading font information for T1+npxtt on input line 327
 .
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/t1npxtt.fd
 File: t1npxtt.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.95pt on input line 325.
+(Font)              scaled to size 10.95pt on input line 327.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `npxtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 8.0pt on input line 325.
+(Font)              scaled to size 8.0pt on input line 327.
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 6.1pt on input line 325.
+(Font)              scaled to size 6.1pt on input line 327.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 334.
+(Font)              scaled to size 20.74pt on input line 336.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 334.
+(Font)              scaled to size 14.4pt on input line 336.
 
-<./figures/MIUN_logotyp.png, id=7, 243.309pt x 115.632pt>
+<./figures/MIUN_logotyp.png, id=143, 243.309pt x 115.632pt>
 File: ./figures/MIUN_logotyp.png Graphic file (type png)
 
 <use ./figures/MIUN_logotyp.png>
-Package pdftex.def Info: ./figures/MIUN_logotyp.png used on input line 334.
+Package pdftex.def Info: ./figures/MIUN_logotyp.png used on input line 336.
 (pdftex.def)             Requested size: 163.5pt x 77.70593pt.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 336.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 336.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 336.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 336.
  [1
 
 \openout7 = `main.ist'.
@@ -3552,13 +3563,13 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 9.
 )
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 339.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 339.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 339.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 339.
 
 [2
 
@@ -3599,40 +3610,381 @@ Package babel Info: Redefining swedish shorthand "~
 (babel)             in language  on input line 6.
 )
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 357.
+(babel)             in language  on input line 359.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 357.
+(babel)             in language  on input line 359.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 357.
+(babel)             in language  on input line 359.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 357.
- [7] [8
+(babel)             in language  on input line 359.
+ [7] (./main.toc
+LaTeX Font Info:    Font shape `T1/zpltlf/m/sc' will be
+(Font)              scaled to size 10.95pt on input line 6.
 
-] [9
 
-] [10
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 6.
+
+LaTeX Font Info:    Try loading font information for T1+zpltlf-TLF on input lin
+e 6.
+No file T1zpltlf-TLF.fd.
+LaTeX Font Info:    Try loading font information for T1+zpltlfx on input line 6
+.
+No file T1zpltlfx.fd.
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 8.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 10.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 11.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 12.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 13.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 14.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 14.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 15.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 15.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 16.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 16.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 17.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 17.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 18.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 18.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 19.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 19.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 20.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 20.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 21.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 21.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 22.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 22.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 23.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 23.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 24.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 24.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 30.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 30.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 31.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 31.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 32.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 32.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 38.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 38.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 39.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 39.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 40.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 40.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 41.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 41.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 46.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 46.
+
+[8
 
 ]
-(./frontmatter/listofpapers.tex
-LaTeX Font Info:    Font shape `T1/zpltlf/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 33.
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 47.
 
 
-LaTeX Warning: Reference `pap:paper1' on page xi undefined on input line 35.
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 47.
 
 
-LaTeX Warning: Reference `pap:paper2' on page xi undefined on input line 39.
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 50.
 
 
-LaTeX Warning: Reference `pap:paper3' on page xi undefined on input line 43.
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 50.
 
 
-LaTeX Warning: Reference `pap:paper4' on page xi undefined on input line 47.
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 51.
 
-) (./frontmatter/acknowledgment.tex) [11
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 51.
 
 
-] [12
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 52.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 52.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 53.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 53.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 54.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 54.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 55.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 55.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 56.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 56.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 57.
+
+) [9] (./main.lof
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 11.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 11.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 13.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 13.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 14.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 14.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 15.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 15.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 16.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 16.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 17.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 17.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 18.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 18.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 19.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 19.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 20.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 20.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 21.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 21.
+
+) [10
+
+] (./main.lot
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 12.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 12.
+
+) [11
+
+] (./frontmatter/listofpapers.tex [12
+
+
+]
+
+LaTeX Warning: Reference `pap:paper1' on page xiii undefined on input line 35.
+
+
+LaTeX Warning: Reference `pap:paper2' on page xiii undefined on input line 39.
+
+
+LaTeX Warning: Reference `pap:paper3' on page xiii undefined on input line 43.
+
+
+LaTeX Warning: Reference `pap:paper4' on page xiii undefined on input line 47.
+
+) (./frontmatter/acknowledgment.tex) [13] [14
 
 ] (./chapters/introduction.tex
 [1
@@ -3640,7 +3992,7 @@ LaTeX Warning: Reference `pap:paper4' on page xi undefined on input line 47.
 ] [2]) (./chapters/theory.tex [3] [4
 
 ]
-<./figures/freezing_droplets.jpg, id=146, 796.9775pt x 386.44376pt>
+<./figures/freezing_droplets.jpg, id=353, 796.9775pt x 386.44376pt>
 File: ./figures/freezing_droplets.jpg Graphic file (type jpg)
 
 <use ./figures/freezing_droplets.jpg>
@@ -3653,30 +4005,27 @@ ine 23.
 
 [6] [7] [8]) (./chapters/methods.tex [9] [10
 
-]
-Underfull \vbox (badness 5504) has occurred while \output is active []
-
- [11]
+] [11]
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 18.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 18.
 
-<figures/compare455nmdot.jpg, id=246, 96.36pt x 96.36pt>
+<figures/compare455nmdot.jpg, id=445, 96.36pt x 96.36pt>
 File: figures/compare455nmdot.jpg Graphic file (type jpg)
 
 <use figures/compare455nmdot.jpg>
 Package pdftex.def Info: figures/compare455nmdot.jpg used on input line 26.
 (pdftex.def)             Requested size: 98.101pt x 98.1006pt.
 
-<figures/compare850nmdot.jpg, id=247, 96.36pt x 96.36pt>
+<figures/compare850nmdot.jpg, id=446, 96.36pt x 96.36pt>
 File: figures/compare850nmdot.jpg Graphic file (type jpg)
 
 <use figures/compare850nmdot.jpg>
 Package pdftex.def Info: figures/compare850nmdot.jpg used on input line 32.
 (pdftex.def)             Requested size: 98.101pt x 98.1006pt.
 
-<figures/spektralanalys_mightex455nm.jpg, id=248, 562.1pt x 421.575pt>
+<figures/spektralanalys_mightex455nm.jpg, id=447, 562.1pt x 421.575pt>
 File: figures/spektralanalys_mightex455nm.jpg Graphic file (type jpg)
 
 <use figures/spektralanalys_mightex455nm.jpg>
@@ -3686,21 +4035,14 @@ line 43.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./figures/compare455nmdot.jpg> <./figures/compare850nmdot.jpg>]
-
-LaTeX Warning: Reference `fig:50umdot40x' on page 1 undefined on input line 63.
-
-
-[13 <./figures/spektralanalys_mightex455nm.jpg>]
-<./figures/50umdot40x.jpg, id=269, 130.086pt x 55.6479pt>
+ [12 <./figures/compare455nmdot.jpg> <./figures/compare850nmdot.jpg>] [13 <./fi
+gures/spektralanalys_mightex455nm.jpg>]
+<./figures/50umdot40x.jpg, id=464, 130.086pt x 55.6479pt>
 File: ./figures/50umdot40x.jpg Graphic file (type jpg)
 
 <use ./figures/50umdot40x.jpg>
 Package pdftex.def Info: ./figures/50umdot40x.jpg used on input line 66.
 (pdftex.def)             Requested size: 245.25pt x 104.91777pt.
-
-
-LaTeX Warning: Reference `tab:ref_meas' on page 1 undefined on input line 71.
 
 
 Package fontaxes Warning: I don't know how to decode
@@ -3709,36 +4051,21 @@ Package fontaxes Warning: I don't know how to decode
 LaTeX Font Info:    Try loading font information for T1+zpltlf-LF on input line
  75.
 No file T1zpltlf-LF.fd.
-LaTeX Font Info:    Try loading font information for T1+zpltlfx on input line 7
-5.
-No file T1zpltlfx.fd.
-LaTeX Font Info:    Try loading font information for T1+zpltlf-TLF on input lin
-e 75.
-No file T1zpltlf-TLF.fd.
-
-Overfull \hbox (48.0pt too wide) in paragraph at lines 75--91
- [][] 
- []
-
-
-LaTeX Warning: Reference `fig:shadowprinc' on page 1 undefined on input line 98
-.
-
 [14 <./figures/50umdot40x.jpg>]
-<./figures/shadowprinc.jpg, id=276, 443.6575pt x 99.37125pt>
+<./figures/shadowprinc.jpg, id=471, 443.6575pt x 99.37125pt>
 File: ./figures/shadowprinc.jpg Graphic file (type jpg)
 
 <use ./figures/shadowprinc.jpg>
 Package pdftex.def Info: ./figures/shadowprinc.jpg used on input line 103.
 (pdftex.def)             Requested size: 245.25pt x 54.93031pt.
 
-<figures/Foto0169.jpg, id=277, 1606.0pt x 1204.5pt>
+<figures/Foto0169.jpg, id=472, 1606.0pt x 1204.5pt>
 File: figures/Foto0169.jpg Graphic file (type jpg)
  <use figures/Foto0169.jpg>
 Package pdftex.def Info: figures/Foto0169.jpg used on input line 109.
 (pdftex.def)             Requested size: 245.25pt x 183.93869pt.
 
-<figures/cam_housings.jpg, id=278, 3508.10625pt x 1722.435pt>
+<figures/cam_housings.jpg, id=473, 3508.10625pt x 1722.435pt>
 File: figures/cam_housings.jpg Graphic file (type jpg)
 
 <use figures/cam_housings.jpg>
@@ -3777,38 +4104,25 @@ Package fontaxes Warning: I don't know how to decode
 Package fontaxes Warning: I don't know how to decode
 (fontaxes)                family `zpltlf' on input line 150.
 
-[18]
-
-LaTeX Warning: Reference `eq:5' on page 1 undefined on input line 169.
-
-[19]
+[18] [19]
 
 Package fontaxes Warning: I don't know how to decode
 (fontaxes)                family `zpltlf' on input line 173.
 
-<figures/DSC_0103.jpg, id=329, 3854.4pt x 2168.1pt>
+<figures/DSC_0103.jpg, id=520, 3854.4pt x 2168.1pt>
 File: figures/DSC_0103.jpg Graphic file (type jpg)
  <use figures/DSC_0103.jpg>
 Package pdftex.def Info: figures/DSC_0103.jpg used on input line 183.
 (pdftex.def)             Requested size: 245.25pt x 137.92093pt.
 
-
-LaTeX Warning: Reference `fig:installation1' on page 20 undefined on input line
- 188.
-
-[20]
-
-LaTeX Warning: Reference `fig:installation3' on page 1 undefined on input line 
-190.
-
-<figures/installation3.jpg, id=337, 3854.4pt x 2168.1pt>
+[20] <figures/installation3.jpg, id=528, 3854.4pt x 2168.1pt>
 File: figures/installation3.jpg Graphic file (type jpg)
 
 <use figures/installation3.jpg>
 Package pdftex.def Info: figures/installation3.jpg used on input line 193.
 (pdftex.def)             Requested size: 245.25pt x 137.92093pt.
 
-<figures/installation1.jpg, id=338, 2561.57pt x 2031.59pt>
+<figures/installation1.jpg, id=529, 2561.57pt x 2031.59pt>
 File: figures/installation1.jpg Graphic file (type jpg)
 
 <use figures/installation1.jpg>
@@ -3827,14 +4141,14 @@ LaTeX Warning: Command \textlambda invalid in math mode on input line 33.
 
 ] [30] [31]
 [32]
-Overfull \hbox (0.9799pt too wide) in paragraph at lines 393--393
+Overfull \hbox (0.9799pt too wide) in paragraph at lines 395--395
 \T1/zpltlf/m/n/10.95 (-20) speed LED driver for vis-i-ble light com-mu-ni-ca-ti
 ons with drawing-
  []
 
 [33]
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 302.
+Package caption Warning: Unused \captionsetup[subfigure] on input line 304.
 See the caption package documentation for explanation.
 
 
@@ -3852,11 +4166,11 @@ This document will not have a glossary.
 \tf@lot=\write12
 \openout12 = `main.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 404.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 404.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 406.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 406.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 404.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 404.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 406.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 406.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -3864,8 +4178,8 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A9C8F68B75DB4B95AFDCE6F31EB0461A;2183.
+(rerunfilecheck)             Before: A9C8F68B75DB4B95AFDCE6F31EB0461A;2183
+(rerunfilecheck)             After:  C81F508748BEF0CB0BD172C4158DF96C;2204.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3875,23 +4189,18 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 67843 strings out of 493013
- 1478974 string characters out of 6136992
- 2071595 words of memory out of 5000000
- 69904 multiletter control sequences out of 15000+600000
+ 67945 strings out of 493013
+ 1480249 string characters out of 6136992
+ 2073943 words of memory out of 5000000
+ 69988 multiletter control sequences out of 15000+600000
  86830 words of font info for 179 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 64i,13n,111p,10417b,2902s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,13n,111p,10417b,2901s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/
 2016/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc}{c:/texlive/2016/texmf-dist/f
 onts/enc/dvips/base/8r.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/nt
@@ -3907,10 +4216,10 @@ type1/urw/palatino/uplri8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/n
 ewpx/zplb.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:
 /texlive/2016/texmf-dist/fonts/type1/public/newpx/zplri.pfb><c:/texlive/2016/te
 xmf-dist/fonts/type1/public/newpx/zplx-regular.pfb>
-Output written on main.pdf (46 pages, 8248066 bytes).
+Output written on main.pdf (48 pages, 8259943 bytes).
 PDF statistics:
- 534 PDF objects out of 1000 (max. 8388607)
- 442 compressed objects within 5 object streams
- 175 named destinations out of 1000 (max. 500000)
- 34377 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 712 PDF objects out of 1000 (max. 8388607)
+ 616 compressed objects within 7 object streams
+ 177 named destinations out of 1000 (max. 500000)
+ 34649 words of extra memory for PDF output out of 35830 (max. 10000000)
 
