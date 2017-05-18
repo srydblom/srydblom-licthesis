@@ -44,7 +44,8 @@
   <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>main.bcf</file>
+      <file>main.aux</file>
+      <file>main-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>main.bbl</file>
@@ -52,23 +53,27 @@
     <requires type="static">
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
+      <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
-      <file>alphabetic.bbx</file>
+      <file>blx-natbib.def</file>
+      <file>numeric.bbx</file>
       <file>standard.bbx</file>
-      <file>alphabetic.cbx</file>
+      <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>swedish.lbx</file>
       <file>english.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="1">
-    <generic>biber</generic>
+    <generic>bibtex</generic>
     <cmdline>
-      <binary>biber</binary>
+      <binary>bibtex8</binary>
+      <option>--wolfgang</option>
+      <option>--min_crossrefs 2</option>
       <infile>main</infile>
     </cmdline>
     <input>
-      <file>main.bcf</file>
+      <file>main.aux</file>
     </input>
     <output>
       <file>main.bbl</file>
@@ -77,10 +82,14 @@
       <file>main.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>main.bcf</file>
+      <file>main.aux</file>
+      <file>main-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>./backmatter/phd.bib</file>
+      <file>./backmatter/licbib170505.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
     </requires>
   </external>
 </requests>

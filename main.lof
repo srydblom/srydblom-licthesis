@@ -8,9 +8,16 @@
 \select@language {english}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Supercooled water droplets on collision course with an aerodynamic profile.}}{8}{figure.2.1}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Supercooled water droplets on collision course with an aerodynamic profile.\relax }}{5}{figure.caption.7}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Figure showing the experimental setup with a dot micrometer scale as test object mounted on a translation stage.}}{10}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Fog chamber with connected droplet generator (blue container) and a multimeter used for fan power measurement. A Beaglebone Black microcontroller (blue box) is used for fan speed regulation.}}{12}{figure.3.2}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Same dot viewed in different background light. 455 nm (left) and 850 nm (right).\relax }}{12}{figure.caption.10}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Spectrum of the Mightex 455nm LED using two different driving currents. The band width is slightly wider for the higher current.\relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The 50 micrometer dot with front illumination imaged using 40x magnifying lens.\relax }}{14}{figure.caption.12}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Principle of shadowgraphy. 1. Camera. 2. Telecentric lens. 3. Parallell focused light beam. 4. Collimating lens. 5. LED.\relax }}{15}{figure.caption.14}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The experimental setup with a dot micrometer scale as test object mounted on a translation stage.\relax }}{15}{figure.caption.15}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The illumination and detector is mounted inside two Bosch camera housings facing each other with heating inside the house and on the front glass.\relax }}{16}{figure.caption.16}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Fog chamber with connected droplet generator (blue container) and a multimeter used for fan power measurement. A Beaglebone Black microcontroller (blue box) is used for fan speed regulation.\relax }}{21}{figure.caption.17}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Icing on the front side of the installed instruments.\relax }}{21}{figure.caption.18}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Installation in Kl\IeC {\"o}vsj\IeC {\"o}.\relax }}{22}{figure.caption.19}
 \addvspace {10pt}
 \addvspace {10pt}

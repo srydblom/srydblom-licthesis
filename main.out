@@ -5,21 +5,30 @@
 \BOOKMARK [0][-]{section*.5}{List of Tables}{}% 5
 \BOOKMARK [0][-]{dummy.1}{List of Papers}{}% 6
 \BOOKMARK [0][-]{chapter.1}{1 Introduction}{}% 7
-\BOOKMARK [1][-]{section.1.1}{1.1 Related Work}{chapter.1}% 8
-\BOOKMARK [0][-]{chapter.2}{2 Theory}{}% 9
-\BOOKMARK [1][-]{section.2.1}{2.1 Optical Properties}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.2}{2.2 Materials}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.3}{2.3 Image Segmentation}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.4}{2.4 The Impact}{chapter.2}% 13
-\BOOKMARK [0][-]{chapter.3}{3 Methods}{}% 14
-\BOOKMARK [1][-]{section.3.1}{3.1 Starting Studies}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.2}{3.2 Design Considerations}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.3}{3.3 The Shadowgraph System}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.4}{3.4 The Fog Chamber}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.5}{3.5 Hybrid pixel detectors}{chapter.3}% 19
-\BOOKMARK [0][-]{chapter.4}{4 Discussion}{}% 20
-\BOOKMARK [1][-]{section.4.1}{4.1 Starting Studies}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.2}{4.2 Droplets and Ice Interference}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.3}{4.3 Icing}{chapter.4}% 23
-\BOOKMARK [0][-]{chapter.5}{5 Conclusion and Outlook}{}% 24
-\BOOKMARK [1][-]{section.5.1}{5.1 Conclusion}{chapter.5}% 25
+\BOOKMARK [1][-]{section.1.1}{1.1 Atmospheric Water and Icing}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.2}{1.2 Related Work of Measurement}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{2 Theory}{}% 10
+\BOOKMARK [1][-]{section.2.1}{2.1 Forming of Ice}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.2}{2.2 Liquid Water Content and Median Volume Diameter}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.3}{2.3 Practical Problems with Measuring LWC, MVD and Ice}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.4}{2.4 Light Spectrum}{chapter.2}% 14
+\BOOKMARK [0][-]{chapter.3}{3 Materials and Methods}{}% 15
+\BOOKMARK [1][-]{section.3.1}{3.1 Image Segmentation}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{3.2 Starting Studies}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.3}{3.3 Design Considerations}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.4}{3.4 Dot Reference Measurement}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.5}{3.5 The Shadowgraph System}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.6}{3.6 The Fog Chamber}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.7}{3.7 The Kl\366vsj\366 Installation}{chapter.3}% 22
+\BOOKMARK [0][-]{chapter.4}{4 Discussion}{}% 23
+\BOOKMARK [1][-]{section.4.1}{4.1 Starting Studies}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.2}{4.2 Aerodynamics}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.3}{4.3 Difficulties with Polymer Microspheres}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.4}{4.4 Optics}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.5}{4.5 Droplets and Ice Interference}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.6}{4.6 Icing}{chapter.4}% 29
+\BOOKMARK [0][-]{chapter.5}{5 Conclusion and Outlook}{}% 30
+\BOOKMARK [1][-]{section.5.1}{5.1 Conclusions}{chapter.5}% 31
+\BOOKMARK [1][-]{section.5.2}{5.2 Future Work}{chapter.5}% 32
+\BOOKMARK [1][-]{section.5.3}{5.3 Contributions}{chapter.5}% 33
+\BOOKMARK [0][-]{section*.21}{Bibliography}{}% 34

@@ -6,57 +6,50 @@
 \chapter{Theory}
 \label{chap:theory}
 
-\subsection{Forming of Ice}
+In this champter the first section introduce the physics behind the forming of ice on structures. The next two sections is briefly descriing the measurement parameters and some practical problems of measuring icing. The last section is about scattering of light by small particles.
 
-Apart from being a rather complex phenomenon in itself, icing on wind turbines is forming differently from the ice accretion on an aircraft airfoil. First since the turbine is stationary it cannot stop icing, or de-ice by moving to a different condition. Same conditions may also continue for days or weeks. Secondly the turbine blade moves concentrically making the tip of the blade the fastest, and occasionally highest moving part. The remote and exposed position of icing makes it difficult to detect ice directly when it is initially formed (Matthew C. Homola, Nicklasson, \& Sundsbø, 2006).
-
-\subsection{Liquid Water Content and Median Volume Diameter}
-
-The liquid water content (LWC) and the water droplets median volume diameter (MVD) are essential input parameters to predict or model icing. The  MVD is given at the point where half of the total volume of liquid content in a fixed air volume consists of droplets with diameters larger and the other half has smaller diameters. For estimation of icing, the MVD has been shown to be a good indicator (L. Makkonen, 1992).
-
-Although there do exist methods to measure these properties, they are scarcely ever measured at a planned or existing wind turbine [9, 10]. Measuring them accurately and frequently would be an advantage for the planning of new wind mill farms or for the application of anti-icing arrangements on existing power stations. It may be of particular interest as input to weather prediction models by which both LWC and MVD can be computed [7, 8]. In combination with information about the aerodynamic properties of the wind turbine, it can give more accurate predictions of icing or even result in better design of wind turbines and anti-icing methods.
-
-While icing caused by large supercooled droplets, with diameters from approximately 50 μm to exceeding 1000 μm, is often considered severe due to its shape and quick build-up, icing may occur even with droplets as small as 5 μm [11-13]. In most cases, though, icing is caused by cloud droplets measuring between 10 μm and 30 μm in diameter [10, 12].
-Although optical imaging and other techniques for measuring aerosol properties is continuously improving, the choice of instrument is still very much dependent on the application’s requirements [14-17]. An instrument for measuring icing parameters for wind turbines should be able to detect supercooled cloud droplets from five micrometer and determine an accurate measure of the LWC. Since measurements are needed in multiple remote locations it should also be affordable, reliable, have low power consumption, and ideally be possible to place near the highest point of the turbine [18].
-
-
-\section{Optical Properties}
-Instruments based on Mie calculations of light scattering have the issue of dealing with aliasing in the sample bin resolution, leading to spikes in the size distribution (Evaluation of the Forward Scattering Spectrometer Probe-Baumgardner 1990, Spiegel Zieger 2012). 
-
-\subsection{Light Spectrum}
- In visible light, water is almost transparent. This means that the imaginary part of the refractive index, i.e. the absorption, is very small, while for some higher and lower wavelengths it increases with a factor of almost ten power to ten (Segelstein, 2011). This fact is used in two-color lidar measurements (Westbrook, Hogan, O'Connor, \& Illingworth, 2010).
-
-The real part of the refractive index for water is much more stable, approximately 1.34 at 455nm light (Hale \& Querry, 1973).
-
-A spherical lens in the form of a droplet will scatter almost all of the light that reaches the droplet from different directions. Some of the light will also be absorbed, albeit the absorption of a single water droplet is negligible due to its small volume and because water absorb very little in the visible spectrum.
-
-The combined effect of scattering and absorption is the extinction (Bohren \& Huffman, 2008). Due to this combined effect, clouds look nontransparent from a distance. Measuring extinction is possible in aerosols e.g. by using Raman LIDAR (Ansmann, Riebesell, \& Weitkamp, 1990).
-
-\section{Materials}
-\subsection{LED Light Source}
-
-LEDs can sometimes be used with currents far above the specifications, as long as the pulse length is short and the duty cycle is low enough to permit the heat generated to be transported away between the pulses. Using the LED above specifications may though affect the efficiency and aging of the LED. LED emittance also depends on the temperature. Depending on the capacitance of the diode, the rise time may limit the current, although there exist some techniques to shorten the LED pulses (Tanaka, Umeda, \& Takyu, 2011; Veledar et al., 2007).
-
-\section{Image Segmentation}
-
-Edge detection can be done in several ways. The simplest method is to use a threshold at a fixed level and define the edge as the transition between above and below that threshold (Gonzales \& Woods, 2002). Other techniques use different methods to measure the gradient of the change in intensity (Canny, 1986; Marr \& Hildreth, 1980)
-
-
-\section{The Impact}
-
-Makkonen and rotating cylinders...
+\section{Forming of Ice}
 
 The icing process is complex and the result depends on a combination of the aerodynamic shape of the structure or airfoil, the velocity of the air and its contained water, the temperature, the mixing of snow and water, the concentration of liquid water and the droplet size distribution. The figure below illustrates the difference between large and small supercooled droplets passing an aerodynamic profile.
 
 \begin{figure}%[h]
-\centering\includegraphics[width=0.6\linewidth]{figures/freezing_droplets}
+\centering\includegraphics[width=0.8\linewidth]{./figures/freezing_droplets.jpg}
 \caption{Supercooled water droplets on collision course with an aerodynamic profile.}
 \end{figure}
 
+A particle’s eagerness to follow the flow or collide depends on several factors, like the flow velocity, the size of the obstacle, the density and drag coefficient of the particle. This relationship is known in fluid mechanics as the Stokes number ($Stk$). Small droplets or particles with $Stk \ll1$ may continue with the airflow around the profile, while large droplets or particles with $Stk \gg 1$ due to their inertia collide with the structure. A supercooled droplet colliding with a structure would likely freeze on the impact.
 
-A particle’s eagerness to follow the flow or collide depends on several factors, like the flow velocity, the size of the obstacle, the density and drag coefficient of the particle. This relationship is known in fluid mechanics as the Stokes number (Stk). Small droplets or particles with Stk << 1 may continue with the airflow around the profile, while large droplets or particles with Stk >> 1 due to their inertia collide with the structure. A supercooled droplet colliding with a structure would likely freeze on the impact.
+Icing on wind turbines forms slightly differently from the ice accretion on an aircraft airfoil. Since the turbine is stationary it cannot stop the icing, or de-ice by moving to a different position. The same conditions may persist for days or weeks. The turbine blade moves concentrically making the tip of the blade the fastest, and highest located moving part. There is no pilot or ground crew supervising the wings. Therefore the remote and exposed position makes it difficult to detect ice directly when it is initially formed \cite{homo2006}.
+\todo{Add picture of ice on top of windturbine}
 
-All droplets or particles approaching an obstacle are affected by the change in pressure and wind direction surrounding it, a fact which complicates measuring the concentration of particles in unaffected air. Measurement probes working by extraction of air using a mechanical air pump would expect a loss of particles with large Stokes numbers. Ideally the measuring device would affect the flow as little as possible.
 
-Measuring particles from aircraft is complicated by the high air speed. The sample is affected by the change in pressure surrounding the aircraft and by particles hitting parts of the probe, splintering or changing direction. (ref) An instrument fixed to the ground on the other hand is affected by the wind speed relative to the ground. This means that it needs to be directed in the direction of the wind. Particles may also enter the measurement zone from different directions depending on their Stokes number, which has been shown to have a large impact on the measured liquid water content (ref).
+\section{Liquid Water Content and Median Volume Diameter}
+The liquid water content (LWC) and the water droplets median volume diameter (MVD) are parameters that can be used to predict or model icing. The  MVD is given at the point where half of the total volume of liquid content in a fixed air volume consists of droplets with diameters larger and the other half has smaller diameters. To estimatie the amount of icing created by supercooled water droplets, for most cases the MVD has been shown to be a good indicator \cite{makk1992,fins1988}.
+\todo{rewrite}
+
+In practice, the LWC and the MVD are scarcely ever measured at a planned or existing wind turbine \cite{parent2011, makk1992}. Measuring these properties accurately and frequently would be an advantage for the planning of new wind mill farms or for the application of anti-icing arrangements on existing power stations. It may be of particular interest as input to weather prediction models by which both LWC and MVD can be computed \cite{thomp2009, nyga2011}. In combination with information about the aerodynamic properties of the wind turbine, it can give more accurate predictions of icing or even result in better design of wind turbines and anti-icing methods.
+
+While icing caused by large supercooled droplets, with diameters from approximately 50 μm to exceeding 1000 μm, is often considered severe due to its shape and quick build-up, icing may occur even with droplets as small as 5 μm \cite{sand1984, cob2001, homo2010}. In most cases, though, icing is caused by cloud droplets measuring between 10 μm and 30 μm in diameter \cite{makk1992, cob2001}.
+Although optical imaging and other techniques for measuring aerosol properties is continuously improving, the choice of instrument is still very much dependent on the application’s requirements \cite{ide1999, baum1983, baum2011, kulk2011}. An instrument for measuring icing parameters for wind turbines should be able to detect supercooled cloud droplets from five micrometer and determine an accurate measure of the LWC. Since measurements are needed in multiple remote locations it should also be affordable, reliable, have low power consumption, and ideally be possible to place near the highest point of the turbine \cite{homo2006}.
+
+\section{Practical Problems with Measuring LWC, MVD and Ice}
+Many existing instruments suffer from errors caused by the instrument itself during sampling, e.g. when droplets get stuck on the inlet \cite{spie2012}. At higher wind speeds particles shatter into smaller droplets or bounce on the supporting structure making up the instrument \cite{cohen1991,field2006}. All droplets or particles approaching an obstacle are affected by the change in pressure and wind direction surrounding it, a fact which complicates measuring the concentration of particles in unaffected air. Measurement probes working by extraction of air using a mechanical air pump would expect a loss of particles with large Stokes numbers. Ideally the measuring device should be designed in order to affect the free flow of particles as little as possible \cite{baum2011}.
+
+Some instruments on the other hand use the fact that supercooled water droplets will freeze on the impact, e.g. the rotating cylinders used by Makkonen \cite{makk1992}. By exposing cylinders of different diameter for passing stream, the MVD and LWC can be calculated depending on the amount of ice accumulated on each cylinder. While this technique provides a nice alternative to the single particle measurements its drawback is that it requires some manual operation and of course the fact that only freezing water can be measured.
+
+Measuring particles from aircraft is partly made complicated by the high air speed. The sample is affected by the change in pressure surrounding the aircraft and by particles hitting parts of the probe, splintering or changing direction. (ref) An instrument fixed to the ground on the other hand is affected by the wind speed relative to the ground. This means that it needs to be directed in the direction of the wind. Particles may also enter the measurement zone from different directions depending on their Stokes number, which has been shown to have an effect on the measured liquid water content \cite{henn2013}.
+
+Another difficulty regarding the measurement of hydrometerors in general is the large size differences ranging from micrometer-sized fog droplets or graupel to raindrops several mm in diameter, even larger snowflakes or ice hail. Since the water content and the resulting icing depends on all these categories each or of combinations, several different instruments are usually needed to cover the whole range of sizes and nature of particles. An imaging instrument is limited by the optical system's resolution, it's field of view and the usable depth of field, which we have called the measurement range.
+
+Instruments based on Mie calculations of light scattering have the issue of dealing with the non-linear relation between scattering response and diameter. Aliasing in the sample bin resolution can lead to spikes in the size distribution. Two particles with different diameter, particularly interesting in the 10 to 15 μm range, can even have the same scattering intensity response \cite{dye1984,spie2012,bohr2008}.
+
+\section{Light Spectrum}
+
+In visible light, water is almost transparent. This means that the imaginary part of the refractive index, i.e. the absorption, is very small, while for some higher and lower wavelengths it increases with a factor of almost ten power to ten \cite{kou1993}. This fact is used in two-color lidar measurements \cite{west2010}. The real part of the refractive index for water is much more stable, approximately 1.34 at 455 nm light \cite{hale1973}. For simplicity we have assumed that the refractive index of air is equal to one. 
+
+A droplet works as a spherical lens with a very short focal length. Exposed to a background illumination it will scatter almost all of the light reaches the droplet in different directions, causing a shadow that appears as a black disc except for the refracted light passing straight through the center. Some of the light will of course be absorbed, albeit the absorption of a single water droplet is negligible due to its small volume and because water absorb very little in the visible spectrum.
+
+When the light source is spread out compared with the size of the droplets, as in the case of using a collimated LED, the intensity of the center Arago spot caused by Fresnel diffraction would be negligible \cite{reis2017}.
+
+The combined effect of scattering and absorption is the extinction \cite{bohr2008}. Due to this combined effect, clouds look nontransparent from a distance. Measuring extinction is possible in aerosols e.g. by using Raman LIDAR \cite{ans1990}.
 

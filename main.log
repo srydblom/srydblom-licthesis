@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  4 APR 2017 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  9 MAY 2017 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -721,6 +721,17 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 (c:/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ))
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/newpxtext.sty
 Package: newpxtext 2016/08/12 v1.3
 
@@ -738,8 +749,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (c:/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (c:/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks26
-\XKV@tempa@toks=\toks27
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
 )
 \XKV@depth=\count145
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -930,7 +941,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks28
+\@emptytoks=\toks29
 \ex@=\dimen148
 ))
 (c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -960,21 +971,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \dotsspace@=\muskip10
 \c@parentequation=\count153
 \dspbrk@lvl=\count154
-\tag@help=\toks29
+\tag@help=\toks30
 \row@=\count155
 \column@=\count156
 \maxfields@=\count157
-\andhelp@=\toks30
+\andhelp@=\toks31
 \eqnshift@=\dimen151
 \alignsep@=\dimen152
 \tagshift@=\dimen153
 \tagwidth@=\dimen154
 \totwidth@=\dimen155
 \lineht@=\dimen156
-\@envbody=\toks31
+\@envbody=\toks32
 \multlinegap=\skip189
 \multlinetaggap=\skip190
-\mathdisplay@stack=\toks32
+\mathdisplay@stack=\toks33
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
@@ -1020,9 +1031,10 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 (Font)                  OML/cmm/b/it --> OML/npxmi/m/it on input line 90.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 (Font)                  OML/npxmi/m/it --> OML/npxmi/b/it on input line 91.
-\symlettersA=\mathgroup4
+\symlettersA=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
 (Font)                  U/npxmia/m/it --> U/npxmia/b/it on input line 98.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 100.
 Now handling font encoding LMS ...
 ... no UTF-8 mapping file for font encoding LMS
 LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 108.
@@ -1036,10 +1048,10 @@ LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> LMS/npxsy/m/n on input line 108.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  LMS/npxsy/m/n --> LMS/npxsy/b/n on input line 109.
-\symAMSm=\mathgroup5
+\symAMSm=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
 (Font)                  U/npxsym/m/n --> U/npxsym/b/n on input line 127.
-\symsymbolsC=\mathgroup6
+\symsymbolsC=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
 (Font)                  U/npxsyc/m/n --> U/npxsyc/b/n on input line 149.
 Now handling font encoding LMX ...
@@ -1057,7 +1069,7 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> LMX/npxexx/m/n on input line 169.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  LMX/npxexx/m/n --> LMX/npxexx/b/n on input line 170.
-\symlargesymbolsPXA=\mathgroup7
+\symlargesymbolsPXA=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `largesymbolsPXA' in version `bold'
 
 (Font)                  U/npxexa/m/n --> U/npxexa/b/n on input line 177.
@@ -1087,103 +1099,6 @@ LaTeX Font Info:    Redeclaring math delimiter \lVert on input line 302.
 LaTeX Font Info:    Redeclaring math delimiter \rVert on input line 303.
 LaTeX Font Info:    Redeclaring math accent \vec on input line 1289.
 LaTeX Info: Redefining \not on input line 1750.
-)
-(c:/texlive/2016/texmf-dist/tex/latex/pxfonts/pxfonts.sty
-Package: pxfonts 2008/01/22 v1.1.1
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/zpltlf/m/n --> OT1/pxr/m/n on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/zpltlf/b/n --> OT1/pxr/m/n on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/pxr/m/n --> OT1/pxr/bx/n on input line 22.
-\symitalic=\mathgroup8
-LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
-(Font)                  OT1/pxr/m/it --> OT1/pxr/bx/it on input line 26.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/zpltlf/b/n --> OT1/pxr/bx/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/zpltlf/b/n --> OT1/pxr/bx/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/zpltlf/m/it --> OT1/pxr/m/it on input line 30.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/zpltlf/b/it --> OT1/pxr/m/it on input line 30.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/pxr/m/it --> OT1/pxr/bx/it on input line 31.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  T1/qhv/m/n --> OT1/pxss/m/n on input line 40.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/qhv/b/n --> OT1/pxss/m/n on input line 40.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/pxss/m/n --> OT1/pxss/b/n on input line 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  T1/npxtt/m/n --> OT1/pxtt/m/n on input line 50.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/npxtt/b/n --> OT1/pxtt/m/n on input line 50.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/pxtt/m/n --> OT1/pxtt/b/n on input line 51.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/npxmi/m/it --> OML/pxmi/m/it on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/npxmi/b/it --> OML/pxmi/m/it on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/pxmi/m/it --> OML/pxmi/bx/it on input line 59.
-LaTeX Font Info:    Redeclaring symbol font `lettersA' on input line 66.
-LaTeX Font Info:    Overwriting symbol font `lettersA' in version `normal'
-(Font)                  U/npxmia/m/it --> U/pxmia/m/it on input line 66.
-LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
-(Font)                  U/npxmia/b/it --> U/pxmia/m/it on input line 66.
-LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
-(Font)                  U/pxmia/m/it --> U/pxmia/bx/it on input line 67.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
-LaTeX Font Info:    Encoding `LMS' has changed to `OMS' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 77.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  LMS/npxsy/m/n --> OMS/pxsy/m/n on input line 77.
-LaTeX Font Info:    Encoding `LMS' has changed to `OMS' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 77.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  LMS/npxsy/b/n --> OMS/pxsy/m/n on input line 77.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/pxsy/m/n --> OMS/pxsy/bx/n on input line 78.
-\symAMSa=\mathgroup9
-LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/pxsya/m/n --> U/pxsya/bx/n on input line 94.
-\symAMSb=\mathgroup10
-LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
-(Font)                  U/pxsyb/m/n --> U/pxsyb/bx/n on input line 103.
-LaTeX Font Info:    Redeclaring symbol font `symbolsC' on input line 112.
-LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `normal'
-(Font)                  U/npxsyc/m/n --> U/pxsyc/m/n on input line 112.
-LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
-(Font)                  U/npxsyc/b/n --> U/pxsyc/m/n on input line 112.
-LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
-(Font)                  U/pxsyc/m/n --> U/pxsyc/bx/n on input line 113.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
-LaTeX Font Info:    Encoding `LMX' has changed to `OMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 1
-20.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  LMX/npxexx/m/n --> OMX/pxex/m/n on input line 120.
-LaTeX Font Info:    Encoding `LMX' has changed to `OMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 120
-.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  LMX/npxexx/b/n --> OMX/pxex/m/n on input line 120.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/pxex/m/n --> OMX/pxex/bx/n on input line 121.
-\symlargesymbolsA=\mathgroup11
-LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
-(Font)                  U/pxexa/m/n --> U/pxexa/bx/n on input line 129.
-LaTeX Font Info:    Redeclaring math symbol \n@tch@r on input line 995.
-LaTeX Info: Redefining \not on input line 997.
-LaTeX Info: Redefining \textsquare on input line 1017.
-LaTeX Info: Redefining \openbox on input line 1018.
 )
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
@@ -1564,7 +1479,7 @@ Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/
 )
 (c:/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
-\MT@toks=\toks33
+\MT@toks=\toks34
 \MT@count=\count159
 LaTeX Info: Redefining \textls on input line 774.
 \MT@outer@kern=\dimen157
@@ -1636,21 +1551,44 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen158
 \Gin@req@width=\dimen159
 )
+
+Class memoir Warning: You are using the caption package with the memoir class. 
+To prepare we will now reset all captioning macros and configurations to kernel
+ defaults, and then let the caption package take over. Please remember to use
+ the caption package interfaces in order to
+ configure your captions.
+
+(c:/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(c:/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen160
+\captionmargin@=\dimen161
+\captionwidth=\dimen162
+\caption@tempdima=\dimen163
+\caption@indent=\dimen164
+\caption@parindent=\dimen165
+\caption@hangindent=\dimen166
+)
+\c@ContinuedFloat=\count162
+)
 (c:/texlive/2016/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen160
-\WF@size=\dimen161
-\c@WF@wrappedlines=\count162
+\wrapoverhang=\dimen167
+\WF@size=\dimen168
+\c@WF@wrappedlines=\count163
 \WF@box=\box31
-\WF@everypar=\toks34
+\WF@everypar=\toks35
 Package: wrapfig 2003/01/31  v 3.6
 )
 (c:/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/10/11 v2.1 Span multiple rows of a table
 \multirow@colwidth=\skip192
-\multirow@cnta=\count163
-\multirow@cntb=\count164
+\multirow@cnta=\count164
+\multirow@cntb=\count165
 \multirow@dima=\skip193
-\bigstrutjot=\dimen162
+\bigstrutjot=\dimen169
 )
 (c:/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx.sty
 (c:/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -1666,31 +1604,31 @@ L3 Module: l3tl 2016/08/19 v6692 L3 Token lists
 L3 Module: l3str 2016/08/19 v6692 L3 Strings
 L3 Module: l3seq 2016/08/19 v6685 L3 Sequences and stacks
 L3 Module: l3int 2016/09/07 v6700 L3 Integers
-\c_max_int=\count165
-\l_tmpa_int=\count166
-\l_tmpb_int=\count167
-\g_tmpa_int=\count168
-\g_tmpb_int=\count169
+\c_max_int=\count166
+\l_tmpa_int=\count167
+\l_tmpb_int=\count168
+\g_tmpa_int=\count169
+\g_tmpb_int=\count170
 L3 Module: l3quark 2016/08/19 v6685 L3 Quarks
 L3 Module: l3prg 2016/08/18 v6679 L3 Control structures
-\g__prg_map_int=\count170
+\g__prg_map_int=\count171
 L3 Module: l3clist 2016/08/19 v6685 L3 Comma separated lists
 L3 Module: l3token 2016/09/01 v6695 L3 Experimental token manipulation
 L3 Module: l3prop 2016/08/19 v6685 L3 Property lists
 L3 Module: l3msg 2016/08/19 v6691 L3 Messages
 L3 Module: l3file 2016/08/19 v6685 L3 File and I/O operations
-\l_iow_line_count_int=\count171
-\l__iow_target_count_int=\count172
-\l__iow_current_line_int=\count173
-\l__iow_current_word_int=\count174
-\l__iow_current_indentation_int=\count175
+\l_iow_line_count_int=\count172
+\l__iow_target_count_int=\count173
+\l__iow_current_line_int=\count174
+\l__iow_current_word_int=\count175
+\l__iow_current_indentation_int=\count176
 L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
-\c_zero_dim=\dimen163
-\c_max_dim=\dimen164
-\l_tmpa_dim=\dimen165
-\l_tmpb_dim=\dimen166
-\g_tmpa_dim=\dimen167
-\g_tmpb_dim=\dimen168
+\c_zero_dim=\dimen170
+\c_max_dim=\dimen171
+\l_tmpa_dim=\dimen172
+\l_tmpb_dim=\dimen173
+\g_tmpa_dim=\dimen174
+\g_tmpb_dim=\dimen175
 \c_zero_skip=\skip194
 \c_max_skip=\skip256
 \l_tmpa_skip=\skip257
@@ -1704,17 +1642,17 @@ L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2016/09/21 v6711 L3 Key-value interfaces
-\l_keys_choice_int=\count176
+\l_keys_choice_int=\count177
 L3 Module: l3fp 2016/08/19 v6685 L3 Floating points
-\c__fp_leading_shift_int=\count177
-\c__fp_middle_shift_int=\count178
-\c__fp_trailing_shift_int=\count179
-\c__fp_big_leading_shift_int=\count180
-\c__fp_big_middle_shift_int=\count181
-\c__fp_big_trailing_shift_int=\count182
-\c__fp_Bigg_leading_shift_int=\count183
-\c__fp_Bigg_middle_shift_int=\count184
-\c__fp_Bigg_trailing_shift_int=\count185
+\c__fp_leading_shift_int=\count178
+\c__fp_middle_shift_int=\count179
+\c__fp_trailing_shift_int=\count180
+\c__fp_big_leading_shift_int=\count181
+\c__fp_big_middle_shift_int=\count182
+\c__fp_big_trailing_shift_int=\count183
+\c__fp_Bigg_leading_shift_int=\count184
+\c__fp_Bigg_middle_shift_int=\count185
+\c__fp_Bigg_trailing_shift_int=\count186
 L3 Module: l3box 2016/08/19 v6685 L3 Experimental boxes
 \c_empty_box=\box32
 \l_tmpa_box=\box33
@@ -1723,13 +1661,13 @@ L3 Module: l3box 2016/08/19 v6685 L3 Experimental boxes
 \g_tmpb_box=\box36
 L3 Module: l3coffins 2016/08/19 v6685 L3 Coffin code layer
 \l__coffin_internal_box=\box37
-\l__coffin_internal_dim=\dimen169
-\l__coffin_offset_x_dim=\dimen170
-\l__coffin_offset_y_dim=\dimen171
-\l__coffin_x_dim=\dimen172
-\l__coffin_y_dim=\dimen173
-\l__coffin_x_prime_dim=\dimen174
-\l__coffin_y_prime_dim=\dimen175
+\l__coffin_internal_dim=\dimen176
+\l__coffin_offset_x_dim=\dimen177
+\l__coffin_offset_y_dim=\dimen178
+\l__coffin_x_dim=\dimen179
+\l__coffin_y_dim=\dimen180
+\l__coffin_x_prime_dim=\dimen181
+\l__coffin_y_prime_dim=\dimen182
 \c_empty_coffin=\box38
 \l__coffin_aligned_coffin=\box39
 \l__coffin_aligned_internal_coffin=\box40
@@ -1738,42 +1676,42 @@ L3 Module: l3coffins 2016/08/19 v6685 L3 Coffin code layer
 \l__coffin_display_coffin=\box43
 \l__coffin_display_coord_coffin=\box44
 \l__coffin_display_pole_coffin=\box45
-\l__coffin_display_offset_dim=\dimen176
-\l__coffin_display_x_dim=\dimen177
-\l__coffin_display_y_dim=\dimen178
+\l__coffin_display_offset_dim=\dimen183
+\l__coffin_display_x_dim=\dimen184
+\l__coffin_display_y_dim=\dimen185
 L3 Module: l3color 2016/06/13 v6596 L3 Experimental color support
 L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
 L3 Module: l3candidates 2016/08/19 v6688 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen179
-\l__box_bottom_dim=\dimen180
-\l__box_left_dim=\dimen181
-\l__box_right_dim=\dimen182
-\l__box_top_new_dim=\dimen183
-\l__box_bottom_new_dim=\dimen184
-\l__box_left_new_dim=\dimen185
-\l__box_right_new_dim=\dimen186
+\l__box_top_dim=\dimen186
+\l__box_bottom_dim=\dimen187
+\l__box_left_dim=\dimen188
+\l__box_right_dim=\dimen189
+\l__box_top_new_dim=\dimen190
+\l__box_bottom_new_dim=\dimen191
+\l__box_left_new_dim=\dimen192
+\l__box_right_new_dim=\dimen193
 \l__box_internal_box=\box46
-\l__coffin_bounding_shift_dim=\dimen187
-\l__coffin_left_corner_dim=\dimen188
-\l__coffin_right_corner_dim=\dimen189
-\l__coffin_bottom_corner_dim=\dimen190
-\l__coffin_top_corner_dim=\dimen191
-\l__coffin_scaled_total_height_dim=\dimen192
-\l__coffin_scaled_width_dim=\dimen193
+\l__coffin_bounding_shift_dim=\dimen194
+\l__coffin_left_corner_dim=\dimen256
+\l__coffin_right_corner_dim=\dimen257
+\l__coffin_bottom_corner_dim=\dimen258
+\l__coffin_top_corner_dim=\dimen259
+\l__coffin_scaled_total_height_dim=\dimen260
+\l__coffin_scaled_width_dim=\dimen261
 L3 Module: l3luatex 2016/08/18 v6679 L3 Experimental LuaTeX-specific functions
 )
 (c:/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2016/08/18 v6679 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count186
+\l__driver_color_stack_int=\count187
 \l__driver_tmp_box=\box47
 ))
 (c:/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2016/10/19 v6730 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count187
-\l__xparse_m_args_int=\count188
-\l__xparse_mandatory_args_int=\count189
-\l__xparse_processor_int=\count190
-\l__xparse_v_nesting_int=\count191
+\l__xparse_current_arg_int=\count188
+\l__xparse_m_args_int=\count189
+\l__xparse_mandatory_args_int=\count190
+\l__xparse_processor_int=\count191
+\l__xparse_v_nesting_int=\count192
 )
 Package: siunitx 2016/09/02 v2.6s A comprehensive (SI) units package
 
@@ -1781,39 +1719,39 @@ Package: siunitx 2016/09/02 v2.6s A comprehensive (SI) units package
 Package: l3keys2e 2016/10/19 v6730 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box48
-\l__siunitx_tmp_dim=\dimen194
-\l__siunitx_tmp_int=\count192
-\l__siunitx_number_mantissa_length_int=\count193
-\l__siunitx_number_uncert_length_int=\count194
-\l__siunitx_round_int=\count266
-\l__siunitx_process_decimal_int=\count267
-\l__siunitx_process_uncertainty_int=\count268
-\l__siunitx_process_fixed_int=\count269
-\l__siunitx_process_integer_min_int=\count270
-\l__siunitx_process_precision_int=\count271
-\l__siunitx_group_min_int=\count272
+\l__siunitx_tmp_dim=\dimen262
+\l__siunitx_tmp_int=\count193
+\l__siunitx_number_mantissa_length_int=\count194
+\l__siunitx_number_uncert_length_int=\count266
+\l__siunitx_round_int=\count267
+\l__siunitx_process_decimal_int=\count268
+\l__siunitx_process_uncertainty_int=\count269
+\l__siunitx_process_fixed_int=\count270
+\l__siunitx_process_integer_min_int=\count271
+\l__siunitx_process_precision_int=\count272
+\l__siunitx_group_min_int=\count273
 \l__siunitx_angle_marker_box=\box49
 \l__siunitx_angle_unit_box=\box50
-\l__siunitx_angle_marker_dim=\dimen256
-\l__siunitx_angle_unit_dim=\dimen257
-\l__siunitx_unit_int=\count273
-\l__siunitx_unit_denominator_int=\count274
-\l__siunitx_unit_numerator_int=\count275
-\l__siunitx_unit_prefix_int=\count276
-\l__siunitx_unit_prefix_base_int=\count277
-\l__siunitx_unit_prefix_gram_int=\count278
-\l__siunitx_number_product_int=\count279
+\l__siunitx_angle_marker_dim=\dimen263
+\l__siunitx_angle_unit_dim=\dimen264
+\l__siunitx_unit_int=\count274
+\l__siunitx_unit_denominator_int=\count275
+\l__siunitx_unit_numerator_int=\count276
+\l__siunitx_unit_prefix_int=\count277
+\l__siunitx_unit_prefix_base_int=\count278
+\l__siunitx_unit_prefix_gram_int=\count279
+\l__siunitx_number_product_int=\count280
 \c__siunitx_one_fill_skip=\skip261
 \l__siunitx_table_unit_align_skip=\skip262
-\l__siunitx_table_exponent_dim=\dimen258
-\l__siunitx_table_integer_dim=\dimen259
-\l__siunitx_table_mantissa_dim=\dimen260
-\l__siunitx_table_marker_dim=\dimen261
-\l__siunitx_table_result_dim=\dimen262
-\l__siunitx_table_uncert_dim=\dimen263
-\l__siunitx_table_fill_pre_dim=\dimen264
-\l__siunitx_table_fill_post_dim=\dimen265
-\l__siunitx_table_fill_mid_dim=\dimen266
+\l__siunitx_table_exponent_dim=\dimen265
+\l__siunitx_table_integer_dim=\dimen266
+\l__siunitx_table_mantissa_dim=\dimen267
+\l__siunitx_table_marker_dim=\dimen268
+\l__siunitx_table_result_dim=\dimen269
+\l__siunitx_table_uncert_dim=\dimen270
+\l__siunitx_table_fill_pre_dim=\dimen271
+\l__siunitx_table_fill_post_dim=\dimen272
+\l__siunitx_table_fill_mid_dim=\dimen273
 \l__siunitx_table_pre_box=\box51
 \l__siunitx_table_post_box=\box52
 \l__siunitx_table_mantissa_box=\box53
@@ -1951,15 +1889,15 @@ Package: l3regex 2016/10/19 v6730 L3 Experimental regular expressions
 
 (c:/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3tl-build.sty
 Package: l3tl-build 2016/10/19 v6730 L3 Experimental token list construction
-\l__tl_build_start_index_int=\count280
-\l__tl_build_index_int=\count281
+\l__tl_build_start_index_int=\count281
+\l__tl_build_index_int=\count282
 )
 (c:/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3tl-analysis.sty
 Package: l3tl-analysis 2016/06/13 v6589 L3 Experimental token lists analysis
-\l__tl_analysis_normal_int=\count282
-\l__tl_analysis_index_int=\count283
-\l__tl_analysis_nesting_int=\count284
-\l__tl_analysis_type_int=\count285
+\l__tl_analysis_normal_int=\count283
+\l__tl_analysis_index_int=\count284
+\l__tl_analysis_nesting_int=\count285
+\l__tl_analysis_type_int=\count286
 )
 (c:/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
 Package: l3flag 2016/10/19 v6730 L3 Experimental flags
@@ -1967,65 +1905,65 @@ Package: l3flag 2016/10/19 v6730 L3 Experimental flags
 (c:/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3str-convert.sty
 Package: l3str-convert 2016/09/07 v6699 L3 Experimental string encoding convers
 ions
-\l__str_internal_int=\count286
-\c__str_replacement_char_int=\count287
+\l__str_internal_int=\count287
+\c__str_replacement_char_int=\count288
 )
-\l__regex_internal_a_int=\count288
-\l__regex_internal_b_int=\count289
-\l__regex_internal_c_int=\count290
-\l__regex_balance_int=\count291
-\l__regex_group_level_int=\count292
-\l__regex_mode_int=\count293
-\l__regex_catcodes_int=\count294
-\l__regex_default_catcodes_int=\count295
-\c__regex_catcode_D_int=\count296
-\c__regex_catcode_S_int=\count297
-\c__regex_catcode_L_int=\count298
-\c__regex_catcode_O_int=\count299
-\c__regex_catcode_A_int=\count300
-\c__regex_all_catcodes_int=\count301
-\l__regex_show_lines_int=\count302
-\l__regex_min_state_int=\count303
-\l__regex_max_state_int=\count304
-\l__regex_left_state_int=\count305
-\l__regex_right_state_int=\count306
-\l__regex_capturing_group_int=\count307
-\l__regex_min_pos_int=\count308
-\l__regex_max_pos_int=\count309
-\l__regex_current_pos_int=\count310
-\l__regex_start_pos_int=\count311
-\l__regex_success_pos_int=\count312
-\l__regex_current_char_int=\count313
-\l__regex_current_catcode_int=\count314
-\l__regex_last_char_int=\count315
-\l__regex_case_changed_char_int=\count316
-\l__regex_current_state_int=\count317
-\l__regex_step_int=\count318
-\l__regex_min_active_int=\count319
-\l__regex_max_active_int=\count320
-\l__regex_replacement_csnames_int=\count321
-\l__regex_match_count_int=\count322
-\l__regex_submatch_int=\count323
-\l__regex_zeroth_submatch_int=\count324
+\l__regex_internal_a_int=\count289
+\l__regex_internal_b_int=\count290
+\l__regex_internal_c_int=\count291
+\l__regex_balance_int=\count292
+\l__regex_group_level_int=\count293
+\l__regex_mode_int=\count294
+\l__regex_catcodes_int=\count295
+\l__regex_default_catcodes_int=\count296
+\c__regex_catcode_D_int=\count297
+\c__regex_catcode_S_int=\count298
+\c__regex_catcode_L_int=\count299
+\c__regex_catcode_O_int=\count300
+\c__regex_catcode_A_int=\count301
+\c__regex_all_catcodes_int=\count302
+\l__regex_show_lines_int=\count303
+\l__regex_min_state_int=\count304
+\l__regex_max_state_int=\count305
+\l__regex_left_state_int=\count306
+\l__regex_right_state_int=\count307
+\l__regex_capturing_group_int=\count308
+\l__regex_min_pos_int=\count309
+\l__regex_max_pos_int=\count310
+\l__regex_current_pos_int=\count311
+\l__regex_start_pos_int=\count312
+\l__regex_success_pos_int=\count313
+\l__regex_current_char_int=\count314
+\l__regex_current_catcode_int=\count315
+\l__regex_last_char_int=\count316
+\l__regex_case_changed_char_int=\count317
+\l__regex_current_state_int=\count318
+\l__regex_step_int=\count319
+\l__regex_min_active_int=\count320
+\l__regex_max_active_int=\count321
+\l__regex_replacement_csnames_int=\count322
+\l__regex_match_count_int=\count323
+\l__regex_submatch_int=\count324
+\l__regex_zeroth_submatch_int=\count325
 )
 (c:/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count325
-\calc@Bcount=\count326
-\calc@Adimen=\dimen267
-\calc@Bdimen=\dimen268
+\calc@Acount=\count326
+\calc@Bcount=\count327
+\calc@Adimen=\dimen274
+\calc@Bdimen=\dimen275
 \calc@Askip=\skip265
 \calc@Bskip=\skip266
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count327
+\calc@Ccount=\count328
 \calc@Cskip=\skip267
 )
 (c:/texlive/2016/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2016/02/10 v1.0e interfaceforuprightgreeklettersforuseinchem
 istry (CN)
-\l__chemgreek_tmpa_int=\count328
-\g__chemgreek_tmpa_int=\count329
+\l__chemgreek_tmpa_int=\count329
+\g__chemgreek_tmpa_int=\count330
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2077,7 +2015,7 @@ istry (CN)
 . Defining command \selectchemgreekmapping with sig. 'm' on line 491.
 .................................................
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count330
+\l__mhchem_ce_distanceFromLastComma_int=\count331
 \__mhchem_arrow_extPgfLength_skip=\skip268
 \mhchem@minispace@tmp=\skip269
 \mhchem@minibackspace@tmp=\skip270
@@ -2088,37 +2026,23 @@ istry (CN)
 \mhchem@smallbondwidth=\skip275
 \mhchem@bondtmp@minussidebearingleft=\skip276
 \mhchem@bondtmp@minussidebearingright=\skip277
-\l__mhchem_option_version_int=\count331
-\mhchem@option@minusmathsidebearingleft=\dimen269
-\mhchem@option@minusmathsidebearingright=\dimen270
-\mhchem@option@minustextsidebearingleft=\dimen271
-\mhchem@option@minustextsidebearingright=\dimen272
+\l__mhchem_option_version_int=\count332
+\mhchem@option@minusmathsidebearingleft=\dimen276
+\mhchem@option@minusmathsidebearingright=\dimen277
+\mhchem@option@minustextsidebearingleft=\dimen278
+\mhchem@option@minustextsidebearingright=\dimen279
 )
 (c:/texlive/2016/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-
-(c:/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen273
-\captionmargin@=\dimen274
-\captionwidth=\dimen275
-\caption@tempdima=\dimen276
-\caption@indent=\dimen277
-\caption@parindent=\dimen278
-\caption@hangindent=\dimen279
-Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used.
-)
-\c@KVtest=\count332
+\c@KVtest=\count333
 \sf@farskip=\skip278
 \sf@captopadj=\dimen280
 \sf@capskip=\skip279
 \sf@nearskip=\skip280
-\c@subfigure=\count333
-\c@subfigure@save=\count334
-\c@subtable=\count335
-\c@subtable@save=\count336
+\c@subfigure=\count334
+\c@subfigure@save=\count335
+\c@subtable=\count336
+\c@subtable@save=\count337
 \sf@top=\skip281
 \sf@bottom=\skip282
 )
@@ -2128,17 +2052,17 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip284
 \LTpre=\skip285
 \LTpost=\skip286
-\LTchunksize=\count337
+\LTchunksize=\count338
 \LTcapwidth=\dimen281
 \LT@head=\box55
 \LT@firsthead=\box56
 \LT@foot=\box57
 \LT@lastfoot=\box58
-\LT@cols=\count338
-\LT@rows=\count339
-\c@LT@tables=\count340
-\c@LT@chunks=\count341
-\LT@p@ftn=\toks35
+\LT@cols=\count339
+\LT@rows=\count340
+\c@LT@tables=\count341
+\c@LT@chunks=\count342
+\LT@p@ftn=\toks36
 )
 (c:/texlive/2016/texmf-dist/tex/latex/tabu/tabu.sty
 Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
@@ -2146,16 +2070,16 @@ Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 (c:/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box59
-\sift@deathcycles=\count342
+\sift@deathcycles=\count343
 \@vwid@loff=\dimen282
 \@vwid@roff=\dimen283
 )
-\c@taburow=\count343
-\tabu@nbcols=\count344
-\tabu@cnt=\count345
-\tabu@Xcol=\count346
-\tabu@alloc=\count347
-\tabu@nested=\count348
+\c@taburow=\count344
+\tabu@nbcols=\count345
+\tabu@cnt=\count346
+\tabu@Xcol=\count347
+\tabu@alloc=\count348
+\tabu@nested=\count349
 \tabu@target=\dimen284
 \tabu@spreadtarget=\dimen285
 \tabu@naturalX=\dimen286
@@ -2165,21 +2089,24 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \abovetabulinesep=\dimen290
 \belowtabulinesep=\dimen291
 \tabustrutrule=\dimen292
-\tabu@thebody=\toks36
-\tabu@footnotes=\toks37
+\tabu@thebody=\toks37
+\tabu@footnotes=\toks38
 \tabu@box=\box60
 \tabu@arstrutbox=\box61
 \tabu@hleads=\box62
 \tabu@vleads=\box63
 \tabu@cellskip=\skip287
 )
+(c:/texlive/2016/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
 (c:/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip288
 \enit@outerparindent=\dimen293
-\enit@toks=\toks38
+\enit@toks=\toks39
 \enit@inbox=\box64
-\enitdp@description=\count349
+\enitdp@description=\count350
 )
 (c:/texlive/2016/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
@@ -2197,16 +2124,16 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box65
-\AM@global@opts=\toks39
-\AM@toc@title=\toks40
-\c@AM@survey=\count350
+\AM@global@opts=\toks40
+\AM@toc@title=\toks41
+\c@AM@survey=\count351
 \AM@templatesizebox=\box66
 )
 (c:/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (c:/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (c:/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks41
+\pgfutil@everybye=\toks42
 \pgfutil@tempdima=\dimen296
 \pgfutil@tempdimb=\dimen297
 
@@ -2228,11 +2155,11 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks42
-\pgfkeys@temptoks=\toks43
+\pgfkeys@pathtoks=\toks43
+\pgfkeys@temptoks=\toks44
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks44
+\pgfkeys@tmptoks=\toks45
 ))
 \pgf@x=\dimen298
 \pgf@y=\dimen299
@@ -2244,13 +2171,13 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 \pgf@yc=\dimen305
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count351
-\c@pgf@countb=\count352
-\c@pgf@countc=\count353
-\c@pgf@countd=\count354
-\t@pgf@toka=\toks45
-\t@pgf@tokb=\toks46
-\t@pgf@tokc=\toks47
+\c@pgf@counta=\count352
+\c@pgf@countb=\count353
+\c@pgf@countc=\count354
+\c@pgf@countd=\count355
+\t@pgf@toka=\toks46
+\t@pgf@tokb=\toks47
+\t@pgf@tokc=\toks48
  (c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -2264,8 +2191,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count355
-\pgfsyssoftpath@bigbuffer@items=\count356
+\pgfsyssoftpath@smallbuffer@items=\count356
+\pgfsyssoftpath@bigbuffer@items=\count357
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -2277,11 +2204,11 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen306
-\pgfmath@count=\count357
+\pgfmath@count=\count358
 \pgfmath@box=\box68
-\pgfmath@toks=\toks48
-\pgfmath@stack@operand=\toks49
-\pgfmath@stack@operation=\toks50
+\pgfmath@toks=\toks49
+\pgfmath@stack@operand=\toks50
+\pgfmath@stack@operation=\toks51
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
@@ -2301,7 +2228,7 @@ x)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
 etics.code.tex)))
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count358
+\c@pgfmathroundto@lastzeros=\count359
 ))
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
@@ -2337,7 +2264,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box69
 \pgf@hbox=\box70
 \pgf@layerbox@main=\box71
-\pgf@picture@serial@count=\count359
+\pgf@picture@serial@count=\count360
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
@@ -2368,7 +2295,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen330
-\pgf@sys@shading@range@num=\count360
+\pgf@sys@shading@range@num=\count361
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -2414,8 +2341,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen333
 \pgffor@skip=\dimen334
-\pgffor@stack=\toks51
-\pgffor@toks=\toks52
+\pgffor@stack=\toks52
+\pgffor@toks=\toks53
 ))
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -2423,7 +2350,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count361
+\pgf@plot@mark@count=\count362
 \pgfplotmarksize=\dimen335
 )
 \tikz@lastx=\dimen336
@@ -2436,18 +2363,18 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box75
 \tikz@tempbox=\box76
 \tikz@tempbox@bg=\box77
-\tikztreelevel=\count362
-\tikznumberofchildren=\count363
-\tikznumberofcurrentchild=\count364
-\tikz@fig@count=\count365
+\tikztreelevel=\count363
+\tikznumberofchildren=\count364
+\tikznumberofcurrentchild=\count365
+\tikz@fig@count=\count366
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count366
-\pgfmatrixcurrentcolumn=\count367
-\pgf@matrix@numberofcolumns=\count368
+\pgfmatrixcurrentrow=\count367
+\pgfmatrixcurrentcolumn=\count368
+\pgf@matrix@numberofcolumns=\count369
 )
-\tikz@expandcount=\count369
+\tikz@expandcount=\count370
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
@@ -2459,12 +2386,12 @@ Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks53
-\t@pgfplots@tokb=\toks54
-\t@pgfplots@tokc=\toks55
+\t@pgfplots@toka=\toks54
+\t@pgfplots@tokb=\toks55
+\t@pgfplots@tokc=\toks56
 \pgfplots@tmpa=\dimen342
-\c@pgfplots@coordindex=\count370
-\c@pgfplots@scanlineindex=\count371
+\c@pgfplots@coordindex=\count371
+\c@pgfplots@scanlineindex=\count372
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.te
 x))
@@ -2479,7 +2406,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 upp_pgflibraryfpu.code.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
 upp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count372
+\c@pgfmathroundto@lastzeros=\count373
 ))
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
@@ -2488,14 +2415,14 @@ cture.code.tex)
 ctureext.code.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.co
 de.tex
-\c@pgfplotsarray@tmp=\count373
+\c@pgfplotsarray@tmp=\count374
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.c
 ode.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.c
 ode.tex
-\c@pgfplotstable@counta=\count374
-\t@pgfplotstable@a=\toks56
+\c@pgfplotstable@counta=\count375
+\t@pgfplotstable@a=\toks57
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.co
 de.tex)
@@ -2506,7 +2433,7 @@ tex))
 x)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfsh
 ading.code.tex
-\c@pgfplotslibrarysurf@no=\count375
+\c@pgfplotslibrarysurf@no=\count376
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
 ding.pgfsys-pdftex.def)))
@@ -2534,7 +2461,7 @@ ex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen345
 \pgfdecoratedinputsegmentremainingdistance=\dimen346
 \pgf@decorate@distancetomove=\dimen347
-\pgf@decorate@repeatstate=\count376
+\pgf@decorate@repeatstate=\count377
 \pgfdecorationsegmentamplitude=\dimen348
 \pgfdecorationsegmentlength=\dimen349
 )
@@ -2548,7 +2475,7 @@ orations.pathmorphing.code.tex))
 brarydecorations.pathreplacing.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
 orations.pathreplacing.code.tex))
-\pgfplots@numplots=\count377
+\pgfplots@numplots=\count378
 \pgfplots@xmin@reg=\dimen350
 \pgfplots@xmax@reg=\dimen351
 \pgfplots@ymin@reg=\dimen352
@@ -2572,7 +2499,7 @@ een.code.tex
 braryintersections.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.c
 ode.tex
-\pgf@intersect@solutions=\count378
+\pgf@intersect@solutions=\count379
 ))
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorati
 ons.softclip.code.tex
@@ -2699,7 +2626,7 @@ orations.markings.code.tex))
 brarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
-\tikz@lib@circ@count=\count379
+\tikz@lib@circ@count=\count380
 \tikzcircuitssizeunit=\dimen357
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/pgflibrar
@@ -2767,15 +2694,15 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen358
-\Hy@linkcounter=\count380
-\Hy@pagecounter=\count381
+\Hy@linkcounter=\count381
+\Hy@pagecounter=\count382
 
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count382
+\Hy@SavedSpaceFactor=\count383
 
 (c:/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -2787,7 +2714,7 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count383
+\c@Hy@tempcnt=\count384
 
 (c:/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -2795,7 +2722,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5088.
 \XeTeXLinkMargin=\dimen359
-\Fld@menulength=\count384
+\Fld@menulength=\count385
 \Field@Width=\dimen360
 \Fld@charsize=\dimen361
 Package hyperref Info: Hyper figures OFF on input line 6342.
@@ -2807,23 +2734,23 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count385
-\c@Item=\count386
-\c@Hfootnote=\count387
+\Hy@abspage=\count386
+\c@Item=\count387
+\c@Hfootnote=\count388
 )
 (c:/texlive/2016/texmf-dist/tex/latex/memoir/memhfixc.sty
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
-\c@memhycontfloat=\count388
-\c@Hpagenote=\count389
+\c@memhycontfloat=\count389
+\c@Hpagenote=\count390
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\Fld@listcount=\count390
-\c@bookmark@seq@number=\count391
+\Fld@listcount=\count391
+\c@bookmark@seq@number=\count392
 
 (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -2849,8 +2776,8 @@ LaTeX Info: Redefining \labelcpageref on input line 2230.
 Package cleveref Info: `subfig' support loaded on input line 2983.
 Package cleveref Info: no abbreviation of names on input line 7493.
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 118.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 118.
+Package hyperref Info: Option `colorlinks' set `false' on input line 122.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 122.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -2858,7 +2785,7 @@ Package: biblatex 2016/09/17 v3.6 programmable bibliographies (PK/JW/AB)
 
 (c:/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count392
+\lrq@indent=\count393
 
 (c:/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -2866,49 +2793,49 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (c:/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
 (c:/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write5
-\integerpart=\count393
-\decimalpart=\count394
+\integerpart=\count394
+\decimalpart=\count395
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count395
-\c@listtotal=\count396
-\c@listcount=\count397
-\c@liststart=\count398
-\c@liststop=\count399
-\c@citecount=\count400
-\c@citetotal=\count401
-\c@multicitecount=\count402
-\c@multicitetotal=\count403
-\c@instcount=\count404
-\c@maxnames=\count405
-\c@minnames=\count406
-\c@maxitems=\count407
-\c@minitems=\count408
-\c@citecounter=\count409
-\c@savedcitecounter=\count410
-\c@uniquelist=\count411
-\c@uniquename=\count412
-\c@refsection=\count413
-\c@refsegment=\count414
-\c@maxextratitle=\count415
-\c@maxextratitleyear=\count416
-\c@maxextrayear=\count417
-\c@maxextraalpha=\count418
-\c@abbrvpenalty=\count419
-\c@highnamepenalty=\count420
-\c@lownamepenalty=\count421
-\c@maxparens=\count422
-\c@parenlevel=\count423
-\blx@tempcnta=\count424
-\blx@tempcntb=\count425
-\blx@tempcntc=\count426
-\blx@maxsection=\count427
-\blx@maxsegment@0=\count428
-\blx@notetype=\count429
-\blx@parenlevel@text=\count430
-\blx@parenlevel@foot=\count431
-\blx@sectionciteorder@0=\count432
+\c@tabx@nest=\count396
+\c@listtotal=\count397
+\c@listcount=\count398
+\c@liststart=\count399
+\c@liststop=\count400
+\c@citecount=\count401
+\c@citetotal=\count402
+\c@multicitecount=\count403
+\c@multicitetotal=\count404
+\c@instcount=\count405
+\c@maxnames=\count406
+\c@minnames=\count407
+\c@maxitems=\count408
+\c@minitems=\count409
+\c@citecounter=\count410
+\c@savedcitecounter=\count411
+\c@uniquelist=\count412
+\c@uniquename=\count413
+\c@refsection=\count414
+\c@refsegment=\count415
+\c@maxextratitle=\count416
+\c@maxextratitleyear=\count417
+\c@maxextrayear=\count418
+\c@maxextraalpha=\count419
+\c@abbrvpenalty=\count420
+\c@highnamepenalty=\count421
+\c@lownamepenalty=\count422
+\c@maxparens=\count423
+\c@parenlevel=\count424
+\blx@tempcnta=\count425
+\blx@tempcntb=\count426
+\blx@tempcntc=\count427
+\blx@maxsection=\count428
+\blx@maxsegment@0=\count429
+\blx@notetype=\count430
+\blx@parenlevel@text=\count431
+\blx@parenlevel@foot=\count432
+\blx@sectionciteorder@0=\count433
 \labelnumberwidth=\skip290
 \labelalphawidth=\skip291
 \biblabelsep=\skip292
@@ -2918,83 +2845,83 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip296
 \blx@bcfin=\read4
 \blx@bcfout=\write6
-\c@mincomprange=\count433
-\c@maxcomprange=\count434
-\c@mincompwidth=\count435
+\c@mincomprange=\count434
+\c@maxcomprange=\count435
+\c@mincompwidth=\count436
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-dm.def)
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count436
-\c@savedafterword=\count437
-\c@annotator=\count438
-\c@savedannotator=\count439
-\c@author=\count440
-\c@savedauthor=\count441
-\c@bookauthor=\count442
-\c@savedbookauthor=\count443
-\c@commentator=\count444
-\c@savedcommentator=\count445
-\c@editor=\count446
-\c@savededitor=\count447
-\c@editora=\count448
-\c@savededitora=\count449
-\c@editorb=\count450
-\c@savededitorb=\count451
-\c@editorc=\count452
-\c@savededitorc=\count453
-\c@foreword=\count454
-\c@savedforeword=\count455
-\c@holder=\count456
-\c@savedholder=\count457
-\c@introduction=\count458
-\c@savedintroduction=\count459
-\c@namea=\count460
-\c@savednamea=\count461
-\c@nameb=\count462
-\c@savednameb=\count463
-\c@namec=\count464
-\c@savednamec=\count465
-\c@translator=\count466
-\c@savedtranslator=\count467
-\c@shortauthor=\count468
-\c@savedshortauthor=\count469
-\c@shorteditor=\count470
-\c@savedshorteditor=\count471
-\c@labelname=\count472
-\c@savedlabelname=\count473
-\c@institution=\count474
-\c@savedinstitution=\count475
-\c@lista=\count476
-\c@savedlista=\count477
-\c@listb=\count478
-\c@savedlistb=\count479
-\c@listc=\count480
-\c@savedlistc=\count481
-\c@listd=\count482
-\c@savedlistd=\count483
-\c@liste=\count484
-\c@savedliste=\count485
-\c@listf=\count486
-\c@savedlistf=\count487
-\c@location=\count488
-\c@savedlocation=\count489
-\c@organization=\count490
-\c@savedorganization=\count491
-\c@origlocation=\count492
-\c@savedoriglocation=\count493
-\c@origpublisher=\count494
-\c@savedorigpublisher=\count495
-\c@publisher=\count496
-\c@savedpublisher=\count497
-\c@language=\count498
-\c@savedlanguage=\count499
-\c@pageref=\count500
-\c@savedpageref=\count501
+\c@afterword=\count437
+\c@savedafterword=\count438
+\c@annotator=\count439
+\c@savedannotator=\count440
+\c@author=\count441
+\c@savedauthor=\count442
+\c@bookauthor=\count443
+\c@savedbookauthor=\count444
+\c@commentator=\count445
+\c@savedcommentator=\count446
+\c@editor=\count447
+\c@savededitor=\count448
+\c@editora=\count449
+\c@savededitora=\count450
+\c@editorb=\count451
+\c@savededitorb=\count452
+\c@editorc=\count453
+\c@savededitorc=\count454
+\c@foreword=\count455
+\c@savedforeword=\count456
+\c@holder=\count457
+\c@savedholder=\count458
+\c@introduction=\count459
+\c@savedintroduction=\count460
+\c@namea=\count461
+\c@savednamea=\count462
+\c@nameb=\count463
+\c@savednameb=\count464
+\c@namec=\count465
+\c@savednamec=\count466
+\c@translator=\count467
+\c@savedtranslator=\count468
+\c@shortauthor=\count469
+\c@savedshortauthor=\count470
+\c@shorteditor=\count471
+\c@savedshorteditor=\count472
+\c@labelname=\count473
+\c@savedlabelname=\count474
+\c@institution=\count475
+\c@savedinstitution=\count476
+\c@lista=\count477
+\c@savedlista=\count478
+\c@listb=\count479
+\c@savedlistb=\count480
+\c@listc=\count481
+\c@savedlistc=\count482
+\c@listd=\count483
+\c@savedlistd=\count484
+\c@liste=\count485
+\c@savedliste=\count486
+\c@listf=\count487
+\c@savedlistf=\count488
+\c@location=\count489
+\c@savedlocation=\count490
+\c@organization=\count491
+\c@savedorganization=\count492
+\c@origlocation=\count493
+\c@savedoriglocation=\count494
+\c@origpublisher=\count495
+\c@savedorigpublisher=\count496
+\c@publisher=\count497
+\c@savedpublisher=\count498
+\c@language=\count499
+\c@savedlanguage=\count500
+\c@pageref=\count501
+\c@savedpageref=\count502
 \shorthandwidth=\skip297
 \shortjournalwidth=\skip298
 \shortserieswidth=\skip299
@@ -3007,42 +2934,59 @@ Package biblatex Info: ... file 'blx-compat.def' found.
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2016/09/17 v3.6 biblatex compatibility (PK/JW/AB)
 )
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2016/09/17 v3.6 biblatex compatibility (PK/JW/AB)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
-
-(c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
+ (c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2016/09/17 v3.6 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count502
-\c@textcitetotal=\count503
-\c@textcitemaxnames=\count504
-\c@biburlnumpenalty=\count505
-\c@biburlucpenalty=\count506
-\c@biburllcpenalty=\count507
-\c@smartand=\count508
+\c@textcitecount=\count503
+\c@textcitetotal=\count504
+\c@textcitemaxnames=\count505
+\c@biburlnumpenalty=\count506
+\c@biburlucpenalty=\count507
+\c@biburllcpenalty=\count508
+\c@smartand=\count509
 )
-Package biblatex Info: Trying to load bibliography style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.bbx' found.
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
 
-(c:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
-File: alphabetic.bbx 2016/09/17 v3.6 biblatex bibliography style (PK/JW/AB)
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2016/09/17 v3.6 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2016/09/17 v3.6 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/09/17 v3.6 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count509
-\c@bbx:relatedtotal=\count510
+\c@bbx:relatedcount=\count510
+\c@bbx:relatedtotal=\count511
 ))
-Package biblatex Info: Trying to load citation style 'alphabetic'...
-Package biblatex Info: ... file 'alphabetic.cbx' found.
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
 
-(c:/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx
-File: alphabetic.cbx 2016/09/17 v3.6 biblatex citation style (PK/JW/AB)
+(c:/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2016/09/17 v3.6 biblatex citation style (PK/JW/AB)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
@@ -3054,18 +2998,14 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-)
-
-Package biblatex Warning: 'firstinits' option is deprecated, use 'giveninits' i
-nstead.
-
-) (c:/texlive/2016/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+))
+(c:/texlive/2016/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2016/10/12 v4.26 (NLCT)
 
 (c:/texlive/2016/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2016/07/31 v2.04 (NLCT)
-\@glsmfirst=\toks57
-\@glsmrest=\toks58
+\@glsmfirst=\toks58
+\@glsmrest=\toks59
 )
 (c:/texlive/2016/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -3080,7 +3020,7 @@ Package: datatool-base 2016/07/28 v2.27 (NLCT)
 
 (c:/texlive/2016/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count511
+\c@su@anzahl=\count512
 )
 (c:/texlive/2016/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2016/07/28 v2.27 (NLCT)
@@ -3091,19 +3031,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (c:/texlive/2016/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count512
+\actioncount=\count513
 )
 (c:/texlive/2016/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count513
-\FP@xia=\count514
-\FP@xib=\count515
-\FP@xfa=\count516
-\FP@xfb=\count517
-\FP@rega=\count518
-\FP@regb=\count519
-\FP@regs=\count520
-\FP@times=\count521
+\FP@xs=\count514
+\FP@xia=\count515
+\FP@xib=\count516
+\FP@xfa=\count517
+\FP@xfb=\count518
+\FP@rega=\count519
+\FP@regb=\count520
+\FP@regs=\count521
+\FP@times=\count522
 )
 (c:/texlive/2016/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -3122,7 +3062,7 @@ Package: fp-pas 1994/08/29
 )
 (c:/texlive/2016/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count522
+\FPseed=\count523
 )
 (c:/texlive/2016/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -3133,15 +3073,15 @@ Package: fp-upn 1996/10/21
 (c:/texlive/2016/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks59
-\@dtl@tmpcount=\count523
+\@dtl@toks=\toks60
+\@dtl@tmpcount=\count524
 \dtl@tmplength=\skip303
-\dtl@sortresult=\count524
-\@dtl@numgrpsepcount=\count525
-\@dtl@datatype=\count526
-\dtl@codeA=\count527
-\dtl@codeB=\count528
-\@dtl@foreach@level=\count529
+\dtl@sortresult=\count525
+\@dtl@numgrpsepcount=\count526
+\@dtl@datatype=\count527
+\dtl@codeA=\count528
+\dtl@codeB=\count529
+\@dtl@foreach@level=\count530
 )
 (c:/texlive/2016/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307
 .sty
@@ -3160,8 +3100,8 @@ Package glossaries Warning: No language module detected for `swedish'.
 (c:/texlive/2016/texmf-dist/tex/latex/glossaries-english/glossaries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count530
-\@gls@tmpb=\toks60
+\gls@level=\count531
+\@gls@tmpb=\toks61
 \gls@tmplen=\skip304
 
 
@@ -3171,10 +3111,10 @@ Package glossaries Warning: Overriding \printglossary on input line 5486.
 Package glossaries Warning: Overriding `theglossary' environment on input line 
 6136.
 
-\glskeylisttok=\toks61
-\glslabeltok=\toks62
-\glsshorttok=\toks63
-\glslongtok=\toks64
+\glskeylisttok=\toks62
+\glslabeltok=\toks63
+\glsshorttok=\toks64
+\glslongtok=\toks65
 (c:/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2016/10/12 v4.26 (NLCT)
 )
@@ -3192,7 +3132,7 @@ Package: glossary-super 2016/10/12 v4.26 (NLCT)
 
 (c:/texlive/2016/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count531
+\c@tracingst=\count532
 \ST@wd=\dimen362
 \ST@rightskip=\skip308
 \ST@leftskip=\skip309
@@ -3217,12 +3157,12 @@ Package: glossary-tree 2016/10/12 v4.26 (NLCT)
 \glo@acronym@file=\write8
 \openout8 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 147.
+Package glossaries Info: Writing glossary file main.acn on input line 157.
 
 (c:/texlive/2016/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
-\c@@todonotes@numberoftodonotes=\count532
+\c@@todonotes@numberoftodonotes=\count533
 )
 (c:/texlive/2016/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
@@ -3230,24 +3170,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (c:/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count533
-\c@Blindtext=\count534
-\c@blind@countparstart=\count535
-\blind@countxx=\count536
-\blindtext@numBlindtext=\count537
-\blind@countyy=\count538
-\c@blindlist=\count539
-\c@blindlistlevel=\count540
-\c@blindlist@level=\count541
-\blind@listitem=\count542
-\c@blind@listcount=\count543
-\c@blind@levelcount=\count544
-\blind@mathformula=\count545
-\blind@Mathformula=\count546
-\c@blind@randomcount=\count547
-\c@blind@randommax=\count548
-\c@blind@pangramcount=\count549
-\c@blind@pangrammax=\count550
+\c@blindtext=\count534
+\c@Blindtext=\count535
+\c@blind@countparstart=\count536
+\blind@countxx=\count537
+\blindtext@numBlindtext=\count538
+\blind@countyy=\count539
+\c@blindlist=\count540
+\c@blindlistlevel=\count541
+\c@blindlist@level=\count542
+\blind@listitem=\count543
+\c@blind@listcount=\count544
+\c@blind@levelcount=\count545
+\blind@mathformula=\count546
+\blind@Mathformula=\count547
+\c@blind@randomcount=\count548
+\c@blind@randommax=\count549
+\c@blind@pangramcount=\count550
+\c@blind@pangrammax=\count551
 )
 
 ******************************************************
@@ -3270,8 +3210,8 @@ Sidefootvsep and sidefootheight: 13.6pt and 539.9202pt
 ******************************************************
 
 (./commands.tex
-\c@dummy=\count551
-) (./backmatter/acronyms.tex) (./title.tex)
+\c@dummy=\count552
+) (./title.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -3291,83 +3231,66 @@ File: english.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
 No file main.aux.
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/pxmi/m/it on input line 315.
-LaTeX Font Info:    Try loading font information for OML+pxmi on input line 315
-.
-(c:/texlive/2016/texmf-dist/tex/latex/pxfonts/omlpxmi.fd
-File: omlpxmi.fd 2000/12/14 v1.0
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 325.
+LaTeX Font Info:    Try loading font information for OML+npxmi on input line 32
+5.
+(c:/texlive/2016/texmf-dist/tex/latex/newpx/omlnpxmi.fd
+File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for OMS/pxsy/m/n on input line 315.
-LaTeX Font Info:    Try loading font information for OMS+pxsy on input line 315
-.
-
-(c:/texlive/2016/texmf-dist/tex/latex/pxfonts/omspxsy.fd
-File: omspxsy.fd 2000/12/14 v1.0
-)
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for OMX/pxex/m/n on input line 315.
-LaTeX Font Info:    Try loading font information for OMX+pxex on input line 315
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 325.
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 325.
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 325.
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 325.
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 325.
+LaTeX Font Info:    Try loading font information for U+npxexa on input line 325
 .
 
-(c:/texlive/2016/texmf-dist/tex/latex/pxfonts/omxpxex.fd
-File: omxpxex.fd 2000/12/14 v1.0
+(c:/texlive/2016/texmf-dist/tex/latex/newpx/unpxexa.fd
+File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for U/pxexa/m/n on input line 315.
-LaTeX Font Info:    Try loading font information for U+pxexa on input line 315.
-
-
-(c:/texlive/2016/texmf-dist/tex/latex/pxfonts/upxexa.fd
-File: upxexa.fd 2000/12/14 v1.0
-)
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 315.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 315.
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 325.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 325.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 315.
-LaTeX Font Info:    Try loading font information for LMS+npxsy on input line 31
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 325.
+LaTeX Font Info:    Try loading font information for LMS+npxsy on input line 32
 5.
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/08/13 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 315.
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 325.
 LaTeX Font Info:    Try loading font information for LMX+npxexx on input line 3
-15.
+25.
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/08/13 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 315.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 315.
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 325.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 325.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2016/03/04 v1.1 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Try loading font information for T1+pxr on input line 315.
-
-(c:/texlive/2016/texmf-dist/tex/latex/pxfonts/t1pxr.fd
-File: t1pxr.fd 2000/12/14 v1.0
-)
-\c@mv@tabular=\count552
-\c@mv@boldtabular=\count553
-LaTeX Info: Redefining \microtypecontext on input line 315.
+LaTeX Font Info:    ... okay on input line 325.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 325.
+LaTeX Font Info:    ... okay on input line 325.
+\c@mv@tabular=\count553
+\c@mv@boldtabular=\count554
+LaTeX Info: Redefining \microtypecontext on input line 325.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2),
 (microtype)             factor: 1100.
@@ -3381,23 +3304,24 @@ Package microtype Info: Adjustment of interword spacing enabled.
 Package microtype Info: Using default spacing set `basictext'.
 Package microtype Info: Adjustment of character kerning enabled.
 Package microtype Info: Using default kerning set `alltext'.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `zpltlf' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
-(c:/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
-File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
-)
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count554
+\scratchcounter=\count555
 \scratchdimen=\dimen373
 \scratchbox=\box100
-\nofMPsegments=\count555
-\nofMParguments=\count556
-\everyMPshowfont=\toks65
-\MPscratchCnt=\count557
+\nofMPsegments=\count556
+\nofMParguments=\count557
+\everyMPshowfont=\toks66
+\MPscratchCnt=\count558
 \MPscratchDim=\dimen374
-\MPnumerator=\count558
-\makeMPintoPDFobject=\count559
-\everyMPtoPDFconversion=\toks66
+\MPnumerator=\count559
+\makeMPintoPDFobject=\count560
+\everyMPtoPDFconversion=\toks67
 ) (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -3415,6 +3339,18 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(c:/texlive/2016/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
 (c:/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-
 dictionary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
@@ -3425,11 +3361,20 @@ File: siunitx-abbreviations.cfg 2016/09/02 v2.6s siunitx: Abbreviated units
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `textgreek' on line 315.
+. Activating mapping `textgreek' on line 325.
 .................................................
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: End \AtBeginDocument code.
+\symgns@font=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/zpltlf/m/n --> TS1/zpltlf/bx/n on input line 325.
+Package gensymb Info: Math companion symbols declared on input line 325.
+LaTeX Info: Redefining \degree on input line 325.
+LaTeX Info: Redefining \celsius on input line 325.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 325.
+LaTeX Info: Redefining \ohm on input line 325.
+Package gensymb Info: Using \textohm for \ohm on input line 325.
+LaTeX Info: Redefining \micro on input line 325.
+Package gensymb Info: Using \textmu for \micro on input line 325.
 \AtBeginShipoutBox=\box101
 
 (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -3444,113 +3389,154 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.14} (current compat level: 1.10).
 
-Package hyperref Info: Link coloring OFF on input line 315.
+Package hyperref Info: Link coloring OFF on input line 325.
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count560
+\c@section@level=\count561
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 315.
-LaTeX Info: Redefining \ref on input line 315.
-LaTeX Info: Redefining \pageref on input line 315.
-LaTeX Info: Redefining \nameref on input line 315.
+LaTeX Info: Redefining \nameref on input line 325.
+LaTeX Info: Redefining \ref on input line 325.
+LaTeX Info: Redefining \pageref on input line 325.
+LaTeX Info: Redefining \nameref on input line 325.
 \@outlinefile=\write9
 \openout9 = `main.out'.
 
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout6 = `main.bcf'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout6 = `main-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 315.
-Package biblatex Info: Reference segment=0 on input line 315.
-\c__siunitx_mathsf_int=\count561
-LaTeX Font Info:    Try loading font information for OT1+pxr on input line 315.
-
-(c:/texlive/2016/texmf-dist/tex/latex/pxfonts/ot1pxr.fd
-File: ot1pxr.fd 2000/12/14 v1.0
+Package biblatex Info: ... file 'main.bbl' found.
+(./main.bbl)
+Package biblatex Info: Reference section=0 on input line 325.
+Package biblatex Info: Reference segment=0 on input line 325.
+\c__siunitx_mathsf_int=\count562
+LaTeX Font Info:    Try loading font information for OT1+zpltlf on input line 3
+25.
+ (c:/texlive/2016/texmf-dist/tex/latex/newpx/ot1zpltlf.fd
+File: ot1zpltlf.fd 2015/01/17 v1.0 font definition file for OT1/zpl/tlf
 )
-LaTeX Font Info:    Try loading font information for U+pxmia on input line 315.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 325.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `zpltlf' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 325.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 6.1pt on input line 325.
+LaTeX Font Info:    Try loading font information for U+msa on input line 325.
 
-
-(c:/texlive/2016/texmf-dist/tex/latex/pxfonts/upxmia.fd
-File: upxmia.fd 2000/12/14 v1.0
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+npxsym on input line 315
+(c:/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 325.
+
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(c:/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+npxmia on input line 325
+.
+
+(c:/texlive/2016/texmf-dist/tex/latex/newpx/unpxmia.fd
+File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
+)
+LaTeX Font Info:    Try loading font information for U+npxsym on input line 325
 .
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 )
-LaTeX Font Info:    Try loading font information for U+pxsyc on input line 315.
-
-
-(c:/texlive/2016/texmf-dist/tex/latex/pxfonts/upxsyc.fd
-File: upxsyc.fd 2000/12/14 v1.0
-)
-LaTeX Font Info:    Try loading font information for U+npxexa on input line 315
+LaTeX Font Info:    Try loading font information for U+npxsyc on input line 325
 .
 
-(c:/texlive/2016/texmf-dist/tex/latex/newpx/unpxexa.fd
-File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
+(c:/texlive/2016/texmf-dist/tex/latex/newpx/unpxsyc.fd
+File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
-LaTeX Font Info:    Try loading font information for U+pxsya on input line 315.
+LaTeX Font Info:    Try loading font information for TS1+zpltlf on input line 3
+25.
 
-
-(c:/texlive/2016/texmf-dist/tex/latex/pxfonts/upxsya.fd
-File: upxsya.fd 2000/12/14 v1.0
+(c:/texlive/2016/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
+File: ts1zpltlf.fd 2015/01/18 v1.0 fd file for TS1/zpltlf
 )
-LaTeX Font Info:    Try loading font information for U+pxsyb on input line 315.
-
-
-(c:/texlive/2016/texmf-dist/tex/latex/pxfonts/upxsyb.fd
-File: utxsyb.fd 2000/12/14 v1.0
-)
-Missing character: There is no ¹ in font pxsy!
-LaTeX Font Info:    Try loading font information for OT1+pxss on input line 315
-.
-
-(c:/texlive/2016/texmf-dist/tex/latex/pxfonts/ot1pxss.fd
-File: ot1pxss.fd 2000/12/14 v1.0
-)
+LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 325.
 Package microtype Info: Loading generic settings for font family
-(microtype)             `pxss' (encoding: OT1).
+(microtype)             `zpltlf' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count562
-LaTeX Font Info:    Try loading font information for OT1+pxtt on input line 315
-.
+LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 325.
+LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
+(Font)              scaled to size 6.1pt on input line 325.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 325.
 
-(c:/texlive/2016/texmf-dist/tex/latex/pxfonts/ot1pxtt.fd
-File: ot1pxtt.fd 2000/12/14 v1.0
+(c:/texlive/2016/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
+File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 10.29301pt on input line 325.
 Package microtype Info: Loading generic settings for font family
-(microtype)             `pxtt' (encoding: OT1).
+(microtype)             `qhv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 7.52002pt on input line 325.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 5.73401pt on input line 325.
+\c__siunitx_mathtt_int=\count563
+LaTeX Font Info:    Try loading font information for T1+npxtt on input line 325
+.
+
+(c:/texlive/2016/texmf-dist/tex/latex/newpx/t1npxtt.fd
+File: t1npxtt.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
+(Font)              scaled to size 10.95pt on input line 325.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `npxtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
+(Font)              scaled to size 8.0pt on input line 325.
+LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
+(Font)              scaled to size 6.1pt on input line 325.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 20.74pt on input line 334.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 14.4pt on input line 334.
 
 <./figures/MIUN_logotyp.png, id=7, 243.309pt x 115.632pt>
 File: ./figures/MIUN_logotyp.png Graphic file (type png)
 
 <use ./figures/MIUN_logotyp.png>
-Package pdftex.def Info: ./figures/MIUN_logotyp.png used on input line 324.
+Package pdftex.def Info: ./figures/MIUN_logotyp.png used on input line 334.
 (pdftex.def)             Requested size: 163.5pt x 77.70593pt.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 324.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 324.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 324.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 324.
+(babel)             in language  on input line 334.
  [1
 
 \openout7 = `main.ist'.
@@ -3558,23 +3544,28 @@ Package babel Info: Redefining swedish shorthand "~
 
 {c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figures/MIUN_
 logotyp.png>] (./frontmatter/statement.tex
-LaTeX Font Info:    Try loading font information for TS1+pxr on input line 17.
-
-(c:/texlive/2016/texmf-dist/tex/latex/pxfonts/ts1pxr.fd
-File: ts1pxr.fd 2000/12/14 v1.0
-))
+LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 5.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 9.
+)
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 327.
+(babel)             in language  on input line 337.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 327.
+(babel)             in language  on input line 337.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 327.
+(babel)             in language  on input line 337.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 327.
- [2
+(babel)             in language  on input line 337.
 
-]
-(./frontmatter/dedication.tex) (./frontmatter/en_abstract.tex [3
+[2
+
+] (./frontmatter/dedication.tex) (./frontmatter/en_abstract.tex
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 4.
+ [3
 
 ] [4
 
@@ -3608,13 +3599,13 @@ Package babel Info: Redefining swedish shorthand "~
 (babel)             in language  on input line 6.
 )
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 347.
+(babel)             in language  on input line 357.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 347.
+(babel)             in language  on input line 357.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 347.
+(babel)             in language  on input line 357.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 347.
+(babel)             in language  on input line 357.
  [7] [8
 
 ] [9
@@ -3623,43 +3614,20 @@ Package babel Info: Redefining swedish shorthand "~
 
 ]
 (./frontmatter/listofpapers.tex
-
-LaTeX Warning: Reference `pap:paper1' on page xi undefined on input line 31.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-
- []
+LaTeX Font Info:    Font shape `T1/zpltlf/m/sc' will be
+(Font)              scaled to size 10.95pt on input line 33.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-
- []
+LaTeX Warning: Reference `pap:paper1' on page xi undefined on input line 35.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-
- []
+LaTeX Warning: Reference `pap:paper2' on page xi undefined on input line 39.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-
- []
+LaTeX Warning: Reference `pap:paper3' on page xi undefined on input line 43.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
-
- []
+LaTeX Warning: Reference `pap:paper4' on page xi undefined on input line 47.
 
 ) (./frontmatter/acknowledgment.tex) [11
 
@@ -3667,93 +3635,214 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
 ] [12
 
 ] (./chapters/introduction.tex
-Missing character: There is no ¹ in font pxsy!
+[1
+
+] [2]) (./chapters/theory.tex [3] [4
+
+]
+<./figures/freezing_droplets.jpg, id=146, 796.9775pt x 386.44376pt>
+File: ./figures/freezing_droplets.jpg Graphic file (type jpg)
+
+<use ./figures/freezing_droplets.jpg>
+Package pdftex.def Info: ./figures/freezing_droplets.jpg used on input line 16.
+
+(pdftex.def)             Requested size: 261.601pt x 126.84282pt.
+ [5 <./figures/freezing_droplets.jpg>]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 23.
+
+[6] [7] [8]) (./chapters/methods.tex [9] [10
+
+]
+Underfull \vbox (badness 5504) has occurred while \output is active []
+
+ [11]
+LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 18.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 18.
+
+<figures/compare455nmdot.jpg, id=246, 96.36pt x 96.36pt>
+File: figures/compare455nmdot.jpg Graphic file (type jpg)
+
+<use figures/compare455nmdot.jpg>
+Package pdftex.def Info: figures/compare455nmdot.jpg used on input line 26.
+(pdftex.def)             Requested size: 98.101pt x 98.1006pt.
+
+<figures/compare850nmdot.jpg, id=247, 96.36pt x 96.36pt>
+File: figures/compare850nmdot.jpg Graphic file (type jpg)
+
+<use figures/compare850nmdot.jpg>
+Package pdftex.def Info: figures/compare850nmdot.jpg used on input line 32.
+(pdftex.def)             Requested size: 98.101pt x 98.1006pt.
+
+<figures/spektralanalys_mightex455nm.jpg, id=248, 562.1pt x 421.575pt>
+File: figures/spektralanalys_mightex455nm.jpg Graphic file (type jpg)
+
+<use figures/spektralanalys_mightex455nm.jpg>
+Package pdftex.def Info: figures/spektralanalys_mightex455nm.jpg used on input 
+line 43.
+(pdftex.def)             Requested size: 196.202pt x 147.1482pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1
+ [12 <./figures/compare455nmdot.jpg> <./figures/compare850nmdot.jpg>]
 
-]
-[2]) (./chapters/theory.tex [3] [4
+LaTeX Warning: Reference `fig:50umdot40x' on page 1 undefined on input line 63.
 
-]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 9.
- [5] [6]
-<figures/freezing_droplets.jpg, id=106, 796.9775pt x 386.44376pt>
-File: figures/freezing_droplets.jpg Graphic file (type jpg)
 
-<use figures/freezing_droplets.jpg>
-Package pdftex.def Info: figures/freezing_droplets.jpg used on input line 52.
-(pdftex.def)             Requested size: 196.202pt x 95.13654pt.
- [7]) (./chapters/methods.tex [8 <./figures/freezing_droplets.jpg>] [9
+[13 <./figures/spektralanalys_mightex455nm.jpg>]
+<./figures/50umdot40x.jpg, id=269, 130.086pt x 55.6479pt>
+File: ./figures/50umdot40x.jpg Graphic file (type jpg)
 
-]
-<figures/Foto0169.jpg, id=133, 1606.0pt x 1204.5pt>
+<use ./figures/50umdot40x.jpg>
+Package pdftex.def Info: ./figures/50umdot40x.jpg used on input line 66.
+(pdftex.def)             Requested size: 245.25pt x 104.91777pt.
+
+
+LaTeX Warning: Reference `tab:ref_meas' on page 1 undefined on input line 71.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 75.
+
+LaTeX Font Info:    Try loading font information for T1+zpltlf-LF on input line
+ 75.
+No file T1zpltlf-LF.fd.
+LaTeX Font Info:    Try loading font information for T1+zpltlfx on input line 7
+5.
+No file T1zpltlfx.fd.
+LaTeX Font Info:    Try loading font information for T1+zpltlf-TLF on input lin
+e 75.
+No file T1zpltlf-TLF.fd.
+
+Overfull \hbox (48.0pt too wide) in paragraph at lines 75--91
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig:shadowprinc' on page 1 undefined on input line 98
+.
+
+[14 <./figures/50umdot40x.jpg>]
+<./figures/shadowprinc.jpg, id=276, 443.6575pt x 99.37125pt>
+File: ./figures/shadowprinc.jpg Graphic file (type jpg)
+
+<use ./figures/shadowprinc.jpg>
+Package pdftex.def Info: ./figures/shadowprinc.jpg used on input line 103.
+(pdftex.def)             Requested size: 245.25pt x 54.93031pt.
+
+<figures/Foto0169.jpg, id=277, 1606.0pt x 1204.5pt>
 File: figures/Foto0169.jpg Graphic file (type jpg)
  <use figures/Foto0169.jpg>
-Package pdftex.def Info: figures/Foto0169.jpg used on input line 34.
-(pdftex.def)             Requested size: 196.202pt x 147.1436pt.
+Package pdftex.def Info: figures/Foto0169.jpg used on input line 109.
+(pdftex.def)             Requested size: 245.25pt x 183.93869pt.
 
-[10 <./figures/Foto0169.jpg>] [11]
-<figures/DSC_0103.jpg, id=146, 3854.4pt x 2168.1pt>
-File: figures/DSC_0103.jpg Graphic file (type jpg)
- <use figures/DSC_0103.jpg>
-Package pdftex.def Info: figures/DSC_0103.jpg used on input line 61.
-(pdftex.def)             Requested size: 196.202pt x 110.36322pt.
-LaTeX Font Info:    Try loading font information for T1+pxr-TLF on input line 7
-1.
+<figures/cam_housings.jpg, id=278, 3508.10625pt x 1722.435pt>
+File: figures/cam_housings.jpg Graphic file (type jpg)
 
-No file T1pxr-TLF.fd.
-LaTeX Font Info:    Try loading font information for T1+pxrx on input line 71.
-No file T1pxrx.fd.
-Missing character: There is no 5 in font pxmia!
-Missing character: There is no 5 in font pxmia!
-Missing character: There is no ý in font pxmia!
+<use figures/cam_housings.jpg>
+Package pdftex.def Info: figures/cam_housings.jpg used on input line 114.
+(pdftex.def)             Requested size: 245.25pt x 120.39879pt.
+ [15 <./figures/shadowprinc.jpg> <./figures/Foto0169.jpg>]
+Underfull \vbox (badness 1194) has occurred while \output is active []
 
-LaTeX Warning: Reference `fig:pixel_matrix' on page 1 undefined on input line 8
-2.
+ [16 <./figures/cam_housings.jpg>]
+LaTeX Font Info:    Try loading font information for LGR+zpltlf on input line 1
+36.
+LaTeX Font Info:    No file LGRzpltlf.fd. on input line 136.
 
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 82.
-) (./chapters/discussion.tex [12 <./figures/DSC_0103.jpg>]
 
-LaTeX Warning: Command \textlambda invalid in math mode on input line 25.
-
-LaTeX Font Info:    Try loading font information for LGR+pxr on input line 25.
-LaTeX Font Info:    No file LGRpxr.fd. on input line 25.
-
-LaTeX Font Warning: Font shape `LGR/pxr/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 25.
+LaTeX Font Warning: Font shape `LGR/zpltlf/m/n' undefined
+(Font)              using `LGR/cmr/m/n' instead on input line 136.
 
 (c:/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
-) [13
+)
 
-] [14])
-(./chapters/conclusion.tex [15] [16
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 139.
 
-]) [17] [18
 
-]
-No file main.acr.
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 142.
 
-LaTeX Warning: Empty bibliography on input line 383.
+[17]
 
-(./papers/paper1.tex [19] [20
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 146.
 
-] [21] [22
 
-])
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 150.
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 292.
+[18]
+
+LaTeX Warning: Reference `eq:5' on page 1 undefined on input line 169.
+
+[19]
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 173.
+
+<figures/DSC_0103.jpg, id=329, 3854.4pt x 2168.1pt>
+File: figures/DSC_0103.jpg Graphic file (type jpg)
+ <use figures/DSC_0103.jpg>
+Package pdftex.def Info: figures/DSC_0103.jpg used on input line 183.
+(pdftex.def)             Requested size: 245.25pt x 137.92093pt.
+
+
+LaTeX Warning: Reference `fig:installation1' on page 20 undefined on input line
+ 188.
+
+[20]
+
+LaTeX Warning: Reference `fig:installation3' on page 1 undefined on input line 
+190.
+
+<figures/installation3.jpg, id=337, 3854.4pt x 2168.1pt>
+File: figures/installation3.jpg Graphic file (type jpg)
+
+<use figures/installation3.jpg>
+Package pdftex.def Info: figures/installation3.jpg used on input line 193.
+(pdftex.def)             Requested size: 245.25pt x 137.92093pt.
+
+<figures/installation1.jpg, id=338, 2561.57pt x 2031.59pt>
+File: figures/installation1.jpg Graphic file (type jpg)
+
+<use figures/installation1.jpg>
+Package pdftex.def Info: figures/installation1.jpg used on input line 199.
+(pdftex.def)             Requested size: 245.25pt x 194.49103pt.
+) (./chapters/discussion.tex [21 <./figures/DSC_0103.jpg> <./figures/installati
+on3.jpg>] [22 <./figures/installation1.jpg>]
+
+LaTeX Warning: Command \textlambda invalid in math mode on input line 33.
+
+[23
+
+] [24] [25]) (./chapters/conclusion.tex [26] [27
+
+]) [28] [29
+
+] [30] [31]
+[32]
+Overfull \hbox (0.9799pt too wide) in paragraph at lines 393--393
+\T1/zpltlf/m/n/10.95 (-20) speed LED driver for vis-i-ble light com-mu-ni-ca-ti
+ons with drawing-
+ []
+
+[33]
+
+Package caption Warning: Unused \captionsetup[subfigure] on input line 302.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[figure] on input line 293.
-See the caption package documentation for explanation.
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
 
+[34]
 \tf@toc=\write10
 \openout10 = `main.toc'.
 
@@ -3763,11 +3852,11 @@ See the caption package documentation for explanation.
 \tf@lot=\write12
 \openout12 = `main.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 391.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 391.
-(./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 391.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 391.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 404.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 404.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 404.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 404.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -3776,7 +3865,7 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  0794E295D4733097B03C7D1D578FE026;1467.
+(rerunfilecheck)             After:  A9C8F68B75DB4B95AFDCE6F31EB0461A;2183.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3787,7 +3876,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
-Package biblatex Warning: Please (re)run Biber on the file:
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
 (biblatex)                and rerun LaTeX afterwards.
 
@@ -3796,28 +3885,32 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 67475 strings out of 493013
- 1465446 string characters out of 6136992
- 2100348 words of memory out of 5000000
- 69542 multiletter control sequences out of 15000+600000
- 70393 words of font info for 277 fonts, out of 8000000 for 9000
+ 67843 strings out of 493013
+ 1478974 string characters out of 6136992
+ 2071595 words of memory out of 5000000
+ 69904 multiletter control sequences out of 15000+600000
+ 86830 words of font info for 179 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 63i,12n,96p,10417b,1761s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2016/texm
-f-dist/fonts/type1/public/pxfonts/pxex.pfb><c:/texlive/2016/texmf-dist/fonts/ty
-pe1/public/pxfonts/pxsy.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/pxfo
-nts/pxsyb.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/pxfonts/rpcxr.pfb>
-<c:/texlive/2016/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb><c:/texlive/20
-16/texmf-dist/fonts/type1/public/pxfonts/rpxr.pfb><c:/texlive/2016/texmf-dist/f
-onts/type1/public/pxfonts/rpxsc.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw
-/helvetic/uhvr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvro
-8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texl
-ive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2016/texmf-
-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (34 pages, 3706654 bytes).
+ 64i,13n,111p,10417b,2902s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/
+2016/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc}{c:/texlive/2016/texmf-dist/f
+onts/enc/dvips/base/8r.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/nt
+x-ot1-tlf.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.e
+nc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}<c:/texlive/2
+016/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb><c:/texlive/2016/texmf-d
+ist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2016/texmf-dist/fonts/type1/
+public/tex-gyre/qplr.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/pxfonts
+/rpxmi.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/t
+exlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2016/tex
+mf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2016/texmf-dist/fonts/
+type1/urw/palatino/uplri8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/n
+ewpx/zplb.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:
+/texlive/2016/texmf-dist/fonts/type1/public/newpx/zplri.pfb><c:/texlive/2016/te
+xmf-dist/fonts/type1/public/newpx/zplx-regular.pfb>
+Output written on main.pdf (46 pages, 8248066 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 218 compressed objects within 3 object streams
- 81 named destinations out of 1000 (max. 500000)
- 55329 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 534 PDF objects out of 1000 (max. 8388607)
+ 442 compressed objects within 5 object streams
+ 175 named destinations out of 1000 (max. 500000)
+ 34377 words of extra memory for PDF output out of 35830 (max. 10000000)
 

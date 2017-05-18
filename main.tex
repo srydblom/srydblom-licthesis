@@ -12,7 +12,7 @@
 \usepackage{fixltx2e}							%this package fixes some bugs in latex in case you have problems. I needed to use it in my thesis but don't remember for what
 
 \usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
+\usepackage[utf8x]{inputenc}
 
 \usepackage{etoolbox}
 
@@ -23,8 +23,9 @@
 \usepackage{nicefrac}
 
 % -- Graphics & Fonts & Colors
+\usepackage{amssymb}
 \usepackage{newpxtext,newpxmath}			% palatino (MIUN,serif)
-\usepackage{amsmath, pxfonts}				% palatino math
+%\usepackage{amsmath, pxfonts}				% palatino math
 %\usepackage{gillius}						% gill sans (MIUN, sans)
 \usepackage{helvet}							% helvetica as sans font
 
@@ -56,8 +57,10 @@
 % useful extensions
 \usepackage{makeidx}				
 
-%\usepackage{caption}                       % configure captions
+\usepackage{caption}                       % configure captions
+%\usepackage{subcaption}
 \usepackage{wrapfig}                        % wraps figure with text
+\usepackage{float} 			% allows floating objects
 %\usepackage[printonlyused]{acronym}        % print list of acronyms
 \usepackage{booktabs}                       % beautify tables
 \usepackage{multirow}                       % multiple rows in tables
@@ -76,6 +79,7 @@
 %\usepackage{rotating}
 \usepackage{longtable}
 \usepackage{tabu}
+\usepackage{gensymb}
 
 \usepackage{enumitem}
 % redefine the description environment
@@ -89,6 +93,7 @@
 \usepackage{pdfpages}						% helps including pdf
 \usepackage{tikz}							% graph drawing
 \usepackage{pgfplots}						% plot in tikz
+\pgfplotsset{compat=1.14}
 \input{tikzstyles}
 %\tikzifexternalizing{% compile pgf only when it changes
 %% don't include package XYZ here
@@ -117,26 +122,32 @@
     	urlbordercolor = 1. 1. 1.           % frame around urls->white 
 }
 
-\usepackage[backend=biber,                  % configures bibliography, use biber
-            style=alphabetic,
-            maxcitenames=3,
-            maxbibnames=5,
-            firstinits=true,
-            url=false,
-            isbn=false,
-            autolang=other
-            ]{biblatex}
-%    \appto{\bibsetup}{\raggedright}        
-    \DeclareSourcemap{% used for mapping language to hyphnation in bibtex 
-        \maps{
-            \map{
-                \step[fieldsource=language, fieldset=langid, origfieldval, final]
-                \step[fieldset=language, null]
-            }
-        }
-    }
+\usepackage[style=numeric,natbib=true,backend=bibtex8]{biblatex}
+\addbibresource{./backmatter/licbib170505.bib}%{./backmatter/ref170411.bib}
+%------------------------
+%\usepackage[backend=biber,                  % configures bibliography, use biber
+%            style=alphabetic,
+%            maxcitenames=3,
+%            maxbibnames=5,
+%            firstinits=true,
+%            url=false,
+%            isbn=false,
+%            autolang=other
+%            ]{biblatex}
+%%-------------------------
+%%    \appto{\bibsetup}{\raggedright}        
+%    \DeclareSourcemap{% used for mapping language to hyphnation in bibtex 
+%        \maps{
+%            \map{
+%                \step[fieldsource=language, fieldset=langid, origfieldval, final]
+%                \step[fieldset=language, null]
+%            }
+%        }
+%    }
 %}            
-\bibliography{./backmatter/phd} %folder added by WW 02/05/12
+
+
+%\bibliography{./backmatter/reflib170328} 
 
 \usepackage[nomain,%
             nopostdot,%
@@ -301,7 +312,7 @@
 %\glsdefmain{main}
 %\makeglossaries
 %\input{./backmatter/glossary} %folder added by WW 02/05/12
-\input{./backmatter/acronyms} %folder added by WW 02/05/12
+%\input{./backmatter/acronyms} %folder added by WW 02/05/12
 
 
 %
@@ -375,18 +386,21 @@
 \input{./chapters/conclusion}
 %
 % -- start the final content -------------------------------
-\backmatter
+%\backmatter
 
-\glsaddall
-\printglossary[style=list, type=\acronymtype, title=Acronyms]
+%\glsaddall
+%\printglossary[style=list, type=\acronymtype, title=Acronyms]
 
 \printbibliography[heading=bibintoc]
 \bibintoc
-% Insert shims and publications (added by WW 02/05/12)
-% shims in tikz (added by DK 17/11/14)
-\input{./papers/paper1} %note: My solution for the shims is not elegant, but it got the job done. Not sure this is the best solution for the template though. WW
+
+%\input{./backmatter/s}
 
 
+%\input{./papers/paper1} %note: My solution for the shims is not elegant, but it got the job done. Not sure this is the best solution for the template though. WW
+%\input{./papers/paper2}
+%\input{./papers/paper3}
+%\input{./papers/paper4}
 
 \end{document}
 
