@@ -5,15 +5,15 @@
 \chapter{Materials, Methods and Unpublished Results}
 \label{chap:methods}
 
-The work begun with some initial tests, where we experimented using different light sources and illumination angles. We then decided to continue using a shadowgraph system with background illumination. The experimental setup was tested using different water droplet generators and a test target consisting of micrometer sized lines and dots. Analyzing the optical system and testing different segmentation algorithms we found a simple way to define the sample volume from a single image. Using the Laplacian of Gaussian edge detection, which principally is a second derivation of the image intensity gradient, and a suitable threshold, we can create closed curves around objects where the edge is in or near focus. To test the ability of measuring concentration we needed to build a weather protected prototype that could be used in parallell with a second instrument. The prototype needed to be fully automatic, able to analyze images in real time 24 hours a day during several months and store the results in a compressed format. To calibrate the size measurement and the measurement range, the previously mentioned dots of different sizes were used. The size measurement was also verified using distributions polymer microspheres, applied by blowing compressed air through a glass dispenser.
+The work begun with some initial tests, in which different light sources and illumination angles were investigated. It was decided to use a shadowgraph system with background illumination. The experimental setup was tested using different water droplet generators and a test target consisting of micrometer sized lines and dots. Analyzing the optical system and testing different segmentation algorithms we found a simple way to define the sample volume from a single image. Using the Laplacian of Gaussian edge detection, which principally is a second derivation of the image intensity gradient, and a suitable threshold, we can create closed curves around objects where the edge is in or near focus. To test the ability of measuring concentration we needed to build a weather protected prototype that could be used in parallell with a second instrument. The prototype needed to be fully automatic, able to analyze images in real time 24 hours a day during several months and store the results in a compressed format. To calibrate the size measurement and the measurement range, the previously mentioned dots of different sizes were used. The size measurement was also verified using distributions polymer microspheres, applied by blowing compressed air through a glass dispenser.
 
 \section{Image Segmentation}
 
-Edge detection can be done in several ways. The simplest method is to use a threshold at a fixed level and define the edge as the transition between above and below that threshold \cite{gonz2002}. Other techniques use different methods to measure the gradient of the change in intensity \cite{canny1986,marr1980}.
+Detection can be done in several ways. The simplest method is to use a threshold at a fixed level and define the edge as the transition between above and below that threshold \cite{gonz2002}. This technique is Other techniques use different methods to measure the gradient of the change in intensity \cite{canny1986,marr1980}.
 
-\section{Starting Studies}
+\section{Optical Characteristica}
 
-We describe the measured droplets as spherical lenses made of pure water at a constant temperature, surrounded by air. 
+As simplificaiton we describe the measured droplets as spherical lenses made of pure water at a constant temperature, surrounded by air. 
 
 \subsection{Light Spectrum}
 
@@ -37,29 +37,88 @@ Although water is a good absorber of electromagnetic ratiation in most spectral 
 \label{fig:comparedots}
 \end{figure}
 
-One would expect diffraction patterns depending on the spectral bandwith of the light source. The narrower band width the stronger the diffraction would be. A spectrum analyze of the LED showed that the coherence length of the blue LED is about 6.8 μm.
+One would expect diffraction patterns depending on the spectral bandwith of the light source. The narrower band width the stronger the diffraction would be. A spectrum analyze of the LED showed that the coherence length of the blue LED is about 6.8 μm. Therefore the spectrum was measured using a spectrum analyzer. The result can be seen in Figure \ref{fig:ledspectrum}
 
-\begin{figure}[ht]
+\begin{figure}%[ht]
 \centering\includegraphics[width=0.6\linewidth]{figures/spektralanalys_mightex455nm}
 \caption{Spectrum of the Mightex 455nm LED using two different driving currents. The band width is slightly wider for the higher current.}
+\label{fig:ledspectrum}
 \end{figure}
 
 \subsection{Laser Light}
 
+Using coherent light for imaging means that the effects of interference patterns will dominate the image of small particles. This is e.g. used when reconstructing images in holographic imaging instruments mentioned in section \ref{sec:relwork}. Laser illumination was tried used using two wavelengths, 450 and 850 nm. The images using laser illuminating the sample from an angle 
+
 \subsection{Image Noise}
 
+The total image noise was first measured using the whole image using the 455nm LED light, resulting in a variation coefficient of about nine percent.
+
+The idea came that we should be able to measure the signal to noise relation, if the shadow image of the droplet is represents the signal. This signal to noise ratio (SNR) could possibly be used to increase the accuracy of the measurement. A function was created that calculates the noise level locally around each analyzed droplet image. A correlation could be seen between the SNR and the corresponding measuring range, resulting in an increased sampling volume for higher SNR. This relation has not been implemented in the LWC calculation for the prototype instrument yet.
+
+The SNR for a ten micrometer dot image was compared for the different available gain level settings in the image sensor. This measurement was done using both the 455 and the 850 nm illumination. The result can be seen in Figure \ref{fig:noisegain}.
+
+\begin{figure}%[ht]
+\centering\includegraphics[width=0.6\linewidth]{figures/NoiseGain}
+\caption{SNR for a ten micrometer dot image using two wavelengths and seven gain level settings. Shorter wavelength and lower gain gives less noise.}
+\label{fig:noisegain}
+\end{figure}
+
+\subsection{Ambient Light}
+
+In daylight, there is always some ambient light. Although the camera is never aimed direclty at the sun and the system make use of a telecentric lens we wanted to be sure that this light is not enough to affect the measurement. To get an idéa about the amount of ambient light the camera and lens was tested alone in daylight, using a fog generator in front of the lens to reflect light into the lens. 
+
+The shortest possible exposure time according to the camera specification is 0.038 ms, slightly depending on other camera settings. For each measurement 152 images were captured, with increasing exposure time from 0.040635 to 1.988535 ms. A delay of 1 second was set between each image. Figure \ref{fig:ambientlight} shows the mean pixel value and the standard deviation of the value for one of the measurements at 22000 lux ambient light.
+
+\begin{figure}%[ht]
+\centering\includegraphics[width=0.6\linewidth]{figures/Amblight22000lux}
+\caption{Mean pixel value and standard deviation of ambient for a light measurement at 22000 lux.}
+\label{fig:ambientlight}
+\end{figure}
+
+Using this setup it was found that an exposure time of at least one second is needed to give a signal that is comparable to the noise level in a normal exposure. In order to image small droplets, the exposure time needs to be less than one μs, preferrably less. This difference is greater than the 8-bit pixel resolution used ($2^8=256$).
+
 \subsection{Light Sensitivity Measurement}
+
+The illumination energy required to get a good exposure for each of the eight gain setting levels is shown in Fig. 9. 34 nJ is required for the area in view (7.8 $mm^2$) for the lowest gain setting, which results in the highest SNR. The area in view is about 8 times smaller than the illuminated area of the collimated LED, which was measured to about 8x8 mm. 
+
+\begin{figure}[ht]
+\centering\includegraphics[width=0.75\linewidth]{figures/Energy_per_gain_level2}
+\caption{Light energy ($nJ$) for exposure in each of the eight gain levels used. The energy was tuned manually up to a level of high exposure, but not saturating any point in the image.}
+\end{figure}
+
+
+\section{Design Considerations}
 
 \subsection{Speed of Light Flash}
 
 A value of both MVD and LWC can be derived from a series of images and since the number of measured droplets will depend on the concentration, the accuracy and precision will depend on the number of samples from the total population of droplets. 
 
+The illuminative power required to get a good exposure is tested.
 
-We also investigate the illuminative power required to get a good exposure with the tested system at a targeted maximum wind speed of 50 m/s.
+\section{Calibration and Validation of the Calibration}
 
-\section{Design Considerations}
+The system is calibrated using a stage micrometer scale with 13 circular dots printed in chrome on a silicon glass. The dots range from 2 to 100 μm in diameter. Each dot is moved linearly in steps of one micrometer in the direction orthogonal to the lenses, thus creating a function where the gradient of the edge depends on the distance from optimum focus. A threshold on the second derivative gradient strength limits the measured particles to be within a specific measuring range. It is important to select the threshold carefully. If the value of the threshold is too low, there will be many false edges in the image. If it is too high, the measuring range will be too small. The difference between two different thresholds, 0.002 and 0.005 is illustrated by Figure \ref{fig:measrangevslogth}.  The measuring range is here defined as the distance in which the edge detection by Laplacian of Gaussian operator and a threshold makes a closed curve in the resulting binary image.
 
-\section{Dot Reference Measurement}
+\begin{figure}[ht]
+\centering\includegraphics[width=0.75\linewidth]{figures/meas_range_vs_log_th}
+\caption{Measuring range (mm) vs. diameter for two different thresholds (0.005 and 0.002).}
+\label{fig:measrangevslogth}
+\end{figure}
+
+The edge sharpness will affect the position of the edge and the measured shadow slightly. We use the maximum value of the second derivative $P_{i,j}$ for each droplet as a measure of the edge sharpness and include this in the calibration functions, together with the diameter measured from the shadow intensity.
+
+Two second degree approximation surfaces, (\ref{eq:z1}) and (\ref{eq:z2}), are calculated using the “fit” command in Matlab. $z_1$ approximates dot diameters from 2 to 10 micrometers and $z_2$ diameters from 10 to 100 micrometers. x is the maximum second derivative, $d^M$ is the diameter measured from the shadow intensity, $p_{xx}$ and $q_{xx}$ are constants.
+
+\begin{equation} \label{eq:z1}
+z_1=p_{00}+p_{10} x+p_{01} d^M+p_{20} x^2+p_{11} xd^M+p_{02} {(d^M)}^2
+\end{equation}
+\begin{equation} \label{eq:z2}
+z_2=q_{00}+q_{10} x+q_{01} d^M+q_{20} x^2+q_{11} xd^M+q_{02} {(d^M)}^2
+\end{equation}
+By measuring the calibrated microspheres a validation can be made with the expected diameter. 
+
+\subsection{Verification of Dot Size}
+
 The dots on the micrometer scale were measured visually using a Leica microscope connected to a digital camera. This was done to get accurate values of the diameter of the dots for use in the calibration. An example image that was measured can be seen in \cref{fig:50umdot40x}.
 
 \begin{figure}[ht]
@@ -68,7 +127,7 @@ The dots on the micrometer scale were measured visually using a Leica microscope
 \label{fig:50umdot40x}
 \end{figure}
 
-This measurement was done using lenses with two different magnifications: 40x and 100x. All the dots average diameters, except the 100 µm dot were found to be within +/-0.2 µm of their nominal diameter. They are not all perfectly round, but the size accuracy should be good enough to use as calibration reference. The result from this measurement is comprehended in \cref{tab:ref_meas}.
+This measurement was done using lenses with two different magnifications: 40x and 100x. All the dots average diameters, except the 100 µm dot were found to be within $\pm$ 0.2 $\mu$ m of their nominal diameter. They are not all perfectly round, but the size accuracy should be good enough to use as calibration reference. The result from this measurement is comprehended in \cref{tab:ref_meas}.
 
 \begin{table}[ht]
 \centering

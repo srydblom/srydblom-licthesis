@@ -9,49 +9,59 @@
 \select@language {english}
 \contentsline {chapter}{Contents}{viii}{section*.3}
 \contentsline {chapter}{List of Figures}{x}{section*.4}
-\contentsline {chapter}{List of Tables}{xi}{section*.5}
+\contentsline {chapter}{List of Tables}{xii}{section*.5}
 \contentsline {chapter}{List of Papers}{xiii}{dummy.1}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Atmospheric Water and Icing}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Related Work of Measurement}{2}{section.1.2}
-\contentsline {chapter}{\chapternumberline {2}Theory}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Forming of Ice}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Liquid Water Content and Median Volume Diameter}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}Practical Problems with Measuring LWC, MVD and Ice}{7}{section.2.3}
-\contentsline {section}{\numberline {2.4}Light Spectrum}{8}{section.2.4}
-\contentsline {chapter}{\chapternumberline {3}Materials, Methods and Unpublished Results}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Image Segmentation}{11}{section.3.1}
-\contentsline {section}{\numberline {3.2}Starting Studies}{12}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Light Spectrum}{12}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Laser Light}{13}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Image Noise}{13}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Light Sensitivity Measurement}{13}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Speed of Light Flash}{13}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Design Considerations}{13}{section.3.3}
-\contentsline {section}{\numberline {3.4}Dot Reference Measurement}{13}{section.3.4}
-\contentsline {section}{\numberline {3.5}The Shadowgraph System}{15}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Exposure Check and Flash Intensity Adjustment}{17}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Edge Detection and Edge Sharpness}{17}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Comparing Transparent Microspheres and Dots}{18}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Removing the Center Bright Spot}{19}{subsection.3.5.4}
-\contentsline {subsection}{\numberline {3.5.5}Measuring Roundness}{19}{subsection.3.5.5}
-\contentsline {section}{\numberline {3.6}The Fog Chamber}{20}{section.3.6}
-\contentsline {section}{\numberline {3.7}The Kl\IeC {\"o}vsj\IeC {\"o} Installation}{20}{section.3.7}
-\contentsline {chapter}{\chapternumberline {4}Discussion}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Starting Studies}{23}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Infrared and Visible Light}{23}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Laser Light}{23}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Image Noise - SNR}{23}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Speed of Light Flash}{23}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Aerodynamics}{23}{section.4.2}
-\contentsline {section}{\numberline {4.3}Difficulties with Polymer Microspheres}{23}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Speed}{23}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Clogging}{23}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Optics}{23}{section.4.4}
-\contentsline {section}{\numberline {4.5}Droplets and Ice Interference}{24}{section.4.5}
-\contentsline {section}{\numberline {4.6}Icing}{24}{section.4.6}
-\contentsline {chapter}{\chapternumberline {5}Conclusion and Outlook}{27}{chapter.5}
-\contentsline {section}{\numberline {5.1}Conclusions}{27}{section.5.1}
-\contentsline {section}{\numberline {5.2}Future Work}{27}{section.5.2}
-\contentsline {section}{\numberline {5.3}Contributions}{28}{section.5.3}
-\contentsline {chapter}{Bibliography}{29}{section*.21}
+\contentsline {section}{\numberline {1.2}Justification and Narrative}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Related Work of Measurement}{4}{section.1.3}
+\contentsline {chapter}{\chapternumberline {2}Theory}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Forming of Ice}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Liquid Water Content and Median Volume Diameter}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}Practical Problems with Measuring Atmospheric Water}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Light Scattering and Absorption}{10}{section.2.4}
+\contentsline {chapter}{\chapternumberline {3}Materials, Methods and Unpublished Results}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Image Segmentation}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Optical Characteristica}{14}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Light Spectrum}{14}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Laser Light}{15}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Image Noise}{15}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Ambient Light}{16}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Light Sensitivity Measurement}{17}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Design Considerations}{17}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Speed of Light Flash}{17}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Calibration and Validation of the Calibration}{18}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Verification of Dot Size}{19}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}The Shadowgraph System}{21}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Exposure Check and Flash Intensity Adjustment}{23}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Edge Detection and Edge Sharpness}{23}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Comparing Transparent Microspheres and Dots}{24}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Removing the Center Bright Spot}{25}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}Measuring Roundness}{25}{subsection.3.5.5}
+\contentsline {section}{\numberline {3.6}The Fog Chamber}{26}{section.3.6}
+\contentsline {section}{\numberline {3.7}The Kl\IeC {\"o}vsj\IeC {\"o} Installation}{26}{section.3.7}
+\contentsline {chapter}{\chapternumberline {4}Discussion}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Starting Studies}{29}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Infrared and Visible Light}{29}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Laser Light}{29}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Image Noise and SNR}{29}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Image Pre-processing}{29}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Light Sensitivity Measurement}{30}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Speed of Light Flash}{30}{subsection.4.1.6}
+\contentsline {section}{\numberline {4.2}Aerodynamics}{30}{section.4.2}
+\contentsline {section}{\numberline {4.3}Difficulties with Polymer Microspheres}{30}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Speed}{30}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Clogging}{30}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Roundness}{31}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Calibration Validation}{31}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}LED Illumination}{32}{section.4.4}
+\contentsline {section}{\numberline {4.5}Statistics}{32}{section.4.5}
+\contentsline {section}{\numberline {4.6}Droplets and Size Distributions}{33}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Sampling Speed and Volume}{33}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Large Droplets}{35}{subsection.4.6.2}
+\contentsline {section}{\numberline {4.7}Icing}{35}{section.4.7}
+\contentsline {chapter}{\chapternumberline {5}Summary of the Thesis}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}General Conclusions}{37}{section.5.1}
+\contentsline {section}{\numberline {5.2}Other Conclusions}{37}{section.5.2}
+\contentsline {section}{\numberline {5.3}Future Work}{38}{section.5.3}
+\contentsline {chapter}{Bibliography}{41}{section*.25}
