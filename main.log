@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  20 JUN 2017 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  31 AUG 2017 09:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2040,36 +2040,27 @@ istry (CN)
 \mhchem@option@minustextsidebearingleft=\dimen278
 \mhchem@option@minustextsidebearingright=\dimen279
 )
-(c:/texlive/2016/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count334
-\sf@farskip=\skip278
-\sf@captopadj=\dimen280
-\sf@capskip=\skip279
-\sf@nearskip=\skip280
-\c@subfigure=\count335
-\c@subfigure@save=\count336
-\c@subtable=\count337
-\c@subtable@save=\count338
-\sf@top=\skip281
-\sf@bottom=\skip282
+(c:/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count334
+\c@subtable=\count335
 )
 (c:/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip283
-\LTright=\skip284
-\LTpre=\skip285
-\LTpost=\skip286
-\LTchunksize=\count339
-\LTcapwidth=\dimen281
+\LTleft=\skip278
+\LTright=\skip279
+\LTpre=\skip280
+\LTpost=\skip281
+\LTchunksize=\count336
+\LTcapwidth=\dimen280
 \LT@head=\box57
 \LT@firsthead=\box58
 \LT@foot=\box59
 \LT@lastfoot=\box60
-\LT@cols=\count340
-\LT@rows=\count341
-\c@LT@tables=\count342
-\c@LT@chunks=\count343
+\LT@cols=\count337
+\LT@rows=\count338
+\c@LT@tables=\count339
+\c@LT@chunks=\count340
 \LT@p@ftn=\toks38
 )
 (c:/texlive/2016/texmf-dist/tex/latex/tabu/tabu.sty
@@ -2078,43 +2069,43 @@ Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 (c:/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box61
-\sift@deathcycles=\count344
-\@vwid@loff=\dimen282
-\@vwid@roff=\dimen283
+\sift@deathcycles=\count341
+\@vwid@loff=\dimen281
+\@vwid@roff=\dimen282
 )
-\c@taburow=\count345
-\tabu@nbcols=\count346
-\tabu@cnt=\count347
-\tabu@Xcol=\count348
-\tabu@alloc=\count349
-\tabu@nested=\count350
-\tabu@target=\dimen284
-\tabu@spreadtarget=\dimen285
-\tabu@naturalX=\dimen286
-\tabucolX=\dimen287
-\tabu@Xsum=\dimen288
-\extrarowdepth=\dimen289
-\abovetabulinesep=\dimen290
-\belowtabulinesep=\dimen291
-\tabustrutrule=\dimen292
+\c@taburow=\count342
+\tabu@nbcols=\count343
+\tabu@cnt=\count344
+\tabu@Xcol=\count345
+\tabu@alloc=\count346
+\tabu@nested=\count347
+\tabu@target=\dimen283
+\tabu@spreadtarget=\dimen284
+\tabu@naturalX=\dimen285
+\tabucolX=\dimen286
+\tabu@Xsum=\dimen287
+\extrarowdepth=\dimen288
+\abovetabulinesep=\dimen289
+\belowtabulinesep=\dimen290
+\tabustrutrule=\dimen291
 \tabu@thebody=\toks39
 \tabu@footnotes=\toks40
 \tabu@box=\box62
 \tabu@arstrutbox=\box63
 \tabu@hleads=\box64
 \tabu@vleads=\box65
-\tabu@cellskip=\skip287
+\tabu@cellskip=\skip282
 )
 (c:/texlive/2016/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
 (c:/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip288
-\enit@outerparindent=\dimen293
+\labelindent=\skip283
+\enit@outerparindent=\dimen292
 \enit@toks=\toks41
 \enit@inbox=\box66
-\enitdp@description=\count351
+\enitdp@description=\count348
 )
 (c:/texlive/2016/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
@@ -2125,8 +2116,8 @@ Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 ))
-\AM@pagewidth=\dimen294
-\AM@pageheight=\dimen295
+\AM@pagewidth=\dimen293
+\AM@pageheight=\dimen294
 
 (c:/texlive/2016/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
@@ -2134,7 +2125,7 @@ File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box67
 \AM@global@opts=\toks42
 \AM@toc@title=\toks43
-\c@AM@survey=\count352
+\c@AM@survey=\count349
 \AM@templatesizebox=\box68
 )
 (c:/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -2142,8 +2133,8 @@ File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
 (c:/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks44
-\pgfutil@tempdima=\dimen296
-\pgfutil@tempdimb=\dimen297
+\pgfutil@tempdima=\dimen295
+\pgfutil@tempdimb=\dimen296
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
 ) (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -2169,20 +2160,20 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks47
 ))
-\pgf@x=\dimen298
-\pgf@y=\dimen299
-\pgf@xa=\dimen300
-\pgf@ya=\dimen301
-\pgf@xb=\dimen302
-\pgf@yb=\dimen303
-\pgf@xc=\dimen304
-\pgf@yc=\dimen305
+\pgf@x=\dimen297
+\pgf@y=\dimen298
+\pgf@xa=\dimen299
+\pgf@ya=\dimen300
+\pgf@xb=\dimen301
+\pgf@yb=\dimen302
+\pgf@xc=\dimen303
+\pgf@yc=\dimen304
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count353
-\c@pgf@countb=\count354
-\c@pgf@countc=\count355
-\c@pgf@countd=\count356
+\c@pgf@counta=\count350
+\c@pgf@countb=\count351
+\c@pgf@countc=\count352
+\c@pgf@countd=\count353
 \t@pgf@toka=\toks48
 \t@pgf@tokb=\toks49
 \t@pgf@tokc=\toks50
@@ -2199,8 +2190,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count357
-\pgfsyssoftpath@bigbuffer@items=\count358
+\pgfsyssoftpath@smallbuffer@items=\count354
+\pgfsyssoftpath@bigbuffer@items=\count355
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -2211,8 +2202,8 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen306
-\pgfmath@count=\count359
+\pgfmath@dimen=\dimen305
+\pgfmath@count=\count356
 \pgfmath@box=\box70
 \pgfmath@toks=\toks51
 \pgfmath@stack@operand=\toks52
@@ -2236,55 +2227,55 @@ x)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
 etics.code.tex)))
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count360
+\c@pgfmathroundto@lastzeros=\count357
 ))
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen307
-\pgf@picmaxx=\dimen308
-\pgf@picminy=\dimen309
-\pgf@picmaxy=\dimen310
-\pgf@pathminx=\dimen311
-\pgf@pathmaxx=\dimen312
-\pgf@pathminy=\dimen313
-\pgf@pathmaxy=\dimen314
-\pgf@xx=\dimen315
-\pgf@xy=\dimen316
-\pgf@yx=\dimen317
-\pgf@yy=\dimen318
-\pgf@zx=\dimen319
-\pgf@zy=\dimen320
+\pgf@picminx=\dimen306
+\pgf@picmaxx=\dimen307
+\pgf@picminy=\dimen308
+\pgf@picmaxy=\dimen309
+\pgf@pathminx=\dimen310
+\pgf@pathmaxx=\dimen311
+\pgf@pathminy=\dimen312
+\pgf@pathmaxy=\dimen313
+\pgf@xx=\dimen314
+\pgf@xy=\dimen315
+\pgf@yx=\dimen316
+\pgf@yy=\dimen317
+\pgf@zx=\dimen318
+\pgf@zy=\dimen319
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
 e.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen321
-\pgf@path@lasty=\dimen322
+\pgf@path@lastx=\dimen320
+\pgf@path@lasty=\dimen321
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
 x
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen323
-\pgf@shorten@start@additional=\dimen324
+\pgf@shorten@end@additional=\dimen322
+\pgf@shorten@start@additional=\dimen323
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box71
 \pgf@hbox=\box72
 \pgf@layerbox@main=\box73
-\pgf@picture@serial@count=\count361
+\pgf@picture@serial@count=\count358
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen325
+\pgflinewidth=\dimen324
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
 ode.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen326
-\pgf@pt@y=\dimen327
-\pgf@pt@temp=\dimen328
+\pgf@pt@x=\dimen325
+\pgf@pt@y=\dimen326
+\pgf@pt@temp=\dimen327
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -2298,12 +2289,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen329
+\pgfarrowsep=\dimen328
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen330
-\pgf@sys@shading@range@num=\count362
+\pgf@max=\dimen329
+\pgf@sys@shading@range@num=\count359
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -2332,8 +2323,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (c:/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
 y
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen331
-\pgf@nodesepend=\dimen332
+\pgf@nodesepstart=\dimen330
+\pgf@nodesepend=\dimen331
 )
 (c:/texlive/2016/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
 y
@@ -2347,8 +2338,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen333
-\pgffor@skip=\dimen334
+\pgffor@iter=\dimen332
+\pgffor@skip=\dimen333
 \pgffor@stack=\toks54
 \pgffor@toks=\toks55
 ))
@@ -2358,31 +2349,31 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count363
-\pgfplotmarksize=\dimen335
+\pgf@plot@mark@count=\count360
+\pgfplotmarksize=\dimen334
 )
-\tikz@lastx=\dimen336
-\tikz@lasty=\dimen337
-\tikz@lastxsaved=\dimen338
-\tikz@lastysaved=\dimen339
-\tikzleveldistance=\dimen340
-\tikzsiblingdistance=\dimen341
+\tikz@lastx=\dimen335
+\tikz@lasty=\dimen336
+\tikz@lastxsaved=\dimen337
+\tikz@lastysaved=\dimen338
+\tikzleveldistance=\dimen339
+\tikzsiblingdistance=\dimen340
 \tikz@figbox=\box76
 \tikz@figbox@bg=\box77
 \tikz@tempbox=\box78
 \tikz@tempbox@bg=\box79
-\tikztreelevel=\count364
-\tikznumberofchildren=\count365
-\tikznumberofcurrentchild=\count366
-\tikz@fig@count=\count367
+\tikztreelevel=\count361
+\tikznumberofchildren=\count362
+\tikznumberofcurrentchild=\count363
+\tikz@fig@count=\count364
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count368
-\pgfmatrixcurrentcolumn=\count369
-\pgf@matrix@numberofcolumns=\count370
+\pgfmatrixcurrentrow=\count365
+\pgfmatrixcurrentcolumn=\count366
+\pgf@matrix@numberofcolumns=\count367
 )
-\tikz@expandcount=\count371
+\tikz@expandcount=\count368
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
@@ -2397,9 +2388,9 @@ Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
 \t@pgfplots@toka=\toks56
 \t@pgfplots@tokb=\toks57
 \t@pgfplots@tokc=\toks58
-\pgfplots@tmpa=\dimen342
-\c@pgfplots@coordindex=\count372
-\c@pgfplots@scanlineindex=\count373
+\pgfplots@tmpa=\dimen341
+\c@pgfplots@coordindex=\count369
+\c@pgfplots@scanlineindex=\count370
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.te
 x))
@@ -2414,7 +2405,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 upp_pgflibraryfpu.code.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
 upp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count374
+\c@pgfmathroundto@lastzeros=\count371
 ))
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
@@ -2423,13 +2414,13 @@ cture.code.tex)
 ctureext.code.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.co
 de.tex
-\c@pgfplotsarray@tmp=\count375
+\c@pgfplotsarray@tmp=\count372
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.c
 ode.tex)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.c
 ode.tex
-\c@pgfplotstable@counta=\count376
+\c@pgfplotstable@counta=\count373
 \t@pgfplotstable@a=\toks59
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.co
@@ -2441,7 +2432,7 @@ tex))
 x)
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfsh
 ading.code.tex
-\c@pgfplotslibrarysurf@no=\count377
+\c@pgfplotslibrarysurf@no=\count374
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
 ding.pgfsys-pdftex.def)))
@@ -2464,14 +2455,14 @@ ex)
 brarydecorations.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
 ex
-\pgfdecoratedcompleteddistance=\dimen343
-\pgfdecoratedremainingdistance=\dimen344
-\pgfdecoratedinputsegmentcompleteddistance=\dimen345
-\pgfdecoratedinputsegmentremainingdistance=\dimen346
-\pgf@decorate@distancetomove=\dimen347
-\pgf@decorate@repeatstate=\count378
-\pgfdecorationsegmentamplitude=\dimen348
-\pgfdecorationsegmentlength=\dimen349
+\pgfdecoratedcompleteddistance=\dimen342
+\pgfdecoratedremainingdistance=\dimen343
+\pgfdecoratedinputsegmentcompleteddistance=\dimen344
+\pgfdecoratedinputsegmentremainingdistance=\dimen345
+\pgf@decorate@distancetomove=\dimen346
+\pgf@decorate@repeatstate=\count375
+\pgfdecorationsegmentamplitude=\dimen347
+\pgfdecorationsegmentlength=\dimen348
 )
 \tikz@lib@dec@box=\box80
 )
@@ -2483,13 +2474,13 @@ orations.pathmorphing.code.tex))
 brarydecorations.pathreplacing.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
 orations.pathreplacing.code.tex))
-\pgfplots@numplots=\count379
-\pgfplots@xmin@reg=\dimen350
-\pgfplots@xmax@reg=\dimen351
-\pgfplots@ymin@reg=\dimen352
-\pgfplots@ymax@reg=\dimen353
-\pgfplots@zmin@reg=\dimen354
-\pgfplots@zmax@reg=\dimen355
+\pgfplots@numplots=\count376
+\pgfplots@xmin@reg=\dimen349
+\pgfplots@xmax@reg=\dimen350
+\pgfplots@ymin@reg=\dimen351
+\pgfplots@ymax@reg=\dimen352
+\pgfplots@zmin@reg=\dimen353
+\pgfplots@zmax@reg=\dimen354
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 braryplotmarks.code.tex
@@ -2507,7 +2498,7 @@ een.code.tex
 braryintersections.code.tex
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.c
 ode.tex
-\pgf@intersect@solutions=\count380
+\pgf@intersect@solutions=\count377
 ))
 (c:/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorati
 ons.softclip.code.tex
@@ -2521,7 +2512,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen356
+\arrowsize=\dimen355
 ))
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarypositioning.code.tex
@@ -2634,8 +2625,8 @@ orations.markings.code.tex))
 brarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
-\tikz@lib@circ@count=\count381
-\tikzcircuitssizeunit=\dimen357
+\tikz@lib@circ@count=\count378
+\tikzcircuitssizeunit=\dimen356
 )
 (c:/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/pgflibrar
 yshapes.gates.ee.code.tex))
@@ -2701,16 +2692,16 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen358
-\Hy@linkcounter=\count382
-\Hy@pagecounter=\count383
+\@linkdim=\dimen357
+\Hy@linkcounter=\count379
+\Hy@pagecounter=\count380
 
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count384
+\Hy@SavedSpaceFactor=\count381
 
 (c:/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -2722,17 +2713,17 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count385
+\c@Hy@tempcnt=\count382
 
 (c:/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5088.
-\XeTeXLinkMargin=\dimen359
-\Fld@menulength=\count386
-\Field@Width=\dimen360
-\Fld@charsize=\dimen361
+\XeTeXLinkMargin=\dimen358
+\Fld@menulength=\count383
+\Field@Width=\dimen359
+\Fld@charsize=\dimen360
 Package hyperref Info: Hyper figures OFF on input line 6342.
 Package hyperref Info: Link nesting OFF on input line 6347.
 Package hyperref Info: Hyper index ON on input line 6350.
@@ -2742,30 +2733,30 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count387
-\c@Item=\count388
-\c@Hfootnote=\count389
+\Hy@abspage=\count384
+\c@Item=\count385
+\c@Hfootnote=\count386
 )
 (c:/texlive/2016/texmf-dist/tex/latex/memoir/memhfixc.sty
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
-\c@memhycontfloat=\count390
-\c@Hpagenote=\count391
+\c@memhycontfloat=\count387
+\c@Hpagenote=\count388
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\Fld@listcount=\count392
-\c@bookmark@seq@number=\count393
+\Fld@listcount=\count389
+\c@bookmark@seq@number=\count390
 
 (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip289
+\Hy@SectionHShift=\skip284
 )
 (c:/texlive/2016/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
@@ -2781,11 +2772,10 @@ LaTeX Info: Redefining \cpagerefrange on input line 2230.
 LaTeX Info: Redefining \Cpagerefrange on input line 2230.
 LaTeX Info: Redefining \labelcref on input line 2230.
 LaTeX Info: Redefining \labelcpageref on input line 2230.
-Package cleveref Info: `subfig' support loaded on input line 2983.
 Package cleveref Info: no abbreviation of names on input line 7493.
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 124.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 124.
+Package hyperref Info: Option `colorlinks' set `false' on input line 125.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 125.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -2793,7 +2783,7 @@ Package: biblatex 2016/09/17 v3.6 programmable bibliographies (PK/JW/AB)
 
 (c:/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count394
+\lrq@indent=\count391
 
 (c:/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -2801,61 +2791,61 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (c:/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
 (c:/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write5
-\integerpart=\count395
-\decimalpart=\count396
+\integerpart=\count392
+\decimalpart=\count393
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count397
-\c@listtotal=\count398
-\c@listcount=\count399
-\c@liststart=\count400
-\c@liststop=\count401
-\c@citecount=\count402
-\c@citetotal=\count403
-\c@multicitecount=\count404
-\c@multicitetotal=\count405
-\c@instcount=\count406
-\c@maxnames=\count407
-\c@minnames=\count408
-\c@maxitems=\count409
-\c@minitems=\count410
-\c@citecounter=\count411
-\c@savedcitecounter=\count412
-\c@uniquelist=\count413
-\c@uniquename=\count414
-\c@refsection=\count415
-\c@refsegment=\count416
-\c@maxextratitle=\count417
-\c@maxextratitleyear=\count418
-\c@maxextrayear=\count419
-\c@maxextraalpha=\count420
-\c@abbrvpenalty=\count421
-\c@highnamepenalty=\count422
-\c@lownamepenalty=\count423
-\c@maxparens=\count424
-\c@parenlevel=\count425
-\blx@tempcnta=\count426
-\blx@tempcntb=\count427
-\blx@tempcntc=\count428
-\blx@maxsection=\count429
-\blx@maxsegment@0=\count430
-\blx@notetype=\count431
-\blx@parenlevel@text=\count432
-\blx@parenlevel@foot=\count433
-\blx@sectionciteorder@0=\count434
-\labelnumberwidth=\skip290
-\labelalphawidth=\skip291
-\biblabelsep=\skip292
-\bibnamesep=\skip293
-\bibinitsep=\skip294
-\bibparsep=\skip295
-\bibhang=\skip296
+\c@tabx@nest=\count394
+\c@listtotal=\count395
+\c@listcount=\count396
+\c@liststart=\count397
+\c@liststop=\count398
+\c@citecount=\count399
+\c@citetotal=\count400
+\c@multicitecount=\count401
+\c@multicitetotal=\count402
+\c@instcount=\count403
+\c@maxnames=\count404
+\c@minnames=\count405
+\c@maxitems=\count406
+\c@minitems=\count407
+\c@citecounter=\count408
+\c@savedcitecounter=\count409
+\c@uniquelist=\count410
+\c@uniquename=\count411
+\c@refsection=\count412
+\c@refsegment=\count413
+\c@maxextratitle=\count414
+\c@maxextratitleyear=\count415
+\c@maxextrayear=\count416
+\c@maxextraalpha=\count417
+\c@abbrvpenalty=\count418
+\c@highnamepenalty=\count419
+\c@lownamepenalty=\count420
+\c@maxparens=\count421
+\c@parenlevel=\count422
+\blx@tempcnta=\count423
+\blx@tempcntb=\count424
+\blx@tempcntc=\count425
+\blx@maxsection=\count426
+\blx@maxsegment@0=\count427
+\blx@notetype=\count428
+\blx@parenlevel@text=\count429
+\blx@parenlevel@foot=\count430
+\blx@sectionciteorder@0=\count431
+\labelnumberwidth=\skip285
+\labelalphawidth=\skip286
+\biblabelsep=\skip287
+\bibnamesep=\skip288
+\bibinitsep=\skip289
+\bibparsep=\skip290
+\bibhang=\skip291
 \blx@bcfin=\read4
 \blx@bcfout=\write6
-\c@mincomprange=\count435
-\c@maxcomprange=\count436
-\c@mincompwidth=\count437
+\c@mincomprange=\count432
+\c@maxcomprange=\count433
+\c@mincompwidth=\count434
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -2864,78 +2854,78 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count438
-\c@savedafterword=\count439
-\c@annotator=\count440
-\c@savedannotator=\count441
-\c@author=\count442
-\c@savedauthor=\count443
-\c@bookauthor=\count444
-\c@savedbookauthor=\count445
-\c@commentator=\count446
-\c@savedcommentator=\count447
-\c@editor=\count448
-\c@savededitor=\count449
-\c@editora=\count450
-\c@savededitora=\count451
-\c@editorb=\count452
-\c@savededitorb=\count453
-\c@editorc=\count454
-\c@savededitorc=\count455
-\c@foreword=\count456
-\c@savedforeword=\count457
-\c@holder=\count458
-\c@savedholder=\count459
-\c@introduction=\count460
-\c@savedintroduction=\count461
-\c@namea=\count462
-\c@savednamea=\count463
-\c@nameb=\count464
-\c@savednameb=\count465
-\c@namec=\count466
-\c@savednamec=\count467
-\c@translator=\count468
-\c@savedtranslator=\count469
-\c@shortauthor=\count470
-\c@savedshortauthor=\count471
-\c@shorteditor=\count472
-\c@savedshorteditor=\count473
-\c@labelname=\count474
-\c@savedlabelname=\count475
-\c@institution=\count476
-\c@savedinstitution=\count477
-\c@lista=\count478
-\c@savedlista=\count479
-\c@listb=\count480
-\c@savedlistb=\count481
-\c@listc=\count482
-\c@savedlistc=\count483
-\c@listd=\count484
-\c@savedlistd=\count485
-\c@liste=\count486
-\c@savedliste=\count487
-\c@listf=\count488
-\c@savedlistf=\count489
-\c@location=\count490
-\c@savedlocation=\count491
-\c@organization=\count492
-\c@savedorganization=\count493
-\c@origlocation=\count494
-\c@savedoriglocation=\count495
-\c@origpublisher=\count496
-\c@savedorigpublisher=\count497
-\c@publisher=\count498
-\c@savedpublisher=\count499
-\c@language=\count500
-\c@savedlanguage=\count501
-\c@pageref=\count502
-\c@savedpageref=\count503
-\shorthandwidth=\skip297
-\shortjournalwidth=\skip298
-\shortserieswidth=\skip299
-\shorttitlewidth=\skip300
-\shortauthorwidth=\skip301
-\shorteditorwidth=\skip302
+\c@afterword=\count435
+\c@savedafterword=\count436
+\c@annotator=\count437
+\c@savedannotator=\count438
+\c@author=\count439
+\c@savedauthor=\count440
+\c@bookauthor=\count441
+\c@savedbookauthor=\count442
+\c@commentator=\count443
+\c@savedcommentator=\count444
+\c@editor=\count445
+\c@savededitor=\count446
+\c@editora=\count447
+\c@savededitora=\count448
+\c@editorb=\count449
+\c@savededitorb=\count450
+\c@editorc=\count451
+\c@savededitorc=\count452
+\c@foreword=\count453
+\c@savedforeword=\count454
+\c@holder=\count455
+\c@savedholder=\count456
+\c@introduction=\count457
+\c@savedintroduction=\count458
+\c@namea=\count459
+\c@savednamea=\count460
+\c@nameb=\count461
+\c@savednameb=\count462
+\c@namec=\count463
+\c@savednamec=\count464
+\c@translator=\count465
+\c@savedtranslator=\count466
+\c@shortauthor=\count467
+\c@savedshortauthor=\count468
+\c@shorteditor=\count469
+\c@savedshorteditor=\count470
+\c@labelname=\count471
+\c@savedlabelname=\count472
+\c@institution=\count473
+\c@savedinstitution=\count474
+\c@lista=\count475
+\c@savedlista=\count476
+\c@listb=\count477
+\c@savedlistb=\count478
+\c@listc=\count479
+\c@savedlistc=\count480
+\c@listd=\count481
+\c@savedlistd=\count482
+\c@liste=\count483
+\c@savedliste=\count484
+\c@listf=\count485
+\c@savedlistf=\count486
+\c@location=\count487
+\c@savedlocation=\count488
+\c@organization=\count489
+\c@savedorganization=\count490
+\c@origlocation=\count491
+\c@savedoriglocation=\count492
+\c@origpublisher=\count493
+\c@savedorigpublisher=\count494
+\c@publisher=\count495
+\c@savedpublisher=\count496
+\c@language=\count497
+\c@savedlanguage=\count498
+\c@pageref=\count499
+\c@savedpageref=\count500
+\shorthandwidth=\skip292
+\shortjournalwidth=\skip293
+\shortserieswidth=\skip294
+\shorttitlewidth=\skip295
+\shortauthorwidth=\skip296
+\shorteditorwidth=\skip297
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -2957,13 +2947,13 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (c:/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2016/09/17 v3.6 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count504
-\c@textcitetotal=\count505
-\c@textcitemaxnames=\count506
-\c@biburlnumpenalty=\count507
-\c@biburlucpenalty=\count508
-\c@biburllcpenalty=\count509
-\c@smartand=\count510
+\c@textcitecount=\count501
+\c@textcitetotal=\count502
+\c@textcitemaxnames=\count503
+\c@biburlnumpenalty=\count504
+\c@biburlucpenalty=\count505
+\c@biburllcpenalty=\count506
+\c@smartand=\count507
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -2981,8 +2971,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (c:/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/09/17 v3.6 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count511
-\c@bbx:relatedtotal=\count512
+\c@bbx:relatedcount=\count508
+\c@bbx:relatedtotal=\count509
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -3028,7 +3018,7 @@ Package: datatool-base 2016/07/28 v2.27 (NLCT)
 
 (c:/texlive/2016/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count513
+\c@su@anzahl=\count510
 )
 (c:/texlive/2016/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2016/07/28 v2.27 (NLCT)
@@ -3039,19 +3029,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (c:/texlive/2016/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count514
+\actioncount=\count511
 )
 (c:/texlive/2016/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count515
-\FP@xia=\count516
-\FP@xib=\count517
-\FP@xfa=\count518
-\FP@xfb=\count519
-\FP@rega=\count520
-\FP@regb=\count521
-\FP@regs=\count522
-\FP@times=\count523
+\FP@xs=\count512
+\FP@xia=\count513
+\FP@xib=\count514
+\FP@xfa=\count515
+\FP@xfb=\count516
+\FP@rega=\count517
+\FP@regb=\count518
+\FP@regs=\count519
+\FP@times=\count520
 )
 (c:/texlive/2016/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -3070,7 +3060,7 @@ Package: fp-pas 1994/08/29
 )
 (c:/texlive/2016/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count524
+\FPseed=\count521
 )
 (c:/texlive/2016/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -3082,14 +3072,14 @@ Package: fp-upn 1996/10/21
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks62
-\@dtl@tmpcount=\count525
-\dtl@tmplength=\skip303
-\dtl@sortresult=\count526
-\@dtl@numgrpsepcount=\count527
-\@dtl@datatype=\count528
-\dtl@codeA=\count529
-\dtl@codeB=\count530
-\@dtl@foreach@level=\count531
+\@dtl@tmpcount=\count522
+\dtl@tmplength=\skip298
+\dtl@sortresult=\count523
+\@dtl@numgrpsepcount=\count524
+\@dtl@datatype=\count525
+\dtl@codeA=\count526
+\dtl@codeB=\count527
+\@dtl@foreach@level=\count528
 )
 (c:/texlive/2016/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307
 .sty
@@ -3108,9 +3098,9 @@ Package glossaries Warning: No language module detected for `swedish'.
 (c:/texlive/2016/texmf-dist/tex/latex/glossaries-english/glossaries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count532
+\gls@level=\count529
 \@gls@tmpb=\toks63
-\gls@tmplen=\skip304
+\gls@tmplen=\skip299
 
 
 Package glossaries Warning: Overriding \printglossary on input line 5486.
@@ -3128,49 +3118,49 @@ Package: glossary-hypernav 2016/10/12 v4.26 (NLCT)
 )
 (c:/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
 Package: glossary-list 2016/10/12 v4.26 (NLCT)
-\glslistdottedwidth=\skip305
+\glslistdottedwidth=\skip300
 )
 (c:/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
 Package: glossary-long 2016/10/12 v4.26 (NLCT)
-\glsdescwidth=\skip306
-\glspagelistwidth=\skip307
+\glsdescwidth=\skip301
+\glspagelistwidth=\skip302
 )
 (c:/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
 Package: glossary-super 2016/10/12 v4.26 (NLCT)
 
 (c:/texlive/2016/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count533
-\ST@wd=\dimen362
-\ST@rightskip=\skip308
-\ST@leftskip=\skip309
-\ST@parfillskip=\skip310
-\ST@pageleft=\dimen363
-\ST@headht=\dimen364
-\ST@tailht=\dimen365
-\ST@pagesofar=\dimen366
-\ST@pboxht=\dimen367
-\ST@lineht=\dimen368
-\ST@stretchht=\dimen369
-\ST@prevht=\dimen370
-\ST@toadd=\dimen371
-\ST@dimen=\dimen372
+\c@tracingst=\count530
+\ST@wd=\dimen361
+\ST@rightskip=\skip303
+\ST@leftskip=\skip304
+\ST@parfillskip=\skip305
+\ST@pageleft=\dimen362
+\ST@headht=\dimen363
+\ST@tailht=\dimen364
+\ST@pagesofar=\dimen365
+\ST@pboxht=\dimen366
+\ST@lineht=\dimen367
+\ST@stretchht=\dimen368
+\ST@prevht=\dimen369
+\ST@toadd=\dimen370
+\ST@dimen=\dimen371
 \ST@pbox=\box101
 ))
 (c:/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2016/10/12 v4.26 (NLCT)
-\glstreeindent=\skip311
+\glstreeindent=\skip306
 ))
 \glswrite=\write7
 \glo@acronym@file=\write8
 \openout8 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 159.
+Package glossaries Info: Writing glossary file main.acn on input line 160.
 
 (c:/texlive/2016/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
-\c@@todonotes@numberoftodonotes=\count534
+\c@@todonotes@numberoftodonotes=\count531
 )
 (c:/texlive/2016/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
@@ -3178,24 +3168,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (c:/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count535
-\c@Blindtext=\count536
-\c@blind@countparstart=\count537
-\blind@countxx=\count538
-\blindtext@numBlindtext=\count539
-\blind@countyy=\count540
-\c@blindlist=\count541
-\c@blindlistlevel=\count542
-\c@blindlist@level=\count543
-\blind@listitem=\count544
-\c@blind@listcount=\count545
-\c@blind@levelcount=\count546
-\blind@mathformula=\count547
-\blind@Mathformula=\count548
-\c@blind@randomcount=\count549
-\c@blind@randommax=\count550
-\c@blind@pangramcount=\count551
-\c@blind@pangrammax=\count552
+\c@blindtext=\count532
+\c@Blindtext=\count533
+\c@blind@countparstart=\count534
+\blind@countxx=\count535
+\blindtext@numBlindtext=\count536
+\blind@countyy=\count537
+\c@blindlist=\count538
+\c@blindlistlevel=\count539
+\c@blindlist@level=\count540
+\blind@listitem=\count541
+\c@blind@listcount=\count542
+\c@blind@levelcount=\count543
+\blind@mathformula=\count544
+\blind@Mathformula=\count545
+\c@blind@randomcount=\count546
+\c@blind@randommax=\count547
+\c@blind@pangramcount=\count548
+\c@blind@pangrammax=\count549
 )
 
 ******************************************************
@@ -3218,7 +3208,7 @@ Sidefootvsep and sidefootheight: 13.6pt and 539.9202pt
 ******************************************************
 
 (./commands.tex
-\c@dummy=\count553
+\c@dummy=\count550
 ) (./title.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -3238,67 +3228,67 @@ File: english.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 327.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 328.
 LaTeX Font Info:    Try loading font information for OML+npxmi on input line 32
-7.
+8.
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 327.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 327.
-LaTeX Font Info:    ... okay on input line 327.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 327.
-LaTeX Font Info:    ... okay on input line 327.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 327.
-LaTeX Font Info:    ... okay on input line 327.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 327.
-LaTeX Font Info:    ... okay on input line 327.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 327.
-LaTeX Font Info:    Try loading font information for U+npxexa on input line 327
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 328.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 328.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 328.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 328.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 328.
+LaTeX Font Info:    Try loading font information for U+npxexa on input line 328
 .
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 327.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 327.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 327.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 328.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 328.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 327.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 328.
 LaTeX Font Info:    Try loading font information for LMS+npxsy on input line 32
-7.
+8.
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/08/13 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 327.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 327.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 328.
 LaTeX Font Info:    Try loading font information for LMX+npxexx on input line 3
-27.
+28.
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/08/13 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 327.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 327.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 327.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 328.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 328.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2016/03/04 v1.1 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 327.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 327.
-LaTeX Font Info:    ... okay on input line 327.
-\c@mv@tabular=\count554
-\c@mv@boldtabular=\count555
-LaTeX Info: Redefining \microtypecontext on input line 327.
+LaTeX Font Info:    ... okay on input line 328.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 328.
+LaTeX Font Info:    ... okay on input line 328.
+\c@mv@tabular=\count551
+\c@mv@boldtabular=\count552
+LaTeX Info: Redefining \microtypecontext on input line 328.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2),
 (microtype)             factor: 1100.
@@ -3319,16 +3309,16 @@ Package microtype Info: Loading generic settings for font family
 
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count556
-\scratchdimen=\dimen373
+\scratchcounter=\count553
+\scratchdimen=\dimen372
 \scratchbox=\box102
-\nofMPsegments=\count557
-\nofMParguments=\count558
+\nofMPsegments=\count554
+\nofMParguments=\count555
 \everyMPshowfont=\toks68
-\MPscratchCnt=\count559
-\MPscratchDim=\dimen374
-\MPnumerator=\count560
-\makeMPintoPDFobject=\count561
+\MPscratchCnt=\count556
+\MPscratchDim=\dimen373
+\MPnumerator=\count557
+\makeMPintoPDFobject=\count558
 \everyMPtoPDFconversion=\toks69
 ) (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -3348,7 +3338,6 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -3370,20 +3359,20 @@ File: siunitx-abbreviations.cfg 2016/09/02 v2.6s siunitx: Abbreviated units
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `textgreek' on line 327.
+. Activating mapping `textgreek' on line 328.
 .................................................
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/zpltlf/m/n --> TS1/zpltlf/bx/n on input line 327.
-Package gensymb Info: Math companion symbols declared on input line 327.
-LaTeX Info: Redefining \degree on input line 327.
-LaTeX Info: Redefining \celsius on input line 327.
+(Font)                  TS1/zpltlf/m/n --> TS1/zpltlf/bx/n on input line 328.
+Package gensymb Info: Math companion symbols declared on input line 328.
+LaTeX Info: Redefining \degree on input line 328.
+LaTeX Info: Redefining \celsius on input line 328.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 327.
-LaTeX Info: Redefining \ohm on input line 327.
-Package gensymb Info: Using \textohm for \ohm on input line 327.
-LaTeX Info: Redefining \micro on input line 327.
-Package gensymb Info: Using \textmu for \micro on input line 327.
+erthousand on input line 328.
+LaTeX Info: Redefining \ohm on input line 328.
+Package gensymb Info: Using \textohm for \ohm on input line 328.
+LaTeX Info: Redefining \micro on input line 328.
+Package gensymb Info: Using \textmu for \micro on input line 328.
 \AtBeginShipoutBox=\box103
 
 (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -3398,21 +3387,21 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.14} (current compat level: 1.10).
 
-Package hyperref Info: Link coloring OFF on input line 327.
+Package hyperref Info: Link coloring OFF on input line 328.
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count562
+\c@section@level=\count559
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 327.
-LaTeX Info: Redefining \ref on input line 327.
-LaTeX Info: Redefining \pageref on input line 327.
-LaTeX Info: Redefining \nameref on input line 327.
+LaTeX Info: Redefining \nameref on input line 328.
+LaTeX Info: Redefining \ref on input line 328.
+LaTeX Info: Redefining \pageref on input line 328.
+LaTeX Info: Redefining \nameref on input line 328.
 (./main.out) (./main.out)
 \@outlinefile=\write9
 \openout9 = `main.out'.
@@ -3428,26 +3417,26 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 327.
-Package biblatex Info: Reference segment=0 on input line 327.
-\c__siunitx_mathsf_int=\count563
+Package biblatex Info: Reference section=0 on input line 328.
+Package biblatex Info: Reference segment=0 on input line 328.
+\c__siunitx_mathsf_int=\count560
 LaTeX Font Info:    Try loading font information for OT1+zpltlf on input line 3
-27.
+28.
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/ot1zpltlf.fd
 File: ot1zpltlf.fd 2015/01/17 v1.0 font definition file for OT1/zpl/tlf
 )
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 327.
+(Font)              scaled to size 10.95pt on input line 328.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `zpltlf' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 327.
+(Font)              scaled to size 8.0pt on input line 328.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 327.
-LaTeX Font Info:    Try loading font information for U+msa on input line 327.
+(Font)              scaled to size 6.1pt on input line 328.
+LaTeX Font Info:    Try loading font information for U+msa on input line 328.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -3455,7 +3444,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (c:/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 327.
+LaTeX Font Info:    Try loading font information for U+msb on input line 328.
 
 (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -3463,91 +3452,91 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (c:/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+npxmia on input line 327
+LaTeX Font Info:    Try loading font information for U+npxmia on input line 328
 .
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
-LaTeX Font Info:    Try loading font information for U+npxsym on input line 327
+LaTeX Font Info:    Try loading font information for U+npxsym on input line 328
 .
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 )
-LaTeX Font Info:    Try loading font information for U+npxsyc on input line 327
+LaTeX Font Info:    Try loading font information for U+npxsyc on input line 328
 .
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
 LaTeX Font Info:    Try loading font information for TS1+zpltlf on input line 3
-27.
+28.
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/ts1zpltlf.fd
 File: ts1zpltlf.fd 2015/01/18 v1.0 fd file for TS1/zpltlf
 )
 LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 327.
+(Font)              scaled to size 10.95pt on input line 328.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `zpltlf' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 327.
+(Font)              scaled to size 8.0pt on input line 328.
 LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 327.
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 327.
+(Font)              scaled to size 6.1pt on input line 328.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 328.
 
 (c:/texlive/2016/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 10.29301pt on input line 327.
+(Font)              scaled to size 10.29301pt on input line 328.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `qhv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 327.
+(Font)              scaled to size 7.52002pt on input line 328.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 5.73401pt on input line 327.
-\c__siunitx_mathtt_int=\count564
-LaTeX Font Info:    Try loading font information for T1+npxtt on input line 327
+(Font)              scaled to size 5.73401pt on input line 328.
+\c__siunitx_mathtt_int=\count561
+LaTeX Font Info:    Try loading font information for T1+npxtt on input line 328
 .
 
 (c:/texlive/2016/texmf-dist/tex/latex/newpx/t1npxtt.fd
 File: t1npxtt.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 10.95pt on input line 327.
+(Font)              scaled to size 10.95pt on input line 328.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `npxtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 8.0pt on input line 327.
+(Font)              scaled to size 8.0pt on input line 328.
 LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
-(Font)              scaled to size 6.1pt on input line 327.
+(Font)              scaled to size 6.1pt on input line 328.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 336.
+(Font)              scaled to size 20.74pt on input line 339.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 336.
+(Font)              scaled to size 14.4pt on input line 339.
 
-<./figures/MIUN_logotyp.png, id=151, 243.309pt x 115.632pt>
+<./figures/MIUN_logotyp.png, id=175, 243.309pt x 115.632pt>
 File: ./figures/MIUN_logotyp.png Graphic file (type png)
 
 <use ./figures/MIUN_logotyp.png>
-Package pdftex.def Info: ./figures/MIUN_logotyp.png used on input line 336.
+Package pdftex.def Info: ./figures/MIUN_logotyp.png used on input line 339.
 (pdftex.def)             Requested size: 163.5pt x 77.70593pt.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 336.
+(babel)             in language  on input line 339.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 336.
+(babel)             in language  on input line 339.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 336.
+(babel)             in language  on input line 339.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 336.
+(babel)             in language  on input line 339.
  [1
 
 \openout7 = `main.ist'.
@@ -3563,13 +3552,13 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 9.
 )
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 339.
+(babel)             in language  on input line 342.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 339.
+(babel)             in language  on input line 342.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 339.
+(babel)             in language  on input line 342.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 339.
+(babel)             in language  on input line 342.
 
 [2
 
@@ -3610,13 +3599,13 @@ Package babel Info: Redefining swedish shorthand "~
 (babel)             in language  on input line 5.
 )
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 359.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 359.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining swedish shorthand "|
-(babel)             in language  on input line 359.
+(babel)             in language  on input line 362.
 Package babel Info: Redefining swedish shorthand "~
-(babel)             in language  on input line 359.
+(babel)             in language  on input line 362.
  [7] (./main.toc
 LaTeX Font Info:    Font shape `T1/zpltlf/m/sc' will be
 (Font)              scaled to size 10.95pt on input line 6.
@@ -3657,10 +3646,6 @@ Package fontaxes Warning: I don't know how to decode
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 14.
-
-
-Package fontaxes Warning: I don't know how to decode
 (fontaxes)                family `zpltlf' on input line 15.
 
 
@@ -3749,27 +3734,27 @@ Package fontaxes Warning: I don't know how to decode
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 31.
+(fontaxes)                family `zpltlf' on input line 26.
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 31.
+(fontaxes)                family `zpltlf' on input line 26.
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 33.
+(fontaxes)                family `zpltlf' on input line 37.
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 33.
+(fontaxes)                family `zpltlf' on input line 37.
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 35.
+(fontaxes)                family `zpltlf' on input line 39.
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 35.
+(fontaxes)                family `zpltlf' on input line 39.
 
 
 Package fontaxes Warning: I don't know how to decode
@@ -3808,19 +3793,51 @@ Package fontaxes Warning: I don't know how to decode
 ]
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 51.
+(fontaxes)                family `zpltlf' on input line 45.
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 51.
+(fontaxes)                family `zpltlf' on input line 45.
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 52.
+(fontaxes)                family `zpltlf' on input line 46.
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 52.
+(fontaxes)                family `zpltlf' on input line 46.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 47.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 47.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 48.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 48.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 49.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 49.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 56.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 56.
 
 
 Package fontaxes Warning: I don't know how to decode
@@ -3829,22 +3846,6 @@ Package fontaxes Warning: I don't know how to decode
 
 Package fontaxes Warning: I don't know how to decode
 (fontaxes)                family `zpltlf' on input line 57.
-
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 58.
-
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 58.
-
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 59.
-
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 59.
 
 
 Package fontaxes Warning: I don't know how to decode
@@ -3869,43 +3870,67 @@ Package fontaxes Warning: I don't know how to decode
 
 Package fontaxes Warning: I don't know how to decode
 (fontaxes)                family `zpltlf' on input line 64.
-
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 65.
-
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 65.
-
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 66.
-
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 66.
 
 
 Package fontaxes Warning: I don't know how to decode
 (fontaxes)                family `zpltlf' on input line 67.
 
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 67.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 68.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 68.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 69.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 69.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 70.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 70.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 71.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 71.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 72.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 72.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 73.
+
 ) [9] (./main.lof
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 11.
+(fontaxes)                family `zpltlf' on input line 12.
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 11.
-
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 13.
-
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 13.
+(fontaxes)                family `zpltlf' on input line 12.
 
 
 Package fontaxes Warning: I don't know how to decode
@@ -3994,6 +4019,14 @@ Package fontaxes Warning: I don't know how to decode
 
 Package fontaxes Warning: I don't know how to decode
 (fontaxes)                family `zpltlf' on input line 24.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 25.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 25.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -4003,15 +4036,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 25.
+(fontaxes)                family `zpltlf' on input line 26.
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 25.
-
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 27.
+(fontaxes)                family `zpltlf' on input line 26.
 
 
 Package fontaxes Warning: I don't know how to decode
@@ -4019,1126 +4048,574 @@ Package fontaxes Warning: I don't know how to decode
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 28.
+(fontaxes)                family `zpltlf' on input line 27.
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 28.
+(fontaxes)                family `zpltlf' on input line 29.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 29.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 30.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 30.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 31.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 31.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 32.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 32.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 33.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 33.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 34.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 34.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 35.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 35.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 37.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 37.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 38.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 38.
 
 ) [11] (./main.lot
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 12.
+(fontaxes)                family `zpltlf' on input line 13.
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 12.
+(fontaxes)                family `zpltlf' on input line 13.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 15.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 15.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 18.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 18.
 
 ) [12
 
 ] (./frontmatter/listofpapers.tex
 
+LaTeX Warning: Reference `pap:paper1' on page xiii undefined on input line 34.
+
+
+LaTeX Warning: Reference `pap:paper2' on page xiii undefined on input line 38.
+
+
 LaTeX Warning: Reference `pap:paper3' on page xiii undefined on input line 42.
 
-) (./frontmatter/acknowledgment.tex) [13
+) (./frontmatter/acknowledgment.tex [13
 
 
 ] [14
 
-] (./chapters/introduction.tex
-[1
+]) [15] [16
+
+]
+(./chapters/introduction.tex [1
 
 ]
 
-LaTeX Warning: Citation 'iea2017' on page 2 undefined on input line 21.
+LaTeX Warning: Citation 'davis2013' on page 2 undefined on input line 15.
 
+[2] [3]
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation 'lamra2013' on page 4 undefined on input line 27.
 
- [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
-
-LaTeX Warning: Citation 'kaikk2014' on page 4 undefined on input line 35.
-
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 33.
 [4]) (./chapters/theory.tex [5] [6
 
 ]
-
-LaTeX Warning: Citation 'iea2017' on page 7 undefined on input line 13.
-
-<./figures/freezing_droplets.jpg, id=413, 796.9775pt x 386.44376pt>
+<./figures/freezing_droplets.jpg, id=493, 796.9775pt x 386.44376pt>
 File: ./figures/freezing_droplets.jpg Graphic file (type jpg)
 
 <use ./figures/freezing_droplets.jpg>
 Package pdftex.def Info: ./figures/freezing_droplets.jpg used on input line 18.
 
 (pdftex.def)             Requested size: 261.601pt x 126.84282pt.
+ [7] [8 <./figures/freezing_droplets.jpg>] [9] [10]) (./chapters/methods.tex [1
+1] [12
 
-
-LaTeX Warning: Citation 'dier2011' on page 7 undefined on input line 27.
-
-[7] [8 <./figures/freezing_droplets.jpg>] [9] [10]) (./chapters/methods.tex
-[11] [12
-
-] [13]
-LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 18.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 18.
- <figures/compare455nmdot.jpg, id=498, 96.36pt x 96.36pt>
-File: figures/compare455nmdot.jpg Graphic file (type jpg)
-
-<use figures/compare455nmdot.jpg>
-Package pdftex.def Info: figures/compare455nmdot.jpg used on input line 26.
-(pdftex.def)             Requested size: 98.101pt x 98.1006pt.
-
-<figures/compare850nmdot.jpg, id=499, 96.36pt x 96.36pt>
-File: figures/compare850nmdot.jpg Graphic file (type jpg)
-
-<use figures/compare850nmdot.jpg>
-Package pdftex.def Info: figures/compare850nmdot.jpg used on input line 32.
-(pdftex.def)             Requested size: 98.101pt x 98.1006pt.
-
-<figures/spektralanalys_mightex455nm.jpg, id=501, 562.1pt x 421.575pt>
-File: figures/spektralanalys_mightex455nm.jpg Graphic file (type jpg)
-
-<use figures/spektralanalys_mightex455nm.jpg>
-Package pdftex.def Info: figures/spektralanalys_mightex455nm.jpg used on input 
-line 43.
-(pdftex.def)             Requested size: 196.202pt x 147.1482pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <./figures/compare455nmdot.jpg> <./figures/compare850nmdot.jpg>] [15 <./fi
-gures/spektralanalys_mightex455nm.jpg>]
-<figures/NoiseGain.jpg, id=516, 420.06938pt x 287.57437pt>
-File: figures/NoiseGain.jpg Graphic file (type jpg)
-
-<use figures/NoiseGain.jpg>
-Package pdftex.def Info: figures/NoiseGain.jpg used on input line 61.
-(pdftex.def)             Requested size: 196.202pt x 134.31747pt.
-
-<figures/Amblight22000lux.jpg, id=518, 421.575pt x 316.18124pt>
-File: figures/Amblight22000lux.jpg Graphic file (type jpg)
-
-<use figures/Amblight22000lux.jpg>
-Package pdftex.def Info: figures/Amblight22000lux.jpg used on input line 73.
-(pdftex.def)             Requested size: 196.202pt x 147.15302pt.
- [16 <./figures/NoiseGain.jpg>]
-<figures/Energy_per_gain_level2.png, id=524, 605.26125pt x 408.02437pt>
-File: figures/Energy_per_gain_level2.png Graphic file (type png)
-
-<use figures/Energy_per_gain_level2.png>
-Package pdftex.def Info: figures/Energy_per_gain_level2.png used on input line 
-85.
-(pdftex.def)             Requested size: 245.25pt x 165.3299pt.
- [17 <./figures/Amblight22000lux.jpg>]
-<figures/meas_range_vs_log_th.jpg, id=534, 376.40625pt x 244.66406pt>
-File: figures/meas_range_vs_log_th.jpg Graphic file (type jpg)
-
-<use figures/meas_range_vs_log_th.jpg>
-Package pdftex.def Info: figures/meas_range_vs_log_th.jpg used on input line 10
-3.
-(pdftex.def)             Requested size: 245.25pt x 159.418pt.
- [18 <./figures/Energy_per_gain_level2.png>]
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 114.
-
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 117.
-
-<./figures/50umdot40x.jpg, id=542, 130.086pt x 55.6479pt>
-File: ./figures/50umdot40x.jpg Graphic file (type jpg)
-
-<use ./figures/50umdot40x.jpg>
-Package pdftex.def Info: ./figures/50umdot40x.jpg used on input line 125.
-(pdftex.def)             Requested size: 245.25pt x 104.91777pt.
- [19 <./figures/meas_range_vs_log_th.jpg>]
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 134.
-
-LaTeX Font Info:    Try loading font information for T1+zpltlf-LF on input line
- 134.
-No file T1zpltlf-LF.fd.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20 <./figures/50umdot40x.jpg>]
-<./figures/shadowprinc.jpg, id=557, 443.6575pt x 99.37125pt>
+]
+<./figures/shadowprinc.jpg, id=571, 443.6575pt x 99.37125pt>
 File: ./figures/shadowprinc.jpg Graphic file (type jpg)
 
 <use ./figures/shadowprinc.jpg>
-Package pdftex.def Info: ./figures/shadowprinc.jpg used on input line 162.
+Package pdftex.def Info: ./figures/shadowprinc.jpg used on input line 18.
 (pdftex.def)             Requested size: 245.25pt x 54.93031pt.
 
-<figures/Foto0169.jpg, id=558, 1606.0pt x 1204.5pt>
+<figures/Foto0169.jpg, id=572, 1606.0pt x 1204.5pt>
 File: figures/Foto0169.jpg Graphic file (type jpg)
  <use figures/Foto0169.jpg>
-Package pdftex.def Info: figures/Foto0169.jpg used on input line 168.
+Package pdftex.def Info: figures/Foto0169.jpg used on input line 24.
 (pdftex.def)             Requested size: 245.25pt x 183.93869pt.
 
-<figures/cam_housings.jpg, id=559, 3508.10625pt x 1722.435pt>
+<figures/cam_housings.jpg, id=573, 3508.10625pt x 1722.435pt>
 File: figures/cam_housings.jpg Graphic file (type jpg)
 
 <use figures/cam_housings.jpg>
-Package pdftex.def Info: figures/cam_housings.jpg used on input line 173.
+Package pdftex.def Info: figures/cam_housings.jpg used on input line 29.
 (pdftex.def)             Requested size: 245.25pt x 120.39879pt.
- [21 <./figures/shadowprinc.jpg> <./figures/Foto0169.jpg>]
-Underfull \vbox (badness 1194) has occurred while \output is active []
-
- [22 <./figures/cam_housings.jpg>]
-LaTeX Font Info:    Try loading font information for LGR+zpltlf on input line 1
-95.
-LaTeX Font Info:    No file LGRzpltlf.fd. on input line 195.
+ [13] [14 <./figures/shadowprinc.jpg> <./figures/Foto0169.jpg>] [15 <./figures/
+cam_housings.jpg>]
+LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 51.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 51.
+LaTeX Font Info:    Try loading font information for LGR+zpltlf on input line 5
+9.
+LaTeX Font Info:    No file LGRzpltlf.fd. on input line 59.
 
 
 LaTeX Font Warning: Font shape `LGR/zpltlf/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 195.
+(Font)              using `LGR/cmr/m/n' instead on input line 59.
 
 (c:/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
+Underfull \vbox (badness 1014) has occurred while \output is active []
+
+ [16]
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 198.
-
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 201.
-
-[23]
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 205.
+(fontaxes)                family `zpltlf' on input line 62.
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 209.
+(fontaxes)                family `zpltlf' on input line 65.
 
-[24] [25]
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 232.
+(fontaxes)                family `zpltlf' on input line 69.
 
-<figures/DSC_0103.jpg, id=605, 3854.4pt x 2168.1pt>
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 73.
+
+[17] [18]
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 96.
+
+<figures/compare455nmdot.jpg, id=632, 96.36pt x 96.36pt>
+File: figures/compare455nmdot.jpg Graphic file (type jpg)
+
+<use figures/compare455nmdot.jpg>
+Package pdftex.def Info: figures/compare455nmdot.jpg used on input line 108.
+(pdftex.def)             Requested size: 98.101pt x 98.1006pt.
+
+<figures/compare850nmdot.jpg, id=633, 96.36pt x 96.36pt>
+File: figures/compare850nmdot.jpg Graphic file (type jpg)
+
+<use figures/compare850nmdot.jpg>
+Package pdftex.def Info: figures/compare850nmdot.jpg used on input line 114.
+(pdftex.def)             Requested size: 98.101pt x 98.1006pt.
+
+<figures/spektralanalys_mightex455nm.jpg, id=635, 562.1pt x 421.575pt>
+File: figures/spektralanalys_mightex455nm.jpg Graphic file (type jpg)
+
+<use figures/spektralanalys_mightex455nm.jpg>
+Package pdftex.def Info: figures/spektralanalys_mightex455nm.jpg used on input 
+line 125.
+(pdftex.def)             Requested size: 196.202pt x 147.1482pt.
+ [19] [20 <./figures/compare455nmdot.jpg> <./figures/compare850nmdot.jpg> <./fi
+gures/spektralanalys_mightex455nm.jpg>] <figures/NoiseGain.jpg, id=652, 420.069
+38pt x 287.57437pt>
+File: figures/NoiseGain.jpg Graphic file (type jpg)
+
+<use figures/NoiseGain.jpg>
+Package pdftex.def Info: figures/NoiseGain.jpg used on input line 143.
+(pdftex.def)             Requested size: 196.202pt x 134.31747pt.
+ [21 <./figures/NoiseGain.jpg>]
+<figures/Amblight22000lux.jpg, id=661, 421.575pt x 316.18124pt>
+File: figures/Amblight22000lux.jpg Graphic file (type jpg)
+
+<use figures/Amblight22000lux.jpg>
+Package pdftex.def Info: figures/Amblight22000lux.jpg used on input line 155.
+(pdftex.def)             Requested size: 196.202pt x 147.15302pt.
+ [22 <./figures/Amblight22000lux.jpg>]
+<figures/Energy_per_gain_level2.png, id=667, 605.26125pt x 408.02437pt>
+File: figures/Energy_per_gain_level2.png Graphic file (type png)
+
+<use figures/Energy_per_gain_level2.png>
+Package pdftex.def Info: figures/Energy_per_gain_level2.png used on input line 
+167.
+(pdftex.def)             Requested size: 245.25pt x 165.3299pt.
+ [23 <./figures/Energy_per_gain_level2.png>] <figures/meas_range_vs_log_th.jpg,
+ id=674, 376.40625pt x 244.66406pt>
+File: figures/meas_range_vs_log_th.jpg Graphic file (type jpg)
+
+<use figures/meas_range_vs_log_th.jpg>
+Package pdftex.def Info: figures/meas_range_vs_log_th.jpg used on input line 18
+5.
+(pdftex.def)             Requested size: 245.25pt x 159.418pt.
+
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 196.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24 <./figures/meas_range_vs_log_th.jpg>]
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 199.
+
+<./figures/50umdot40x.jpg, id=684, 130.086pt x 55.6479pt>
+File: ./figures/50umdot40x.jpg Graphic file (type jpg)
+
+<use ./figures/50umdot40x.jpg>
+Package pdftex.def Info: ./figures/50umdot40x.jpg used on input line 207.
+(pdftex.def)             Requested size: 245.25pt x 104.91777pt.
+ [25 <./figures/50umdot40x.jpg>]
+<figures/DSC_0103.jpg, id=691, 3854.4pt x 2168.1pt>
 File: figures/DSC_0103.jpg Graphic file (type jpg)
  <use figures/DSC_0103.jpg>
-Package pdftex.def Info: figures/DSC_0103.jpg used on input line 242.
+Package pdftex.def Info: figures/DSC_0103.jpg used on input line 244.
 (pdftex.def)             Requested size: 245.25pt x 137.92093pt.
 
-[26] <figures/installation3.jpg, id=613, 3854.4pt x 2168.1pt>
+[26] <figures/installation3.jpg, id=698, 3854.4pt x 2168.1pt>
 File: figures/installation3.jpg Graphic file (type jpg)
 
 <use figures/installation3.jpg>
-Package pdftex.def Info: figures/installation3.jpg used on input line 252.
+Package pdftex.def Info: figures/installation3.jpg used on input line 254.
 (pdftex.def)             Requested size: 245.25pt x 137.92093pt.
 
-<figures/installation1.jpg, id=614, 2561.57pt x 2031.59pt>
+<figures/installation1.jpg, id=699, 2561.57pt x 2031.59pt>
 File: figures/installation1.jpg Graphic file (type jpg)
 
 <use figures/installation1.jpg>
-Package pdftex.def Info: figures/installation1.jpg used on input line 258.
+Package pdftex.def Info: figures/installation1.jpg used on input line 260.
 (pdftex.def)             Requested size: 245.25pt x 194.49103pt.
-) (./chapters/discussion.tex [27 <./figures/DSC_0103.jpg> <./figures/installati
-on3.jpg>] [28 <./figures/installation1.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29
+Underfull \vbox (badness 3803) has occurred while \output is active []
+
+ [27 <./figures/DSC_0103.jpg> <./figures/installation3.jpg>]
+<figures/Images/Klovsjo_smhi160923_small.jpg, id=705, 235.63031pt x 243.15843pt
+>
+File: figures/Images/Klovsjo_smhi160923_small.jpg Graphic file (type jpg)
+ <use figures/Images/Klovsjo_smhi160923_small.jpg>
+Package pdftex.def Info: figures/Images/Klovsjo_smhi160923_small.jpg used on in
+put line 275.
+(pdftex.def)             Requested size: 196.202pt x 202.47446pt.
+) (./chapters/results.tex
+[28 <./figures/installation1.jpg>] [29 <./figures/Images/Klovsjo_smhi160923_sma
+ll.jpg>] [30
 
 ]
-[30] [31]
+<figures/Images/Measurement1_5um.jpg, id=720, 704.6325pt x 392.46625pt>
+File: figures/Images/Measurement1_5um.jpg Graphic file (type jpg)
 
-LaTeX Warning: Command \textlambda invalid in math mode on input line 69.
+<use figures/Images/Measurement1_5um.jpg>
+Package pdftex.def Info: figures/Images/Measurement1_5um.jpg used on input line
+ 18.
+(pdftex.def)             Requested size: 163.5pt x 91.0618pt.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 19.
 
-[32] [33]
+<figures/Images/Measurement1_10um.jpg, id=721, 704.6325pt x 392.46625pt>
+File: figures/Images/Measurement1_10um.jpg Graphic file (type jpg)
 
-LaTeX Warning: Reference `fig:0228-0301_LWCvstime' on page 34 undefined on inpu
-t line 97.
+<use figures/Images/Measurement1_10um.jpg>
+Package pdftex.def Info: figures/Images/Measurement1_10um.jpg used on input lin
+e 24.
+(pdftex.def)             Requested size: 160.2318pt x 89.24129pt.
+
+<figures/Images/Measurement1_20um.jpg, id=722, 704.6325pt x 392.46625pt>
+File: figures/Images/Measurement1_20um.jpg Graphic file (type jpg)
+
+<use figures/Images/Measurement1_20um.jpg>
+Package pdftex.def Info: figures/Images/Measurement1_20um.jpg used on input lin
+e 30.
+(pdftex.def)             Requested size: 163.5pt x 91.0618pt.
+
+<figures/Images/Measurement1_50um.jpg, id=723, 704.6325pt x 392.46625pt>
+File: figures/Images/Measurement1_50um.jpg Graphic file (type jpg)
+
+<use figures/Images/Measurement1_50um.jpg>
+Package pdftex.def Info: figures/Images/Measurement1_50um.jpg used on input lin
+e 36.
+(pdftex.def)             Requested size: 160.2318pt x 89.24129pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]|\T1/zpltlf/m/n/10.95 (+20) Stated Mean
+ []
 
 
-LaTeX Warning: Reference `fig:0228-0301_MVDvstime' on page 34 undefined on inpu
-t line 97.
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|\T1/zpltlf/m/n/10.95 (+20) Measured
+ []
 
+
+Overfull \hbox (27.298pt too wide) in paragraph at lines 46--57
+ [][] 
+ []
+
+[31 <./figures/Images/Measurement1_5um.jpg> <./figures/Images/Measurement1_10um
+.jpg> <./figures/Images/Measurement1_20um.jpg> <./figures/Images/Measurement1_5
+0um.jpg>]
+<figures/0228-0301/30min_lwc_CDP_DII_170228-170301_19212_0LpartDII_214646_0Lpar
+tCDP.jpg, id=732, 562.1pt x 421.575pt>
+File: figures/0228-0301/30min_lwc_CDP_DII_170228-170301_19212_0LpartDII_214646_
+0LpartCDP.jpg Graphic file (type jpg)
+
+<use figures/0228-0301/30min_lwc_CDP_DII_170228-170301_19212_0LpartDII_214646_0
+LpartCDP.jpg>
+Package pdftex.def Info: figures/0228-0301/30min_lwc_CDP_DII_170228-170301_1921
+2_0LpartDII_214646_0LpartCDP.jpg used on input line 70.
+(pdftex.def)             Requested size: 163.5pt x 122.62027pt.
+
+<figures/0228-0301/Lwcquote_DII-CDP_17022801-17030123_2760min_leastsquare0_2742
+.jpg, id=733, 562.1pt x 421.575pt>
+File: figures/0228-0301/Lwcquote_DII-CDP_17022801-17030123_2760min_leastsquare0
+_2742.jpg Graphic file (type jpg)
+
+<use figures/0228-0301/Lwcquote_DII-CDP_17022801-17030123_2760min_leastsquare0_
+2742.jpg>
+Package pdftex.def Info: figures/0228-0301/Lwcquote_DII-CDP_17022801-17030123_2
+760min_leastsquare0_2742.jpg used on input line 76.
+(pdftex.def)             Requested size: 163.5pt x 122.62027pt.
+
+<figures/0228-0301/30min_mvd_CDP_DII_170228-170301_19212_0LpartDII_214646_0Lpar
+tCDP.jpg, id=735, 562.1pt x 421.575pt>
+File: figures/0228-0301/30min_mvd_CDP_DII_170228-170301_19212_0LpartDII_214646_
+0LpartCDP.jpg Graphic file (type jpg)
+
+<use figures/0228-0301/30min_mvd_CDP_DII_170228-170301_19212_0LpartDII_214646_0
+LpartCDP.jpg>
+Package pdftex.def Info: figures/0228-0301/30min_mvd_CDP_DII_170228-170301_1921
+2_0LpartDII_214646_0LpartCDP.jpg used on input line 90.
+(pdftex.def)             Requested size: 163.5pt x 122.62027pt.
+
+<figures/0228-0301/Mvdquote_DII-CDP_17022801-17030123_2760min_leastsquare0_7682
+.jpg, id=736, 562.1pt x 421.575pt>
+File: figures/0228-0301/Mvdquote_DII-CDP_17022801-17030123_2760min_leastsquare0
+_7682.jpg Graphic file (type jpg)
+
+<use figures/0228-0301/Mvdquote_DII-CDP_17022801-17030123_2760min_leastsquare0_
+7682.jpg>
+Package pdftex.def Info: figures/0228-0301/Mvdquote_DII-CDP_17022801-17030123_2
+760min_leastsquare0_7682.jpg used on input line 96.
+(pdftex.def)             Requested size: 160.2318pt x 120.16942pt.
+ [32 <./figures/0228-0301/30min_lwc_CDP_DII_170228-170301_19212_0LpartDII_21464
+6_0LpartCDP.jpg> <./figures/0228-0301/Lwcquote_DII-CDP_17022801-17030123_2760mi
+n_leastsquare0_2742.jpg>]
+<figures/0228-0301/Relation_between_lwcquote_and_wind_speed_17022801-17030123.j
+pg, id=742, 562.1pt x 421.575pt>
+File: figures/0228-0301/Relation_between_lwcquote_and_wind_speed_17022801-17030
+123.jpg Graphic file (type jpg)
+
+<use figures/0228-0301/Relation_between_lwcquote_and_wind_speed_17022801-170301
+23.jpg>
+Package pdftex.def Info: figures/0228-0301/Relation_between_lwcquote_and_wind_s
+peed_17022801-17030123.jpg used on input line 108.
+(pdftex.def)             Requested size: 163.5pt x 122.62027pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
-<figures/170205_0441_droplet_74um.jpg, id=691, 301.125pt x 301.125pt>
+ [33 <./figures/0228-0301/30min_mvd_CDP_DII_170228-170301_19212_0LpartDII_21464
+6_0LpartCDP.jpg> <./figures/0228-0301/Mvdquote_DII-CDP_17022801-17030123_2760mi
+n_leastsquare0_7682.jpg> <./figures/0228-0301/Relation_between_lwcquote_and_win
+d_speed_17022801-17030123.jpg>]
+<figures/161211/30min_lwc_CDP_DII_SMHI_161211_adjusted.jpg, id=749, 562.1pt x 4
+21.575pt>
+File: figures/161211/30min_lwc_CDP_DII_SMHI_161211_adjusted.jpg Graphic file (t
+ype jpg)
+ <use figures/161211/30min_lwc_CDP_DII_SMHI_161211_adjusted.jpg>
+Package pdftex.def Info: figures/161211/30min_lwc_CDP_DII_SMHI_161211_adjusted.
+jpg used on input line 121.
+(pdftex.def)             Requested size: 163.5pt x 122.62027pt.
+
+<figures/161211/30min_mvd_CDP_DII_SMHI_161211_adjusted.jpg, id=750, 562.1pt x 4
+21.575pt>
+File: figures/161211/30min_mvd_CDP_DII_SMHI_161211_adjusted.jpg Graphic file (t
+ype jpg)
+ <use figures/161211/30min_mvd_CDP_DII_SMHI_161211_adjusted.jpg>
+Package pdftex.def Info: figures/161211/30min_mvd_CDP_DII_SMHI_161211_adjusted.
+jpg used on input line 127.
+(pdftex.def)             Requested size: 163.5pt x 122.62027pt.
+
+<figures/0203-0206/30min_lwc_foggy_smhi_170203-170206_86h.jpg, id=754, 562.1pt 
+x 421.575pt>
+File: figures/0203-0206/30min_lwc_foggy_smhi_170203-170206_86h.jpg Graphic file
+ (type jpg)
+
+<use figures/0203-0206/30min_lwc_foggy_smhi_170203-170206_86h.jpg>
+Package pdftex.def Info: figures/0203-0206/30min_lwc_foggy_smhi_170203-170206_8
+6h.jpg used on input line 141.
+(pdftex.def)             Requested size: 163.5pt x 122.62027pt.
+
+<figures/0203-0206/30min_mvd_foggy_smhi_170203-170206_86h.jpg, id=755, 562.1pt 
+x 421.575pt>
+File: figures/0203-0206/30min_mvd_foggy_smhi_170203-170206_86h.jpg Graphic file
+ (type jpg)
+
+<use figures/0203-0206/30min_mvd_foggy_smhi_170203-170206_86h.jpg>
+Package pdftex.def Info: figures/0203-0206/30min_mvd_foggy_smhi_170203-170206_8
+6h.jpg used on input line 147.
+(pdftex.def)             Requested size: 163.5pt x 122.62027pt.
+
+<figures/170210/30min_lwc_CDP_DII_SMHI_170210_2263part.jpg, id=756, 562.1pt x 4
+21.575pt>
+File: figures/170210/30min_lwc_CDP_DII_SMHI_170210_2263part.jpg Graphic file (t
+ype jpg)
+ <use figures/170210/30min_lwc_CDP_DII_SMHI_170210_2263part.jpg>
+Package pdftex.def Info: figures/170210/30min_lwc_CDP_DII_SMHI_170210_2263part.
+jpg used on input line 159.
+(pdftex.def)             Requested size: 163.5pt x 122.62027pt.
+
+<figures/170210/30min_mvd_CDP_DII_SMHI_170210_2263part.jpg, id=757, 562.1pt x 4
+21.575pt>
+File: figures/170210/30min_mvd_CDP_DII_SMHI_170210_2263part.jpg Graphic file (t
+ype jpg)
+ <use figures/170210/30min_mvd_CDP_DII_SMHI_170210_2263part.jpg>
+Package pdftex.def Info: figures/170210/30min_mvd_CDP_DII_SMHI_170210_2263part.
+jpg used on input line 165.
+(pdftex.def)             Requested size: 163.5pt x 122.62027pt.
+)
+(./chapters/discussion.tex [34 <./figures/161211/30min_lwc_CDP_DII_SMHI_161211_
+adjusted.jpg> <./figures/161211/30min_mvd_CDP_DII_SMHI_161211_adjusted.jpg>]
+[35 <./figures/0203-0206/30min_lwc_foggy_smhi_170203-170206_86h.jpg> <./figures
+/0203-0206/30min_mvd_foggy_smhi_170203-170206_86h.jpg> <./figures/170210/30min_
+lwc_CDP_DII_SMHI_170210_2263part.jpg> <./figures/170210/30min_mvd_CDP_DII_SMHI_
+170210_2263part.jpg>] [36
+
+] [37] [38] [39] [40] [41] [42] [43]
+<figures/170205_0441_droplet_74um.jpg, id=845, 301.125pt x 301.125pt>
 File: figures/170205_0441_droplet_74um.jpg Graphic file (type jpg)
 
 <use figures/170205_0441_droplet_74um.jpg>
 Package pdftex.def Info: figures/170205_0441_droplet_74um.jpg used on input lin
-e 113.
+e 120.
 (pdftex.def)             Requested size: 130.798pt x 130.79993pt.
 
-<figures/170205_1648_droplet_19and62um.jpg, id=692, 602.25pt x 301.125pt>
+<figures/170205_1648_droplet_19and62um.jpg, id=846, 602.25pt x 301.125pt>
 File: figures/170205_1648_droplet_19and62um.jpg Graphic file (type jpg)
 
 <use figures/170205_1648_droplet_19and62um.jpg>
 Package pdftex.def Info: figures/170205_1648_droplet_19and62um.jpg used on inpu
-t line 119.
+t line 126.
 (pdftex.def)             Requested size: 261.601pt x 130.80452pt.
- [35 <./figures/170205_0441_droplet_74um.jpg>]) (./chapters/conclusion.tex [36 
-<./figures/170205_1648_droplet_19and62um.jpg>] [37
+ [44 <./figures/170205_0441_droplet_74um.jpg> <./figures/170205_1648_droplet_19
+and62um.jpg>])
+(./chapters/conclusion.tex [45] [46
 
-] [38]) [39] [40
+] [47] [48]
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 7.0pt on input line 76.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 77.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 5.5pt on input line 77.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 6.86201pt on input line 77.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 5.17001pt on input line 77.
+LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
+(Font)              scaled to size 7.3pt on input line 77.
+LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
+(Font)              scaled to size 5.5pt on input line 77.
+LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 77.
+LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
+(Font)              scaled to size 5.5pt on input line 77.
+LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <7> not available
+(Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 79.
+LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
+(Font)              scaled to size 7.0pt on input line 79.
 
-] [41] [42] [43] [44] [45]
-Overfull \hbox (0.9799pt too wide) in paragraph at lines 395--395
+Overfull \hbox (1.56897pt too wide) in paragraph at lines 79--79
+[]|\T1/zpltlf/b/n/7 Paper
+ []
+
+
+Overfull \hbox (1.56897pt too wide) in paragraph at lines 79--79
+[]|\T1/zpltlf/b/n/7 Paper
+ []
+
+
+Overfull \hbox (1.56897pt too wide) in paragraph at lines 79--80
+[]|\T1/zpltlf/b/n/7 Paper
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 81--82
+\T1/zpltlf/m/n/7 droplet mea-sure-ment. Prob-lem for-mu-la-tion. Es-ti-
+ []
+
+) [49] [50] [51
+
+] [52] [53] [54] [55] [56]
+Overfull \hbox (0.9799pt too wide) in paragraph at lines 400--400
 \T1/zpltlf/m/n/10.95 (-20) speed LED driver for vis-i-ble light com-mu-ni-ca-ti
 ons with drawing-
  []
 
-[46] [47] (./papers/paper1.tex [48]
-LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 15.
- [49
-
-] [50
-
-]
-<papers/Paper1.pdf, id=791, 614.295pt x 794.97pt>
-File: papers/Paper1.pdf Graphic file (type pdf)
- <use papers/Paper1.pdf>
-Package pdftex.def Info: papers/Paper1.pdf used on input line 26.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf>
-Package pdftex.def Info: papers/Paper1.pdf used on input line 26.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-<papers/Paper1.pdf, id=794, page=1, 614.295pt x 794.97pt>
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 1>
-Package pdftex.def Info: papers/Paper1.pdf, page1 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
- <use papers/Paper1.pdf, page 1>
-Package pdftex.def Info: papers/Paper1.pdf, page1 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 1>
-Package pdftex.def Info: papers/Paper1.pdf, page1 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [51 <./papers/Paper1.pdf>]
-<papers/Paper1.pdf, id=822, page=2, 614.295pt x 794.97pt>
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 2>
-Package pdftex.def Info: papers/Paper1.pdf, page2 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
- <use papers/Paper1.pdf, page 2>
-Package pdftex.def Info: papers/Paper1.pdf, page2 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 2>
-Package pdftex.def Info: papers/Paper1.pdf, page2 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [52 <./papers/Paper1.pdf>]
-<papers/Paper1.pdf, id=839, page=3, 614.295pt x 794.97pt>
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 3>
-Package pdftex.def Info: papers/Paper1.pdf, page3 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
- <use papers/Paper1.pdf, page 3>
-Package pdftex.def Info: papers/Paper1.pdf, page3 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 3>
-Package pdftex.def Info: papers/Paper1.pdf, page3 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [53 <./papers/Paper1.pdf>]
-<papers/Paper1.pdf, id=851, page=4, 614.295pt x 794.97pt>
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 4>
-Package pdftex.def Info: papers/Paper1.pdf, page4 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
- <use papers/Paper1.pdf, page 4>
-Package pdftex.def Info: papers/Paper1.pdf, page4 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 4>
-Package pdftex.def Info: papers/Paper1.pdf, page4 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [54 <./papers/Paper1.pdf>]
-<papers/Paper1.pdf, id=875, page=5, 614.295pt x 794.97pt>
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 5>
-Package pdftex.def Info: papers/Paper1.pdf, page5 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
- <use papers/Paper1.pdf, page 5>
-Package pdftex.def Info: papers/Paper1.pdf, page5 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 5>
-Package pdftex.def Info: papers/Paper1.pdf, page5 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [55 <./papers/Paper1.pdf>]
-<papers/Paper1.pdf, id=880, page=6, 614.295pt x 794.97pt>
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 6>
-Package pdftex.def Info: papers/Paper1.pdf, page6 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
- <use papers/Paper1.pdf, page 6>
-Package pdftex.def Info: papers/Paper1.pdf, page6 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 6>
-Package pdftex.def Info: papers/Paper1.pdf, page6 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [56 <./papers/Paper1.pdf>]
-<papers/Paper1.pdf, id=904, page=7, 614.295pt x 794.97pt>
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 7>
-Package pdftex.def Info: papers/Paper1.pdf, page7 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
- <use papers/Paper1.pdf, page 7>
-Package pdftex.def Info: papers/Paper1.pdf, page7 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 7>
-Package pdftex.def Info: papers/Paper1.pdf, page7 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [57 <./papers/Paper1.pdf>]
-<papers/Paper1.pdf, id=915, page=8, 614.295pt x 794.97pt>
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 8>
-Package pdftex.def Info: papers/Paper1.pdf, page8 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
- <use papers/Paper1.pdf, page 8>
-Package pdftex.def Info: papers/Paper1.pdf, page8 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 8>
-Package pdftex.def Info: papers/Paper1.pdf, page8 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [58 <./papers/Paper1.pdf>]
-<papers/Paper1.pdf, id=928, page=9, 614.295pt x 794.97pt>
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 9>
-Package pdftex.def Info: papers/Paper1.pdf, page9 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
- <use papers/Paper1.pdf, page 9>
-Package pdftex.def Info: papers/Paper1.pdf, page9 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 9>
-Package pdftex.def Info: papers/Paper1.pdf, page9 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [59 <./papers/Paper1.pdf>]
-<papers/Paper1.pdf, id=934, page=10, 614.295pt x 794.97pt>
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 10>
-Package pdftex.def Info: papers/Paper1.pdf, page10 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
- <use papers/Paper1.pdf, page 10>
-Package pdftex.def Info: papers/Paper1.pdf, page10 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 10>
-Package pdftex.def Info: papers/Paper1.pdf, page10 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [60 <./papers/Paper1.pdf>]
-<papers/Paper1.pdf, id=939, page=11, 614.295pt x 794.97pt>
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 11>
-Package pdftex.def Info: papers/Paper1.pdf, page11 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
- <use papers/Paper1.pdf, page 11>
-Package pdftex.def Info: papers/Paper1.pdf, page11 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 11>
-Package pdftex.def Info: papers/Paper1.pdf, page11 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [61 <./papers/Paper1.pdf>]
-<papers/Paper1.pdf, id=944, page=12, 614.295pt x 794.97pt>
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 12>
-Package pdftex.def Info: papers/Paper1.pdf, page12 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
- <use papers/Paper1.pdf, page 12>
-Package pdftex.def Info: papers/Paper1.pdf, page12 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper1.pdf Graphic file (type pdf)
-
-<use papers/Paper1.pdf, page 12>
-Package pdftex.def Info: papers/Paper1.pdf, page12 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [62 <./papers/Paper1.pdf>])
-(./papers/paper2.tex [63
-
-] [64
-
-]
-<papers/Paper2.pdf, id=967, 597.6729pt x 844.83629pt>
-File: papers/Paper2.pdf Graphic file (type pdf)
- <use papers/Paper2.pdf>
-Package pdftex.def Info: papers/Paper2.pdf used on input line 26.
-(pdftex.def)             Requested size: 597.67143pt x 844.83423pt.
-File: papers/Paper2.pdf Graphic file (type pdf)
-
-<use papers/Paper2.pdf>
-Package pdftex.def Info: papers/Paper2.pdf used on input line 26.
-(pdftex.def)             Requested size: 597.67143pt x 844.83423pt.
-
-<papers/Paper2.pdf, id=970, page=1, 597.6729pt x 844.83629pt>
-File: papers/Paper2.pdf Graphic file (type pdf)
-
-<use papers/Paper2.pdf, page 1>
-Package pdftex.def Info: papers/Paper2.pdf, page1 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
-File: papers/Paper2.pdf Graphic file (type pdf)
- <use papers/Paper2.pdf, page 1>
-Package pdftex.def Info: papers/Paper2.pdf, page1 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
-File: papers/Paper2.pdf Graphic file (type pdf)
-
-<use papers/Paper2.pdf, page 1>
-Package pdftex.def Info: papers/Paper2.pdf, page1 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
- [65 <./papers/Paper2.pdf>]
-<papers/Paper2.pdf, id=1032, page=2, 597.6729pt x 844.83629pt>
-File: papers/Paper2.pdf Graphic file (type pdf)
-
-<use papers/Paper2.pdf, page 2>
-Package pdftex.def Info: papers/Paper2.pdf, page2 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
-File: papers/Paper2.pdf Graphic file (type pdf)
- <use papers/Paper2.pdf, page 2>
-Package pdftex.def Info: papers/Paper2.pdf, page2 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
-File: papers/Paper2.pdf Graphic file (type pdf)
-
-<use papers/Paper2.pdf, page 2>
-Package pdftex.def Info: papers/Paper2.pdf, page2 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
- [66 <./papers/Paper2.pdf>]
-<papers/Paper2.pdf, id=1052, page=3, 597.6729pt x 844.83629pt>
-File: papers/Paper2.pdf Graphic file (type pdf)
-
-<use papers/Paper2.pdf, page 3>
-Package pdftex.def Info: papers/Paper2.pdf, page3 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
-File: papers/Paper2.pdf Graphic file (type pdf)
- <use papers/Paper2.pdf, page 3>
-Package pdftex.def Info: papers/Paper2.pdf, page3 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
-File: papers/Paper2.pdf Graphic file (type pdf)
-
-<use papers/Paper2.pdf, page 3>
-Package pdftex.def Info: papers/Paper2.pdf, page3 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
- [67 <./papers/Paper2.pdf>]
-<papers/Paper2.pdf, id=1059, page=4, 597.6729pt x 844.83629pt>
-File: papers/Paper2.pdf Graphic file (type pdf)
-
-<use papers/Paper2.pdf, page 4>
-Package pdftex.def Info: papers/Paper2.pdf, page4 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
-File: papers/Paper2.pdf Graphic file (type pdf)
- <use papers/Paper2.pdf, page 4>
-Package pdftex.def Info: papers/Paper2.pdf, page4 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
-File: papers/Paper2.pdf Graphic file (type pdf)
-
-<use papers/Paper2.pdf, page 4>
-Package pdftex.def Info: papers/Paper2.pdf, page4 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
- [68 <./papers/Paper2.pdf>]
-<papers/Paper2.pdf, id=1068, page=5, 597.6729pt x 844.83629pt>
-File: papers/Paper2.pdf Graphic file (type pdf)
-
-<use papers/Paper2.pdf, page 5>
-Package pdftex.def Info: papers/Paper2.pdf, page5 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
-File: papers/Paper2.pdf Graphic file (type pdf)
- <use papers/Paper2.pdf, page 5>
-Package pdftex.def Info: papers/Paper2.pdf, page5 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
-File: papers/Paper2.pdf Graphic file (type pdf)
-
-<use papers/Paper2.pdf, page 5>
-Package pdftex.def Info: papers/Paper2.pdf, page5 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
- [69 <./papers/Paper2.pdf>]
-<papers/Paper2.pdf, id=1077, page=6, 597.6729pt x 844.83629pt>
-File: papers/Paper2.pdf Graphic file (type pdf)
-
-<use papers/Paper2.pdf, page 6>
-Package pdftex.def Info: papers/Paper2.pdf, page6 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
-File: papers/Paper2.pdf Graphic file (type pdf)
- <use papers/Paper2.pdf, page 6>
-Package pdftex.def Info: papers/Paper2.pdf, page6 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
-File: papers/Paper2.pdf Graphic file (type pdf)
-
-<use papers/Paper2.pdf, page 6>
-Package pdftex.def Info: papers/Paper2.pdf, page6 used on input line 26.
-(pdftex.def)             Requested size: 432.64589pt x 802.15524pt.
- [70 <./papers/Paper2.pdf>])
-(./papers/paper3.tex [71
-
-] [72
-
-]
-<papers/Paper3.pdf, id=1092, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf>
-Package pdftex.def Info: papers/Paper3.pdf used on input line 26.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf>
-Package pdftex.def Info: papers/Paper3.pdf used on input line 26.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-<papers/Paper3.pdf, id=1095, page=1, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 1>
-Package pdftex.def Info: papers/Paper3.pdf, page1 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 1>
-Package pdftex.def Info: papers/Paper3.pdf, page1 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 1>
-Package pdftex.def Info: papers/Paper3.pdf, page1 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [73 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1122, page=2, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 2>
-Package pdftex.def Info: papers/Paper3.pdf, page2 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 2>
-Package pdftex.def Info: papers/Paper3.pdf, page2 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 2>
-Package pdftex.def Info: papers/Paper3.pdf, page2 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [74 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1157, page=3, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 3>
-Package pdftex.def Info: papers/Paper3.pdf, page3 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 3>
-Package pdftex.def Info: papers/Paper3.pdf, page3 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 3>
-Package pdftex.def Info: papers/Paper3.pdf, page3 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [75 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1183, page=4, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 4>
-Package pdftex.def Info: papers/Paper3.pdf, page4 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 4>
-Package pdftex.def Info: papers/Paper3.pdf, page4 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 4>
-Package pdftex.def Info: papers/Paper3.pdf, page4 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [76 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1188, page=5, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 5>
-Package pdftex.def Info: papers/Paper3.pdf, page5 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 5>
-Package pdftex.def Info: papers/Paper3.pdf, page5 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 5>
-Package pdftex.def Info: papers/Paper3.pdf, page5 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [77 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1194, page=6, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 6>
-Package pdftex.def Info: papers/Paper3.pdf, page6 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 6>
-Package pdftex.def Info: papers/Paper3.pdf, page6 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 6>
-Package pdftex.def Info: papers/Paper3.pdf, page6 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [78 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1199, page=7, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 7>
-Package pdftex.def Info: papers/Paper3.pdf, page7 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 7>
-Package pdftex.def Info: papers/Paper3.pdf, page7 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 7>
-Package pdftex.def Info: papers/Paper3.pdf, page7 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [79 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1205, page=8, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 8>
-Package pdftex.def Info: papers/Paper3.pdf, page8 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 8>
-Package pdftex.def Info: papers/Paper3.pdf, page8 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 8>
-Package pdftex.def Info: papers/Paper3.pdf, page8 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [80 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1210, page=9, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 9>
-Package pdftex.def Info: papers/Paper3.pdf, page9 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 9>
-Package pdftex.def Info: papers/Paper3.pdf, page9 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 9>
-Package pdftex.def Info: papers/Paper3.pdf, page9 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [81 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1216, page=10, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 10>
-Package pdftex.def Info: papers/Paper3.pdf, page10 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 10>
-Package pdftex.def Info: papers/Paper3.pdf, page10 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 10>
-Package pdftex.def Info: papers/Paper3.pdf, page10 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [82 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1221, page=11, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 11>
-Package pdftex.def Info: papers/Paper3.pdf, page11 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 11>
-Package pdftex.def Info: papers/Paper3.pdf, page11 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 11>
-Package pdftex.def Info: papers/Paper3.pdf, page11 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [83 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1228, page=12, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 12>
-Package pdftex.def Info: papers/Paper3.pdf, page12 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 12>
-Package pdftex.def Info: papers/Paper3.pdf, page12 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 12>
-Package pdftex.def Info: papers/Paper3.pdf, page12 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [84 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1234, page=13, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 13>
-Package pdftex.def Info: papers/Paper3.pdf, page13 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 13>
-Package pdftex.def Info: papers/Paper3.pdf, page13 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 13>
-Package pdftex.def Info: papers/Paper3.pdf, page13 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [85 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1243, page=14, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 14>
-Package pdftex.def Info: papers/Paper3.pdf, page14 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 14>
-Package pdftex.def Info: papers/Paper3.pdf, page14 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 14>
-Package pdftex.def Info: papers/Paper3.pdf, page14 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [86 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1255, page=15, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 15>
-Package pdftex.def Info: papers/Paper3.pdf, page15 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 15>
-Package pdftex.def Info: papers/Paper3.pdf, page15 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 15>
-Package pdftex.def Info: papers/Paper3.pdf, page15 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [87 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1262, page=16, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 16>
-Package pdftex.def Info: papers/Paper3.pdf, page16 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 16>
-Package pdftex.def Info: papers/Paper3.pdf, page16 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 16>
-Package pdftex.def Info: papers/Paper3.pdf, page16 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [88 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1270, page=17, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 17>
-Package pdftex.def Info: papers/Paper3.pdf, page17 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 17>
-Package pdftex.def Info: papers/Paper3.pdf, page17 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 17>
-Package pdftex.def Info: papers/Paper3.pdf, page17 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [89 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1280, page=18, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 18>
-Package pdftex.def Info: papers/Paper3.pdf, page18 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 18>
-Package pdftex.def Info: papers/Paper3.pdf, page18 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 18>
-Package pdftex.def Info: papers/Paper3.pdf, page18 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [90 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1285, page=19, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 19>
-Package pdftex.def Info: papers/Paper3.pdf, page19 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 19>
-Package pdftex.def Info: papers/Paper3.pdf, page19 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 19>
-Package pdftex.def Info: papers/Paper3.pdf, page19 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [91 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1290, page=20, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 20>
-Package pdftex.def Info: papers/Paper3.pdf, page20 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 20>
-Package pdftex.def Info: papers/Paper3.pdf, page20 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 20>
-Package pdftex.def Info: papers/Paper3.pdf, page20 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [92 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1297, page=21, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 21>
-Package pdftex.def Info: papers/Paper3.pdf, page21 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 21>
-Package pdftex.def Info: papers/Paper3.pdf, page21 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 21>
-Package pdftex.def Info: papers/Paper3.pdf, page21 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [93 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1303, page=22, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 22>
-Package pdftex.def Info: papers/Paper3.pdf, page22 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 22>
-Package pdftex.def Info: papers/Paper3.pdf, page22 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 22>
-Package pdftex.def Info: papers/Paper3.pdf, page22 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [94 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1308, page=23, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 23>
-Package pdftex.def Info: papers/Paper3.pdf, page23 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 23>
-Package pdftex.def Info: papers/Paper3.pdf, page23 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 23>
-Package pdftex.def Info: papers/Paper3.pdf, page23 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [95 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1315, page=24, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 24>
-Package pdftex.def Info: papers/Paper3.pdf, page24 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 24>
-Package pdftex.def Info: papers/Paper3.pdf, page24 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 24>
-Package pdftex.def Info: papers/Paper3.pdf, page24 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [96 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1321, page=25, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 25>
-Package pdftex.def Info: papers/Paper3.pdf, page25 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 25>
-Package pdftex.def Info: papers/Paper3.pdf, page25 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 25>
-Package pdftex.def Info: papers/Paper3.pdf, page25 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [97 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1326, page=26, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 26>
-Package pdftex.def Info: papers/Paper3.pdf, page26 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 26>
-Package pdftex.def Info: papers/Paper3.pdf, page26 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 26>
-Package pdftex.def Info: papers/Paper3.pdf, page26 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [98 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1331, page=27, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 27>
-Package pdftex.def Info: papers/Paper3.pdf, page27 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 27>
-Package pdftex.def Info: papers/Paper3.pdf, page27 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 27>
-Package pdftex.def Info: papers/Paper3.pdf, page27 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [99 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1336, page=28, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 28>
-Package pdftex.def Info: papers/Paper3.pdf, page28 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 28>
-Package pdftex.def Info: papers/Paper3.pdf, page28 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 28>
-Package pdftex.def Info: papers/Paper3.pdf, page28 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [100 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1341, page=29, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 29>
-Package pdftex.def Info: papers/Paper3.pdf, page29 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 29>
-Package pdftex.def Info: papers/Paper3.pdf, page29 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 29>
-Package pdftex.def Info: papers/Paper3.pdf, page29 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [101 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1347, page=30, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 30>
-Package pdftex.def Info: papers/Paper3.pdf, page30 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 30>
-Package pdftex.def Info: papers/Paper3.pdf, page30 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 30>
-Package pdftex.def Info: papers/Paper3.pdf, page30 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [102 <./papers/Paper3.pdf>]
-<papers/Paper3.pdf, id=1352, page=31, 614.295pt x 794.97pt>
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 31>
-Package pdftex.def Info: papers/Paper3.pdf, page31 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
- <use papers/Paper3.pdf, page 31>
-Package pdftex.def Info: papers/Paper3.pdf, page31 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
-File: papers/Paper3.pdf Graphic file (type pdf)
-
-<use papers/Paper3.pdf, page 31>
-Package pdftex.def Info: papers/Paper3.pdf, page31 used on input line 26.
-(pdftex.def)             Requested size: 449.26794pt x 752.28908pt.
- [103 <./papers/Paper3.pdf>])
-
-Package caption Warning: Unused \captionsetup[subfigure] on input line 304.
-See the caption package documentation for explanation.
-
+[57]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
+[58]
 \tf@toc=\write10
 \openout10 = `main.toc'.
 
@@ -5148,13 +4625,13 @@ This document will not have a glossary.
 \tf@lot=\write12
 \openout12 = `main.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 406.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 406.
-(./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 406.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 406.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 411.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 411.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 411.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 411.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C0F1DF38C41876E22C063D7E3ABB8606;2411.
+(rerunfilecheck)             Checksum: 81C0B27F3338471575A87D7DF4A37E87;2822.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -5175,47 +4652,32 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 68341 strings out of 493013
- 1488787 string characters out of 6136992
- 2074944 words of memory out of 5000000
- 70201 multiletter control sequences out of 15000+600000
- 92525 words of font info for 203 fonts, out of 8000000 for 9000
+ 68317 strings out of 493013
+ 1491667 string characters out of 6136992
+ 2079113 words of memory out of 5000000
+ 70197 multiletter control sequences out of 15000+600000
+ 116673 words of font info for 230 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 64i,19n,111p,10417b,2903s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,13n,111p,10417b,2905s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/
 2016/texmf-dist/fonts/enc/dvips/newpx/tgpdiff.enc}{c:/texlive/2016/texmf-dist/f
 onts/enc/dvips/base/8r.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/nt
 x-ot1-tlf.enc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.e
 nc}{c:/texlive/2016/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}<c:/texlive/2
-016/texmf-dist/fonts/type1/public/belleek/blex.pfb><c:/texlive/2016/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2016/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi12.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2016/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2016/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2016/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy7.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
-fb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/te
-xlive/2016/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb><c:/texlive/2016/
-texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2016/texmf-dist/fonts
-/type1/public/tex-gyre/qplr.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/
-belleek/rblmi.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/pxfonts/rpxmi.
-pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/te
-xlive/2016/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2016/texmf
--dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2016/texmf-dist/fonts/typ
-e1/urw/helvetic/uhvro8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palatin
-o/uplri8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/newpx/zplb.pfb><c:
-/texlive/2016/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:/texlive/2016/tex
-mf-dist/fonts/type1/public/newpx/zplri.pfb><c:/texlive/2016/texmf-dist/fonts/ty
-pe1/public/newpx/zplx-regular.pfb>
-Output written on main.pdf (117 pages, 12246821 bytes).
+016/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb><c:/texlive/2016/texmf-d
+ist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2016/texmf-dist/fonts/type1/
+public/tex-gyre/qplr.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/pxfonts
+/rpxmi.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/t
+exlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2016/tex
+mf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2016/texmf-dist/fonts/
+type1/urw/palatino/uplri8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/n
+ewpx/zplb.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:
+/texlive/2016/texmf-dist/fonts/type1/public/newpx/zplri.pfb><c:/texlive/2016/te
+xmf-dist/fonts/type1/public/newpx/zplx-regular.pfb>
+Output written on main.pdf (74 pages, 8953233 bytes).
 PDF statistics:
- 1504 PDF objects out of 1728 (max. 8388607)
- 1140 compressed objects within 12 object streams
- 291 named destinations out of 1000 (max. 500000)
- 35497 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1065 PDF objects out of 1200 (max. 8388607)
+ 918 compressed objects within 10 object streams
+ 266 named destinations out of 1000 (max. 500000)
+ 40967 words of extra memory for PDF output out of 42996 (max. 10000000)
 

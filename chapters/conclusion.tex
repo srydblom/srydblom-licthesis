@@ -5,7 +5,7 @@ The thesis describes the work resulting in three scientific papers.
 
 \section{General Conclusions}
 
-Shadowgraph imaging can be used for comparison and validation of NWP models.It can also be used as reference measurement for instruments using other techniques. The accuracy of the particle size measurement is high. 
+Shadowgraph imaging can be used for comparison and validation of NWP models. The technique can also be used for size reference measurement of instruments based on other techniques. The accuracy of the particle size measurement is high. 
 
 The accuracy of the concentration measurement is questioned due to the systematic difference to the reference instrument, but has the potential to become high due to the single-particle measurement range calibraiton. The precision of the instrument depends mainly on the number of images that is used to achieve each measurement value. 
 
@@ -18,7 +18,7 @@ The real-time performance of the instrument is limited by the image retrieval an
 The test using polymer microspheres confirms that the DII, calibrated by a micrometer dot scale measures the size of the tested samples correctly. The size distributions achieved by this instrument are within the tolerances specified by the manufacturer of the microspheres.
 
 \item
-The used LED is capable of emitting at much higher currents than the specified maximum.
+The used LED is capable of emitting light at much higher currents than the specified maximum.
 
 \item
 The DII was proven to withstand and function in a very humid environment. 
@@ -33,7 +33,7 @@ Both the CDP and the DII make precise measurements of the LWC using a 30 minute 
 The CDP achieves higher values of the droplet diameters compared with the DII. This leads to an even higher difference in the measured LWC.
 
 \item
-A calibration of the measurement range depending on the distance from the measured particle to the optical center is needed in order to get a better estimation of the measurement volume.
+A better calibration of the measurement range depending on the spatial position of the measured particle, the lighting condition or the SNR is needed to get a better estimation of the measurement volume.
 
 \item
 The predicted LWC and MVD data from HARMONIE-AROME have better agreement with the measured values when using a 500 meter horizontal resolution than the usual 2.5 km resolution.
@@ -50,7 +50,7 @@ Large droplets are important to understand the total size distribution of liquid
 
 \begin{enumerate}
 \item
-A second study of real world LWC and MVD should be done using a third instrument. 
+A new study of the measurement range should be done including e.g. spatial position, lighting condition and SNR.
 
 \item
 A simultaneous measurement of ice load should be done to find out more about the relationship between MVD, LWC and ice load.
@@ -65,3 +65,33 @@ Higher wind speeds can be used. The LED flash can be shortened by using higher. 
 A study to further investigate the relation between the different parameters impact on the ice load may be done using the instruments an ice monitoring device. This should be done in combination with a third independent LWC and MVD measurement, e.g. by using rotating cylinders\cite{makk1992}.
 
 \end{enumerate}
+
+\section{Authors' Contributions}
+
+Contributions from the authors and others are summarized in the table below.
+
+\begin{table}[ht]
+%\centering
+%\resizebox{\textwidth}{!}{%
+\tiny
+\begin{tabular}{p{0.15\linewidth} p{0.05\linewidth} p{0.05\linewidth} p{0.05\linewidth} p{0.5\linewidth}}
+\hline
+\textbf{Contributor} & \textbf{Paper I} & \textbf{Paper II} & \textbf{Paper III} \\
+\hline
+Staffan \par Rydblom & MA & & &  Survey of existing instruments and techniques for droplet measurement. Problem formulation. Estimation of the optical limitations for measurement. Choise of technique for imaging. Choise of image processing method and implementation in Matlab. Laboratory setup and method of calibration. Statistical analysis of precision. \\
+& & MA & & Design and integration of the instrument and the fog chamber. Implementation of the real time measurement and analysis program in Linux/C++ with OpenCV. Measurement of polymer microspheres as reference objects. Measurement of a fog using the instrument inside the developed fog chamber and flow control. \\
+& & & MA & Integration of the DII for real world measurements. Choise of reference instrument. Optimization of the measurement and analysis application. Commissioning of the DII on site and supervision of the data collection. \\
+Benny \par Thörnberg & CA & & & Supervision of the work, oral discussions and advice about methods, optics and statistics. Discussion regarding the fourier analysis of a theoretical model of a droplet. \\
+& & CA & & Supervision of work. Integration of the power module for the LED flash. \\
+& & & CA & Supervision. Choise of mechanics and motor for the rotation. Commissioning on site. \\
+Esbjörn Olsson \par SMHI & PM & & & System requirements discussion and analysis. \\
+& & & CA & Choise of measurement site. Theory of NWP models and implementation of the high resolution model. Weather simulations. \\
+Patrik Jonsson \par Combitech & & & PM & Project leader at Combitech and commissioning on the measurement site. \\
+Björn Ollars \par Combitech & & & PM & Mechanical integration of the complete rotational system on the mast and commissioning on site. \\
+Olof Carlsson \par Combitech & & & PM & Setup and commissioning of the CDP data logging unit. \\
+Lisa Velander & LC & & LC & \\
+\hline
+\end{tabular}
+\caption{MA = Main Author, CA = Co-Author, PM = Project Member, LC = Language Check.}
+\label{tab:contributions}
+\end{table}

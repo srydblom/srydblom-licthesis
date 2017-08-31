@@ -13,8 +13,11 @@
 
 \subsection{Infrared and Visible Light}
 
+The amound of absorbed light in a small water droplet is close to negligible compared to the scattered light. In a large ensemble of droplets, such as a cloud, the total absorption will still be significant, especially for wavelengths in the near and far infrared. Since it was possile, we made a quick comparison of illumination using blue light (ca 450nm) and near infrared (ca 850nm). The blue light gave the sharpest image, probably due to the sensor's slightly higher sensitivity for blue light. But also possibly due to the higher theoretical resolving power as described by Rayleigh's criterion. See Paper I.
 
 \subsection{Laser Light}
+
+Lasers are used in most optical instruments for droplet measurement and for many good reasons. Prices for high power semiconductor lasers have also become very attractive. The coherency gives the possibility of using holographic reconstruction of diffraction patterns to achieve a larger measuring range than what is possible in conventional imaging. Sizing of particles may still be tricky, and especially more calculation intensive. For conventional imaging of small particles the coherence mainly causes problems as the diffraction patterns will be strong and visible. Although it is possbile to make the laser incoherent e.g. by using diffusers or optical fibres it is still another circumstance that makes the complete system slightly more complex.
 
 \subsection{Image Noise and SNR}
 
@@ -24,9 +27,11 @@ Spatial dissimilarities in the light intensity that are not caused by noise we c
 
 \subsection{Image Pre-processing}
 
-To increase the  speed The is done by constructing an average image by the last 20 images and using this as a 
+To increase the number of processed images a pre-process is done using a variable threshold as described in section \ref{imgsegment}. The processing speed could be increased even more limiting the edge detection algorithm to the region or regions around the discovered differences.
 
 \subsection{Light Sensitivity Measurement}
+
+This measurement was done to get an idea about the theoretical minimum amount of energy required for each image. In practice, the light from the collimated LED used will be spread so that only a small part of the total emitted energy actually reaches the sensor. The area in view is about 8 times smaller than the illuminated area of the collimated LED, which was measured to about 8x8 mm. Also a lot of the light energy will be absorbed in the telecentric lens.
 
 \subsection{Speed of Light Flash}
 
@@ -42,6 +47,8 @@ Many existing instruments suffer from errors caused by the instrument itself dur
 To get a second verification of the sizing algorithm we made a measurement using polymer microspheres of known calibrated size distributions.
 
 \subsection{Speed}
+
+\todo{discuss the speed needed for the purpose - measuring ice}
 
 \subsection{Clogging}
 
@@ -66,7 +73,7 @@ The experiment using calibrated spheres confirms that the measurement of droplet
 
 \section{LED Illumination}
 
-Using a high power LED instead of laser reduces the interference effects used in e.g. holography \cite{henn2013}, but since it is a monochromatic source, interference may not be completely ruled out. The coherence length, provided a Gaussian spectrum, can be approximated by Eq. 12 \cite{akcay2002}: $equation12λ$
+Using a high power LED instead of laser reduces the interference effects used in e.g. holography \cite{henn2013}, but since it is a monochromatic source, interference may not be completely ruled out. The coherence length for the blue LED is calculated in Paper I.
 
 LEDs can sometimes be used with currents far above the specifications, as long as the pulse length is short and the duty cycle is low enough to permit the heat generated to be transported away between the pulses. Using the LED above specifications may though affect the efficiency and aging of the LED. LED emittance also depends on the temperature. Depending on the capacitance of the diode, the rise time may limit the current, although there exist some techniques to shorten the LED pulses \cite{tanaka2011,vele2007}.
 

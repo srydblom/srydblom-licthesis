@@ -68,14 +68,15 @@
 \usepackage{siunitx}                        % make setting units fun and good looking 
 \usepackage[version=3]{mhchem}              % nicer isotopes
 
-\AtBeginEnvironment{tabular}{%
+\AtBeginEnvironment{tabularx}{%
     \figureversion{lf,tab}
     \sisetup{text-rm={\figureversion{tab,lf}}}
 }
     \sisetup{detect-weight=true, detect-family=true, detect-mode=true, tight-spacing=true} % Make siunitx detect font-face and weight
 
 
-\usepackage[caption=false,font=footnotesize]{subfig}
+%\usepackage[caption=false,font=footnotesize]{subfig}
+\usepackage{subcaption}
     %\renewcommand{\arraystretch}{1}				  % more space in tables
 %\usepackage{rotating}
 \usepackage{longtable}
@@ -325,6 +326,8 @@
 \pagestyle{miunlic}
 
 \begin{document}
+
+\renewcommand{\arraystretch}{1.2}
 % -- frontmatter -------------------------------------------
 
 \frontmatter
@@ -376,11 +379,13 @@
 
 % -- start main content ------------------------------------
 \mainmatter
-\input{./chapters/introduction} %folder added by DK 02/09/14
+\input{./chapters/introduction}
 %
-\input{./chapters/theory} %folder added by WW 02/05/12
+\input{./chapters/theory} 
 %
 \input{./chapters/methods}
+%
+\input{./chapters/results}
 %
 \input{./chapters/discussion}
 %
@@ -398,9 +403,9 @@
 %\input{./backmatter/s}
 
 
-\input{./papers/paper1} %note: My solution for the shims is not elegant, but it got the job done. Not sure this is the best solution for the template though. WW
-\input{./papers/paper2}
-\input{./papers/paper3}
+%\input{./papers/paper1} %note: My solution for the shims is not elegant, but it got the job done. Not sure this is the best solution for the template though. WW
+%\input{./papers/paper2}
+%\input{./papers/paper3}
 %\input{./papers/paper4}
 
 \end{document}

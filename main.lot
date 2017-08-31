@@ -9,6 +9,10 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {3.1}{\ignorespaces Micro dot verification measurement. All values are in \IeC {\textmu }m. Eccentricity is here the maximum difference in \IeC {\textmu }m between the smallest and the largest measured diameter.\relax }}{20}{table.caption.15}
+\addvspace {10pt}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Micro dot verification measurement. All values are in \IeC {\textmu }m. Eccentricity is here the maximum difference in \IeC {\textmu }m between the smallest and the largest measured diameter.\relax }}{26}{table.caption.20}
+\addvspace {10pt}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Summary of the result from the measurement of NIST certified microspheres. All values are in \IeC {\textmu }m.\relax }}{32}{table.caption.26}
 \addvspace {10pt}
 \addvspace {10pt}
+\contentsline {table}{\numberline {6.1}{\ignorespaces MA = Main Author, CA = Co-Author, PM = Project Member, LC = Language Check.\relax }}{50}{table.caption.36}

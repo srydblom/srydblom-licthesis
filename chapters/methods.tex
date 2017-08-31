@@ -2,18 +2,100 @@
 % !TeX spelling = en_GB
 % !TeX program = pdflatex
 
-\chapter{Materials, Methods and Unpublished Results}
+\chapter{Materials and Methods}
 \label{chap:methods}
 
-The work begun with some initial tests, in which different light sources and illumination angles were investigated. It was decided to use a shadowgraph system with background illumination. The experimental setup was tested using different water droplet generators and a test target consisting of micrometer sized lines and dots. Analyzing the optical system and testing different segmentation algorithms we found a simple way to define the sample volume from a single image. Using the Laplacian of Gaussian edge detection, which principally is a second derivation of the image intensity gradient, and a suitable threshold, we can create closed curves around objects where the edge is in or near focus. To test the ability of measuring concentration we needed to build a weather protected prototype that could be used in parallell with a second instrument. The prototype needed to be fully automatic, able to analyze images in real time 24 hours a day during several months and store the results in a compressed format. To calibrate the size measurement and the measurement range, the previously mentioned dots of different sizes were used. The size measurement was also verified using distributions polymer microspheres, applied by blowing compressed air through a glass dispenser.
+Initially different light sources and illumination angles were investigated. It was decided to use a shadowgraph system with background illumination. The experimental setup was tested using different water droplet generators and a test target consisting of micrometer sized lines and dots. Analyzing the optical system and testing different segmentation algorithms we found a simple way to define the sample volume for each individual droplet. To test the ability of measuring concentration we needed to build a weather protected prototype that could be used in parallell with a second instrument. The prototype needed to be fully automatic, able to analyze images in real time 24 hours a day during several months and store the results in a compressed format. To calibrate the size measurement and the measurement range, the previously mentioned dots of different sizes were used. The size measurement was also verified using distributions polymer microspheres, applied by blowing compressed air through a glass dispenser.
+
+
+\section{The Shadowgraph System}
+
+The instrument is a shadowgraph system using a monochrome CMOS camera with a 4x magnifying telecentric lens and a LED with a collimating lens illuminating the background. The blue LED is powered by a current driver able to produce short 12 A current pulses. Figure \cref{fig:shadowprinc} shows a sketch of the system. 
+
+The system is mounted in a weather proof shell using two standard camera housings and a separate box for the analyzing computer and power supply. Fig. 2 shows the system mounted in weather proof camera housings. 
+
+\begin{figure}[ht]
+\centering\includegraphics[width=0.75\linewidth]{./figures/shadowprinc.jpg}
+\caption{Principle of shadowgraphy. 1. Camera. 2. Telecentric lens. 3. Parallell focused light beam. 4. Collimating lens. 5. LED.}
+\label{fig:shadowprinc}
+\end{figure}
+
+\begin{figure}[ht]
+\centering\includegraphics[width=0.75\linewidth]{figures/Foto0169}
+\caption{The experimental setup with a dot micrometer scale as test object mounted on a translation stage.}
+\end{figure}
+
+\begin{figure}[ht]
+\centering\includegraphics[width=0.75\linewidth]{figures/cam_housings}
+\caption{The illumination and detector is mounted inside two Bosch camera housings facing each other with heating inside the house and on the front glass.}
+\end{figure}
+
+Calibration of true droplet size and measuring range both depends on the measured size of the droplet shadow and the amount of light used for exposure. It is possible to predict both the precision of the measured size and accuracy for measurement of droplet size. 
+
+We used a stage micrometer scale for characterization of the system and simulation of water droplets. This characterization holds true given that the optical silhouette of a droplet is comparable to a dot having equal diameter and being printed on a silicon glass. It is not a new concept and has at least once been proved experimentally, by comparing with beads of glass and water droplets of known sizes \cite{koro1991,koro1998}. The shadow image of water drops of any size will be defined mainly by the diffracted component, as long as the distance between the drop and the lens is much larger than the drop diameter \cite{koro1991,wend2013}. 
+
+The design using a weakly collimated LED that illuminates an area slightly larger than the field of view makes the system quite insensitive to misalignment of the camera and the light source. Temporal or permanent changes in light intensity caused by a minor misalignment is automatically compensated for by continuous measurement of the total exposure level. If the level of exposure is increasing or decreasing, the length of the light pulse is changed correspondingly. The light intensity can also be affected by dirt on the front glass of the housings. 
+
+Since many images will not contain any droplet at all, we can increase the processing speed by sorting out the images that are not containing any interesting information. This is done by constructing an average image from 20 images and use this as a flat-field correction. All new images are compared with this average and if any pixel differs from the average by more than a specific value that is significantly higher than the noise level, the image is analyzed.
+
+Spatial dissimilarities in the light intensity that are not caused by noise are compensated for by calculating the local average intensity of the background around each measured droplet. The size of a droplet is then based on the intensity dip caused by the shadow compared with its local background.
+
 
 \section{Image Segmentation}
+\label{imgsegment}
 
-Detection can be done in several ways. The simplest method is to use a threshold at a fixed level and define the edge as the transition between above and below that threshold \cite{gonz2002}. This technique is Other techniques use different methods to measure the gradient of the change in intensity \cite{canny1986,marr1980}.
+Detection of patterns in a gray level image can be done in many ways. The easiest method is to use a threshold at a fixed level. The boundary of the pattern can be found in the transition between above and below that threshold. When the value of the background illumination varies in a systematic pattern, a variable threshold can be used \cite{gonz2002}. An average image is constructed by 20 images and used as the base pattern. If any point in this the new image differs enough from this average the image is processed using edge detection. This technique is very fast and is therefore used in this system before the edge detection to sort out images that likely do not contain any interesting information.
 
-\section{Optical Characteristica}
+If the image contains an object detected by the thresholding, the sample volume is calculated for each droplet individually depending on it's size. By using a Laplacian of Gaussian \cite{marr1980, gonz2002} edge detection and a suitable threshold, we can create closed curves around objects where the edge is in or near focus. Other edge detection operators like Roberts, Prewitt, Sobel \cite{gonz2002} and Canny \cite{canny1986} did not seem to give the same consistant performance in different lighting conditions. The objects that create closed curves, selected by a boundary fill function, are said to be within the measuring range. The measuring range together with the field of view defines the sampling volume. This and and the edge detection is also described in Paper I. Since the Laplacian of Gaussian can be seen as value of the second derivative of the edge gradient, it is also used together with the diameter to calculate the true size of the droplet as described in Paper II.
 
-As simplificaiton we describe the measured droplets as spherical lenses made of pure water at a constant temperature, surrounded by air. 
+\subsection{Exposure Check and Flash Intensity Adjustment}
+
+Let $I_{i,j}$ depict the two dimensional image captured by the camera. The mean value $\overline{i}$ of all pixels in the image $I_{i,j}$ gives an estimation of the exposure level in the whole image. 
+
+The flash duration is adjusted automatically by the microcontroller at each exposure to keep the exposure level between a low and a high threshold, $th_L$ and $th_H$. The duration is changed in steps of 13 ns corresponding to one clock cycle of the microcontroller. If $\overline{i} > th_L$ and $\overline{i} < th_H$ the image is analyzed. If $\overline{i} \geq th_H$ the flash duration is decreased by steps of 12 ns. If $\overline{i} \leq th_L$ the flash duration is increased. The total flash duration is approximately 250 ns. $th_L$ is here set to 0.7 and $th_H$ is set to 0.8 in a normalized (0,1) dynamic range.
+
+\subsection{Edge Detection and Edge Sharpness}
+
+To detect the intensity changes created by the shadow of a water droplet, an image is processed using the from edge detection theory well known Laplacian of Gaussian (LoG) described by Marr and Hildreth \cite{marr1980}. The method works by looking for zero crossings in the image resulting from calculating $\nabla^2 G\left(x,y\right) * I\left(x,y\right)$. $G\left(x,y\right)$ is a two dimensional Gaussian distribution with standard deviation σ and $\nabla^2$ is the Laplacian operator, defined as the divergence of the gradient in two dimensions.
+\begin{equation}
+G\left(x,y\right) = \frac{1}{\pi \sigma^2} e^{-\frac{x^2+y^2}{2\sigma^2}}
+\end{equation}
+\begin{equation}
+\nabla^2=\nabla\cdot\nabla=\frac{\delta^2}{\delta x^2} + \frac{\delta^2}{\delta y^2}
+\end{equation}
+We implement a discrete approximation to $\nabla^2 G\left(x,y\right) \approx \nabla^2 G_{i,j}$ as a 13x13 sized convolution kernel.
+\begin{equation}
+\nabla^2 G_{i,j} = -\frac{1}{\pi \sigma^4} \left(1 - \frac{i^2+j^2}{2\sigma^2} \right) e^{-\frac{i^2+j^2}{2\sigma^2}}
+\end{equation}
+By applying the convolution to the normalized image $I_{i,j}$ we get the resulting image $P_{i,j}$.
+\begin{equation}
+P_{i,j}=\nabla^2 G_{i,j} * I_{i,j}
+\end{equation}
+$P_{i,j}$ is thus a matrix that contains the second order derivative of the image $I_{i,j}$. 
+A spherical object will cause an edge where the intensity change is similar around a spherical object, but dependent on the distance from the optimal focus. Assuming the Gaussian of the image I is twice differentiable at any point $(i,j)$, the maximum (or minimum) of the second derivative includes the amplitude of the first derivative at the point where the second derivative is equal to zero, i.e. where the edge is strongest. This can be intuitively understood when considering that if the edge is sharper, the gradient, or first derivative value is larger, and if the gradient value is larger the rate of change, i.e. the second derivative needs to be larger at each side of the edge. Therefore we store a value of the maximum second derivate, $max(P_{i,j}$, around each analyzed object and use this as a measure of the edge sharpness. This value is then used as input to a calibration function. 
+We also construct a new binary image $Q$ in which the pixel value $Q_{i,j}=1$ if any of $|P_{i+1,j}-P_{i,j} |,|P_{i-1,j}-P_{i,j} |,|P_{i,j+1}-P_{i,j} |,|P_{i,j-1}-P_{i,j} |>th$, where $th=0.002$. $Q_{i,j}=0$ elsewhere. th is the gradient of the second derivative at the point where the second derivative is zero, i.e. on the edge. Particles are found by searching for closed contours in this binary image.
+
+\subsection{Comparing Transparent Microspheres and Dots}
+
+A spherical lens scatters almost all the incident light in different directions, leaving only a bright spot in the middle where light is transferred directly through. For larger particles in focus, this bright spot will result in a second circular closed contour inside the outer edge. 
+
+Small water droplets can be seen as transparent microspheres. The composition changes the refractive index, but this has little effect on the shadow. The outer contour is the same following the same reasoning as with the dots used for calibration \cite{ryd2015}(Paper I). Diffraction patterns depend on the wavelength of the light and the size of the sphere. The resolution of the constructed system is not high enough for these patterns to be visible.
+
+By using a flood-fill function on the binary image containing the detected contour, starting in a point at a minimum distance from an object, the edge of the filled area will border to the outer contour. This makes it possible to select the outer closed contours of possible particles.
+
+\subsection{Removing the Center Bright Spot}
+
+The center bright spot will make the shadow of a transparent sphere brighter in average than a solid dot. This will have an impact on the size calculation, since the size calculation is based on the shadow impact and the calibration is done using solid dots. Therefore we apply a mask on the image before calculating the size of the shadow. The mask is done by replacing all the centermost pixels in a shape of a circular disc with the intensity of the darkest pixel in the spot. The diameter of the masked disc is the arc length of the edge contour divided by 4$\pi$. The bright spot is measured by calculating the difference between the least value and the center pixel. Only particles with a difference larger than 0.1 (ten percent) will have the mask applied
+
+\subsection{Measuring Roundness}
+
+There may be clogs of small microspheres or dust in the samples that are measured. Microspheres, or small water droplets are close to spherical. Therefore we try to exclude all objects that the program find but are not circular. After the detection of object edges, we measure the roundness of each object. A measure of the mean square roundness deviation similar to the one described by ISO \cite{iso12181} can be achieved by calculating the quote between the area of the contour and the square of the total arc length See (\cref{eq:5}).
+\begin{equation}
+roundness = 4\pi \frac{A_{contour}}{arcLength^2}
+\label{eq:5}
+\end{equation}
+$A_{contour}$ is the pixel area of the filled contour and $arcLength$ is the perimeter of the measured closed contour. In the calibration and field measurements described, an object is only considered spherical if $roundness \geq 0.85$.
+
 
 \subsection{Light Spectrum}
 
@@ -53,7 +135,7 @@ Using coherent light for imaging means that the effects of interference patterns
 
 The total image noise was first measured using the whole image using the 455nm LED light, resulting in a variation coefficient of about nine percent.
 
-The idea came that we should be able to measure the signal to noise relation, if the shadow image of the droplet is represents the signal. This signal to noise ratio (SNR) could possibly be used to increase the accuracy of the measurement. A function was created that calculates the noise level locally around each analyzed droplet image. A correlation could be seen between the SNR and the corresponding measuring range, resulting in an increased sampling volume for higher SNR. This relation has not been implemented in the LWC calculation for the prototype instrument yet.
+The idea came that we should be able to measure the signal to noise relation, if the shadow image of the droplet is represents the signal. This signal to noise ratio (SNR) could possibly be used to increase the accuracy of the measurement. A function was created that calculates the noise level locally around each analyzed droplet image. A correlation could be seen between the SNR and the corresponding measuring range, resulting in an increased sampling volume for higher SNR \cite{ryd2015}(Paper I). This relation has not been implemented in the LWC calculation for the prototype instrument yet.
 
 The SNR for a ten micrometer dot image was compared for the different available gain level settings in the image sensor. This measurement was done using both the 455 and the 850 nm illumination. The result can be seen in Figure \ref{fig:noisegain}.
 
@@ -79,7 +161,7 @@ Using this setup it was found that an exposure time of at least one second is ne
 
 \subsection{Light Sensitivity Measurement}
 
-The illumination energy required to get a good exposure for each of the eight gain setting levels is shown in Fig. 9. 34 nJ is required for the area in view (7.8 $mm^2$) for the lowest gain setting, which results in the highest SNR. The area in view is about 8 times smaller than the illuminated area of the collimated LED, which was measured to about 8x8 mm. 
+The illumination energy required to get a good exposure for each of the eight gain setting levels is shown in Fig. 9. The energy is calculated by using an effectmeter, the area of view and the time that is required for a full exposure. The measurement is described in Paper I. 34 nJ is required for the area in view (7.8 $mm^2$) for the lowest gain setting, which results in the highest SNR and about 20 nJ for the used setting. 
 
 \begin{figure}[ht]
 \centering\includegraphics[width=0.75\linewidth]{figures/Energy_per_gain_level2}
@@ -152,86 +234,6 @@ This measurement was done using lenses with two different magnifications: 40x an
 \end{table}
 
 
-\section{The Shadowgraph System}
-
-The instrument is a shadowgraph system using a monochrome CMOS camera with a 4x magnifying telecentric lens and a LED with a collimating lens illuminating the background. The blue LED is powered by a current driver able to produce short 12 A current pulses. Figure \cref{fig:shadowprinc} shows a sketch of the system. 
-
-The system is mounted in a weather proof shell using two standard camera housings and a separate box for the analyzing computer and power supply. Fig. 2 shows the system mounted in weather proof camera housings. 
-
-\begin{figure}[ht]
-\centering\includegraphics[width=0.75\linewidth]{./figures/shadowprinc.jpg}
-\caption{Principle of shadowgraphy. 1. Camera. 2. Telecentric lens. 3. Parallell focused light beam. 4. Collimating lens. 5. LED.}
-\label{fig:shadowprinc}
-\end{figure}
-
-\begin{figure}[ht]
-\centering\includegraphics[width=0.75\linewidth]{figures/Foto0169}
-\caption{The experimental setup with a dot micrometer scale as test object mounted on a translation stage.}
-\end{figure}
-
-\begin{figure}[ht]
-\centering\includegraphics[width=0.75\linewidth]{figures/cam_housings}
-\caption{The illumination and detector is mounted inside two Bosch camera housings facing each other with heating inside the house and on the front glass.}
-\end{figure}
-
-Calibration of true droplet size and measuring range both depends on the measured size of the droplet shadow and the amount of light used for exposure. It is possible to predict both the precision of the measured size and accuracy for measurement of droplet size. 
-
-We used a stage micrometer scale for characterization of the system and simulation of water droplets. This characterization holds true given that the optical silhouette of a droplet is comparable to a dot having equal diameter and being printed on a silicon glass. It is not a new concept and has at least once been proved experimentally, by comparing with beads of glass and water droplets of known sizes \cite{koro1991,koro1998}. The shadow image of water drops of any size will be defined mainly by the diffracted component, as long as the distance between the drop and the lens is much larger than the drop diameter \cite{koro1991,wend2013}. 
-
-The design using a weakly collimated LED that illuminates an area slightly larger than the field of view makes the system quite insensitive to misalignment of the camera and the light source. Temporal or permanent changes in light intensity caused by a minor misalignment is automatically compensated for by continuous measurement of the total exposure level. If the level of exposure is increasing or decreasing, the length of the light pulse is changed correspondingly. The light intensity can also be affected by dirt on the front glass of the housings. 
-
-Since many images will not contain any droplet at all, we can increase the processing speed by sorting out the images that are not containing any interesting information. This is done by constructing an average image from 20 images and use this as a flat-field correction. All new images are compared with this average and if any pixel differs from the average by more than a specific value that is significantly higher than the noise level, the image is analyzed.
-
-Spatial dissimilarities in the light intensity that are not caused by noise are compensated for by calculating the local average intensity of the background around each measured droplet. The size of a droplet is then based on the intensity dip caused by the shadow compared with its local background.
-
-\subsection{Exposure Check and Flash Intensity Adjustment}
-
-Let $I_{i,j}$ depict the two dimensional image captured by the camera. The mean value $\overline{i}$ of all pixels in the image $I_{i,j}$ gives an estimation of the exposure level in the whole image. 
-
-The flash duration is adjusted automatically by the microcontroller at each exposure to keep the exposure level between a low and a high threshold, $th_L$ and $th_H$. The duration is changed in steps of 13 ns corresponding to one clock cycle of the microcontroller. If $\overline{i} > th_L$ and $\overline{i} < th_H$ the image is analyzed. If $\overline{i} \geq th_H$ the flash duration is decreased by steps of 12 ns. If $\overline{i} \leq th_L$ the flash duration is increased. The total flash duration is approximately 250 ns. $th_L$ is here set to 0.7 and $th_H$ is set to 0.8 in a normalized (0,1) dynamic range.
-
-\subsection{Edge Detection and Edge Sharpness}
-
-To detect the intensity changes created by the shadow of a water droplet, an image is processed using the from edge detection theory well known Laplacian of Gaussian (LoG) described by Marr and Hildreth \cite{marr1980}. The method works by looking for zero crossings in the image resulting from calculating $\nabla^2 G\left(x,y\right) * I\left(x,y\right)$. $G\left(x,y\right)$ is a two dimensional Gaussian distribution with standard deviation σ and $\nabla^2$ is the Laplacian operator, defined as the divergence of the gradient in two dimensions.
-\begin{equation}
-G\left(x,y\right) = \frac{1}{\pi \sigma^2} e^{-\frac{x^2+y^2}{2\sigma^2}}
-\end{equation}
-\begin{equation}
-\nabla^2=\nabla\cdot\nabla=\frac{\delta^2}{\delta x^2} + \frac{\delta^2}{\delta y^2}
-\end{equation}
-We implement a discrete approximation to $\nabla^2 G\left(x,y\right) \approx \nabla^2 G_{i,j}$ as a 13x13 sized convolution kernel.
-\begin{equation}
-\nabla^2 G_{i,j} = -\frac{1}{\pi \sigma^4} \left(1 - \frac{i^2+j^2}{2\sigma^2} \right) e^{-\frac{i^2+j^2}{2\sigma^2}}
-\end{equation}
-By applying the convolution to the normalized image $I_{i,j}$ we get the resulting image $P_{i,j}$.
-\begin{equation}
-P_{i,j}=\nabla^2 G_{i,j} * I_{i,j}
-\end{equation}
-$P_{i,j}$ is thus a matrix that contains the second order derivative of the image $I_{i,j}$. 
-A spherical object will cause an edge where the intensity change is similar around a spherical object, but dependent on the distance from the optimal focus. Assuming the Gaussian of the image I is twice differentiable at any point $(i,j)$, the maximum (or minimum) of the second derivative includes the amplitude of the first derivative at the point where the second derivative is equal to zero, i.e. where the edge is strongest. This can be intuitively understood when considering that if the edge is sharper, the gradient, or first derivative value is larger, and if the gradient value is larger the rate of change, i.e. the second derivative needs to be larger at each side of the edge. Therefore we store a value of the maximum second derivate, $max(P_{i,j}$, around each analyzed object and use this as a measure of the edge sharpness. This value is then used as input to a calibration function. 
-We also construct a new binary image $Q$ in which the pixel value $Q_{i,j}=1$ if any of $|P_{i+1,j}-P_{i,j} |,|P_{i-1,j}-P_{i,j} |,|P_{i,j+1}-P_{i,j} |,|P_{i,j-1}-P_{i,j} |>th$, where $th=0.002$. $Q_{i,j}=0$ elsewhere. th is the gradient of the second derivative at the point where the second derivative is zero, i.e. on the edge. Particles are found by searching for closed contours in this binary image.
-
-\subsection{Comparing Transparent Microspheres and Dots}
-
-A spherical lens scatters almost all the incident light in different directions, leaving only a bright spot in the middle where light is transferred directly through. For larger particles in focus, this bright spot will result in a second circular closed contour inside the outer edge. 
-
-Small water droplets can be seen as transparent microspheres. The composition changes the refractive index, but this has little effect on the shadow. The outer contour is the same following the same reasoning as with the dots used for calibration \cite{ryd2015}. Diffraction patterns depend on the wavelength of the light and the size of the sphere. The resolution of the constructed system is not high enough for these patterns to be visible.
-
-By using a flood-fill function on the binary image containing the detected contour, starting in a point at a minimum distance from an object, the edge of the filled area will border to the outer contour. This makes it possible to select the outer closed contours of possible particles.
-
-\subsection{Removing the Center Bright Spot}
-
-The center bright spot will make the shadow of a transparent sphere brighter in average than a solid dot. This will have an impact on the size calculation, since the size calculation is based on the shadow impact and the calibration is done using solid dots. Therefore we apply a mask on the image before calculating the size of the shadow. The mask is done by replacing all the centermost pixels in a shape of a circular disc with the intensity of the darkest pixel in the spot. The diameter of the masked disc is the arc length of the edge contour divided by 4$\pi$. The bright spot is measured by calculating the difference between the least value and the center pixel. Only particles with a difference larger than 0.1 (ten percent) will have the mask applied
-
-\subsection{Measuring Roundness}
-
-There may be clogs of small microspheres or dust in the samples that are measured. Microspheres, or small water droplets are close to spherical. Therefore we try to exclude all objects that the program find but are not circular. After the detection of object edges, we measure the roundness of each object. A measure of the mean square roundness deviation similar to the one described by ISO \cite{iso12181} can be achieved by calculating the quote between the area of the contour and the square of the total arc length See (\cref{eq:5}).
-\begin{equation}
-roundness = 4\pi \frac{A_{contour}}{arcLength^2}
-\label{eq:5}
-\end{equation}
-$A_{contour}$ is the pixel area of the contour and $arcLength$ is the perimeter of the measured closed contour. In the calibration and field measurements described, an object is only considered spherical if $roundness \geq 0.85$.
-
 
 \section{The Fog Chamber}
 The fog chamber is needed to create a test environment for the instrument. Natural fogs tend not to occur outside just when we are ready to test. If possible, it is desirable that the environmet can be controlled and verified using a second instrument. It gives an indication of how the instrument will behave in a real measurement. It is also a verification of the instrument’s water ingress resistance.
@@ -259,6 +261,22 @@ Figure \ref{fig:installation1} shows the installation. On top is the two camera 
 \caption{Installation in Klövsjö.}
 \label{fig:installation1}
 \end{figure}
+
+
+\section{Numerical Weather Prediction}
+
+For a second validation, we carry out weather simulations around the site using the HARMONIE-AROME numerical weather prediction (NWP) model. The model is described in Paper III.
+
+SMHI agreed to run a special model domain locally with 500 meters horizontal resolution for a limited time. The operational forecasts are run at 2.5 km horizontal resolution, and they were used as initial conditions and lateral boundaries for the detailed simulations.
+
+At SMHI, the HARMONIE-AROME model is used for short range operational forecasting. It is run in cooperation with the Norwegian Meteorological Institute. The initial conditions and boundaries for the operational forecasts are provided by the ECMWF global model.
+
+\begin{figure}%[h]
+\centering\includegraphics[width=0.6\linewidth]{figures/Images/Klovsjo_smhi160923_small}
+\caption{Graphical presentation of data from the HARMONIE-AROME weather model covering Klövsjö and the surrounding mountains at a specific point in time using 500 m resolution. Yellow areas are where the model predicts an LWC more than 0.1 $\mathrm{g \cdot kg^{-1}}$ (Grams of water per kg air.) Simulation and figure by SMHI.}
+\end{figure}
+
+
 
 % this is shows the paper size and measures
 %\begin{figure}
