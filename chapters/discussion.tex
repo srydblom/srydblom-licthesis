@@ -40,15 +40,11 @@ The LED used was fully functional after four months of continous measurements us
 
 \section{Aerodynamics}
 
-Many existing instruments suffer from errors caused by the instrument itself during sampling, e.g. when droplets get stuck on the inlet or shatters into smaller droplets. The DII is not as small and aerodynamically shaped as the CDP, therefore a difference between the instruments would be expected depending on the air speed. However, a comparison between the measured values of LWC showed no connection between the wind speed and the difference in the measured LWC. The wind speed during the comparison was only 1-4 $\mathrm{m \cdot s^{-1}}$ which probably explain why the less aerodynamic shape of the DII compared with the CDP has no noticeable effect. This could change dramatically when measuring at higher wind speeds.
+Many existing instruments suffer from errors caused by the instrument itself during sampling, e.g. when droplets get stuck on the inlet or shatters into smaller droplets. The DII is not as small and aerodynamically shaped as the \gls{cdp}, therefore a difference between the instruments would be expected depending on the air speed. However, a comparison between the measured values of LWC showed no connection between the wind speed and the difference in the measured LWC. The wind speed during the comparison was only 1-4 $\mathrm{m \cdot s^{-1}}$ which probably explain why the less aerodynamic shape of the DII compared with the \gls{cdp} has no noticeable effect. This could change dramatically when measuring at higher wind speeds.
 
 \section{Difficulties with Polymer Microspheres}
 
-To get a second verification of the sizing algorithm we made a measurement using polymer microspheres of known calibrated size distributions.
-
-\subsection{Speed}
-
-\todo{discuss the speed needed for the purpose - measuring ice}
+To verifiy the sizing algorithm, a measurement using polymer microspheres of four known calibrated size distributions was done. To simulate real conditions as much as possible the microspheres were applied using the same dispenser used for the calibration of the \gls{cdp}. The smallest microspheres had a tendency of clogging leading sometimes to a measurement of a clog as a single particle. Therefore all images were visually checked for false measurements. The outliers caused by false measurements were removed.
 
 \subsection{Clogging}
 
@@ -62,7 +58,25 @@ Measured mean and standard deviation of all distributions were found to be withi
 
 A perfectly circular disc measured using an infinite resolution would have an expected roundness value equal to one. In practice, this is not possible to achieve in a digital image. But the contour is only used as detection criteria. Instead, the diameter is calculated using the negative shadow intensity. Therefore the contour roundness itself should not have very large impact on the accuracy.
 
-The roundness criteria according to ISO \cite{iso12181} set at 0.85 in this measurement seems to work fine. It excludes most irregular objects, like clogs in the five micrometer measurement. When measuring fogs in cold climates, the water droplets will be mixed with ice crystals. While larger crystals will mostly be sorted out by the roundness criteria, crystals smaller than ten micrometer may be difficult, and five micrometer crystals more or less impossible to distinguish from liquid water droplets unless very different in shape.
+The roundness criteria defined in chapter \ref{met:roundness}, equation \ref{eq:5} set at 0.85 in this measurement seems to work fine. It excludes most irregular objects, like clogs in the five micrometer measurement. When measuring fogs in cold climates, the water droplets will be mixed with ice crystals. While larger crystals will mostly be sorted out by the roundness criteria, crystals smaller than ten micrometer may be difficult, and five micrometer crystals more or less impossible to distinguish from liquid water droplets unless very different in shape.
+
+\begin{figure}[ht]
+\centering
+\begin{subfigure}[t]{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{figures/litenis1}
+  \subcaption{Ice particle.}
+  \label{fig:litenis}
+\end{subfigure}%
+\begin{subfigure}[t]{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{figures/litendroppe1}
+  \subcaption{Droplet.}
+  \label{fig:litendroppe}
+\end{subfigure}
+\caption{Difference between an ice particle and a water droplet that is 62 µm in diameter. Larger ice and snow particles tend to be more complex in shape. Ice particles smaller than 10 µm in diameter may be difficult to distinguish from water droplets.}
+\label{fig:icevsdrop}
+\end{figure}
 
 \subsection{Calibration Validation}
 
@@ -77,12 +91,15 @@ Using a high power LED instead of laser reduces the interference effects used in
 
 LEDs can sometimes be used with currents far above the specifications, as long as the pulse length is short and the duty cycle is low enough to permit the heat generated to be transported away between the pulses. Using the LED above specifications may though affect the efficiency and aging of the LED. LED emittance also depends on the temperature. Depending on the capacitance of the diode, the rise time may limit the current, although there exist some techniques to shorten the LED pulses \cite{tanaka2011,vele2007}.
 
-The LED used was fully functional after four months of continous measurements using 12 times higher current than specified. At 12 ampere driving current, the flash duration could be lowered to approximately 250 ns, still using the normal settings of amplification in the camera. Using even higher current would lower the flash duration still. A question is how high current the LED can handle and how the lifetime is affected by driving higher currents through.
+The LED used was fully functional after four months of measurements using a current in the short flashes that was 12 times higher than the maximum continous current specified by the manufacturer. At 12 ampere driving current, the flash duration could be lowered to approximately 250 ns, still using the normal settings of amplification in the camera. The LED was not tested in higher currents, but it seems possible that it could work. A question is how high current the LED can handle and how the lifetime is affected by higher driving currents.
 
 \section{Statistics}
 
 A value of both MVD and LWC can be derived from a series of images and since the number of measured droplets will depend on the concentration, the accuracy and precision will depend on the number of samples from the total population of droplets. 
 
+In Paper I we made an estimation of the precision a possible instrument could have using the most ideal scenario, where the ''distribution'' was simulated using a single dot of a known size, measured multiple times. This can be seen as a measure of the highest possible precision, defined by the physical limitations of the system components. The coefficient of variation for the LWC was estimated to 1.6 percent for droplets 25 µm in diameter, and 2.4 percent for droplets 10 µm in diameter. In practice it is difficult to compare this with the measured LWC from a real  distribution of droplets. To know the exact LWC, and measure the same content is practically impossible. 
+
+In Paper III, a comparison is made by measuring polymer microspheres in distributions calibrated by NIST. As can be seen in Table \ref{tab:poly_meas}, the difference between the measured mean diameter and the stated mean diameter is small. This proves that the size measurement is accurate. It was not possible to estimate the concentration of the measured microspheres with the method we used. Possibly a known concentration could be produced in a water dispersion, but then the optical ambient conditions would also be different.
 
 
 \section{Droplets and Size Distributions}
@@ -133,7 +150,7 @@ Figure \ref{fig:170505_0441_droplet} and Figure \ref{fig:170505_1648_droplet} sh
 
 The risk of icing increases with increasing wind speed \cite{makk2000}.
 
-During the field study there were several instances when the LWC and MVD was high enough to lead to icing. A study to further investigate the connection between these parameters and the ice load according to ISO 12494 \cite{makk2014} should be carried out. An ice monitoring device, like the Combitech IceMonitor \cite{cost727,thors2015} can be used for this. This should preferably be done in combination with a third independent LWC and MVD measurement, e.g. by using rotating cylinders \cite{makk1992,knez2005}. A heated hygrometer measuring the true water content (TWC) can be used as an alternative verification of the LWC measurement when all the atmospheric water is in liquid form \cite{spie2012}.
+During the field study there were several instances when the LWC and MVD was high enough to lead to icing. A study to further investigate the connection between these parameters and the ice load according to ISO 12494 \cite{makk2014} should be carried out. An ice monitoring device, like the Combitech IceMonitor \cite{cost727,thors2015} can be used for this. This should preferably be done in combination with a third independent LWC and MVD measurement, e.g. by using rotating cylinders \cite{makk1992,knez2005}. A heated hygrometer measuring the true water content (\gls{twc}) can be used as an alternative verification of the LWC measurement when all the atmospheric water is in liquid form \cite{spie2012}.
 
 
 

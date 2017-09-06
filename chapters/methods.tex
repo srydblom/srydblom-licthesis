@@ -10,13 +10,13 @@ Initially different light sources and illumination angles were investigated. It 
 
 \section{The Shadowgraph System}
 
-The instrument is a shadowgraph system using a monochrome CMOS camera with a 4x magnifying telecentric lens and a LED with a collimating lens illuminating the background. The blue LED is powered by a current driver able to produce short 12 A current pulses. Figure \cref{fig:shadowprinc} shows a sketch of the system. 
+The instrument is a shadowgraph system using a monochrome \gls{cmos} camera with a 4x magnifying telecentric lens and a \gls{led} with a collimating lens illuminating the background. The blue \gls{led} is powered by a current driver able to produce short 12 A current pulses. Figure \cref{fig:shadowprinc} shows a sketch of the system. 
 
 The system is mounted in a weather proof shell using two standard camera housings and a separate box for the analyzing computer and power supply. Fig. 2 shows the system mounted in weather proof camera housings. 
 
 \begin{figure}[ht]
 \centering\includegraphics[width=0.75\linewidth]{./figures/shadowprinc.jpg}
-\caption{Principle of shadowgraphy. 1. Camera. 2. Telecentric lens. 3. Parallell focused light beam. 4. Collimating lens. 5. LED.}
+\caption{Principle of shadowgraphy. 1. Camera. 2. Telecentric lens. 3. Parallell focused light beam. 4. Collimating lens. 5. \gls{led}.}
 \label{fig:shadowprinc}
 \end{figure}
 
@@ -34,7 +34,7 @@ Calibration of true droplet size and measuring range both depends on the measure
 
 We used a stage micrometer scale for characterization of the system and simulation of water droplets. This characterization holds true given that the optical silhouette of a droplet is comparable to a dot having equal diameter and being printed on a silicon glass. It is not a new concept and has at least once been proved experimentally, by comparing with beads of glass and water droplets of known sizes \cite{koro1991,koro1998}. The shadow image of water drops of any size will be defined mainly by the diffracted component, as long as the distance between the drop and the lens is much larger than the drop diameter \cite{koro1991,wend2013}. 
 
-The design using a weakly collimated LED that illuminates an area slightly larger than the field of view makes the system quite insensitive to misalignment of the camera and the light source. Temporal or permanent changes in light intensity caused by a minor misalignment is automatically compensated for by continuous measurement of the total exposure level. If the level of exposure is increasing or decreasing, the length of the light pulse is changed correspondingly. The light intensity can also be affected by dirt on the front glass of the housings. 
+The design using a weakly collimated \gls{led} that illuminates an area slightly larger than the field of view makes the system quite insensitive to misalignment of the camera and the light source. Temporal or permanent changes in light intensity caused by a minor misalignment is automatically compensated for by continuous measurement of the total exposure level. If the level of exposure is increasing or decreasing, the length of the light pulse is changed correspondingly. The light intensity can also be affected by dirt on the front glass of the housings. 
 
 Since many images will not contain any droplet at all, we can increase the processing speed by sorting out the images that are not containing any interesting information. This is done by constructing an average image from 20 images and use this as a flat-field correction. All new images are compared with this average and if any pixel differs from the average by more than a specific value that is significantly higher than the noise level, the image is analyzed.
 
@@ -44,7 +44,7 @@ Spatial dissimilarities in the light intensity that are not caused by noise are 
 \section{Image Segmentation}
 \label{imgsegment}
 
-Detection of patterns in a gray level image can be done in many ways. The easiest method is to use a threshold at a fixed level. The boundary of the pattern can be found in the transition between above and below that threshold. When the value of the background illumination varies in a systematic pattern, a variable threshold can be used \cite{gonz2002}. An average image is constructed by 20 images and used as the base pattern. If any point in this the new image differs enough from this average the image is processed using edge detection. This technique is very fast and is therefore used in this system before the edge detection to sort out images that likely do not contain any interesting information.
+Detection of patterns in a gray level image can be done in many ways. Probably the easiest method is to use a threshold at a fixed level. The boundary of the pattern can be found in the transition between above and below that threshold. When the value of the background illumination varies in a systematic pattern, a variable threshold can be used \cite{gonz2002}. An average image is constructed by 20 images and used as the base pattern. If any point in this the new image differs enough from this average the image is processed using edge detection. This technique is very fast and is therefore used in this system before the edge detection to sort out images that likely do not contain any interesting information.
 
 If the image contains an object detected by the thresholding, the sample volume is calculated for each droplet individually depending on it's size. By using a Laplacian of Gaussian \cite{marr1980, gonz2002} edge detection and a suitable threshold, we can create closed curves around objects where the edge is in or near focus. Other edge detection operators like Roberts, Prewitt, Sobel \cite{gonz2002} and Canny \cite{canny1986} did not seem to give the same consistant performance in different lighting conditions. The objects that create closed curves, selected by a boundary fill function, are said to be within the measuring range. The measuring range together with the field of view defines the sampling volume. This and and the edge detection is also described in Paper I. Since the Laplacian of Gaussian can be seen as value of the second derivative of the edge gradient, it is also used together with the diameter to calculate the true size of the droplet as described in Paper II.
 
@@ -88,7 +88,7 @@ By using a flood-fill function on the binary image containing the detected conto
 The center bright spot will make the shadow of a transparent sphere brighter in average than a solid dot. This will have an impact on the size calculation, since the size calculation is based on the shadow impact and the calibration is done using solid dots. Therefore we apply a mask on the image before calculating the size of the shadow. The mask is done by replacing all the centermost pixels in a shape of a circular disc with the intensity of the darkest pixel in the spot. The diameter of the masked disc is the arc length of the edge contour divided by 4$\pi$. The bright spot is measured by calculating the difference between the least value and the center pixel. Only particles with a difference larger than 0.1 (ten percent) will have the mask applied
 
 \subsection{Measuring Roundness}
-
+\label{met:roundness}
 There may be clogs of small microspheres or dust in the samples that are measured. Microspheres, or small water droplets are close to spherical. Therefore we try to exclude all objects that the program find but are not circular. After the detection of object edges, we measure the roundness of each object. A measure of the mean square roundness deviation similar to the one described by ISO \cite{iso12181} can be achieved by calculating the quote between the area of the contour and the square of the total arc length See (\cref{eq:5}).
 \begin{equation}
 roundness = 4\pi \frac{A_{contour}}{arcLength^2}
@@ -119,11 +119,11 @@ Although water is a good absorber of electromagnetic ratiation in most spectral 
 \label{fig:comparedots}
 \end{figure}
 
-One would expect diffraction patterns depending on the spectral bandwith of the light source. The narrower band width the stronger the diffraction would be. A spectrum analyze of the LED showed that the coherence length of the blue LED is about 6.8 μm. Therefore the spectrum was measured using a spectrum analyzer. The result can be seen in Figure \ref{fig:ledspectrum}
+One would expect diffraction patterns depending on the spectral bandwith of the light source. The narrower band width the stronger the diffraction would be. A spectrum analyze of the \gls{led} showed that the coherence length of the blue \gls{led} is about 6.8 μm. Therefore the spectrum was measured using a spectrum analyzer. The result can be seen in Figure \ref{fig:ledspectrum}
 
 \begin{figure}%[ht]
 \centering\includegraphics[width=0.6\linewidth]{figures/spektralanalys_mightex455nm}
-\caption{Spectrum of the Mightex 455nm LED using two different driving currents. The band width is slightly wider for the higher current.}
+\caption{Spectrum of the Mightex 455nm \gls{led} using two different driving currents. The band width is slightly wider for the higher current.}
 \label{fig:ledspectrum}
 \end{figure}
 
@@ -133,7 +133,7 @@ Using coherent light for imaging means that the effects of interference patterns
 
 \subsection{Image Noise}
 
-The total image noise was first measured using the whole image using the 455nm LED light, resulting in a variation coefficient of about nine percent.
+The total image noise was first measured using the whole image using the 455nm \gls{led} light, resulting in a variation coefficient of about nine percent.
 
 The idea came that we should be able to measure the signal to noise relation, if the shadow image of the droplet is represents the signal. This signal to noise ratio (SNR) could possibly be used to increase the accuracy of the measurement. A function was created that calculates the noise level locally around each analyzed droplet image. A correlation could be seen between the SNR and the corresponding measuring range, resulting in an increased sampling volume for higher SNR \cite{ryd2015}(Paper I). This relation has not been implemented in the LWC calculation for the prototype instrument yet.
 
@@ -246,15 +246,9 @@ The constructed chamber has a frame made of 30 mm aluminum profiles, fitted with
 \end{figure}
 
 \section{The Klövsjö Installation}
-Figure \ref{fig:installation1} shows the installation. On top is the two camera houses of the DII and just below is the smaller CDP. The Lambrecht Eolos weather sensor is seen furthest to the left, mounted on an horizontal boom. In the middle just right of the Eolos is the mobile communication antenna. In the lower center the top of the shortened lattice mast is seen and behind this is the box containing the DII processing computer, the CDP data collection computer and the communications router. The whole installation is about five meters high. An electric servomotor mounted at the base of the pole inside the lattice mast rotates the two instruments automatically to follow the horizontal direction of the wind. 
+Figure \ref{fig:installation1} shows a complete installation of the DII and the \gls{cdp} at the Klövjö mountain. On top is the two camera houses of the DII and just below is the smaller \gls{cdp}. The Lambrecht Eolos weather sensor is seen furthest to the left, mounted on an horizontal boom. In the middle just right of the Eolos is the mobile communication antenna. In the lower center the top of the shortened lattice mast is seen. Behind the mast the top of the box containing the DII processing computer, the \gls{cdp} data collection computer and the communications router can be seen. The whole installation is about five meters high. An electric servomotor mounted at the base of the pole inside the lattice mast rotates the two instruments automatically to follow the horizontal direction of the wind. 
 
-\Cref{fig:installation3} shows icing on the front side of the installation.
-
-\begin{figure}[ht]
-\centering\includegraphics[width=0.75\linewidth]{figures/installation3}
-\caption{Icing on the front side of the installed instruments.}
-\label{fig:installation3}
-\end{figure}
+\Cref{fig:installation3} shows a mix of ice and snow on the front side of the installation.
 
 \begin{figure}[ht]
 \centering\includegraphics[width=0.75\linewidth]{figures/installation1}
@@ -262,18 +256,23 @@ Figure \ref{fig:installation1} shows the installation. On top is the two camera 
 \label{fig:installation1}
 \end{figure}
 
+\begin{figure}[ht]
+\centering\includegraphics[width=0.75\linewidth]{figures/installation3}
+\caption{Ice and snow on the front side of the installed instruments. The CDP is more efficient at preventing ice.}
+\label{fig:installation3}
+\end{figure}
 
 \section{Numerical Weather Prediction}
 
-For a second validation, we carry out weather simulations around the site using the HARMONIE-AROME numerical weather prediction (NWP) model. The model is described in Paper III.
+For a second validation, we carry out weather simulations around the site using the \gls{harmonie}-\gls{arome} numerical weather prediction (\gls{nwp}) model. The model is described in Paper III.
 
-SMHI agreed to run a special model domain locally with 500 meters horizontal resolution for a limited time. The operational forecasts are run at 2.5 km horizontal resolution, and they were used as initial conditions and lateral boundaries for the detailed simulations.
+\gls{smhi} agreed to run a special model domain locally with 500 meters horizontal resolution for a limited time. The operational forecasts are run at 2.5 km horizontal resolution, and they were used as initial conditions and lateral boundaries for the detailed simulations.
 
-At SMHI, the HARMONIE-AROME model is used for short range operational forecasting. It is run in cooperation with the Norwegian Meteorological Institute. The initial conditions and boundaries for the operational forecasts are provided by the ECMWF global model.
+At \gls{smhi}, the \gls{harmonie}-\gls{arome} model is used for short range operational forecasting. It is run in cooperation with the Norwegian Meteorological Institute. The initial conditions and boundaries for the operational forecasts are provided by the \gls{ecmwf} global model.
 
 \begin{figure}%[h]
 \centering\includegraphics[width=0.6\linewidth]{figures/Images/Klovsjo_smhi160923_small}
-\caption{Graphical presentation of data from the HARMONIE-AROME weather model covering Klövsjö and the surrounding mountains at a specific point in time using 500 m resolution. Yellow areas are where the model predicts an LWC more than 0.1 $\mathrm{g \cdot kg^{-1}}$ (Grams of water per kg air.) Simulation and figure by SMHI.}
+\caption{Graphical presentation of data from the HARMONIE-AROME NWP covering Klövsjö and the surrounding mountains at a specific point in time using 500 m resolution. Yellow areas are where the model predicts an LWC more than 0.1 $\mathrm{g \cdot kg^{-1}}$ (Grams of water per kg air.) Simulation and figure by SMHI.}
 \end{figure}
 
 

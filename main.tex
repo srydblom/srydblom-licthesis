@@ -62,7 +62,7 @@
 %\usepackage{subcaption}
 \usepackage{wrapfig}                        % wraps figure with text
 \usepackage{float} 			% allows floating objects
-%\usepackage[printonlyused]{acronym}        % print list of acronyms
+\usepackage[printonlyused]{acronym}        % print list of acronyms
 \usepackage{booktabs}                       % beautify tables
 \usepackage{multirow}                       % multiple rows in tables
 \usepackage{siunitx}                        % make setting units fun and good looking 
@@ -124,8 +124,9 @@
     	urlbordercolor = 1. 1. 1.           % frame around urls->white 
 }
 
+
 \usepackage[style=numeric,natbib=true,backend=bibtex8]{biblatex}
-\addbibresource{./backmatter/licbib170609.bib}%{./backmatter/ref170411.bib}
+\addbibresource{./backmatter/licbib170905.bib}%{./backmatter/ref170411.bib}
 %------------------------
 %\usepackage[backend=biber,                  % configures bibliography, use biber
 %            style=alphabetic,
@@ -149,16 +150,13 @@
 %}            
 
 
-%\bibliography{./backmatter/reflib170328} 
-
 \usepackage[nomain,%
             nopostdot,%
             acronym,%
             toc,%
             nonumberlist,
             translate=babel]{glossaries}		% glossary package for acronyms
-\makeglossaries
-
+\setacronymstyle{long-short}
 
 %%% TEST/DRAFT packages, disable in final! ===================
 
@@ -216,7 +214,7 @@
   \createplainmark {lot}{both} {\listtablename}
   \createplainmark {bib}{both} {\bibname}
   \createplainmark {index}{both} {\indexname}
-  %\createplainmark {glossary}{both} {\glossaryname}
+  \createplainmark {glossary}{both} {\glossaryname}
 }
 \makeatother
 
@@ -312,10 +310,12 @@
 \input{commands}
 
 %\glsdefmain{main}
-%\makeglossaries
 %\input{./backmatter/glossary} %folder added by WW 02/05/12
-%\input{./backmatter/acronyms} %folder added by WW 02/05/12
+\input{./backmatter/acronyms} %folder added by WW 02/05/12
+\makeglossaries
 
+%\usepackage[acronym,nomain]{glossaries}
+%\makeglossaries
 
 %
 % \\\\\\\\\\\\\\\\\\\\\\ THE THESIS ////////////////////////
@@ -326,6 +326,8 @@
 \pagestyle{miunlic}
 
 \begin{document}
+
+%\input{./backmatter/acronyms} 
 
 \renewcommand{\arraystretch}{1.2}
 % -- frontmatter -------------------------------------------
@@ -392,16 +394,17 @@
 \input{./chapters/conclusion}
 %
 % -- start the final content -------------------------------
-%\backmatter
+\backmatter
+
+
 
 %\glsaddall
 %\printglossary[style=list, type=\acronymtype, title=Acronyms]
+\printacronyms[style=list, type=\acronymtype, title=Acronyms]
+%\printglossaries
 
 \printbibliography[heading=bibintoc]
 \bibintoc
-
-%\input{./backmatter/s}
-
 
 %\input{./papers/paper1} %note: My solution for the shims is not elegant, but it got the job done. Not sure this is the best solution for the template though. WW
 %\input{./papers/paper2}
