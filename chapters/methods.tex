@@ -5,14 +5,11 @@
 \chapter{Materials and Methods}
 \label{chap:methods}
 
-Initially different light sources and illumination angles were investigated. It was decided to use a shadowgraph system with background illumination. The experimental setup was tested using different water droplet generators and a test target consisting of micrometer sized lines and dots. Analyzing the optical system and testing different segmentation algorithms we found a simple way to define the sample volume for each individual droplet. To test the ability of measuring concentration we needed to build a weather protected prototype that could be used in parallell with a second instrument. The prototype needed to be fully automatic, able to analyze images in real time 24 hours a day during several months and store the results in a compressed format. To calibrate the size measurement and the measurement range, the previously mentioned dots of different sizes were used. The size measurement was also verified using distributions polymer microspheres, applied by blowing compressed air through a glass dispenser.
-
+To begin with, different light sources and illumination angles were investigated. It was settled that a shadowgraph system with background illumination was to be used. The experimental setup was tested using different water droplet generators and a test target consisting of micrometer sized lines and dots. Analyzing the optical system and testing different segmentation algorithms, we found a simple way to define the sample volume for each individual droplet. To test the ability of measuring concentration we needed to build a weather protected prototype that could be used in parallell with a second instrument. The prototype needed to be fully automatic, able to analyze images in real time 24 hours a day for several months and store the results in a compressed format. To calibrate the size measurement and the measurement range, the previously mentioned dots of different sizes were used. The size measurement was also verified using distributions polymer microspheres, applied by blowing compressed air through a glass dispenser.
 
 \section{The Shadowgraph System}
 
-The instrument is a shadowgraph system using a monochrome \gls{cmos} camera with a 4x magnifying telecentric lens and a \gls{led} with a collimating lens illuminating the background. The blue \gls{led} is powered by a current driver able to produce short 12 A current pulses. Figure \cref{fig:shadowprinc} shows a sketch of the system. 
-
-The system is mounted in a weather proof shell using two standard camera housings and a separate box for the analyzing computer and power supply. Fig. 2 shows the system mounted in weather proof camera housings. 
+The instrument is a shadowgraph system using a monochrome \gls{cmos} camera with a 4x magnifying telecentric lens and a \gls{led} with a collimating lens illuminating the background. \Cref{fig:shadowprinc} shows a sketch of the system. The system was first tested in the experimental setup seen in \cref{fig:experimental}. 
 
 \begin{figure}[ht]
 \centering\includegraphics[width=0.75\linewidth]{./figures/shadowprinc.jpg}
@@ -20,23 +17,29 @@ The system is mounted in a weather proof shell using two standard camera housing
 \label{fig:shadowprinc}
 \end{figure}
 
+The blue \gls{led}, shown to the right in \cref{fig:experimental}, was initially powered by a SignaTech Strobe Controller from Advanced Illumination. The SignaTech Controller can produce up to 4A at 100V. For the prototype instrument, another current driver, the Picolas LDP-V 10-70 was chosen. This driver can produce short 12A pulses. For controlling the pulse length, a microcontroller is used. 
+
 \begin{figure}[ht]
 \centering\includegraphics[width=0.75\linewidth]{figures/Foto0169}
 \caption{The experimental setup with a dot micrometer scale as test object mounted on a translation stage.}
+\label{fig:experimental}
 \end{figure}
+
+The complete system was mounted in a weather proof shell using two standard camera housings and a separate box for the analyzing computer and power supply. \Cref{fig:housings} shows the system mounted in weather proof camera housings. 
 
 \begin{figure}[ht]
 \centering\includegraphics[width=0.75\linewidth]{figures/cam_housings}
 \caption{The illumination and detector is mounted inside two Bosch camera housings facing each other with heating inside the house and on the front glass.}
+\label{fig:housings}
 \end{figure}
 
 Calibration of true droplet size and measuring range both depends on the measured size of the droplet shadow and the amount of light used for exposure. It is possible to predict both the precision of the measured size and accuracy for measurement of droplet size. 
 
-We used a stage micrometer scale for characterization of the system and simulation of water droplets. This characterization holds true given that the optical silhouette of a droplet is comparable to a dot having equal diameter and being printed on a silicon glass. It is not a new concept and has at least once been proved experimentally, by comparing with beads of glass and water droplets of known sizes \cite{koro1991,koro1998}. The shadow image of water drops of any size will be defined mainly by the diffracted component, as long as the distance between the drop and the lens is much larger than the drop diameter \cite{koro1991,wend2013}. 
+A stage micrometer scale was used for characterization of the system and simulation of water droplets. This characterization holds true given that the optical silhouette of a droplet is comparable to a dot of equal diameter printed on a silicon glass. It is not a new concept and has been proved experimentally by comparing beads of glass and water droplets of known sizes \cite{koro1991,koro1998}. The shadow image of water drops of any size will be defined mainly by the diffracted component, as long as the distance between the drop and the lens is much greater than the drop diameter \cite{koro1991,wend2013}. 
 
 The design using a weakly collimated \gls{led} that illuminates an area slightly larger than the field of view makes the system quite insensitive to misalignment of the camera and the light source. Temporal or permanent changes in light intensity caused by a minor misalignment is automatically compensated for by continuous measurement of the total exposure level. If the level of exposure is increasing or decreasing, the length of the light pulse is changed correspondingly. The light intensity can also be affected by dirt on the front glass of the housings. 
 
-Since many images will not contain any droplet at all, we can increase the processing speed by sorting out the images that are not containing any interesting information. This is done by constructing an average image from 20 images and use this as a flat-field correction. All new images are compared with this average and if any pixel differs from the average by more than a specific value that is significantly higher than the noise level, the image is analyzed.
+Since many images do not contain any droplets at all, we increase the processing speed by sorting out the images that do not contain any interesting information. This is done by constructing an average image from 20 images. All new images are compared with this average, and if any pixel differs from the average, by more than a specific value that is significantly higher than the noise level, the image is analyzed. The average image is re-constructed periodically.
 
 Spatial dissimilarities in the light intensity that are not caused by noise are compensated for by calculating the local average intensity of the background around each measured droplet. The size of a droplet is then based on the intensity dip caused by the shadow compared with its local background.
 
@@ -44,19 +47,19 @@ Spatial dissimilarities in the light intensity that are not caused by noise are 
 \section{Image Segmentation}
 \label{imgsegment}
 
-Detection of patterns in a gray level image can be done in many ways. Probably the easiest method is to use a threshold at a fixed level. The boundary of the pattern can be found in the transition between above and below that threshold. When the value of the background illumination varies in a systematic pattern, a variable threshold can be used \cite{gonz2002}. An average image is constructed by 20 images and used as the base pattern. If any point in this the new image differs enough from this average the image is processed using edge detection. This technique is very fast and is therefore used in this system before the edge detection to sort out images that likely do not contain any interesting information.
+Detection of patterns in a gray level image can be done in many ways. Using a threshold at a fixed level is a simple method. The boundary of the pattern can be found in the transition between above and below that threshold. When the value of the background illumination varies in a systematic pattern, a variable threshold can be used \cite{gonz2002}. An average image is constructed from 20 images and used as base pattern. If any point in this the new image differs enough from this average, the image is processed using edge detection. This technique is fast, and is therefore used in this system before the edge detection to sort out images that are unlikely to contain any interesting information.
 
-If the image contains an object detected by the thresholding, the sample volume is calculated for each droplet individually depending on it's size. By using a Laplacian of Gaussian \cite{marr1980, gonz2002} edge detection and a suitable threshold, we can create closed curves around objects where the edge is in or near focus. Other edge detection operators like Roberts, Prewitt, Sobel \cite{gonz2002} and Canny \cite{canny1986} did not seem to give the same consistant performance in different lighting conditions. The objects that create closed curves, selected by a boundary fill function, are said to be within the measuring range. The measuring range together with the field of view defines the sampling volume. This and and the edge detection is also described in Paper I. Since the Laplacian of Gaussian can be seen as value of the second derivative of the edge gradient, it is also used together with the diameter to calculate the true size of the droplet as described in Paper II.
+If the image contains an object detected by the thresholding, the sample volume is calculated for each droplet individually depending on its size. By using a Laplacian of Gaussian \cite{marr1980, gonz2002} edge detection and a suitable threshold, we can create closed curves around objects where the edge is in or near focus. Other edge detection operators like Roberts, Prewitt, Sobel \cite{gonz2002} and Canny \cite{canny1986} did not seem to give the same consistant performance in different lighting conditions. The objects that create closed curves, selected by a boundary fill function, are said to be within the measuring range. The measuring range together with the field of view defines the sampling volume. This and and the edge detection is also described in Paper I. Since the Laplacian of Gaussian can be seen as value of the second derivative of the edge gradient, it is also used together with the diameter to calculate the true size of the droplet as described in Paper II.
 
 \subsection{Exposure Check and Flash Intensity Adjustment}
 
-Let $I_{i,j}$ depict the two dimensional image captured by the camera. The mean value $\overline{i}$ of all pixels in the image $I_{i,j}$ gives an estimation of the exposure level in the whole image. 
+Let $I_{i,j}$ depict the two-dimensional image captured by the camera. The mean value $\overline{i}$ of all pixels in the image $I_{i,j}$ gives an estimation of the exposure level in the whole image. 
 
-The flash duration is adjusted automatically by the microcontroller at each exposure to keep the exposure level between a low and a high threshold, $th_L$ and $th_H$. The duration is changed in steps of 13 ns corresponding to one clock cycle of the microcontroller. If $\overline{i} > th_L$ and $\overline{i} < th_H$ the image is analyzed. If $\overline{i} \geq th_H$ the flash duration is decreased by steps of 12 ns. If $\overline{i} \leq th_L$ the flash duration is increased. The total flash duration is approximately 250 ns. $th_L$ is here set to 0.7 and $th_H$ is set to 0.8 in a normalized (0,1) dynamic range.
+The flash duration is adjusted automatically by the microcontroller at each exposure to keep the exposure level between a low and a high threshold, $th_L$ and $th_H$. The duration is changed in steps of 13 ns corresponding to one clock cycle of the microcontroller. If $\overline{i} > th_L$ and $\overline{i} < th_H$ the image is analyzed. If $\overline{i} \geq th_H$ the flash duration is decreased by steps of 12 ns. If $\overline{i} \leq th_L$ the flash duration is increased. The total flash duration is approximately 250 ns. Here $th_L$ is set to 0.7 and $th_H$ is set to 0.8 in a normalized (0,1) dynamic range.
 
 \subsection{Edge Detection and Edge Sharpness}
 
-To detect the intensity changes created by the shadow of a water droplet, an image is processed using the from edge detection theory well known Laplacian of Gaussian (LoG) described by Marr and Hildreth \cite{marr1980}. The method works by looking for zero crossings in the image resulting from calculating $\nabla^2 G\left(x,y\right) * I\left(x,y\right)$. $G\left(x,y\right)$ is a two dimensional Gaussian distribution with standard deviation σ and $\nabla^2$ is the Laplacian operator, defined as the divergence of the gradient in two dimensions.
+To detect the intensity changes created by the shadow of a water droplet, an image is processed using the Laplacian of Gaussian (LoG) described by Marr and Hildreth \cite{marr1980}. The method works by looking for zero crossings in the image resulting from calculating $\nabla^2 G\left(x,y\right) * I\left(x,y\right)$. $G\left(x,y\right)$ is a two-dimensional Gaussian distribution with standard deviation σ and $\nabla^2$ is the Laplacian operator, defined as the divergence of the gradient in two dimensions.
 \begin{equation}
 G\left(x,y\right) = \frac{1}{\pi \sigma^2} e^{-\frac{x^2+y^2}{2\sigma^2}}
 \end{equation}
@@ -67,7 +70,7 @@ We implement a discrete approximation to $\nabla^2 G\left(x,y\right) \approx \na
 \begin{equation}
 \nabla^2 G_{i,j} = -\frac{1}{\pi \sigma^4} \left(1 - \frac{i^2+j^2}{2\sigma^2} \right) e^{-\frac{i^2+j^2}{2\sigma^2}}
 \end{equation}
-By applying the convolution to the normalized image $I_{i,j}$ we get the resulting image $P_{i,j}$.
+By applying the convolution to the normalized image $I_{i,j}$ we get the image $P_{i,j}$.
 \begin{equation}
 P_{i,j}=\nabla^2 G_{i,j} * I_{i,j}
 \end{equation}

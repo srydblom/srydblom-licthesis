@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  6 SEP 2017 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.10.27)  14 SEP 2017 23:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4199,12 +4199,12 @@ LaTeX Warning: Reference `pap:paper3' on page xv undefined on input line 42.
 ]
 (./chapters/introduction.tex [1
 
-] [2] [3] [4] [5]) (./chapters/theory.tex
-[6] <./figures/freezing_droplets.jpg, id=573, 796.9775pt x 386.44376pt>
+] [2] [3] [4]) (./chapters/theory.tex [5]
+[6] <./figures/freezing_droplets.jpg, id=576, 796.9775pt x 386.44376pt>
 File: ./figures/freezing_droplets.jpg Graphic file (type jpg)
 
 <use ./figures/freezing_droplets.jpg>
-Package pdftex.def Info: ./figures/freezing_droplets.jpg used on input line 18.
+Package pdftex.def Info: ./figures/freezing_droplets.jpg used on input line 21.
 
 (pdftex.def)             Requested size: 261.601pt x 126.84282pt.
  [7
@@ -4212,174 +4212,173 @@ Package pdftex.def Info: ./figures/freezing_droplets.jpg used on input line 18.
 ] [8 <./figures/freezing_droplets.jpg>] [9] [10]) (./chapters/methods.tex [11] 
 [12
 
-]
-<./figures/shadowprinc.jpg, id=655, 443.6575pt x 99.37125pt>
+] [13]
+<./figures/shadowprinc.jpg, id=668, 443.6575pt x 99.37125pt>
 File: ./figures/shadowprinc.jpg Graphic file (type jpg)
 
 <use ./figures/shadowprinc.jpg>
-Package pdftex.def Info: ./figures/shadowprinc.jpg used on input line 18.
+Package pdftex.def Info: ./figures/shadowprinc.jpg used on input line 19.
 (pdftex.def)             Requested size: 245.25pt x 54.93031pt.
 
-<figures/Foto0169.jpg, id=658, 1606.0pt x 1204.5pt>
+<figures/Foto0169.jpg, id=671, 1606.0pt x 1204.5pt>
 File: figures/Foto0169.jpg Graphic file (type jpg)
  <use figures/Foto0169.jpg>
-Package pdftex.def Info: figures/Foto0169.jpg used on input line 24.
+Package pdftex.def Info: figures/Foto0169.jpg used on input line 25.
 (pdftex.def)             Requested size: 245.25pt x 183.93869pt.
 
-<figures/cam_housings.jpg, id=659, 3508.10625pt x 1722.435pt>
+<figures/cam_housings.jpg, id=672, 3508.10625pt x 1722.435pt>
 File: figures/cam_housings.jpg Graphic file (type jpg)
 
 <use figures/cam_housings.jpg>
-Package pdftex.def Info: figures/cam_housings.jpg used on input line 29.
+Package pdftex.def Info: figures/cam_housings.jpg used on input line 31.
 (pdftex.def)             Requested size: 245.25pt x 120.39879pt.
- [13] [14 <./figures/shadowprinc.jpg> <./figures/Foto0169.jpg>] [15 <./figures/
-cam_housings.jpg>]
+ [14 <./figures/shadowprinc.jpg> <./figures/Foto0169.jpg>]
+Underfull \vbox (badness 1194) has occurred while \output is active []
+
+ [15 <./figures/cam_housings.jpg>]
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 51.
+(Font)              scaled to size 10.95pt on input line 54.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 51.
-LaTeX Font Info:    Try loading font information for LGR+zpltlf on input line 5
-9.
-LaTeX Font Info:    No file LGRzpltlf.fd. on input line 59.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 54.
+ [16]
+LaTeX Font Info:    Try loading font information for LGR+zpltlf on input line 6
+2.
+LaTeX Font Info:    No file LGRzpltlf.fd. on input line 62.
 
 
 LaTeX Font Warning: Font shape `LGR/zpltlf/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 59.
+(Font)              using `LGR/cmr/m/n' instead on input line 62.
 
 (c:/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Underfull \vbox (badness 1014) has occurred while \output is active []
-
- [16]
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 62.
-
 
 Package fontaxes Warning: I don't know how to decode
 (fontaxes)                family `zpltlf' on input line 65.
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 69.
+(fontaxes)                family `zpltlf' on input line 68.
 
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 73.
+(fontaxes)                family `zpltlf' on input line 72.
 
-[17] [18]
 
 Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 96.
+(fontaxes)                family `zpltlf' on input line 76.
 
-<figures/compare455nmdot.jpg, id=720, 96.36pt x 96.36pt>
+[17]
+Underfull \vbox (badness 7433) has occurred while \output is active []
+
+ [18]
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 99.
+
+[19] <figures/compare455nmdot.jpg, id=735, 96.36pt x 96.36pt>
 File: figures/compare455nmdot.jpg Graphic file (type jpg)
 
 <use figures/compare455nmdot.jpg>
-Package pdftex.def Info: figures/compare455nmdot.jpg used on input line 108.
+Package pdftex.def Info: figures/compare455nmdot.jpg used on input line 111.
 (pdftex.def)             Requested size: 98.101pt x 98.1006pt.
 
-<figures/compare850nmdot.jpg, id=721, 96.36pt x 96.36pt>
+<figures/compare850nmdot.jpg, id=736, 96.36pt x 96.36pt>
 File: figures/compare850nmdot.jpg Graphic file (type jpg)
 
 <use figures/compare850nmdot.jpg>
-Package pdftex.def Info: figures/compare850nmdot.jpg used on input line 114.
+Package pdftex.def Info: figures/compare850nmdot.jpg used on input line 117.
 (pdftex.def)             Requested size: 98.101pt x 98.1006pt.
 
-<figures/spektralanalys_mightex455nm.jpg, id=725, 562.1pt x 421.575pt>
+<figures/spektralanalys_mightex455nm.jpg, id=740, 562.1pt x 421.575pt>
 File: figures/spektralanalys_mightex455nm.jpg Graphic file (type jpg)
 
 <use figures/spektralanalys_mightex455nm.jpg>
 Package pdftex.def Info: figures/spektralanalys_mightex455nm.jpg used on input 
-line 125.
+line 128.
 (pdftex.def)             Requested size: 196.202pt x 147.1482pt.
- [19] [20 <./figures/compare455nmdot.jpg> <./figures/compare850nmdot.jpg> <./fi
-gures/spektralanalys_mightex455nm.jpg>] <figures/NoiseGain.jpg, id=747, 420.069
-38pt x 287.57437pt>
+ [20 <./figures/compare455nmdot.jpg> <./figures/compare850nmdot.jpg>]
+<figures/NoiseGain.jpg, id=754, 420.06938pt x 287.57437pt>
 File: figures/NoiseGain.jpg Graphic file (type jpg)
 
 <use figures/NoiseGain.jpg>
-Package pdftex.def Info: figures/NoiseGain.jpg used on input line 143.
+Package pdftex.def Info: figures/NoiseGain.jpg used on input line 146.
 (pdftex.def)             Requested size: 196.202pt x 134.31747pt.
- [21 <./figures/NoiseGain.jpg>]
-<figures/Amblight22000lux.jpg, id=755, 421.575pt x 316.18124pt>
+ [21 <./figures/spektralanalys_mightex455nm.jpg>]
+<figures/Amblight22000lux.jpg, id=761, 421.575pt x 316.18124pt>
 File: figures/Amblight22000lux.jpg Graphic file (type jpg)
 
 <use figures/Amblight22000lux.jpg>
-Package pdftex.def Info: figures/Amblight22000lux.jpg used on input line 155.
+Package pdftex.def Info: figures/Amblight22000lux.jpg used on input line 158.
 (pdftex.def)             Requested size: 196.202pt x 147.15302pt.
- [22 <./figures/Amblight22000lux.jpg>]
-<figures/Energy_per_gain_level2.png, id=761, 605.26125pt x 408.02437pt>
+
+<figures/Energy_per_gain_level2.png, id=762, 605.26125pt x 408.02437pt>
 File: figures/Energy_per_gain_level2.png Graphic file (type png)
 
 <use figures/Energy_per_gain_level2.png>
 Package pdftex.def Info: figures/Energy_per_gain_level2.png used on input line 
-167.
+170.
 (pdftex.def)             Requested size: 245.25pt x 165.3299pt.
- [23 <./figures/Energy_per_gain_level2.png>] <figures/meas_range_vs_log_th.jpg,
- id=768, 376.40625pt x 244.66406pt>
+ [22 <./figures/NoiseGain.jpg>]
+[23 <./figures/Amblight22000lux.jpg> <./figures/Energy_per_gain_level2.png>]
+<figures/meas_range_vs_log_th.jpg, id=774, 376.40625pt x 244.66406pt>
 File: figures/meas_range_vs_log_th.jpg Graphic file (type jpg)
 
 <use figures/meas_range_vs_log_th.jpg>
 Package pdftex.def Info: figures/meas_range_vs_log_th.jpg used on input line 18
-5.
+8.
 (pdftex.def)             Requested size: 245.25pt x 159.418pt.
-
-
-Package fontaxes Warning: I don't know how to decode
-(fontaxes)                family `zpltlf' on input line 196.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [24 <./figures/meas_range_vs_log_th.jpg>]
 
 Package fontaxes Warning: I don't know how to decode
 (fontaxes)                family `zpltlf' on input line 199.
 
-<./figures/50umdot40x.jpg, id=778, 130.086pt x 55.6479pt>
+
+Package fontaxes Warning: I don't know how to decode
+(fontaxes)                family `zpltlf' on input line 202.
+
+<./figures/50umdot40x.jpg, id=782, 130.086pt x 55.6479pt>
 File: ./figures/50umdot40x.jpg Graphic file (type jpg)
 
 <use ./figures/50umdot40x.jpg>
-Package pdftex.def Info: ./figures/50umdot40x.jpg used on input line 207.
+Package pdftex.def Info: ./figures/50umdot40x.jpg used on input line 210.
 (pdftex.def)             Requested size: 245.25pt x 104.91777pt.
- [25 <./figures/50umdot40x.jpg>]
-<figures/DSC_0103.jpg, id=786, 3854.4pt x 2168.1pt>
+ [25 <./figures/50umdot40x.jpg>] [26]
+<figures/DSC_0103.jpg, id=796, 3854.4pt x 2168.1pt>
 File: figures/DSC_0103.jpg Graphic file (type jpg)
  <use figures/DSC_0103.jpg>
-Package pdftex.def Info: figures/DSC_0103.jpg used on input line 244.
+Package pdftex.def Info: figures/DSC_0103.jpg used on input line 247.
 (pdftex.def)             Requested size: 245.25pt x 137.92093pt.
 
-[26] <figures/installation1.jpg, id=796, 1429.34pt x 2465.21pt>
+<figures/installation1.jpg, id=802, 1429.34pt x 2465.21pt>
 File: figures/installation1.jpg Graphic file (type jpg)
 
 <use figures/installation1.jpg>
-Package pdftex.def Info: figures/installation1.jpg used on input line 254.
+Package pdftex.def Info: figures/installation1.jpg used on input line 257.
 (pdftex.def)             Requested size: 245.25pt x 422.95462pt.
 
-<figures/installation3.jpg, id=797, 3854.4pt x 2168.1pt>
+<figures/installation3.jpg, id=803, 3854.4pt x 2168.1pt>
 File: figures/installation3.jpg Graphic file (type jpg)
 
 <use figures/installation3.jpg>
-Package pdftex.def Info: figures/installation3.jpg used on input line 260.
+Package pdftex.def Info: figures/installation3.jpg used on input line 263.
 (pdftex.def)             Requested size: 245.25pt x 137.92093pt.
  [27 <./figures/DSC_0103.jpg>]
-Underfull \vbox (badness 1502) has occurred while \output is active []
+Underfull \vbox (badness 1389) has occurred while \output is active []
 
  [28 <./figures/installation1.jpg>]
-<figures/Images/Klovsjo_smhi160923_small.jpg, id=821, 235.63031pt x 243.15843pt
+<figures/Images/Klovsjo_smhi160923_small.jpg, id=823, 235.63031pt x 243.15843pt
 >
 File: figures/Images/Klovsjo_smhi160923_small.jpg Graphic file (type jpg)
  <use figures/Images/Klovsjo_smhi160923_small.jpg>
 Package pdftex.def Info: figures/Images/Klovsjo_smhi160923_small.jpg used on in
-put line 274.
+put line 277.
 (pdftex.def)             Requested size: 196.202pt x 202.47446pt.
 ) (./chapters/results.tex
 [29 <./figures/installation3.jpg>] [30 <./figures/Images/Klovsjo_smhi160923_sma
 ll.jpg>]
-<figures/Images/Measurement1_5um.jpg, id=834, 704.6325pt x 392.46625pt>
+<figures/Images/Measurement1_5um.jpg, id=844, 704.6325pt x 392.46625pt>
 File: figures/Images/Measurement1_5um.jpg Graphic file (type jpg)
 
 <use figures/Images/Measurement1_5um.jpg>
@@ -4389,7 +4388,7 @@ Package pdftex.def Info: figures/Images/Measurement1_5um.jpg used on input line
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 19.
 
-<figures/Images/Measurement1_10um.jpg, id=835, 704.6325pt x 392.46625pt>
+<figures/Images/Measurement1_10um.jpg, id=845, 704.6325pt x 392.46625pt>
 File: figures/Images/Measurement1_10um.jpg Graphic file (type jpg)
 
 <use figures/Images/Measurement1_10um.jpg>
@@ -4397,7 +4396,7 @@ Package pdftex.def Info: figures/Images/Measurement1_10um.jpg used on input lin
 e 24.
 (pdftex.def)             Requested size: 160.2318pt x 89.24129pt.
 
-<figures/Images/Measurement1_20um.jpg, id=836, 704.6325pt x 392.46625pt>
+<figures/Images/Measurement1_20um.jpg, id=846, 704.6325pt x 392.46625pt>
 File: figures/Images/Measurement1_20um.jpg Graphic file (type jpg)
 
 <use figures/Images/Measurement1_20um.jpg>
@@ -4405,7 +4404,7 @@ Package pdftex.def Info: figures/Images/Measurement1_20um.jpg used on input lin
 e 30.
 (pdftex.def)             Requested size: 163.5pt x 91.0618pt.
 
-<figures/Images/Measurement1_50um.jpg, id=837, 704.6325pt x 392.46625pt>
+<figures/Images/Measurement1_50um.jpg, id=847, 704.6325pt x 392.46625pt>
 File: figures/Images/Measurement1_50um.jpg Graphic file (type jpg)
 
 <use figures/Images/Measurement1_50um.jpg>
@@ -4423,7 +4422,7 @@ Overfull \hbox (20.7616pt too wide) in paragraph at lines 46--57
 g> <./figures/Images/Measurement1_20um.jpg> <./figures/Images/Measurement1_50um
 .jpg>]
 <figures/0228-0301/30min_lwc_CDP_DII_170228-170301_19212_0LpartDII_214646_0Lpar
-tCDP.jpg, id=846, 562.1pt x 421.575pt>
+tCDP.jpg, id=857, 562.1pt x 421.575pt>
 File: figures/0228-0301/30min_lwc_CDP_DII_170228-170301_19212_0LpartDII_214646_
 0LpartCDP.jpg Graphic file (type jpg)
 
@@ -4434,7 +4433,7 @@ Package pdftex.def Info: figures/0228-0301/30min_lwc_CDP_DII_170228-170301_1921
 (pdftex.def)             Requested size: 163.5pt x 122.62027pt.
 
 <figures/0228-0301/Lwcquote_DII-CDP_17022801-17030123_2760min_leastsquare0_2742
-.jpg, id=847, 562.1pt x 421.575pt>
+.jpg, id=858, 562.1pt x 421.575pt>
 File: figures/0228-0301/Lwcquote_DII-CDP_17022801-17030123_2760min_leastsquare0
 _2742.jpg Graphic file (type jpg)
 
@@ -4445,7 +4444,7 @@ Package pdftex.def Info: figures/0228-0301/Lwcquote_DII-CDP_17022801-17030123_2
 (pdftex.def)             Requested size: 163.5pt x 122.62027pt.
 
 <figures/0228-0301/30min_mvd_CDP_DII_170228-170301_19212_0LpartDII_214646_0Lpar
-tCDP.jpg, id=849, 562.1pt x 421.575pt>
+tCDP.jpg, id=860, 562.1pt x 421.575pt>
 File: figures/0228-0301/30min_mvd_CDP_DII_170228-170301_19212_0LpartDII_214646_
 0LpartCDP.jpg Graphic file (type jpg)
 
@@ -4456,7 +4455,7 @@ Package pdftex.def Info: figures/0228-0301/30min_mvd_CDP_DII_170228-170301_1921
 (pdftex.def)             Requested size: 163.5pt x 122.62027pt.
 
 <figures/0228-0301/Mvdquote_DII-CDP_17022801-17030123_2760min_leastsquare0_7682
-.jpg, id=850, 562.1pt x 421.575pt>
+.jpg, id=861, 562.1pt x 421.575pt>
 File: figures/0228-0301/Mvdquote_DII-CDP_17022801-17030123_2760min_leastsquare0
 _7682.jpg Graphic file (type jpg)
 
@@ -4469,7 +4468,7 @@ Package pdftex.def Info: figures/0228-0301/Mvdquote_DII-CDP_17022801-17030123_2
 6_0LpartCDP.jpg> <./figures/0228-0301/Lwcquote_DII-CDP_17022801-17030123_2760mi
 n_leastsquare0_2742.jpg>]
 <figures/0228-0301/Relation_between_lwcquote_and_wind_speed_17022801-17030123.j
-pg, id=857, 562.1pt x 421.575pt>
+pg, id=867, 562.1pt x 421.575pt>
 File: figures/0228-0301/Relation_between_lwcquote_and_wind_speed_17022801-17030
 123.jpg Graphic file (type jpg)
 
@@ -4482,7 +4481,7 @@ peed_17022801-17030123.jpg used on input line 109.
 6_0LpartCDP.jpg> <./figures/0228-0301/Mvdquote_DII-CDP_17022801-17030123_2760mi
 n_leastsquare0_7682.jpg> <./figures/0228-0301/Relation_between_lwcquote_and_win
 d_speed_17022801-17030123.jpg>]
-<figures/161211/30min_lwc_CDP_DII_SMHI_161211_adjusted.jpg, id=863, 562.1pt x 4
+<figures/161211/30min_lwc_CDP_DII_SMHI_161211_adjusted.jpg, id=873, 562.1pt x 4
 21.575pt>
 File: figures/161211/30min_lwc_CDP_DII_SMHI_161211_adjusted.jpg Graphic file (t
 ype jpg)
@@ -4491,7 +4490,7 @@ Package pdftex.def Info: figures/161211/30min_lwc_CDP_DII_SMHI_161211_adjusted.
 jpg used on input line 122.
 (pdftex.def)             Requested size: 163.5pt x 122.62027pt.
 
-<figures/161211/30min_mvd_CDP_DII_SMHI_161211_adjusted.jpg, id=864, 562.1pt x 4
+<figures/161211/30min_mvd_CDP_DII_SMHI_161211_adjusted.jpg, id=874, 562.1pt x 4
 21.575pt>
 File: figures/161211/30min_mvd_CDP_DII_SMHI_161211_adjusted.jpg Graphic file (t
 ype jpg)
@@ -4500,7 +4499,7 @@ Package pdftex.def Info: figures/161211/30min_mvd_CDP_DII_SMHI_161211_adjusted.
 jpg used on input line 128.
 (pdftex.def)             Requested size: 163.5pt x 122.62027pt.
 
-<figures/0203-0206/30min_lwc_foggy_smhi_170203-170206_86h.jpg, id=868, 562.1pt 
+<figures/0203-0206/30min_lwc_foggy_smhi_170203-170206_86h.jpg, id=878, 562.1pt 
 x 421.575pt>
 File: figures/0203-0206/30min_lwc_foggy_smhi_170203-170206_86h.jpg Graphic file
  (type jpg)
@@ -4510,7 +4509,7 @@ Package pdftex.def Info: figures/0203-0206/30min_lwc_foggy_smhi_170203-170206_8
 6h.jpg used on input line 142.
 (pdftex.def)             Requested size: 163.5pt x 122.62027pt.
 
-<figures/0203-0206/30min_mvd_foggy_smhi_170203-170206_86h.jpg, id=869, 562.1pt 
+<figures/0203-0206/30min_mvd_foggy_smhi_170203-170206_86h.jpg, id=879, 562.1pt 
 x 421.575pt>
 File: figures/0203-0206/30min_mvd_foggy_smhi_170203-170206_86h.jpg Graphic file
  (type jpg)
@@ -4520,7 +4519,7 @@ Package pdftex.def Info: figures/0203-0206/30min_mvd_foggy_smhi_170203-170206_8
 6h.jpg used on input line 148.
 (pdftex.def)             Requested size: 163.5pt x 122.62027pt.
 
-<figures/170210/30min_lwc_CDP_DII_SMHI_170210_2263part.jpg, id=870, 562.1pt x 4
+<figures/170210/30min_lwc_CDP_DII_SMHI_170210_2263part.jpg, id=880, 562.1pt x 4
 21.575pt>
 File: figures/170210/30min_lwc_CDP_DII_SMHI_170210_2263part.jpg Graphic file (t
 ype jpg)
@@ -4529,7 +4528,7 @@ Package pdftex.def Info: figures/170210/30min_lwc_CDP_DII_SMHI_170210_2263part.
 jpg used on input line 160.
 (pdftex.def)             Requested size: 163.5pt x 122.62027pt.
 
-<figures/170210/30min_mvd_CDP_DII_SMHI_170210_2263part.jpg, id=871, 562.1pt x 4
+<figures/170210/30min_mvd_CDP_DII_SMHI_170210_2263part.jpg, id=881, 562.1pt x 4
 21.575pt>
 File: figures/170210/30min_mvd_CDP_DII_SMHI_170210_2263part.jpg Graphic file (t
 ype jpg)
@@ -4546,13 +4545,13 @@ lwc_CDP_DII_SMHI_170210_2263part.jpg> <./figures/170210/30min_mvd_CDP_DII_SMHI_
 170210_2263part.jpg>] [36
 
 ] [37] [38] [39]
-<figures/litenis1.jpg, id=910, 200.75pt x 200.75pt>
+<figures/litenis1.jpg, id=920, 200.75pt x 200.75pt>
 File: figures/litenis1.jpg Graphic file (type jpg)
  <use figures/litenis1.jpg>
 Package pdftex.def Info: figures/litenis1.jpg used on input line 67.
 (pdftex.def)             Requested size: 163.5pt x 163.51024pt.
 
-<figures/litendroppe1.jpg, id=911, 200.75pt x 200.75pt>
+<figures/litendroppe1.jpg, id=921, 200.75pt x 200.75pt>
 File: figures/litendroppe1.jpg Graphic file (type jpg)
 
 <use figures/litendroppe1.jpg>
@@ -4560,7 +4559,7 @@ Package pdftex.def Info: figures/litendroppe1.jpg used on input line 73.
 (pdftex.def)             Requested size: 163.5pt x 163.51024pt.
  [40] [41 <./figures/litenis1.jpg> <./figures/litendroppe1.jpg>] [42] [43] [44]
 
-<figures/170205_0441_droplet_74um.jpg, id=969, 301.125pt x 301.125pt>
+<figures/170205_0441_droplet_74um.jpg, id=980, 301.125pt x 301.125pt>
 File: figures/170205_0441_droplet_74um.jpg Graphic file (type jpg)
 
 <use figures/170205_0441_droplet_74um.jpg>
@@ -4568,7 +4567,7 @@ Package pdftex.def Info: figures/170205_0441_droplet_74um.jpg used on input lin
 e 137.
 (pdftex.def)             Requested size: 130.798pt x 130.79993pt.
 
-<figures/170205_1648_droplet_19and62um.jpg, id=970, 602.25pt x 301.125pt>
+<figures/170205_1648_droplet_19and62um.jpg, id=981, 602.25pt x 301.125pt>
 File: figures/170205_1648_droplet_19and62um.jpg Graphic file (type jpg)
 
 <use figures/170205_1648_droplet_19and62um.jpg>
@@ -4743,11 +4742,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 69162 strings out of 493013
- 1504474 string characters out of 6136992
- 2090503 words of memory out of 5000000
- 70990 multiletter control sequences out of 15000+600000
- 117363 words of font info for 236 fonts, out of 8000000 for 9000
+ 69166 strings out of 493013
+ 1504538 string characters out of 6136992
+ 2090513 words of memory out of 5000000
+ 70998 multiletter control sequences out of 15000+600000
+ 117133 words of font info for 234 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  64i,13n,111p,10417b,2901s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/
@@ -4765,10 +4764,10 @@ type1/urw/palatino/uplri8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/n
 ewpx/zplb.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/newpx/zplr.pfb><c:
 /texlive/2016/texmf-dist/fonts/type1/public/newpx/zplri.pfb><c:/texlive/2016/te
 xmf-dist/fonts/type1/public/newpx/zplx-regular.pfb>
-Output written on main.pdf (78 pages, 8688074 bytes).
+Output written on main.pdf (78 pages, 8688937 bytes).
 PDF statistics:
- 1198 PDF objects out of 1200 (max. 8388607)
- 1042 compressed objects within 11 object streams
+ 1208 PDF objects out of 1440 (max. 8388607)
+ 1052 compressed objects within 11 object streams
  287 named destinations out of 1000 (max. 500000)
  40985 words of extra memory for PDF output out of 42996 (max. 10000000)
 

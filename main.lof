@@ -15,9 +15,9 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces The experimental setup with a dot micrometer scale as test object mounted on a translation stage.\relax }}{14}{figure.caption.10}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces The illumination and detector is mounted inside two Bosch camera housings facing each other with heating inside the house and on the front glass.\relax }}{15}{figure.caption.11}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Same dot viewed in different background light. 455 nm (left) and 850 nm (right).\relax }}{20}{figure.caption.12}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Spectrum of the Mightex 455nm \gls {led} using two different driving currents. The band width is slightly wider for the higher current.\relax }}{20}{figure.caption.13}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces SNR for a ten micrometer dot image using two wavelengths and seven gain level settings. Shorter wavelength and lower gain gives less noise.\relax }}{21}{figure.caption.14}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Mean pixel value and standard deviation of ambient for a light measurement at 22000 lux.\relax }}{22}{figure.caption.15}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Spectrum of the Mightex 455nm \gls {led} using two different driving currents. The band width is slightly wider for the higher current.\relax }}{21}{figure.caption.13}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces SNR for a ten micrometer dot image using two wavelengths and seven gain level settings. Shorter wavelength and lower gain gives less noise.\relax }}{22}{figure.caption.14}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Mean pixel value and standard deviation of ambient for a light measurement at 22000 lux.\relax }}{23}{figure.caption.15}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Light energy ($nJ$) for exposure in each of the eight gain levels used. The energy was tuned manually up to a level of high exposure, but not saturating any point in the image.\relax }}{23}{figure.caption.16}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Measuring range (mm) vs. diameter for two different thresholds (0.005 and 0.002).\relax }}{24}{figure.caption.17}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces The 50 micrometer dot with front illumination imaged using 40x magnifying lens.\relax }}{25}{figure.caption.18}

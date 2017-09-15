@@ -20,27 +20,27 @@
 \contentsline {section}{\numberline {2.1}Forming of Ice}{7}{section.2.1}
 \contentsline {section}{\numberline {2.2}Liquid Water Content and Median Volume Diameter}{8}{section.2.2}
 \contentsline {section}{\numberline {2.3}Practical Problems with Measuring Atmospheric Water}{9}{section.2.3}
-\contentsline {section}{\numberline {2.4}Light Scattering and Absorption}{10}{section.2.4}
+\contentsline {section}{\numberline {2.4}Light Scattering and Absorption}{11}{section.2.4}
 \contentsline {chapter}{\chapternumberline {3}Materials and Methods}{13}{chapter.3}
 \contentsline {section}{\numberline {3.1}The Shadowgraph System}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}Image Segmentation}{15}{section.3.2}
+\contentsline {section}{\numberline {3.2}Image Segmentation}{16}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Exposure Check and Flash Intensity Adjustment}{16}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Edge Detection and Edge Sharpness}{17}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Comparing Transparent Microspheres and Dots}{18}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Removing the Center Bright Spot}{18}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.4}Removing the Center Bright Spot}{19}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}Measuring Roundness}{19}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3.2.6}Light Spectrum}{19}{subsection.3.2.6}
 \contentsline {subsection}{\numberline {3.2.7}Laser Light}{20}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}Image Noise}{21}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.8}Image Noise}{20}{subsection.3.2.8}
 \contentsline {subsection}{\numberline {3.2.9}Ambient Light}{21}{subsection.3.2.9}
 \contentsline {subsection}{\numberline {3.2.10}Light Sensitivity Measurement}{22}{subsection.3.2.10}
 \contentsline {section}{\numberline {3.3}Design Considerations}{23}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Speed of Light Flash}{23}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}Calibration and Validation of the Calibration}{23}{section.3.4}
+\contentsline {section}{\numberline {3.4}Calibration and Validation of the Calibration}{24}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Verification of Dot Size}{25}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}The Fog Chamber}{25}{section.3.5}
-\contentsline {section}{\numberline {3.6}The Kl\IeC {\"o}vsj\IeC {\"o} Installation}{26}{section.3.6}
-\contentsline {section}{\numberline {3.7}Numerical Weather Prediction}{27}{section.3.7}
+\contentsline {section}{\numberline {3.5}The Fog Chamber}{26}{section.3.5}
+\contentsline {section}{\numberline {3.6}The Kl\IeC {\"o}vsj\IeC {\"o} Installation}{27}{section.3.6}
+\contentsline {section}{\numberline {3.7}Numerical Weather Prediction}{28}{section.3.7}
 \contentsline {chapter}{\chapternumberline {4}Results}{31}{chapter.4}
 \contentsline {section}{\numberline {4.1}Measurement of Polymer Microspheres}{31}{section.4.1}
 \contentsline {section}{\numberline {4.2}Comparison of DII and CDP Data}{32}{section.4.2}
