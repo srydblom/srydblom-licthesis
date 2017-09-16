@@ -5,11 +5,11 @@
 \chapter{Materials and Methods}
 \label{chap:methods}
 
-To begin with, different light sources and illumination angles were investigated. It was settled that a shadowgraph system with background illumination was to be used. The experimental setup was tested using different water droplet generators and a test target consisting of micrometer sized lines and dots. Analyzing the optical system and testing different segmentation algorithms, we found a simple way to define the sample volume for each individual droplet. To test the ability of measuring concentration we needed to build a weather protected prototype that could be used in parallell with a second instrument. The prototype needed to be fully automatic, able to analyze images in real time 24 hours a day for several months and store the results in a compressed format. To calibrate the size measurement and the measurement range, the previously mentioned dots of different sizes were used. The size measurement was also verified using distributions polymer microspheres, applied by blowing compressed air through a glass dispenser.
+To begin with, a few different light sources and illumination angles were investigated. In section \ref{sec:discussionstarting}, the lighting alternatives that were considered, are described. It was settled that a shadowgraph system with background illumination from an \gls{led} was to be used. The experimental setup was tested using different water droplet generators and a test target consisting of micrometer sized lines and dots. Analyzing the optical system and testing different segmentation algorithms, we found a simple way to define the sample volume for each individual droplet. To test the ability of measuring concentration we needed to build a weather protected prototype that could be used in parallell with a second instrument. The prototype needed to be fully automatic, able to analyze images in real time 24 hours a day for several months and store the results in a compressed format. To calibrate the size measurement and the measurement range, the previously mentioned dots of different sizes were used. The size measurement was also verified using distributions polymer microspheres, applied by blowing compressed air through a glass dispenser.
 
 \section{The Shadowgraph System}
 
-The instrument is a shadowgraph system using a monochrome \gls{cmos} camera with a 4x magnifying telecentric lens and a \gls{led} with a collimating lens illuminating the background. \Cref{fig:shadowprinc} shows a sketch of the system. The system was first tested in the experimental setup seen in \cref{fig:experimental}. 
+The instrument is a shadowgraph system using a monochrome \gls{cmos} camera with a 4x magnifying telecentric lens and a \gls{led} with a collimating lens illuminating the background. \Cref{fig:shadowprinc} shows a sketch of the system. The system was first tested in the experimental setup seen in \Cref{fig:experimental}. 
 
 \begin{figure}[ht]
 \centering\includegraphics[width=0.75\linewidth]{./figures/shadowprinc.jpg}
@@ -17,7 +17,7 @@ The instrument is a shadowgraph system using a monochrome \gls{cmos} camera with
 \label{fig:shadowprinc}
 \end{figure}
 
-The blue \gls{led}, shown to the right in \cref{fig:experimental}, was initially powered by a SignaTech Strobe Controller from Advanced Illumination. The SignaTech Controller can produce up to 4A at 100V. For the prototype instrument, another current driver, the Picolas LDP-V 10-70 was chosen. This driver can produce short 12A pulses. For controlling the pulse length, a microcontroller is used. 
+The blue \gls{led}, shown to the right in \Cref{fig:experimental}, was initially powered by a SignaTech Strobe Controller from Advanced Illumination. The SignaTech Controller can produce up to 4A at 100V. For the prototype instrument, another current driver, the Picolas LDP-V 10-70 was chosen. This driver can produce short 12A pulses. For controlling the pulse length, a microcontroller is used. 
 
 \begin{figure}[ht]
 \centering\includegraphics[width=0.75\linewidth]{figures/Foto0169}
@@ -75,34 +75,33 @@ By applying the convolution to the normalized image $I_{i,j}$ we get the image $
 P_{i,j}=\nabla^2 G_{i,j} * I_{i,j}
 \end{equation}
 $P_{i,j}$ is thus a matrix that contains the second order derivative of the image $I_{i,j}$. 
-A spherical object will cause an edge where the intensity change is similar around a spherical object, but dependent on the distance from the optimal focus. Assuming the Gaussian of the image I is twice differentiable at any point $(i,j)$, the maximum (or minimum) of the second derivative includes the amplitude of the first derivative at the point where the second derivative is equal to zero, i.e. where the edge is strongest. This can be intuitively understood when considering that if the edge is sharper, the gradient, or first derivative value is larger, and if the gradient value is larger the rate of change, i.e. the second derivative needs to be larger at each side of the edge. Therefore we store a value of the maximum second derivate, $max(P_{i,j}$, around each analyzed object and use this as a measure of the edge sharpness. This value is then used as input to a calibration function. 
+A spherical object will result in an edge where the intensity change is similar around a spherical object, but dependent on the distance from the optimal focus. Assuming the Gaussian of the image I is twice differentiable at any point $(i,j)$, the maximum (or minimum) of the second derivative includes the amplitude of the first derivative at the point where the second derivative is equal to zero, i.e. where the edge is strongest. This can be intuitively understood; when the edge is sharper, the gradient, or first derivative value, is larger. And if the gradient value is larger, the rate of change, i.e. the second derivative, needs to be larger at each side of the edge. Therefore, we store a value of the maximum second derivate, $max(P_{i,j}$), around each analyzed object and use this as a measure of the edge sharpness. This value in turn is used as input to a calibration function. 
 We also construct a new binary image $Q$ in which the pixel value $Q_{i,j}=1$ if any of $|P_{i+1,j}-P_{i,j} |,|P_{i-1,j}-P_{i,j} |,|P_{i,j+1}-P_{i,j} |,|P_{i,j-1}-P_{i,j} |>th$, where $th=0.002$. $Q_{i,j}=0$ elsewhere. th is the gradient of the second derivative at the point where the second derivative is zero, i.e. on the edge. Particles are found by searching for closed contours in this binary image.
 
 \subsection{Comparing Transparent Microspheres and Dots}
 
-A spherical lens scatters almost all the incident light in different directions, leaving only a bright spot in the middle where light is transferred directly through. For larger particles in focus, this bright spot will result in a second circular closed contour inside the outer edge. 
+A spherical lens scatters almost all the incident light in different directions, leaving only a bright spot in the middle where the light is transferred directly through. For larger particles in focus, this bright spot can result in a second circular closed contour inside the outer edge. 
 
-Small water droplets can be seen as transparent microspheres. The composition changes the refractive index, but this has little effect on the shadow. The outer contour is the same following the same reasoning as with the dots used for calibration \cite{ryd2015}(Paper I). Diffraction patterns depend on the wavelength of the light and the size of the sphere. The resolution of the constructed system is not high enough for these patterns to be visible.
+Small water droplets can be seen as transparent microspheres. The composition changes the refractive index, but this has little effect on the shadow. The outer contour is the same following the same reasoning as dots used for calibration \cite{ryd2015}(Paper I). Diffraction patterns depend on the wavelength of the light and the size of the sphere. The resolution of the constructed system is not high enough for these patterns to be visible.
 
-By using a flood-fill function on the binary image containing the detected contour, starting in a point at a minimum distance from an object, the edge of the filled area will border to the outer contour. This makes it possible to select the outer closed contours of possible particles.
+By using a flood-fill function on the binary image containing the detected contour, starting at a point at a minimum distance from an object, the edge of the filled area will border to the outer contour. This makes it possible to select the outer closed contours of possible particles.
 
 \subsection{Removing the Center Bright Spot}
 
-The center bright spot will make the shadow of a transparent sphere brighter in average than a solid dot. This will have an impact on the size calculation, since the size calculation is based on the shadow impact and the calibration is done using solid dots. Therefore we apply a mask on the image before calculating the size of the shadow. The mask is done by replacing all the centermost pixels in a shape of a circular disc with the intensity of the darkest pixel in the spot. The diameter of the masked disc is the arc length of the edge contour divided by 4$\pi$. The bright spot is measured by calculating the difference between the least value and the center pixel. Only particles with a difference larger than 0.1 (ten percent) will have the mask applied
+The center bright spot will make the shadow of a transparent sphere brighter in average than a solid dot. This will have an impact on the size calculation, since the size calculation is based on the shadow impact and the calibration is done using solid dots. Therefore, we apply a mask on the image before calculating the size of the shadow. The mask is done by replacing all the centermost pixels in the shape of a circular disc with the intensity of the darkest pixel in the spot. The diameter of the masked disc is the arc length of the edge contour divided by 4$\pi$. The bright spot is measured by calculating the difference between the least value and the center pixel. Only particles with a difference greater than 0.1 (ten percent) will have the mask applied
 
 \subsection{Measuring Roundness}
 \label{met:roundness}
-There may be clogs of small microspheres or dust in the samples that are measured. Microspheres, or small water droplets are close to spherical. Therefore we try to exclude all objects that the program find but are not circular. After the detection of object edges, we measure the roundness of each object. A measure of the mean square roundness deviation similar to the one described by ISO \cite{iso12181} can be achieved by calculating the quote between the area of the contour and the square of the total arc length See (\cref{eq:5}).
+There may be clogs of small microspheres or dust in the samples that are measured. Microspheres, or small water droplets are close to spherical. We try to exclude all objects that the program finds that are not circular. After the detection of object edges, we measure the roundness of each object. A measure of the mean square roundness deviation similar to the one described by ISO \cite{iso12181} can be achieved by calculating the quote between the area of the contour and the square of the total arc length. See (\ref{eq:5}).
 \begin{equation}
 roundness = 4\pi \frac{A_{contour}}{arcLength^2}
 \label{eq:5}
 \end{equation}
 $A_{contour}$ is the pixel area of the filled contour and $arcLength$ is the perimeter of the measured closed contour. In the calibration and field measurements described, an object is only considered spherical if $roundness \geq 0.85$.
 
+\section{Light Source}
 
-\subsection{Light Spectrum}
-
-Although water is a good absorber of electromagnetic ratiation in most spectral wavelenghts except for the visible, the volume of water droplets is too small for the absorbtion to be measurable. In visible light, the water droplet can be regarded as a spherical lens with a very short focal length, thus spreading most of the light in diverging directions. Since the used camera is specifically designed for visible and near infrared, we tested and compared two different wavelenghts, 455 nm and 850 nm using the same optical setup. The shorter wavelength gave sharper images.
+Although water is a good absorber of electromagnetic ratiation in most spectral wavelenghts except for the visible, the volume of water droplets is too small for the absorbtion to be measurable. In visible light, the water droplet can be regarded as a spherical lens with a very short focal length, thus spreading most of the light in diverging directions. Since the camera used is designed for both visible and near infrared light, we tested and compared two different wavelenghts, 455 nm and 850 nm using the same optical setup. The shorter wavelength gave sharper images and higher \gls{snr}.
 
 \begin{figure}
 \centering
@@ -118,71 +117,52 @@ Although water is a good absorber of electromagnetic ratiation in most spectral 
   %\caption{A subfigure}
   %\label{fig:compare850nmdot}
 \end{minipage}
-\caption{Same dot viewed in different background light. 455 nm (left) and 850 nm (right).}
+\caption{The same dot viewed with different background light: 455 nm (left) and 850 nm (right).}
 \label{fig:comparedots}
-\end{figure}
-
-One would expect diffraction patterns depending on the spectral bandwith of the light source. The narrower band width the stronger the diffraction would be. A spectrum analyze of the \gls{led} showed that the coherence length of the blue \gls{led} is about 6.8 μm. Therefore the spectrum was measured using a spectrum analyzer. The result can be seen in Figure \ref{fig:ledspectrum}
-
-\begin{figure}%[ht]
-\centering\includegraphics[width=0.6\linewidth]{figures/spektralanalys_mightex455nm}
-\caption{Spectrum of the Mightex 455nm \gls{led} using two different driving currents. The band width is slightly wider for the higher current.}
-\label{fig:ledspectrum}
 \end{figure}
 
 \subsection{Laser Light}
 
-Using coherent light for imaging means that the effects of interference patterns will dominate the image of small particles. This is e.g. used when reconstructing images in holographic imaging instruments mentioned in section \ref{sec:relwork}. Laser illumination was tried used using two wavelengths, 450 and 850 nm. The images using laser illuminating the sample from an angle 
-
-\subsection{Image Noise}
-
-The total image noise was first measured using the whole image using the 455nm \gls{led} light, resulting in a variation coefficient of about nine percent.
-
-The idea came that we should be able to measure the signal to noise relation, if the shadow image of the droplet is represents the signal. This signal to noise ratio (SNR) could possibly be used to increase the accuracy of the measurement. A function was created that calculates the noise level locally around each analyzed droplet image. A correlation could be seen between the SNR and the corresponding measuring range, resulting in an increased sampling volume for higher SNR \cite{ryd2015}(Paper I). This relation has not been implemented in the LWC calculation for the prototype instrument yet.
-
-The SNR for a ten micrometer dot image was compared for the different available gain level settings in the image sensor. This measurement was done using both the 455 and the 850 nm illumination. The result can be seen in Figure \ref{fig:noisegain}.
-
-\begin{figure}%[ht]
-\centering\includegraphics[width=0.6\linewidth]{figures/NoiseGain}
-\caption{SNR for a ten micrometer dot image using two wavelengths and seven gain level settings. Shorter wavelength and lower gain gives less noise.}
-\label{fig:noisegain}
-\end{figure}
+For conventional imaging of small particles the coherence of laser light mainly causes problems as diffraction patterns will be strong and visible. Therefore this was only briefly investigated. In section \ref{sec:discussionlaser} there is a discussion of the result from this investigation.
 
 \subsection{Ambient Light}
 
-In daylight, there is always some ambient light. Although the camera is never aimed direclty at the sun and the system make use of a telecentric lens we wanted to be sure that this light is not enough to affect the measurement. To get an idéa about the amount of ambient light the camera and lens was tested alone in daylight, using a fog generator in front of the lens to reflect light into the lens. 
+In daylight, there is always some ambient light. Although the camera is never aimed direclty at the sun and has a telecentric lens, we wanted to be sure that this light would not affect the measurement. For an indication the amount of ambient light, the system was tested in daylight, using a fog generator in front of the lens to reflect light into the lens. 
 
-The shortest possible exposure time according to the camera specification is 0.038 ms, slightly depending on other camera settings. For each measurement 152 images were captured, with increasing exposure time from 0.040635 to 1.988535 ms. A delay of 1 second was set between each image. Figure \ref{fig:ambientlight} shows the mean pixel value and the standard deviation of the value for one of the measurements at 22000 lux ambient light.
+\section{Image Noise}
+
+We had an idea that it should be possible to measure the signal to noise relation, if the shadow image of the droplet represents the signal. In theory, the \gls{snr} could be used as an input to the size or concentration calculation, to increase the accuracy of the measurement. 
+
+An estimation of the image noise in the whole image was done by making a number of images using only the background illumination. The standard deviation was calculated was in each pixel of the 2048x2048 sized image, resulting in an average variation coefficient of about nine percent.
+
+A function was created that calculates the noise level locally around each analyzed droplet image. Assuming that the area surrounding a droplet is evenly illuminated, the noise can be estimated for each droplet $j$, as the relation between the signal and the noise. See (\ref{eq:snrcalc}) and \Cref{fig:snrcalc}.
+
+\begin{equation}
+snr_j = 20 log \frac{A_j}{\sigma_j}
+\label{eq:snrcalc}
+\end{equation}
 
 \begin{figure}%[ht]
-\centering\includegraphics[width=0.6\linewidth]{figures/Amblight22000lux}
-\caption{Mean pixel value and standard deviation of ambient for a light measurement at 22000 lux.}
-\label{fig:ambientlight}
+\centering\includegraphics[width=0.6\linewidth]{figures/snrcalc}
+\caption{\gls{snr} calculation. $\overline{y}_j$ is determined by calculating the average of the darkest third of all pixels inside the edge detected dot.}
+\label{fig:snrcalc}
 \end{figure}
 
-Using this setup it was found that an exposure time of at least one second is needed to give a signal that is comparable to the noise level in a normal exposure. In order to image small droplets, the exposure time needs to be less than one μs, preferrably less. This difference is greater than the 8-bit pixel resolution used ($2^8=256$).
+\subsection{Exposure Energy Measurement}
 
-\subsection{Light Sensitivity Measurement}
+This measurement was done to get an idea about the theoretical minimum amount of energy required for each image. In practice, the light from the collimated LED used will be spread so that only a small part of the total emitted energy actually reaches the sensor. The area in view is about 8 times smaller than the illuminated area of the collimated LED, which was measured to about 8x8 mm. Some of the light energy will be absorbed in the telecentric lens.
 
-The illumination energy required to get a good exposure for each of the eight gain setting levels is shown in Fig. 9. The energy is calculated by using an effectmeter, the area of view and the time that is required for a full exposure. The measurement is described in Paper I. 34 nJ is required for the area in view (7.8 $mm^2$) for the lowest gain setting, which results in the highest SNR and about 20 nJ for the used setting. 
-
-\begin{figure}[ht]
-\centering\includegraphics[width=0.75\linewidth]{figures/Energy_per_gain_level2}
-\caption{Light energy ($nJ$) for exposure in each of the eight gain levels used. The energy was tuned manually up to a level of high exposure, but not saturating any point in the image.}
-\end{figure}
-
+The light energy required for good exposure was investigated using eight gain setting levels. A pulsed signal was used, 3-10 μs long, with 9-36 kHz frequency. To minimize the thermal effect of the heated glass and the ambient light, the power was measured immediately before and after start and stop. The pulse length was measured using a semiconductor light sensor connected to an oscilloscope. The result is discussed in section \ref{sec:expmeasurement}.
 
 \section{Design Considerations}
 
 \subsection{Speed of Light Flash}
 
-A value of both MVD and LWC can be derived from a series of images and since the number of measured droplets will depend on the concentration, the accuracy and precision will depend on the number of samples from the total population of droplets. 
-
-The illuminative power required to get a good exposure is tested.
+A value of both MVD and LWC can be derived from a series of images and since the number of measured droplets will depend on the concentration, the accuracy and precision will depend on the number of samples from the total population of droplets.
 
 \section{Calibration and Validation of the Calibration}
 
-The system is calibrated using a stage micrometer scale with 13 circular dots printed in chrome on a silicon glass. The dots range from 2 to 100 μm in diameter. Each dot is moved linearly in steps of one micrometer in the direction orthogonal to the lenses, thus creating a function where the gradient of the edge depends on the distance from optimum focus. A threshold on the second derivative gradient strength limits the measured particles to be within a specific measuring range. It is important to select the threshold carefully. If the value of the threshold is too low, there will be many false edges in the image. If it is too high, the measuring range will be too small. The difference between two different thresholds, 0.002 and 0.005 is illustrated by Figure \ref{fig:measrangevslogth}.  The measuring range is here defined as the distance in which the edge detection by Laplacian of Gaussian operator and a threshold makes a closed curve in the resulting binary image.
+The system was calibrated using a stage micrometer scale with 13 circular dots printed in chrome on a silicon glass. The dots range from 2 to 100 μm in diameter. Each dot was moved linearly in steps of one micrometer in the direction orthogonal to the lenses, thus creating a function where the gradient of the edge depends on the distance from optimum focus. A threshold on the second derivative gradient strength limits the measured particles to be within a specific measuring range. The threshold should be selected carefully. If the value of the threshold is too low, there will be many false edges in the image. If it is too high, the measuring range will be too small. The difference between two different thresholds, 0.002 and 0.005 is illustrated by \Cref{fig:measrangevslogth}.  The measuring range is here defined as the distance in which the edge detection by Laplacian of Gaussian operator and a threshold makes a closed curve in the resulting binary image.
 
 \begin{figure}[ht]
 \centering\includegraphics[width=0.75\linewidth]{figures/meas_range_vs_log_th}
@@ -204,7 +184,7 @@ By measuring the calibrated microspheres a validation can be made with the expec
 
 \subsection{Verification of Dot Size}
 
-The dots on the micrometer scale were measured visually using a Leica microscope connected to a digital camera. This was done to get accurate values of the diameter of the dots for use in the calibration. An example image that was measured can be seen in \cref{fig:50umdot40x}.
+The dots on the micrometer scale were measured visually using a Leica microscope connected to a digital camera. This was done to find accurate values of the diameter of the dots to use in the calibration. An example image that was measured can be seen in \Cref{fig:50umdot40x}.
 
 \begin{figure}[ht]
 \centering\includegraphics[width=0.75\linewidth]{./figures/50umdot40x.jpg}
@@ -212,7 +192,7 @@ The dots on the micrometer scale were measured visually using a Leica microscope
 \label{fig:50umdot40x}
 \end{figure}
 
-This measurement was done using lenses with two different magnifications: 40x and 100x. All the dots average diameters, except the 100 µm dot were found to be within $\pm$ 0.2 $\mu$ m of their nominal diameter. They are not all perfectly round, but the size accuracy should be good enough to use as calibration reference. The result from this measurement is comprehended in \cref{tab:ref_meas}.
+This measurement was done using lenses with two different magnifications: 40x and 100x. All the dots average diameters, except the 100 µm dot were found to be within $\pm$ 0.2 $\mu$ m of their nominal diameter. They are not all perfectly round, but the size accuracy should be good enough to use as calibration reference. The result from this measurement is presented in \Cref{tab:ref_meas}.
 
 \begin{table}[ht]
 \centering
@@ -232,24 +212,29 @@ This measurement was done using lenses with two different magnifications: 40x an
 100 & 2.5 & 100 & 98.7 \\
 \hline
 \end{tabular}
-\caption{Micro dot verification measurement. All values are in µm. Eccentricity is here the maximum difference in µm between the smallest and the largest measured diameter.}
+\caption{Micro dot verification measurement. All values are in µm. Here, eccentricity is the maximum difference in µm between the smallest and the largest measured diameter.}
 \label{tab:ref_meas}
 \end{table}
 
 
 
 \section{The Fog Chamber}
-The fog chamber is needed to create a test environment for the instrument. Natural fogs tend not to occur outside just when we are ready to test. If possible, it is desirable that the environmet can be controlled and verified using a second instrument. It gives an indication of how the instrument will behave in a real measurement. It is also a verification of the instrument’s water ingress resistance.
 
-The constructed chamber has a frame made of 30 mm aluminum profiles, fitted with transparent 6 mm polycarbonate walls on all sides using rubber sealing strips. The droplets are produced using an ultrasonic fog generator pushing the droplets to the chamber through a flexible tube approximately 30 mm in diameter and 500 mm long. Next to the fog inlet, there is a dry air inlet with a speed adjustable fan. On the back of the chamber there is a similar sized outlet for air and moisture.
- 
+Natural fogs tend to not coincide with when we are ready to test. The fog chamber was needed to create a test environment for the instrument. 
+
+The constructed chamber has a frame made of 30 mm aluminum profiles, fitted with transparent 6 mm polycarbonate walls on all sides using rubber sealing strips. The droplets are produced using an ultrasonic fog generator pushing the droplets to the chamber through a flexible tube approximately 30 mm in diameter and 500 mm long. Next to the fog inlet, there is a dry air inlet with a speed adjustable fan. On the back of the chamber there is a similar-sized outlet for air and moisture. See \Cref{fig:fogchamber}.
+
 \begin{figure}[ht]
 \centering\includegraphics[width=0.75\linewidth]{figures/DSC_0103}
 \caption{Fog chamber with connected droplet generator (blue container) and a multimeter used for fan power measurement. A Beaglebone Black microcontroller (blue box) is used for fan speed regulation.}
+\label{fig:fogchamber}
 \end{figure}
+ 
+Unfortunately, we could not fit a second instrument in the fog chamber for verification of the \gls{lwc}. The \gls{cdp} requires an airflow with a known speed to be able to calculate the particle concentration. The fog chamber worked very well as a functional test and a verification of the instrument’s water ingress resistance.
 
 \section{The Klövsjö Installation}
-Figure \ref{fig:installation1} shows a complete installation of the DII and the \gls{cdp} at the Klövjö mountain. On top is the two camera houses of the DII and just below is the smaller \gls{cdp}. The Lambrecht Eolos weather sensor is seen furthest to the left, mounted on an horizontal boom. In the middle just right of the Eolos is the mobile communication antenna. In the lower center the top of the shortened lattice mast is seen. Behind the mast the top of the box containing the DII processing computer, the \gls{cdp} data collection computer and the communications router can be seen. The whole installation is about five meters high. An electric servomotor mounted at the base of the pole inside the lattice mast rotates the two instruments automatically to follow the horizontal direction of the wind. 
+
+\Cref{fig:installation1} shows a complete installation of the DII and the \gls{cdp} at the Klövjö mountain. The two camera houses of the DII are placed on the top, and the smaller \gls{cdp} right underneath. The Lambrecht Eolos weather sensor is placed to the far left, mounted on an horizontal boom. In the middle, to the right of the Eolos, the mobile communication antenna is located. The top of the shortened lattice mast can be seen just below the center. Behind the mast, the top of the box containing the DII processing computer, the \gls{cdp} data collection computer, and the communications router can be seen. The whole installation is about five meters high. An electric servomotor mounted at the base of the pole inside the lattice mast rotates the two instruments automatically to follow the horizontal direction of the wind. 
 
 \Cref{fig:installation3} shows a mix of ice and snow on the front side of the installation.
 
@@ -275,7 +260,7 @@ At \gls{smhi}, the \gls{harmonie}-\gls{arome} model is used for short range oper
 
 \begin{figure}%[h]
 \centering\includegraphics[width=0.6\linewidth]{figures/Images/Klovsjo_smhi160923_small}
-\caption{Graphical presentation of data from the HARMONIE-AROME NWP covering Klövsjö and the surrounding mountains at a specific point in time using 500 m resolution. Yellow areas are where the model predicts an LWC more than 0.1 $\mathrm{g \cdot kg^{-1}}$ (Grams of water per kg air.) Simulation and figure by SMHI.}
+\caption{Graphical presentation of data from the HARMONIE-AROME NWP covering Klövsjö and the surrounding mountains at a specific point in time using 500 m resolution. Yellow areas are where the model predicts an LWC more than 0.1 $\mathrm{g \cdot kg^{-1}}$. (Grams of water per kg air.) Simulation and figure by SMHI.}
 \end{figure}
 
 
