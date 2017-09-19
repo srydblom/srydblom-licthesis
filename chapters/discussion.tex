@@ -5,12 +5,16 @@
 \chapter{Discussion}
 \label{chap:discussion}
 
+This chapter focuses on details that are not fully covered, and extends, the discussions in the attached papers. The chapter begins with a section about some of our first questions regarding lighting and imaging of small particles. It continues with a section on the image noise and a description of some difficulties that was encoutered during the size measurement verification using polymer microspheres. Finally, the use of LED light, measurement based on statistical data, the droplet size, the sampling speed and the size distributions are discussed.
+
 \section{Starting Studies}
 \label{sec:discussionstarting}
 
+The feasability study of different illumination wavelengths and coherent lighting, the result from the measurement of energy required for image exposure and the influence of ambient light on the measurement is discussed.
+
 \subsection{Infrared and Visible Light}
 
-The amound of absorbed light in a small water droplet is close to negligible compared to the scattered light. In a large ensemble of droplets, such as a cloud, the total absorption will still be significant, especially for wavelengths in the near and far infrared. Since it was possile, we made a quick comparison of illumination using blue light (ca 450nm) and near infrared (ca 850nm). The blue light gave the sharpest image, probably due to the sensor's slightly higher sensitivity for blue light. But also possibly due to the higher theoretical resolving power as described by Rayleigh's criterion. See Paper I.
+The amount of absorbed light in a small water droplet is close to negligible compared to the scattered light. In a large ensemble of droplets, such as a cloud, the total absorption will still be significant, especially for wavelengths in the near and far infrared. We had the opportunity to make a quick comparison of illumination using blue light (ca 450nm) and near infrared (ca 850nm). The blue light gave the sharpest image; possibly because of the higher theoretical resolving power as described by Rayleigh's criterion. But it might also partly be explained by the difference in the sensor's sensitivity for the different wavelengths. See Paper I.
 
 \subsection{Laser Light}
 \label{sec:discussionlaser}
@@ -67,35 +71,35 @@ The \gls{snr} for a ten micrometer dot image was calculated using seven gain lev
 \label{fig:noisegain}
 \end{figure}
 
-The design using a weakly collimated LED that illuminates an area slightly larger than the field of view makes the system quite insensitive to misalignment of the camera and the light source. Temporal or permanent changes in light intensity caused by a minor misalignment can be automatically compensated for by continuous measurement of the total exposure level. If the level of exposure is increasing or decreasing, the length of the light pulse is changed correspondingly. The light intensity can also be affected by dirt on the front glass of the housings. 
+The design using a weakly collimated LED that illuminates an area slightly larger than the field of view makes the system quite insensitive to misalignment of the camera and the light source. Temporal or permanent changes in light intensity caused by a minor misalignment can be automatically compensated for by continuous measurement of the total exposure level. If the level of exposure increases or decreases, the length of the light pulse is changed correspondingly. The light intensity can also be affected by dirt on the front glass of the housings. 
 
-Spatial dissimilarities in the light intensity that are not caused by noise we can compensate for by calculating the local average intensity of the background around each measured droplet. The size of a droplet is then based on the intensity dip caused by the shadow compared with its local background.
+Spatial dissimilarities in the light intensity that are not caused by noise can be compensated for by calculating the local average intensity of the background around each measured droplet. The size of a droplet is then based on the intensity dip caused by the shadow compared with its local background.
 
 \section{Image Pre-processing}
 
-To increase the number of processed images a pre-process is done using a variable threshold as described in section \ref{imgsegment}. The processing speed could be increased even more limiting the edge detection algorithm to the region or regions around the discovered differences.
+To increase the number of processed images, pre-processing is done using a variable threshold as described in section \ref{imgsegment}. The processing speed could be increased even more, limiting the edge detection algorithm to the region or regions around the discovered differences.
 
 \section{Aerodynamics}
 
-Many existing instruments suffer from errors caused by the instrument itself during sampling, e.g. when droplets get stuck on the inlet or shatters into smaller droplets. The DII is not as small and aerodynamically shaped as the \gls{cdp}, therefore a difference between the instruments would be expected depending on the air speed. However, a comparison between the measured values of LWC showed no connection between the wind speed and the difference in the measured LWC. The wind speed during the comparison was only 1-4 $\mathrm{m \cdot s^{-1}}$ which probably explain why the less aerodynamic shape of the DII compared with the \gls{cdp} has no noticeable effect. This could change dramatically when measuring at higher wind speeds.
+Many existing instruments suffer from errors caused by the instrument itself during sampling, e.g. when droplets get stuck on the inlet or shatters into smaller droplets. The DII is not as small and aerodynamically shaped as the \gls{cdp}, therefore a difference between the instruments would be expected depending on the air speed. However, a comparison between the measured values of LWC showed no connection between the wind speed and the difference in the measured LWC. The wind speed during the comparison was only 1-4 $\mathrm{m \cdot s^{-1}}$, which probably explains why the less aerodynamic shape of the DII compared with the \gls{cdp} has no noticeable effect. This could change dramatically when measuring at higher wind speeds.
 
 \section{Difficulties in the Polymer Microspheres Measurement}
 
-To verifiy the sizing algorithm, a measurement using polymer microspheres of four known calibrated size distributions was done. To simulate real conditions as much as possible the microspheres were applied using the same dispenser used for the calibration of the \gls{cdp}. The smallest microspheres had a tendency of clogging leading sometimes to a measurement of a clog as a single particle. Therefore all images were visually checked for false measurements. The outliers caused by false measurements were removed.
+To verifiy the sizing algorithm, a measurement using polymer microspheres of four known calibrated size distributions was done. To simulate real conditions as far as possible the microspheres were applied using the same dispenser used for the calibration of the \gls{cdp}. The smallest microspheres had a tendency of clogging, sometimes leading to a measurement of a clog as a single particle. Therefore all images were visually checked for false measurements. The outliers caused by false measurements were removed.
 
 \subsection{Clogging}
 
-Small microspheres are forming larger clogs that are measured as single microspheres. The reason may be static electricity or humidity. As can be seen in the five micrometer measurement, the result of some clogs becomes outliers in the expected distribution. This needs to be considered when solid microspheres are used as reference objects. Colliding liquid water droplets would of course coalesce into larger droplets, thereby changing the diameter.
+Small microspheres form larger clogs that are measured as single microspheres. The reason may be static electricity or humidity. As can be seen in the five micrometer measurement, the result of some clogs becomes outliers in the expected distribution. This needs to be considered when solid microspheres are used as reference objects. Colliding liquid water droplets would of course coalesce into larger droplets, thereby changing the diameter.
 
-The equipment and the dispenser was thoroughly cleaned using compressed air between each measurement. Still there may be microspheres or other contamination left, changing the distribution slightly.
+The equipment and the dispenser was thoroughly cleaned using compressed air between each measurement. Still, microspheres or other contaminations could remain, changing the distribution slightly.
 
-Measured mean and standard deviation of all distributions were found to be within the stated calibrated values. This can be seen as a confirmation that the instrument calibrated only by the micrometer dot scale is measuring the microsphere samples correctly.
+Measured mean and standard deviation of all distributions were found to be within the stated calibrated values. This can be seen as a confirmation that the instrument calibrated only by the micrometer dot scale measures the microsphere samples correctly.
 
 \subsection{Roundness}
 
-A perfectly circular disc measured using an infinite resolution would have an expected roundness value equal to one. In practice, this is not possible to achieve in a digital image. But the contour is only used as detection criteria. Instead, the diameter is calculated using the negative shadow intensity. Therefore the contour roundness itself should not have very large impact on the accuracy.
+A perfectly circular disc measured using an infinite resolution would have an expected roundness value equal to one. In practice, this is not possible to achieve in a digital image. But the contour is only used as detection criteria. Instead, the diameter is calculated using the negative shadow intensity. Therefore the contour roundness itself should have no great impact on the accuracy.
 
-The roundness criteria defined in chapter \ref{met:roundness}. The roundness (\ref{eq:5}) limit set at 0.85 in this measurement seems to work fine. It excludes most irregular objects, like clogs in the five micrometer measurement. When measuring fogs in cold climates, the water droplets will be mixed with ice crystals. While larger crystals will mostly be sorted out by the roundness criteria, crystals smaller than ten micrometer may be difficult, and five micrometer crystals more or less impossible to distinguish from liquid water droplets unless very different in shape.
+The roundness criteria defined in section \ref{met:roundness}. The roundness (\ref{eq:5}) limit set at 0.85 in this measurement, seems to work fine. It excludes most irregular objects, like clogs in the five micrometer measurement. When measuring fogs in cold climates, the water droplets will be mixed with ice crystals. While larger crystals will mostly be sorted out by the roundness criteria, crystals smaller than ten micrometer could present a challenge, and five micrometer ice crystals are more or less impossible to distinguish from liquid water droplets, unless they are very different in shape.
 
 \begin{figure}[ht]
 \centering
@@ -117,14 +121,13 @@ The roundness criteria defined in chapter \ref{met:roundness}. The roundness (\r
 
 \subsection{Calibration Validation}
 
-The calibration functions derived from the measurement of known sized dots is an approximation and an interpolation. It is based on the assumption that light scatters similarly on the edge independently of the size of the object. This is not quite true, especially for smaller particles \cite{bohr2008}. For particles around ten micrometer or less in diameter we would expect different intensities forming a diffraction pattern close to the edge. The pattern would be stronger the more coherent the illumination. In this system, using LED illumination, the coherence length is short enough that no patterns are visible. Still changes to the edge for the smallest diameters can still not be altogether ruled out.
+The calibration functions derived from the measurement of known-sized dots is an approximation and an interpolation. It is based on the assumption that light scatters similarly on the edge independently of the size of the object. However, this is not quite true, especially for smaller particles \cite{bohr2008}. For particles around ten micrometer or less in diameter we would expect different intensities forming a diffraction pattern close to the edge. The pattern would be stronger the more coherent the illumination. In this system, using LED illumination, the coherence length is short enough that no patterns are visible. Still changes to the edge for the smallest diameters cannot be entirely ruled out.
 
-The experiment using calibrated spheres confirms that the measurement of droplet diameters is accurate. It is however not a confirmation of the measurement volume \cite{ryd2016} since we do not know the concentration of the microspheres. This means that we cannot yet confirm an accurate measurement of the LWC. To do that, an independent verification of the measurement volume is needed.
-
+The experiment using calibrated spheres described in Paper II, confirmed that the measurement of droplet diameters was accurate. It was, however, not a confirmation of the measurement volume, since we did not know the concentration of microspheres. This was done using the \gls{cdp} as described in Paper III.
 
 \section{LED Illumination}
 
-Using a high power LED instead of laser reduces the interference effects used in e.g. holography \cite{henn2013}, but since it is a monochromatic source, interference may not be completely ruled out. The coherence length for the blue LED is calculated in Paper I.
+Using a high power LED instead of laser reduces the interference effects used in e.g. holography \cite{henn2013}, but since it is a monochromatic source, interference could not be completely ruled out. The coherence length for the blue LED is calculated in Paper I.
 
 One would expect diffraction patterns depending on the spectral bandwith of the light source. The narrower the bandwidth, the stronger the diffraction. A spectrum analysis of the \gls{led} showed that the coherence length of the blue \gls{led} is about 6.8 μm. Therefore the spectrum was measured using a spectrum analyzer. The result can be seen in \Cref{fig:ledspectrum}.
 
@@ -134,30 +137,30 @@ One would expect diffraction patterns depending on the spectral bandwith of the 
 \label{fig:ledspectrum}
 \end{figure}
 
-LEDs can sometimes be used with currents far above the specifications, as long as the pulse length is short and the duty cycle is low enough to permit the heat generated to be transported away between the pulses. Using the LED above specifications may though affect the efficiency and aging of the LED. LED emittance also depends on the temperature. Depending on the capacitance of the diode, the rise time may limit the current, although there exist some techniques to shorten the LED pulses \cite{tanaka2011,vele2007}.
+LEDs can sometimes be used with currents far above the specifications, as long as the pulse length is short and the duty cycle is low enough to permit the heat generated to be transported away between the pulses. However, driving the LED with a currents above the specification may affect the efficiency and aging of the LED. LED emittance also depends on the temperature. Depending on the capacitance of the diode, the rise time may limit the current, although there are techniques to shorten the LED pulses \cite{tanaka2011,vele2007}.
 
-The LED used was fully functional after four months of measurements using a current in the short flashes that was 12 times higher than the maximum continous current specified by the manufacturer. At 12 ampere driving current, the flash duration could be lowered to approximately 250 ns, still using the normal settings of amplification in the camera. The LED was not tested in higher currents, but it seems possible that it could work. A question is how high current the LED can handle and how the lifetime is affected by higher driving currents.
+The LED used was fully functional after four months of measurements using a current in the short flashes that was 12 times higher than the maximum continous current specified by the manufacturer. At 12 ampere driving current, the flash duration could be lowered to approximately 250 ns, still using the normal settings of amplification in the camera. The LED was not tested in higher currents, but it seems possible that it could work. A question is how much current the LED can handle, and how its lifetime is affected by higher driving currents.
 
 \section{Statistics}
 
 A value of both MVD and LWC can be derived from a series of images and since the number of measured droplets will depend on the concentration, the accuracy and precision will depend on the number of samples from the total population of droplets. 
 
-In Paper I we made an estimation of the precision a possible instrument could have using the most ideal scenario, where the ''distribution'' was simulated using a single dot of a known size, measured multiple times. This can be seen as a measure of the highest possible precision, defined by the physical limitations of the system components. The coefficient of variation for the LWC was estimated to 1.6 percent for droplets 25 µm in diameter, and 2.4 percent for droplets 10 µm in diameter. In practice it is difficult to compare this with the measured LWC from a real  distribution of droplets. To know the exact LWC, and measure the same content is practically impossible. 
+In Paper I, we made an estimation of the precision an instrument could have using the most ideal scenario, where the ''distribution'' was simulated using a single dot of a known size, measured multiple times. This can be seen as a measure of the highest possible precision, defined by the physical limitations of the system components. The coefficient of variation for the LWC was estimated to 1.6 percent for droplets 25 µm in diameter, and 2.4 percent for droplets 10 µm in diameter. In practice it is difficult to compare this with the measured LWC from a real  distribution of droplets. To know the exact LWC, and measure the same content is practically impossible. 
 
-In Paper III, a comparison is made by measuring polymer microspheres in distributions calibrated by NIST. As can be seen in \Cref{tab:poly_meas}, the difference between the measured mean diameter and the stated mean diameter is small. This proves that the size measurement is accurate. It was not possible to estimate the concentration of the measured microspheres with the method we used. Possibly a known concentration could be produced in a water dispersion, but then the optical ambient conditions would also be different.
+In Paper III, a comparison is made by measuring polymer microspheres in distributions calibrated by NIST. As can be seen in \Cref{tab:poly_meas}, the difference between the measured mean diameter and the stated mean diameter is small. This proves that the size measurement is accurate. It was not possible to estimate the concentration of measured microspheres with the method we used. Possibly, a known concentration could be produced in a water dispersion, but then the optical ambient conditions would also be different.
 
 
-\section{Droplets and Size Distributions}
+\section{Droplet Size and Distributions}
 
 Droplets that are very close are likely to coalesce, thereby decreasing the number concentration at a rate that appears to increase for larger droplets and more complex droplet size distributions \cite{borda2011}. 
 
-Due to the small depth of the measurement volume, i.e. the measuring range compared with the field of view, the likelihood of finding two droplets very close in the image is very low due to the low number concentration of droplets we are measuring. A solution is to make a measurement of the droplet’s circularity and add this as selection criteria for the measurement. This solution also works as a filter for ice or snow particles. 
+Due to the small depth of the measurement volume, i.e. the measuring range compared with the field of view, the likelihood of finding two droplets very close in the image is very low due to the low number concentration of droplets we are measuring. A solution could be to measure the droplet’s circularity and add this as selection criteria for the measurement. This solution also works as a filter for ice or snow particles. 
 
-The drop size distribution of cloud droplets 3-50 µm in diameter have usually been considered to follow a lognormal or gamma curve \cite{miles2000,lee2010,sein1998}. This also applies to rain \cite{ulb1983}. However, more recent measurements of drop size distributions show that the distribution greatly varies \cite{james2001,shaw2002,peters2005,cob2011}. Consequently, the results will depend on the measurement method and the sampling volume.
+The drop size distribution of cloud droplets 3-50 µm in diameter has usually been considered to follow a lognormal or gamma curve \cite{miles2000,lee2010,sein1998}. This also applies to rain \cite{ulb1983}. However, more recent measurements of drop size distributions show that the distribution greatly varies \cite{james2001,shaw2002,peters2005,cob2011}. Consequently, the results will depend on the measurement method and the sampling volume.
 
-\subsection{Sampling Speed and Volume}
+\subsection{Sampling Speed and Measurement Volume}
 
-Since the DII has no external trigger of the imaging, the sampling speed, i.e. the volume of air and droplets that is scanned per time unit, depends on the measuring volume of each image and the imaging speed. 
+Since the DII has no external trigger for the imaging, the sampling speed, i.e. the volume of air and droplets that is scanned per time unit, depends on the measuring volume of each image and the imaging speed. 
 
 The sampling speed of the CDP is linearly dependent on the wind speed. The sample area also depends on the size of the measured droplets, but the factory calibration value is given for all sizes. The sampling speed of the DII depends primarily on the image frame rate and the measurement range for each droplet size. At a wind speed of 2 m/s, the sampling speed of the CDP is $\mathrm{4.1 \cdot 10^{-7} m^{3} \cdot s^{-1}}$. This is 39 times higher than the sampling speed of the DII for 20 µm particles. To achieve the same sampling speed, the frame rate of the DII would need to be almost 200 $s^{-1}$. 
 
@@ -167,13 +170,13 @@ When comparing the 30 min moving average values for the period 28 February -- 1 
 
 The sampling speed could be raised by e.g. changing the optical magnification but then at the cost of a lower optical resolving power. Different ideas to increase the sampling speed of the DII are discussed in Paper I and Paper II.
 
-Another way of increasing the sampling speed is to increase the imaging speed. Cameras with a high imaging speed exist and the flash pulse is so short that it would still be a low duty cycle for the LED. The most limiting factor is problably the processing time. This can be solved by implementing parts of the image processing in hardware.
+Another way of increasing the sampling speed is to increase the imaging speed. There are cameras with a high imaging speed, and the flash pulse is so short that it would still be a low duty cycle for the LED. The most limiting factor is problably the processing time. This can be solved by implementing parts of the image processing in hardware.
 
-The speed requirement finally depends on the application. If the instrument is used for the verification of NWP models, the sampling speed of the prototype may be enough. If the instrument is supposed to be used for triggering de-icing, the sampling speed may need to be increased.
+Finally, the speed requirement depends on the application. If the instrument is used for the verification of NWP models, the sampling speed of the prototype may be enough. If the instrument is to be used for trigger de-icing, the sampling speed may need to be increased.
 
 \subsection{Large Droplets}
 
-The CDP does not measure particles larger than 50 µm. But if the distribution of droplets was following a lognormal, or gamma curve \cite{miles2000,lee2010} also for particles larger than 50 µm, enough large droplets should have been detected by the CDP to see an increase in the measured MVD. As demonstrated, this was not always the case. A possible explanation is that the larger cloud droplets do not follow the lognormal distribution when they are above a certain size. If this is true, the predicted MVD may be less useful for the description of a cloud aerosol distribution, as well as for conclusions about possible icing. In the case with supercooled large droplets, the LWC may be more important to measure than the MVD. But to fully understand this, a parallel measurement using an ice load instrument is required.
+The CDP does not measure particles larger than 50 µm. But if the distribution of droplets followed a lognormal, or gamma curve \cite{miles2000,lee2010} also for particles larger than 50 µm, enough large droplets should have been detected by the CDP to see an increase in the measured MVD. As demonstrated, this was not always the case. A possible explanation is that the larger cloud droplets do not follow the lognormal distribution when they are above a certain size. If this is true, the predicted MVD may be less useful for the description of a cloud aerosol distribution, as well as for conclusions about possible icing. In the case with supercooled large droplets, the LWC may be more important to measure than the MVD. But to fully understand this, a parallel measurement using an ice load instrument is required.
 
 \Cref{fig:170505_0441_droplet} and Figure \Cref{fig:170505_1648_droplet} show supercooled large droplets measured during the fog on 05-02-2017.
 
@@ -195,7 +198,7 @@ The CDP does not measure particles larger than 50 µm. But if the distribution o
 
 The risk of icing increases with increasing wind speed \cite{makk2000}.
 
-During the field study there were several instances when the LWC and MVD was high enough to lead to icing. A study to further investigate the connection between these parameters and the ice load according to ISO 12494 \cite{makk2014} should be carried out. An ice monitoring device, like the Combitech IceMonitor \cite{cost727,thors2015} can be used for this. This should preferably be done in combination with a third independent LWC and MVD measurement, e.g. by using rotating cylinders \cite{makk1992,knez2005}. A heated hygrometer measuring the true water content (\gls{twc}) can be used as an alternative verification of the LWC measurement when all the atmospheric water is in liquid form \cite{spie2012}.
+During the field study there were several instances when the LWC and MVD was high enough to lead to icing. A study to further investigate the connection between these parameters and the ice load according to ISO 12494 \cite{makk2014} should be carried out. An ice monitoring device, like the Combitech IceMonitor \cite{cost727,thors2015} can be used for this. This should preferably be done in combination with a third independent LWC and MVD measurement, e.g. by using rotating cylinders \cite{makk1992,knez2005}. A heated hygrometer measuring the \gls{twc} can be used as an alternative verification of the LWC measurement when all the atmospheric water is in liquid form \cite{spie2012}.
 
 
 
