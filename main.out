@@ -17,27 +17,31 @@
 \BOOKMARK [0][-]{chapter.3}{3 Materials and Methods}{}% 17
 \BOOKMARK [1][-]{section.3.1}{3.1 The Shadowgraph System}{chapter.3}% 18
 \BOOKMARK [1][-]{section.3.2}{3.2 Image Segmentation}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.3}{3.3 Design Considerations}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.4}{3.4 Calibration and Validation of the Calibration}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.5}{3.5 The Fog Chamber}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.6}{3.6 The Kl\366vsj\366 Installation}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.7}{3.7 Numerical Weather Prediction}{chapter.3}% 24
-\BOOKMARK [0][-]{chapter.4}{4 Results}{}% 25
-\BOOKMARK [1][-]{section.4.1}{4.1 Measurement of Polymer Microspheres}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.2}{4.2 Comparison of DII and CDP Data}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.3}{4.3 Comparison of Measured and Modeled Data}{chapter.4}% 28
-\BOOKMARK [0][-]{chapter.5}{5 Discussion}{}% 29
-\BOOKMARK [1][-]{section.5.1}{5.1 Starting Studies}{chapter.5}% 30
-\BOOKMARK [1][-]{section.5.2}{5.2 Aerodynamics}{chapter.5}% 31
-\BOOKMARK [1][-]{section.5.3}{5.3 Difficulties with Polymer Microspheres}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.4}{5.4 LED Illumination}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.5}{5.5 Statistics}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.6}{5.6 Droplets and Size Distributions}{chapter.5}% 35
-\BOOKMARK [1][-]{section.5.7}{5.7 Icing}{chapter.5}% 36
-\BOOKMARK [0][-]{chapter.6}{6 Summary of the Thesis}{}% 37
-\BOOKMARK [1][-]{section.6.1}{6.1 General Conclusions}{chapter.6}% 38
-\BOOKMARK [1][-]{section.6.2}{6.2 Other Conclusions}{chapter.6}% 39
-\BOOKMARK [1][-]{section.6.3}{6.3 Future Work}{chapter.6}% 40
-\BOOKMARK [1][-]{section.6.4}{6.4 Authors' Contributions}{chapter.6}% 41
-\BOOKMARK [0][-]{section*.36}{Acronyms}{}% 42
-\BOOKMARK [0][-]{section*.39}{Bibliography}{}% 43
+\BOOKMARK [1][-]{section.3.3}{3.3 Light Source}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.4}{3.4 Image Noise}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.5}{3.5 Design Considerations}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.6}{3.6 Calibration and Validation of the Calibration}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.7}{3.7 The Fog Chamber}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.8}{3.8 The Kl\366vsj\366 Installation}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.9}{3.9 Numerical Weather Prediction}{chapter.3}% 26
+\BOOKMARK [0][-]{chapter.4}{4 Results}{}% 27
+\BOOKMARK [1][-]{section.4.1}{4.1 Measurement of Polymer Microspheres}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.2}{4.2 Comparison of DII and CDP Data}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.3}{4.3 Comparison of Measured and Modeled Data}{chapter.4}% 30
+\BOOKMARK [0][-]{chapter.5}{5 Discussion}{}% 31
+\BOOKMARK [1][-]{section.5.1}{5.1 Starting Studies}{chapter.5}% 32
+\BOOKMARK [1][-]{section.5.2}{5.2 Image Noise and SNR}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.3}{5.3 Image Pre-processing}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.4}{5.4 Aerodynamics}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.5}{5.5 Difficulties in the Polymer Microspheres Measurement}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.6}{5.6 LED Illumination}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.7}{5.7 Statistics}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.8}{5.8 Droplet Size and Distributions}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.9}{5.9 Icing}{chapter.5}% 40
+\BOOKMARK [0][-]{chapter.6}{6 Summary of the Thesis}{}% 41
+\BOOKMARK [1][-]{section.6.1}{6.1 General Conclusions}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.2}{6.2 Other Conclusions}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.3}{6.3 Future Work}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.4}{6.4 Authors' Contributions}{chapter.6}% 45
+\BOOKMARK [0][-]{section*.38}{Acronyms}{}% 46
+\BOOKMARK [0][-]{section*.41}{Bibliography}{}% 47
