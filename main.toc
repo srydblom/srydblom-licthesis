@@ -3,71 +3,73 @@
 \defcounter {refsection}{0}\relax 
 \select@language {swedish}
 \select@language {english}
-\contentsline {chapter}{Abstract}{v}{chapter*.1}
+\contentsline {chapter}{Abstract}{v}{chapter*.2}
 \select@language {swedish}
-\contentsline {chapter}{Sammanfattning}{vii}{chapter*.2}
+\contentsline {chapter}{Sammanfattning}{vii}{chapter*.3}
 \select@language {english}
-\contentsline {chapter}{Contents}{viii}{section*.3}
-\contentsline {chapter}{List of Figures}{x}{section*.4}
-\contentsline {chapter}{List of Tables}{xiii}{section*.5}
+\contentsline {chapter}{Contents}{viii}{section*.4}
+\contentsline {chapter}{List of Figures}{x}{section*.5}
+\contentsline {chapter}{List of Tables}{xiii}{section*.6}
 \contentsline {chapter}{List of Papers}{xv}{dummy.1}
-\contentsline {chapter}{Acknowledgements}{xvii}{chapter*.7}
+\contentsline {chapter}{Acknowledgements}{xvii}{chapter*.8}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Atmospheric Water and Icing}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Justification and Narrative}{3}{section.1.2}
-\contentsline {section}{\numberline {1.3}Related Work of Measurement}{4}{section.1.3}
-\contentsline {chapter}{\chapternumberline {2}Theory}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}Forming of Ice}{7}{section.2.1}
-\contentsline {section}{\numberline {2.2}Liquid Water Content and Median Volume Diameter}{8}{section.2.2}
-\contentsline {section}{\numberline {2.3}Practical Problems with Measuring Atmospheric Water}{9}{section.2.3}
-\contentsline {section}{\numberline {2.4}Light Scattering and Absorption}{11}{section.2.4}
-\contentsline {chapter}{\chapternumberline {3}Materials and Methods}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}The Shadowgraph System}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}Image Segmentation}{16}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Exposure Check and Flash Intensity Adjustment}{16}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Edge Detection and Edge Sharpness}{17}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Comparing Transparent Microspheres and Dots}{18}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Removing the Center Bright Spot}{18}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Measuring Roundness}{19}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Light Source}{19}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Laser Light}{20}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Ambient Light}{20}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Image Noise}{20}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Exposure Energy Measurement}{21}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}Design Considerations}{22}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Speed of Light Flash}{22}{subsection.3.5.1}
-\contentsline {section}{\numberline {3.6}Calibration and Validation of the Calibration}{22}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Verification of Dot Size}{23}{subsection.3.6.1}
-\contentsline {section}{\numberline {3.7}The Fog Chamber}{25}{section.3.7}
-\contentsline {section}{\numberline {3.8}The Kl\IeC {\"o}vsj\IeC {\"o} Installation}{26}{section.3.8}
-\contentsline {section}{\numberline {3.9}Numerical Weather Prediction}{26}{section.3.9}
-\contentsline {chapter}{\chapternumberline {4}Results}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}Measurement of Polymer Microspheres}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}Comparison of DII and CDP Data}{30}{section.4.2}
-\contentsline {section}{\numberline {4.3}Comparison of Measured and Modeled Data}{31}{section.4.3}
-\contentsline {chapter}{\chapternumberline {5}Discussion}{35}{chapter.5}
-\contentsline {section}{\numberline {5.1}Starting Studies}{35}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Infrared and Visible Light}{35}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Laser Light}{35}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Exposure Energy Measurement}{37}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Ambient Light}{37}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Image Noise and SNR}{38}{section.5.2}
-\contentsline {section}{\numberline {5.3}Image Pre-processing}{39}{section.5.3}
-\contentsline {section}{\numberline {5.4}Aerodynamics}{39}{section.5.4}
-\contentsline {section}{\numberline {5.5}Difficulties in the Polymer Microspheres Measurement}{40}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Clogging}{40}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Roundness}{41}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Calibration Validation}{42}{subsection.5.5.3}
-\contentsline {section}{\numberline {5.6}LED Illumination}{42}{section.5.6}
-\contentsline {section}{\numberline {5.7}Statistics}{43}{section.5.7}
-\contentsline {section}{\numberline {5.8}Droplet Size and Distributions}{44}{section.5.8}
-\contentsline {subsection}{\numberline {5.8.1}Sampling Speed and Measurement Volume}{44}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}Large Droplets}{46}{subsection.5.8.2}
-\contentsline {section}{\numberline {5.9}Icing}{47}{section.5.9}
-\contentsline {chapter}{\chapternumberline {6}Summary of the Thesis}{49}{chapter.6}
-\contentsline {section}{\numberline {6.1}General Conclusions}{49}{section.6.1}
-\contentsline {section}{\numberline {6.2}Other Conclusions}{49}{section.6.2}
-\contentsline {section}{\numberline {6.3}Future Work}{50}{section.6.3}
-\contentsline {section}{\numberline {6.4}Authors' Contributions}{51}{section.6.4}
-\contentsline {chapter}{Acronyms}{53}{section*.38}
-\contentsline {chapter}{Bibliography}{55}{section*.41}
+\contentsline {section}{\numberline {1.1}Scientific Contribution}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Atmospheric Water and Icing}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Justification and Narrative}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Related Work of Measurement}{6}{section.1.4}
+\contentsline {chapter}{\chapternumberline {2}Theory}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Forming of Ice}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Liquid Water Content and Median Volume Diameter}{10}{section.2.2}
+\contentsline {section}{\numberline {2.3}Practical Problems with Measuring Atmospheric Water}{11}{section.2.3}
+\contentsline {section}{\numberline {2.4}Light Scattering and Absorption}{13}{section.2.4}
+\contentsline {chapter}{\chapternumberline {3}Materials and Methods}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Shadowgraph System}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}Overview and Process}{16}{section.3.2}
+\contentsline {section}{\numberline {3.3}Image Segmentation}{18}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Exposure Check and Flash Intensity Adjustment}{19}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Edge Detection and Edge Sharpness}{20}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Comparing Transparent Microspheres and Dots}{21}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Removing the Center Bright Spot}{22}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Measuring Roundness}{22}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}Light Source}{22}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Laser Light}{23}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Ambient Light}{23}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Image Noise}{23}{section.3.5}
+\contentsline {section}{\numberline {3.6}Calibration and Validation of the Calibration}{24}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Verification of Dot Size}{26}{subsection.3.6.1}
+\contentsline {section}{\numberline {3.7}The Fog Chamber}{27}{section.3.7}
+\contentsline {section}{\numberline {3.8}The Kl\IeC {\"o}vsj\IeC {\"o} Installation}{28}{section.3.8}
+\contentsline {section}{\numberline {3.9}Numerical Weather Prediction}{29}{section.3.9}
+\contentsline {chapter}{\chapternumberline {4}Results}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}Measurement of Polymer Microspheres}{33}{section.4.1}
+\contentsline {section}{\numberline {4.2}Comparison of DII and CDP Data}{34}{section.4.2}
+\contentsline {section}{\numberline {4.3}Comparison of Measured and Modeled Data}{38}{section.4.3}
+\contentsline {chapter}{\chapternumberline {5}Discussion}{43}{chapter.5}
+\contentsline {section}{\numberline {5.1}Cause of Systematic Difference}{43}{section.5.1}
+\contentsline {section}{\numberline {5.2}Model Data}{44}{section.5.2}
+\contentsline {section}{\numberline {5.3}Starting Studies}{44}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Infrared and Visible Light}{45}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Laser Light}{45}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Ambient Light}{46}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Image Noise and SNR}{47}{section.5.4}
+\contentsline {section}{\numberline {5.5}Aerodynamics}{48}{section.5.5}
+\contentsline {section}{\numberline {5.6}Difficulties in the Polymer Microspheres Measurement}{49}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Clogging of Microspheres}{49}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Roundness}{50}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Calibration Validation}{50}{subsection.5.6.3}
+\contentsline {section}{\numberline {5.7}LED Illumination}{51}{section.5.7}
+\contentsline {section}{\numberline {5.8}Statistics}{53}{section.5.8}
+\contentsline {section}{\numberline {5.9}Droplet Size and Distributions}{53}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}Sampling Speed and Measurement Volume}{54}{subsection.5.9.1}
+\contentsline {subsection}{\numberline {5.9.2}Large Droplets}{55}{subsection.5.9.2}
+\contentsline {section}{\numberline {5.10}Icing}{56}{section.5.10}
+\contentsline {chapter}{\chapternumberline {6}Summary of the Thesis}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}Conclusions}{59}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}RQ1}{59}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}RQ2}{59}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}RQ3}{60}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}RQ4 and RQ5}{60}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Future Work}{61}{section.6.2}
+\contentsline {section}{\numberline {6.3}Authors' Contributions}{62}{section.6.3}
+\contentsline {chapter}{Acronyms}{63}{section*.47}
+\contentsline {chapter}{Bibliography}{65}{section*.50}

@@ -8,35 +8,38 @@
 \select@language {english}
 \addvspace {10pt}
 \addvspace {10pt}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The research work flow and the related research questions (RQ1 to RQ4).\relax }}{2}{figure.caption.14}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Supercooled water droplets on collision course with an aerodynamic profile.\relax }}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Supercooled water droplets on collision course with an aerodynamic profile.\relax }}{10}{figure.caption.15}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Principle of shadowgraphy. 1. Camera. 2. Telecentric lens. 3. Parallell focused light beam. 4. Collimating lens. 5. \gls {led}.\relax }}{14}{figure.caption.9}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The experimental setup with a dot micrometer scale as test object mounted on a translation stage.\relax }}{14}{figure.caption.10}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The illumination and detector is mounted inside two Bosch camera housings facing each other with heating inside the house and on the front glass.\relax }}{15}{figure.caption.11}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces The same dot viewed with different background light: 455 nm (left) and 850 nm (right).\relax }}{20}{figure.caption.12}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Calculation of the SNR. $\overline {y}_j$ is determined by calculating the average of the darkest third of all pixels inside the edge detected dot.\relax }}{21}{figure.caption.13}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Measuring range (mm) vs. diameter for two different thresholds (0.005 and 0.002).\relax }}{23}{figure.caption.14}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces The 50 micrometer dot with front illumination imaged using 40x magnifying lens.\relax }}{24}{figure.caption.15}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Fog chamber with connected droplet generator (blue container) and a multimeter used for fan power measurement. A Beaglebone Black microcontroller (blue box) is used for fan speed regulation.\relax }}{25}{figure.caption.17}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Installation in Kl\IeC {\"o}vsj\IeC {\"o}.\relax }}{27}{figure.caption.18}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Ice and snow on the front side of the installed instruments. The CDP is more efficient at preventing ice.\relax }}{28}{figure.caption.19}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Graphical presentation of data from the HARMONIE-AROME NWP covering Kl\IeC {\"o}vsj\IeC {\"o} and the surrounding mountains at a specific point in time using 500 m resolution. Yellow areas are where the model predicts an LWC more than 0.1 $\mathrm {g \cdot kg^{-1}}$. (Grams of water per kg air.) Simulation and figure by SMHI.\relax }}{28}{figure.caption.20}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Principle of shadowgraphy. 1. Camera. 2. Telecentric lens. 3. Parallell focused light beam. 4. Collimating lens. 5. \gls {led}.\relax }}{16}{figure.caption.16}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The experimental setup with a dot micrometer scale as test object mounted on a translation stage.\relax }}{16}{figure.caption.17}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The illumination and detector is mounted inside two Bosch camera housings facing each other with heating inside the housings and on the front glass.\relax }}{17}{figure.caption.18}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Electrical interfaces and system overview.\relax }}{17}{figure.caption.19}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Flowchart illustrating the method of image processing step by step.\relax }}{19}{figure.caption.20}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The same dot viewed with different background light: 455 nm (left) and 850 nm (right).\relax }}{23}{figure.caption.21}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Calculation of the SNR. $\overline {y}_j$ is determined by calculating the average of the darkest third of all pixels inside the edge detected dot.\relax }}{24}{figure.caption.22}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Measuring range (mm) vs. diameter for two different thresholds (0.005 and 0.002).\relax }}{25}{figure.caption.23}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The 50 micrometer dot with front illumination imaged using 40x magnifying lens.\relax }}{26}{figure.caption.24}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Fog chamber with connected droplet generator (blue container) and a multimeter used for fan power measurement. A Beaglebone Black microcontroller (blue box) is used for fan speed regulation.\relax }}{28}{figure.caption.26}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Installation in Kl\IeC {\"o}vsj\IeC {\"o}.\relax }}{29}{figure.caption.27}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Ice and snow on the front side of the installed instruments. The CDP is more efficient at preventing ice.\relax }}{30}{figure.caption.28}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Graphical presentation of data from the HARMONIE-AROME NWP covering Kl\IeC {\"o}vsj\IeC {\"o} and the surrounding mountains at a specific point in time using 500 m resolution. Yellow areas are where the model predicts an LWC more than 0.1 $\mathrm {g \cdot kg^{-1}}$. (Grams of water per kg air.) Simulation and figure by SMHI.\relax }}{31}{figure.caption.29}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Histograms of the four measured distributions. The dashed line is a fitted lognormal of the weighted distribution.\relax }}{29}{figure.caption.21}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces LWC measured by the DII and the CDP for 46 hours on 28-02-2017--01-03-2017.\relax }}{30}{figure.caption.23}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces MVD minute values measured by the DII and the CDP for 46 hours on 28-02-2017--01-03-2017.\relax }}{31}{figure.caption.24}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Relation between the wind speed and the quote between the LWC measured by the CDP and the DII. The vertical scale is cropped at 1 and 100. 238 values are above 100 and 121 below 1 out of a total of 2760.\relax }}{31}{figure.caption.25}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces LWC and MVD measured by the DII and the CDP 11-12-2016. HARMONIE-AROME model data using 500 meter resolution. \relax }}{32}{figure.caption.26}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces LWC and MVD measured 03-02-2017--06-02-2017 by the DII. HARMONIE-AROME model data using 2.5 km resolution, stored every 60 minutes.\relax }}{33}{figure.caption.27}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces LWC and MVD measured by the DII and the CDP 10-02-2017. HARMONIE-AROME model data using 2.5 km resolution, stored every 60 minutes.\relax }}{33}{figure.caption.28}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Histograms of the four measured distributions. The dashed line is a fitted lognormal of the weighted distribution.\relax }}{33}{figure.caption.30}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces MVD minute values measured by the DII and the CDP for 46 hours on 28-02-2017--01-03-2017.\relax }}{35}{figure.caption.32}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces LWC measured by the DII and the CDP for 46 hours on 28-02-2017--01-03-2017.\relax }}{36}{figure.caption.33}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Relation between the wind speed and the quote between the LWC measured by the CDP and the DII. The vertical scale is cropped at 1 and 100. 238 values are above 100 and 121 below 1 out of a total of 2760.\relax }}{37}{figure.caption.34}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces LWC and MVD measured by the DII and the CDP 11-12-2016. HARMONIE-AROME model data using 500 meter resolution. \relax }}{39}{figure.caption.35}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces LWC and MVD measured 03-02-2017--06-02-2017 by the DII. HARMONIE-AROME model data using 2.5 km resolution, stored every 60 minutes.\relax }}{41}{figure.caption.36}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces LWC and MVD measured by the DII and the CDP 10-02-2017. HARMONIE-AROME model data using 2.5 km resolution, stored every 60 minutes.\relax }}{42}{figure.caption.37}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Reflections and interference patterns 450nm laser light. The light source is placed at a position about 135 degrees from the optical center.\relax }}{36}{figure.caption.29}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Light energy ($nJ$) for exposure in each of the eight gain levels used. The energy was tuned manually up to a level of high exposure, but not saturating any point in the image.\relax }}{37}{figure.caption.30}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Mean pixel value and standard deviation of ambient for a light measurement at 22000 lux.\relax }}{38}{figure.caption.31}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces SNR for a ten micrometer dot image using two wavelengths and seven gain level settings. Shorter wavelength and lower gain gives less noise.\relax }}{39}{figure.caption.32}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Difference between an ice particle and a water droplet that is 62 \IeC {\textmu }m in diameter. Larger ice and snow particles tend to be more complex in shape. Ice particles smaller than 10 \IeC {\textmu }m in diameter may be difficult to distinguish from water droplets.\relax }}{41}{figure.caption.33}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Spectrum of the Mightex 455nm \gls {led} using two different driving currents. The band width is slightly wider for the higher current.\relax }}{43}{figure.caption.34}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces A 74 \IeC {\textmu }m droplet detected at 04:41 on 05-02-2017.\relax }}{46}{figure.caption.35}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Two droplets, 19 and 62 \IeC {\textmu }m in diameter detected in the same image at 16:48 on 05-02-2017.\relax }}{47}{figure.caption.36}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Reflections and interference patterns by droplets in 450nm laser light. The light source is placed at a position about 135 degrees from the optical center.\relax }}{46}{figure.caption.38}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Mean pixel value and standard deviation of ambient for a light measurement at 22000 lux.\relax }}{47}{figure.caption.39}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces SNR for a ten micrometer dot image using two wavelengths and seven gain level settings. Shorter wavelength and lower gain gives less noise.\relax }}{48}{figure.caption.40}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces An example showing an image of clogs of five micrometer microspheres. One of the clogs are measured as a single particle, since it is round enough for the roundness qualifying criteria.\relax }}{49}{figure.caption.41}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Difference between an ice particle and a water droplet that is 62 \IeC {\textmu }m in diameter. Larger ice and snow particles tend to be more complex in shape. Ice particles smaller than 10 \IeC {\textmu }m in diameter may be difficult to distinguish from water droplets.\relax }}{51}{figure.caption.42}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Spectrum of the Mightex 455nm \gls {led} using two different driving currents. The band width is slightly wider for the higher current.\relax }}{52}{figure.caption.43}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces A 74 \IeC {\textmu }m droplet detected at 04:41 on 05-02-2017.\relax }}{56}{figure.caption.44}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Two droplets, 19 and 62 \IeC {\textmu }m in diameter detected in the same image at 16:48 on 05-02-2017.\relax }}{56}{figure.caption.45}
 \addvspace {10pt}

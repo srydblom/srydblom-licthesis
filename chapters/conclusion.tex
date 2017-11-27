@@ -1,69 +1,55 @@
 \chapter{Summary of the Thesis}
 \label{chap:summary}
 
-The thesis describes the work resulting in three scientific papers.
+While many of the initial questions have been answered, one is still partly unanswered. To know if the developed instrument can be used for prediction of icing, a measurement of the ice load should be done in combination with \gls{lwc} and \gls{mvd}. This and other possible future tasks are listed in \Cref{sec:futurework}
 
-\section{General Conclusions}
+\section{Conclusions}
 
-Shadowgraph imaging can be used for comparison and validation of NWP models. The technique can also be used for size reference measurement of instruments based on other techniques. The accuracy of the particle size measurement is high. 
+These are the conclusions related to the research questions RQ1-RQ5, listed in \Cref{chap:intro}:
 
-The accuracy of the concentration measurement is questioned due to the systematic difference to the reference instrument, but has the potential to become high due to the single-particle measurement range calibraiton. The precision of the instrument depends mainly on the number of images that is used to achieve each measurement value. 
+\subsection{RQ1}
+\reqone
+\begin{itemize}
+\item Shadowgraph imaging can be used for comparison and validation of \gls{nwp} models. The technique can also be used for size reference measurement of instruments based on other techniques. The accuracy of the particle size measurement is high.
+\end{itemize}
 
-The real-time performance of the instrument is limited by the image retrieval and processing speed and depends on the precision required.
+\subsection{RQ2}
+\reqtwo
+\begin{itemize}
+\item The \gls{dii} was proven to withstand and function in a very humid environment.
+\item The real-time performance of the instrument is limited by the image retrieval and processing speed. There is a negative relation between the real-time performance and the precision.
+\item The used \gls{led} was capable of emitting light using at least 12 times higher currents than the specified maximum.
+\item A better calibration of the measurement range depending on the spatial position of the measured particle, the lighting condition or the \gls{snr} is needed for a better estimation of the measurement volume.
+\end{itemize}
 
-\section{Other Conclusions}
+\subsection{RQ3}
+\reqthree
+\begin{itemize}
+\item The test using polymer microspheres confirmed that the \gls{dii}, calibrated by a micrometer dot scale measures the size of the tested samples correctly. The size distributions achieved by this instrument are within the tolerances specified by the manufacturer of the microspheres.
+\item The \gls{lwc} in a fog chamber can be controlled by regulating the fan speed and the power of an ultrasonic humidifier.
+\end{itemize}
 
-\begin{enumerate}
-\item
-The test using polymer microspheres confirms that the DII, calibrated by a micrometer dot scale measures the size of the tested samples correctly. The size distributions achieved by this instrument are within the tolerances specified by the manufacturer of the microspheres.
+\subsection{RQ4 and RQ5}
+\reqfour
+\reqfive
+\begin{itemize}
+\item The accuracy of the concentration measurement is questioned due to the systematic difference to the reference instrument, but the accuracy has the potential to become high due to the single-particle measurement range calibraiton. The precision of the instrument depends mainly on the number of images that is used to achieve each measurement value.
+\item The \gls{dii} proved to be fully operational without site attendance for four months of continuous measurement. The instrument speed and resolution seems to be good enough to detect and measure icing conditions.
+\item Both the \gls{cdp} and the \gls{dii} make precise measurements of the \gls{lwc} using a 30 minute average window. Supercooled droplets with diameters above 50 µm in fogs where \gls{mvd} is lower than predicted were measured.
+\item The \gls{cdp} achieved higher values of the droplet diameters compared with the \gls{dii}. The conclusion is that the \gls{cdp} is overestimating the droplet diameter by a factor of approximately 30 percent on average.
+\item The predicted \gls{lwc} and \gls{mvd} data from HARMONIE-AROME have better agreement with the measured values when using a 500 meter horizontal resolution than the usual 2.5 km resolution.
+\end{itemize}
 
-\item
-The used LED is capable of emitting light at much higher currents than the specified maximum.
-
-\item
-The DII was proven to withstand and function in a very humid environment. 
-
-\item
-The LWC in a fog chamber can be controlled by regulating the fan speed and the power of an ultrasonic humidifier. 
-
-\item
-Both the CDP and the DII make precise measurements of the LWC using a 30 minute average window. There are supercooled droplets with diameters above 50 µm in fogs where MVD is lower than predicted.
-
-\item
-The CDP achieves higher values of the droplet diameters compared with the DII. This leads to an even higher difference in the measured LWC.
-
-\item
-A better calibration of the measurement range depending on the spatial position of the measured particle, the lighting condition or the SNR is needed for a better estimation of the measurement volume.
-
-\item
-The predicted LWC and MVD data from HARMONIE-AROME have better agreement with the measured values when using a 500 meter horizontal resolution than the usual 2.5 km resolution.
-
-\item
-The DII proved to be fully operational without site attendance for four months of continuous measurement. The instrument speed and resolution seems to be good enough to detect and measure icing conditions. The data can be used to verify and validate NWP models.
-
-\item
-Large droplets are important to understand the total size distribution of liquid water droplets and may play an important role during icing. 
-
-\end{enumerate}
 
 \section{Future Work}
+\label{sec:futurework}
 
 \begin{enumerate}
-\item
-A new study of the measurement range should be done, including e.g. spatial position, lighting condition and SNR.
-
-\item
-A simultaneous measurement of ice load should be done to find out more about the relationship between MVD, LWC and ice load.
-
-\item
-The DII should be improved by increasing the image processing speed. This can be done e.g. by implementing pre-processing algorithms in hardware or by switching to a more powerful processing computer.
-
-\item
-A new study may encounter higher wind speeds, which may require an even shorter flash pulse. This means changing the hardware that drives the LED to achieve a higher current.
-
-\item
-A study to further investigate the relation between the impact of different parameters on the ice load may be done using the instruments and an ice monitoring device. This should be done in combination with a third independent LWC and MVD measurement, e.g. by using rotating cylinders \cite{makk1992}.
-
+\item A simultaneous measurement of ice load, or ice monitoring device, should be done to find out more about the relationship between \gls{mvd}, \gls{lwc} and ice load. This would fully answer the last research question, RQ5.
+\item A new measurement of dots to study the measurement range should be done, including e.g. different spatial positions, lighting conditions and \gls{snr}. This may find an answer to the systematic difference of the LWC measurement in Paper III.
+\item The \gls{dii} should be improved by increasing the image processing speed. This can be done e.g. by implementing pre-processing algorithms in hardware or by switching to a more powerful processing computer.
+\item A new study may encounter higher wind speeds, which may require an even shorter flash pulse. This could require changing the hardware that drives the \gls{led} to achieve a higher current.
+\item Further verification could be done using a third independent \gls{lwc} and \gls{mvd} measurement, e.g. by rotating cylinders \cite{makk1992}.
 \end{enumerate}
 
 \section{Authors' Contributions}
@@ -80,15 +66,15 @@ Contributions from the authors and others are summarized in the table below.
 \hline
 Staffan \par Rydblom & MA & & &  Survey of existing instruments and techniques for droplet measurement. Problem formulation. Estimation of the optical limitations for measurement. Choice of technique for imaging. Choice of image processing method and implementation in Matlab. Laboratory setup and method of calibration. Statistical analysis of precision. \\
 & & MA & & Design and integration of the instrument and the fog chamber. Implementation of the real time measurement and analysis program in Linux/C++ with OpenCV. Measurement of polymer microspheres as reference objects. Measurement of a fog using the instrument inside the developed fog chamber and flow control. \\
-& & & MA & Integration of the DII for real world measurements. Choice of reference instrument. Optimization of the measurement and analysis application. Commissioning of the DII on site and supervision of the data collection. \\
+& & & MA & Integration of the \gls{dii} for real world measurements. Choice of reference instrument. Optimization of the measurement and analysis application. Commissioning of the \gls{dii} on site and supervision of the data collection. \\
 Benny \par Thörnberg & CA & & & Supervision of the work, discussions and advice about methods, optics and statistics. Discussion regarding the Fourier analysis of a theoretical model of a droplet. \\
-& & CA & & Supervision of work. Integration of the power module for the LED flash. \\
+& & CA & & Supervision of work. Integration of the power module for the \gls{led} flash. \\
 & & & CA & Supervision. Choice of mechanics and motor for the rotation. Commissioning on site. \\
-Esbjörn Olsson \par SMHI & PM & & & System requirements discussion and analysis. \\
-& & & CA & Choice of measurement site. Theory of NWP models and implementation of the high resolution model. Weather simulations. \\
+Esbjörn Olsson \par \gls{smhi} & PM & & & System requirements discussion and analysis. \\
+& & & CA & Choice of measurement site. Theory of \gls{nwp} models and implementation of the high resolution model. Weather simulations. \\
 Patrik Jonsson \par Combitech & & & PM & Project leader at Combitech and commissioning on the measurement site. \\
 Björn Ollars \par Combitech & & & PM & Mechanical integration of the complete rotational system on the mast and commissioning on site. \\
-Olof Carlsson \par Combitech & & & PM & Setup and commissioning of the CDP data logging unit. \\
+Olof Carlsson \par Combitech & & & PM & Setup and commissioning of the \gls{cdp} data logging unit. \\
 Lisa Velander & LC & & LC & \\
 \hline
 \end{tabular}

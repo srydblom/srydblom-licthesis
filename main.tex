@@ -94,9 +94,10 @@
 
 \usepackage{pdfpages}						% helps including pdf
 \usepackage{tikz}							% graph drawing
+\usetikzlibrary{shapes.geometric,arrows,calc}
 \usepackage{pgfplots}						% plot in tikz
-\pgfplotsset{compat=1.14}
-\input{tikzstyles}
+%\pgfplotsset{compat=1.14}
+%\input{tikzstyles}
 %\tikzifexternalizing{% compile pgf only when it changes
 %% don't include package XYZ here
 %}{%
@@ -105,6 +106,15 @@
 \usepackage{hyperref}						% links in pdf document
 \usepackage{tocloft}						%
 \usepackage[noabbrev]{cleveref}				% clever refences (ranges,...)
+
+\usepackage{enumitem}
+\makeatletter
+\def\namedlabel#1#2{\begingroup
+    #2%
+    \def\@currentlabel{#2}%
+    \phantomsection\label{#1}\endgroup
+}
+\makeatother
 
 % Color settings for the pdf file
     \hypersetup{
@@ -395,8 +405,6 @@
 %
 % -- start the final content -------------------------------
 \backmatter
-
-
 
 %\glsaddall
 %\printglossary[style=list, type=\acronymtype, title=Acronyms]

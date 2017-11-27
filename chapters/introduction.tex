@@ -3,10 +3,62 @@
 
 
 \chapter{Introduction}
+\label{chap:intro}
+This thesis describes the exploration of a method to the detect the conditions for icing on structures. The research target was to find a reliable and cost effective method to directly measure the size and concentration of atmospheric liquid water droplets, described by \gls{lwc} and \gls{mvd}, using advanced image sensors.
 
-This thesis describes the exploration of a method to measure the size and concentration of atmospheric liquid water, aiming to find a cost efficient technique for the detection of the conditions for icing on structures. The chosen measurement method is based on digital image processing and a shadowgraph imaging system using a \gls{led} as background illumination. A prototype instrument was manufactured; components were selected to faciliate low-cost volume production. The applications of a commercial instrument based on this technique are e.g. real-time in-situ icing condition measurements and assimilation and verification of data in numerical weather models. 
+The chosen measurement method is based on digital image processing and a shadowgraph imaging system using a \gls{led} as background illumination. A prototype instrument was manufactured; components were selected to faciliate low-cost volume production. The applications of a commercial instrument based on this technique are e.g. real-time in-situ icing condition measurements and assimilation and verification of data in numerical weather models. 
 
-Paper I describes a shadowgraph system that uses edge detection to define a measurement range depending on the size of a particle and the image \gls{snr}. Paper II describes the size measurement method, an evaluation of the instrument's  physical design with weather protection and a measurement of LWC and MVD in a purpose-built fog chamber. Paper III describes a verification of the size measurement using polymer microspheres in calibrated distributions traceable from the \gls{nist} and a field study of \gls{lwc} and \gls{mvd} close to the ground using the \gls{dii} and a comparative study using the \gls{cdp}.
+Main research questions:
+\newcommand{\reqone}{How can the size of water droplets and their concentration be measured effectively?}
+\newcommand{\reqtwo}{Can the method be applied in a cost-effective instrument that meets relevant environmental and real-time requirements? How should this instrument be made physically and which components should be used?}
+\newcommand{\reqthree}{How can the instrument be tested and it's function verified in a laboratory environment?}
+\newcommand{\reqfour}{How can the mesasured LWC and MVD be compared and verified in field? What difference will there be using the different methods and/or instruments?}
+\newcommand{\reqfive}{Can the developed instrument be used for prediction of icing?}
+
+\begin{enumerate}
+\item[\namedlabel{itm:rq1}{RQ1}] \reqone
+\item[\namedlabel{itm:rq2}{RQ2}] \reqtwo
+\item[\namedlabel{itm:rq3}{RQ3}] \reqthree
+\item[\namedlabel{itm:rq4}{RQ4}] \reqfour
+\item[\namedlabel{itm:rq5}{RQ5}] \reqfive
+\end{enumerate}
+
+The research work flow is shown in \Cref{fig:res_flow}. RQ1-RQ4 can be answered by the work described in this thesis. To fully answer research question RQ5, a new measurement should be done by measuring LWC and MVD in combination with sensors capable of detecting ice on structures in real world conditions.
+
+\tikzstyle{process} = [rectangle, draw, minimum width=10cm, text width=26em, rounded corners]
+\tikzstyle{line} = [draw, very thick, color=black!50, -latex']
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+\tikzstyle{my below of} = [below=of #1.south]
+\tikzstyle{my right of} = [right=of #1.east]
+\tikzstyle{my left of} = [left=of #1.west]
+\tikzstyle{my above of} = [above=of #1.north]
+%\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, draw=black]
+\hspace{-50pt}
+\begin{figure}
+\begin{tikzpicture}[auto, node distance=.5cm,>=latex']
+    
+\node [process, yshift=-1cm] (pro1) {\small Investigate an optical setup for imaging droplets. Develop a method to calculate \gls{lwc} and \gls{mvd} from images. Develop a method to calibrate the measurement system. This step will answer research question \ref{itm:rq1} and is described in Paper I.};
+\node [process, my below of=pro1] (pro2) {\small Develop an instrument that is capable of measuring LWC and MVD in field conditions. This step will answer research question RQ2 and is described in Paper II.};
+\node [process, my below of=pro2] (pro3) {\small Develop a test environment that simulates real world conditions, preferrably where LWC and MVD can be controlled. This step will answer research question RQ3 and is described in Paper II.};
+\node [process, my below of=pro3] (pro4) {\small Test the developed instrument in the real world. Use a reference instrument or method for evaluating the measured LWC and MVD. This step will answer research question RQ4 and is described in Paper III.};
+
+\draw [arrow] (pro1) -- (pro2);
+\draw [arrow] (pro2) -- (pro3);
+\draw [arrow] (pro3) -- (pro4);
+\end{tikzpicture}
+\caption{The research work flow and the related research questions (RQ1 to RQ4).}
+\label{fig:res_flow}
+\end{figure}
+%\hspace{-50pt}
+
+Paper I describes a shadowgraph system that uses edge detection to define a measurement range depending on the size of a particle and the image \gls{snr}. Paper II describes the size measurement method, an evaluation of the instrument's  physical design with weather protection and a measurement of \gls{lwc} and the \gls{mvd} in a purpose-built fog chamber. Paper III describes a verification of the size measurement using polymer microspheres in calibrated distributions traceable from the \gls{nist} and a field study of \gls{lwc} and \gls{mvd} close to the ground using the \gls{dii} and a comparative study using the \gls{cdp}.
+
+\section{Scientific Contribution}
+
+The attached papers describe in detail the method of measuring \gls{lwc} and \gls{mvd}. They also describe the design, construction and validation of the weather protected instrument based on the developed method. The calculation of concentration is based on a particle-by-particle estimation of the measurement volume. 
+
+A comparison is made between the measured values of \gls{lwc} and \gls{mvd}, and the values predicted by a state of the art \gls{nwp} model.
 
 \section{Atmospheric Water and Icing}
 
@@ -16,19 +68,21 @@ Icing caused by freezing atmospheric water can be a critical problem in cold cli
 
 The Liquid Water Content (\gls{lwc}) in atmospheric studies is usually given in either $\mathrm{g\cdot m^{-3}}$ \cite{sein1998} or as the mass quote of water and air $\mathrm{g\cdot kg^{-1}}$. The \gls{dsd} when considering the collision efficiency is most effectively estimated by the Median Volume Diameter (\gls{mvd}) \cite{fins1988}. The \gls{mvd} is the point in the \gls{dsd} where half of the total amount of water in the \gls{dsd} is above the diameter, while the other half is below. Weather models today include the \gls{lwc} and the \gls{mvd}, making it possible to estimate the risk of icing based on general weather data \cite{thomp2009}. The \gls{lwc} and the \gls{mvd} at ground level greatly depends on the local geographical topology, and measurements using in situ instruments are quite rare. There have been attempts to verify \gls{nwp} models using in-situ data \cite{berg2013}. The \gls{lwc} and the \gls{mvd} can be estimated by analyzing satellite or radar images, but a precise estimation of the \gls{dsd} based on radar reflectivity is difficult. The difficutly is partly explained by \gls{dsd} modelling errors, but also by errors originating from the in-situ measurement probes currently used for verification of the models \cite{miles2000}. 
 
-In-situ measurements are rarely simple or straightforward, especially considering the occurance of the mixed conditions mentioned. Despite the development of various measurement techniques and instruments, in-situ measurements are still quite rare due to the cost and most instruments to some extent requiring installation expertize, maintenance and periodic calibration.
+In-situ measurements are rarely simple or straightforward, especially considering the occurance of the mixed conditions mentioned. Despite the development of various measurement techniques and instruments, in-situ measurements are still quite rare. Some instruments are expensive and most instruments require installation expertize, maintenance and periodic calibrations. The result from this thesis shows that \gls{lwc} and \gls{mvd} can be accurately measured by a cost effective instrument for in-situ measurements.
 
 \section{Justification and Narrative}
 
 Regions where icing events or periods with temperatures below the standard operational limits occur are of great interest for the installation of wind power. About one third of the global installed wind power capacity is located in what is considered as cold climates, where icing of rotor blades is one of the major challenges \cite{iea2017}.
 
-The work leading to this thesis started with an open mindset and a goal to find a method to detect icing on wind turbines by measuring the optical properties of liquid water in clouds. The reflectance and the absorption of light change depending on the wavelength. The absorption of light is comparatively high for some wavelengths in near and far infrared, but low in the visible blue and green. Clouds consist of water droplets, but the absorption is a function of the travelled distance, which makes it very small in small droplets. Most of the light will be scattered, which is why clouds appear gray at a distance. Light with strong coherence, like that from lasers, will be affected by interference. Coherent and incoherent light sources in wavelengths from visible (450 nm) to near infrared (850 nm) were tested. Illumination angles were tested from 90 (sideways) to 180 (backlit) degrees. After evaluating the different techniques, 180 degrees backlit illumination using blue \gls{led} was selected.
+The work leading to this thesis started with an open mindset and a goal to find a method to detect icing on wind turbines by measuring the optical properties of liquid water in clouds. The reflectance and the absorption of light change depending on the wavelength. The absorption of light is comparatively high for some wavelengths in near and far infrared, but low in the visible blue and green. Clouds consist of water droplets, but the absorption of a single droplet is very small. Most of the light energy will be scattered, hit another drop, scatter again and so on, which is why clouds appear gray at a distance. 
+
+Light with strong coherence, like that from lasers, will be affected by interference. Coherent and incoherent light sources in wavelengths from visible (450 nm) to near infrared (850 nm) were tested. Illumination angles were tested from 90 (sideways) to 180 (backlit) degrees. After evaluating the different techniques, 180 degrees backlit illumination using blue \gls{led} was selected.
 
 Optical measurement of water droplets has been researched and resulted in numerous publications in the last decades. Shadowgraphy is also used in particle velocimetry, to analyze sprays in various applications. While much has been published on these subjects, there is no instrument readily available that is affordable, reliable and possible to operate near the highest point where icing usually occurs, e.g. one hundred meters up on a wind turbine, or a mast. An instrument for measuring icing parameters for wind turbines should both be able to detect supercooled cloud droplets from five to a few hundred micrometers in diameter and be able to determine the concentration to get an accurate measure of the \gls{lwc}.
 
 The Droplet Imaging Instrument (\gls{dii}) was designed to find a simple, cost effective and robust technique to measure \gls{lwc} and \gls{mvd} in order to predict icing on structures. An automatic sensor based on this technique could be used to trigger ice protection systems used for wind turbines in cold climates \cite{lamra2013}. It was calibrated using a micrometer dot scale with dots of verified sizes printed on a transparent glass. The sizing is verified using four samples of polymer microspheres, calibrated in turn by the National Institute of Standards and Technology (\gls{nist}). The functional simplicity and robustness of the \gls{dii} makes it possible to mass produce and distribute Internet connected instruments based on this technique on a larger geographical scale.
 
-During the winter of 2016-2017, the prototype instrument was placed on the Klövjö mountain, Sweden, at one of the \gls{smhi}'s measuring stations, position 62°29'41''N, 14°9'27''E, 802 meters above sea level. Measurements are available from November 2016 to March 2017. Results from this measurement together with a parallel measurement of \gls{lwc} and \gls{mvd} using a Cloud Droplet Probe \gls{cdp}-2 (\gls{cdp}) from \gls{dmt} are presented in Paper III as well as in this thesis.
+During the winter of 2016-2017, the prototype instrument was placed on the Klövjö mountain, Sweden, at one of the \gls{smhi}'s measuring stations, position 62°29'41''N, 14°9'27''E, 802 meters above sea level. Measurements are available from November 2016 to March 2017. Results from this measurement together with a parallel measurement of \gls{lwc} and \gls{mvd} using a CDP-2 (\gls{cdp}) from \gls{dmt} are presented in Paper III as well as in this thesis.
 
 \section{Related Work of Measurement}
 \label{sec:relwork}
@@ -45,6 +99,18 @@ Sizing of the droplets using Mie spectrometry is a complex operation even for co
 Shadowgraph imaging of particles using incoherent illumination instead of laser has been tried e.g. in particle shadow velocimetry (PSV) \cite{este2005}, or spray characterization \cite{will2010}. There are quantitative and comprehensive studies of other droplet measurement techniques \cite{dye1984,henn2013,conno2007}.
 
 Kuhn et. al. \cite{kuhn2012} have described a method to characterize ice particles using Fourier shape descriptors \cite{gran1972,walla1980}. This system uses a microscope-like technique to achieve a high resolution level, in the order of one micrometer. Athough not specifically designed to measure water droplets, the principal design is similar to the \gls{dii}. 
-
-
+%
+%\section{Other Questions}
+%The main scientific questions can be divided in following detailed questions. These questions are answered by the work in this thesis and in \Cref{sec:otherconclusions}.
+%
+%\begin{enumerate}
+%\item Can the size measurement function be calibrated by using a micrometer dot scale and can we verify this by an independent sample of known size?
+%\item Is the LED capable of emitting enough light power for this application?
+%\item How do we make a weather proof casing for the described system?
+%\item Is it possible to create a simple climate chamber that can be used for testin and use it to control the \gls{lwc} and the \gls{mvd}?
+%\item What is the difference in \gls{lwc} measured by the \gls{cdp} and the \gls{dii} when considering that the \gls{cdp} can only measure particles smaller than 50 µm in diameter.
+%\item What is the main difference in droplet sizes measured by the \gls{cdp} and the \gls{dii}.
+%\item How can the measurement of \gls{lwc} with the \gls{dii} be improved?
+%\item How do the measured \gls{lwc} and \gls{mvd} agree with the values predicted by the HARMONIE-AROME \gls{nwp}?
+%\end{enumerate}
 
